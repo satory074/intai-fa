@@ -1,0 +1,48 @@
+---
+/** 五十音の索引。すべての人物ページへサイト内からたどれるようにする */
+import Layout from "../../../components/Layout.astro";
+import { dataset } from "../../../lib/data";
+import { KANA_ROWS } from "../../../lib/kana";
+
+export function getStaticPaths() {
+  const ds = dataset();
+  return KANA_ROWS.filter((k) => [...ds.people.values()].some((p) => p.kanaRow === k.label)).map((k) => ({ params: { row: k.key }, props: { label: k.label } }));
+}
+const { label } = Astro.props;
+const ds = dataset();
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const list = [...ds.people.values()]
+  .filter((p) => p.kanaRow === label)
+  .map((p) => {
+    const st = ds.stintsByPerson.get(p.id) ?? [];
+    const from = st.length ? Math.min(...st.map((s) => s.from)) : null;
+    const to = st.length ? Math.max(...st.map((s) => s.to)) : null;
+    const teams = [...new Set(st.filter((s) => s.role === "player" || s.role === "ikusei").map((s) => s.short))];
+    return { p, from, to, teams };
+  })
+  .sort((a, b) => (a.from ?? 9999) - (b.from ?? 9999) || a.p.name.localeCompare(b.p.name, "ja"));
+---
+
+<Layout
+  title={`「${label}」で始まる人物`}
+  description={`プロ野球の選手・監督・コーチのうち、名前が「${label}」で始まる${list.length}人の一覧。在籍年と球団つき。`}
+  crumbs={[{ label: "人物", href: `${base}/people/` }, { label: `「${label}」` }]}
+>
+  <h1 class="page-title">「{label}」で始まる人物（{list.length}人）</h1>
+  <p class="team-links">{KANA_ROWS.map((k) => <a href={`${base}/names/${k.key}/`} aria-current={k.label === label ? "page" : undefined}>{k.label}</a>)}</p>
+  <div class="table-wrap" role="region" aria-label={`「${label}」の人物`} tabindex="0">
+    <table class="record">
+      <caption class="sr-only">「{label}」で始まる人物（在籍の始まった年の順）</caption>
+      <thead><tr><th scope="col">名前</th><th scope="col">在籍</th><th scope="col">球団（選手として）</th></tr></thead>
+      <tbody>
+        {list.map(({ p, from, to, teams }) => (
+          <tr>
+            <th scope="row"><a href={`${base}/people/${p.id}/`}>{p.name}</a></th>
+            <td class="date">{from ? `${from}${to && to !== from ? `〜${to}` : ""}` : ""}</td>
+            <td>{teams.join("、")}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</Layout>

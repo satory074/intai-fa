@@ -1,0 +1,114 @@
+---
+/**
+ * 年別ページと球団×年ページの本体: 新着（直近 7 日）→ 区分ごとの表。
+ * 絞り込み（区分・球団・育成）はページ全体に効く。JS が無くても全行が見える。
+ */
+import { SECTIONS, type Row } from "../lib/rows";
+import { daysBetween, md, todayJst } from "../lib/format";
+import { franchises, shortOf } from "../lib/teams";
+import RecordTable from "./RecordTable.astro";
+import Tags from "./Tags.astro";
+import Team from "./Team.astro";
+
+interface Props {
+  rows: Row[];
+  season: number;
+  teamFilter?: boolean;
+  teamLinks?: boolean;
+}
+const { rows, season, teamFilter = true, teamLinks = true } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const today = todayJst();
+const fresh = rows
+  .filter((r) => r.fresh && daysBetween(r.fresh, today) <= 7 && daysBetween(r.fresh, today) >= 0 && r.section !== "departure")
+  .sort((a, b) => (b.fresh ?? "").localeCompare(a.fresh ?? ""))
+  .slice(0, 40);
+const present = SECTIONS.filter((s) => rows.some((r) => r.section === s.key));
+const teams = franchises().filter((f) => rows.some((r) => r.team === f.id || r.toTeam === f.id));
+---
+
+<form class="filters" aria-label="表の絞り込み" data-filters>
+  <label>区分
+    <select name="section">
+      <option value="">すべて</option>
+      {present.map((s) => <option value={s.key}>{s.title}</option>)}
+    </select>
+  </label>
+  {
+    teamFilter && (
+      <label>球団
+        <select name="team">
+          <option value="">すべて</option>
+          {teams.map((f) => <option value={f.id}>{shortOf(f.id, season)}</option>)}
+        </select>
+      </label>
+    )
+  }
+  <label><input type="checkbox" name="ikusei" checked /> 育成選手を含む</label>
+  <output data-shown aria-live="polite">{rows.length}件</output>
+</form>
+
+{
+  fresh.length > 0 && (
+    <section class="fresh" aria-labelledby="fresh-h">
+      <h2 id="fresh-h">最近の更新（7日以内）</h2>
+      <ul>
+        {fresh.map((r) => (
+          <li data-teams={[r.team, r.toTeam, r.outcomeTeam].filter(Boolean).join(" ")} data-ikusei={r.ikusei ? "1" : "0"} data-row-section={r.section}>
+            <span class="date">{md(r.date ?? r.fresh)}</span>
+            <Team id={r.team} season={season} />
+            {" "}
+            <a href={`${base}/people/${r.personId}/`}>{r.person.name}</a>
+            {" "}
+            {r.section === "release" ? r.label : r.section === "fa" ? `${r.label}${r.outcome ? `・${r.outcome}` : ""}` : r.label}
+            {r.outcome && r.section !== "fa" && <span class="arrow">→</span>}
+            {r.section !== "fa" && r.outcome}
+            <Tags row={r} />
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}
+
+{present.map((s) => <RecordTable rows={rows.filter((r) => r.section === s.key)} section={s.key} title={s.title} season={season} teamLinks={teamLinks} />)}
+
+{rows.length === 0 && <p class="empty">この年度の出来事はまだありません。</p>}
+
+<script>
+  const form = document.querySelector<HTMLFormElement>("[data-filters]");
+  if (form) {
+    const apply = () => {
+      const fd = new FormData(form);
+      const section = String(fd.get("section") ?? "");
+      const team = String(fd.get("team") ?? "");
+      const ikusei = fd.get("ikusei") !== null;
+      let shown = 0;
+      document.querySelectorAll<HTMLElement>("section[data-section]").forEach((sec) => {
+        let visible = 0;
+        const sectionOk = !section || sec.dataset.section === section;
+        sec.querySelectorAll<HTMLTableRowElement>("tbody tr").forEach((tr) => {
+          const ok =
+            sectionOk &&
+            (!team || (tr.dataset.teams ?? "").split(" ").includes(team)) &&
+            (ikusei || tr.dataset.ikusei !== "1");
+          tr.hidden = !ok;
+          if (ok) visible++;
+        });
+        sec.hidden = visible === 0;
+        shown += visible;
+      });
+      document.querySelectorAll<HTMLElement>(".fresh li").forEach((li) => {
+        li.hidden = !(
+          (!section || li.dataset.rowSection === section) &&
+          (!team || (li.dataset.teams ?? "").split(" ").includes(team)) &&
+          (ikusei || li.dataset.ikusei !== "1")
+        );
+      });
+      const out = form.querySelector("[data-shown]");
+      if (out) out.textContent = `${shown}件`;
+    };
+    form.addEventListener("change", apply);
+    form.addEventListener("submit", (e) => e.preventDefault());
+  }
+</script>

@@ -1,0 +1,214 @@
+# 球団の系譜（franchise）と、時期ごとの名前。
+#
+# - `short` は NPB「プロ野球在籍者名簿」の在籍球団欄に出る表記そのもの。取り込み時は
+#   (short, 年) の組で franchise を引く。同じ short が別系譜で使われた例
+#   （1941-42 の「大洋」＝大洋軍 と 1950- の大洋ホエールズ、1943 の「西鉄」＝西鉄軍 と 1950- の西鉄）
+#   があるので、必ず年とセットで引くこと。
+# - 色は球団名の横の小さな印と経歴の帯だけに使う（背景には使わない）。現行 12 球団の色は
+#   basecamp/app/lib/npb-teams.ts・globals.css と同じ値。消滅球団は中立の色。
+# - 現行 12 球団の full / urlCode は NPB 公示の表記（例: 読売ジャイアンツ, registered_g.html の g）。
+franchises:
+  - id: giants
+    league: central
+    full: 読売ジャイアンツ
+    urlCode: g
+    color: "#ED7006"
+    colorDark: "#F97709"
+    eras:
+      - { short: 巨人, from: 1936 }
+
+  - id: tigers
+    league: central
+    full: 阪神タイガース
+    urlCode: t
+    color: "#A49100"
+    colorDark: "#FFE201"
+    eras:
+      - { short: タイガース, from: 1936, to: 1939 }
+      - { short: 阪神, from: 1940 }
+
+  - id: dragons
+    league: central
+    full: 中日ドラゴンズ
+    urlCode: d
+    color: "#002569"
+    colorDark: "#0056F3"
+    eras:
+      - { short: 名古屋, from: 1936, to: 1943 }
+      - { short: 産業, from: 1944, to: 1944 }
+      - { short: 中部日本, from: 1946, to: 1946 }
+      - { short: 中日, from: 1947, to: 1950 }
+      - { short: 名古屋, from: 1951, to: 1953 }
+      - { short: 中日, from: 1954 }
+
+  - id: baystars
+    league: central
+    full: 横浜DeNAベイスターズ
+    urlCode: db
+    color: "#0052A5"
+    colorDark: "#0064C9"
+    eras:
+      - { short: 大洋, from: 1950, to: 1952 }
+      - { short: 洋松, from: 1953, to: 1954 }
+      - { short: 大洋, from: 1955, to: 1992 }
+      - { short: 横浜, from: 1993, to: 2011 }
+      - { short: DeNA, from: 2012 }
+
+  - id: swallows
+    league: central
+    full: 東京ヤクルトスワローズ
+    urlCode: s
+    color: "#002C5B"
+    colorDark: "#0065D0"
+    eras:
+      - { short: 国鉄, from: 1950, to: 1965 }
+      - { short: サンケイ, from: 1965, to: 1968 }
+      - { short: アトムズ, from: 1969, to: 1969 }
+      - { short: ヤクルト, from: 1970 }
+
+  - id: carp
+    league: central
+    full: 広島東洋カープ
+    urlCode: c
+    color: "#FF0000"
+    colorDark: "#FF0000"
+    eras:
+      - { short: 広島, from: 1950 }
+
+  - id: hawks
+    league: pacific
+    full: 福岡ソフトバンクホークス
+    urlCode: h
+    color: "#B58F00"
+    colorDark: "#FCC800"
+    eras:
+      - { short: 南海, from: 1938, to: 1944 }
+      - { short: 近畿日本, from: 1944, to: 1944 }
+      - { short: グレートリング, from: 1946, to: 1946 }
+      - { short: 南海, from: 1947, to: 1988 }
+      - { short: ダイエー, from: 1989, to: 2004 }
+      - { short: ソフトバンク, from: 2005 }
+
+  - id: lions
+    league: pacific
+    full: 埼玉西武ライオンズ
+    urlCode: l
+    color: "#102961"
+    colorDark: "#255DDB"
+    eras:
+      - { short: 西鉄, from: 1950, to: 1972 }
+      - { short: 太平洋, from: 1973, to: 1976 }
+      - { short: クラウン, from: 1977, to: 1978 }
+      - { short: 西武, from: 1979 }
+
+  - id: fighters
+    league: pacific
+    full: 北海道日本ハムファイターズ
+    urlCode: f
+    color: "#005BAC"
+    colorDark: "#0066C0"
+    eras:
+      - { short: セネタース, from: 1946, to: 1946 }
+      - { short: 東急, from: 1947, to: 1947 }
+      - { short: 急映, from: 1948, to: 1948 }
+      - { short: 東急, from: 1949, to: 1953 }
+      - { short: 東映, from: 1954, to: 1972 }
+      - { short: 日拓, from: 1973, to: 1973 }
+      - { short: 日本ハム, from: 1974 }
+
+  - id: buffaloes
+    league: pacific
+    full: オリックス・バファローズ
+    urlCode: b
+    color: "#B48A38"
+    colorDark: "#B48A38"
+    eras:
+      - { short: 阪急, from: 1936, to: 1988 }
+      - { short: オリックス, from: 1989 }
+
+  - id: marines
+    league: pacific
+    full: 千葉ロッテマリーンズ
+    urlCode: m
+    color: "#221815"
+    colorDark: "#C0C0C0"
+    eras:
+      - { short: 毎日, from: 1950, to: 1957 }
+      - { short: 大毎, from: 1958, to: 1963 }
+      - { short: 東京, from: 1964, to: 1968 }
+      - { short: ロッテ, from: 1969 }
+
+  - id: eagles
+    league: pacific
+    full: 東北楽天ゴールデンイーグルス
+    urlCode: e
+    color: "#860010"
+    colorDark: "#D30019"
+    eras:
+      - { short: 楽天, from: 2005 }
+
+  # ---- 消滅した系譜（中立の色） ----
+  - id: kintetsu
+    league: pacific
+    color: "#7A6F66"
+    colorDark: "#A89C92"
+    eras:
+      - { short: 近鉄, from: 1950, to: 2004 }
+
+  - id: nishinippon
+    league: central
+    color: "#6F7A70"
+    colorDark: "#9CA89D"
+    eras:
+      - { short: 西日本, from: 1950, to: 1950 }
+
+  - id: senators
+    color: "#6B7380"
+    colorDark: "#98A0AD"
+    eras:
+      - { short: 東京セネタース, from: 1936, to: 1939 }
+      - { short: 翼, from: 1940, to: 1940 }
+      - { short: 大洋, from: 1941, to: 1942 }
+      - { short: 西鉄, from: 1943, to: 1943 }
+
+  - id: kinko
+    color: "#80746B"
+    colorDark: "#ADA098"
+    eras:
+      - { short: 金鯱, from: 1936, to: 1940 }
+
+  - id: shochiku
+    color: "#736B80"
+    colorDark: "#A098AD"
+    eras:
+      - { short: 大東京, from: 1936, to: 1937 }
+      - { short: ライオン, from: 1937, to: 1940 }
+      - { short: 朝日, from: 1941, to: 1944 }
+      - { short: パシフィック, from: 1946, to: 1946 }
+      - { short: 太陽, from: 1947, to: 1947 }
+      - { short: 大陽, from: 1948, to: 1949 }
+      - { short: 松竹, from: 1950, to: 1952 }
+
+  - id: korakuen
+    color: "#6B807A"
+    colorDark: "#98ADA7"
+    eras:
+      - { short: イーグルス, from: 1937, to: 1940 }
+      - { short: 黒鷲, from: 1940, to: 1941 }
+      - { short: 大和, from: 1942, to: 1943 }
+
+  - id: daiei
+    color: "#806B6F"
+    colorDark: "#AD989C"
+    eras:
+      - { short: ゴールドスター, from: 1946, to: 1946 }
+      - { short: 金星, from: 1947, to: 1948 }
+      - { short: 大映, from: 1949, to: 1957 }
+
+  - id: takahashi
+    color: "#7A7466"
+    colorDark: "#A8A192"
+    eras:
+      - { short: 高橋, from: 1954, to: 1954 }
+      - { short: トンボ, from: 1955, to: 1955 }
+      - { short: 高橋, from: 1956, to: 1956 }

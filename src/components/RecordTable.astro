@@ -1,0 +1,115 @@
+---
+/**
+ * 区分ごとの表。caption を付け、名前のセルを行見出し（th scope=row）にする。
+ * 表全体はスクロール領域（role=region・tabindex=0）で包み、スマホでは横に送る。
+ * data-* は絞り込み（区分・球団・育成）用。JS が無くても全行が見える。
+ */
+import type { Row, SectionKey } from "../lib/rows";
+import { md } from "../lib/format";
+import Team from "./Team.astro";
+import Tags from "./Tags.astro";
+import Sources from "./Sources.astro";
+
+interface Props {
+  rows: Row[];
+  section: SectionKey;
+  title: string;
+  season: number;
+  /** 球団×年ページでは球団へのリンクを付けない */
+  teamLinks?: boolean;
+}
+const { rows, section, title, season, teamLinks = true } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const capId = `cap-${section}`;
+const main = rows.filter((r) => !r.minor);
+const minor = rows.filter((r) => r.minor);
+const ikuseiCount = rows.filter((r) => r.ikusei).length;
+const countText = section === "staff" ? `${rows.length}件` : `${rows.length}人${ikuseiCount ? `（うち育成${ikuseiCount}人）` : ""}`;
+const teamsAttr = (r: Row) => [r.team, r.toTeam, r.outcomeTeam].filter(Boolean).join(" ");
+const person = (r: Row) => `${base}/people/${r.personId}/`;
+---
+
+<section class="section" id={section} data-section={section}>
+  <h2 id={capId}>{title} <span class="count" data-count>{countText}</span></h2>
+  {section === "departure" && <p class="section-note">在籍者名簿で、その球団での最後の年がこの年度だった人です。引退か戦力外かなどの理由はまだ調べていません。</p>}
+  {section === "release" && <p class="section-note">「保留されない選手」は 12 月の契約保留選手名簿に載らなかった選手で、戦力外・引退・退団のどれかは公示だけではわかりません。わかったものから「理由未調査」の印が消えます。</p>}
+  <div class="table-wrap" role="region" aria-labelledby={capId} tabindex="0">
+    <table class="record">
+      <caption class="sr-only">{season}年オフ {title}</caption>
+      <thead>
+        {
+          section === "staff" ? (
+            <tr><th scope="col">日付</th><th scope="col">球団</th><th scope="col">名前</th><th scope="col">内容</th><th scope="col">出典</th></tr>
+          ) : section === "move" ? (
+            <tr><th scope="col">日付</th><th scope="col">区分</th><th scope="col">名前</th><th scope="col">位置</th><th scope="col">移籍元</th><th scope="col">移籍先</th><th scope="col">出典</th></tr>
+          ) : section === "fa" ? (
+            <tr><th scope="col">日付</th><th scope="col">球団</th><th scope="col">名前</th><th scope="col">位置</th><th scope="col">年齢</th><th scope="col">区分</th><th scope="col">結果</th><th scope="col">出典</th></tr>
+          ) : (
+            <tr><th scope="col">日付</th><th scope="col">球団</th><th scope="col">名前</th><th scope="col">位置</th><th scope="col">年齢</th><th scope="col">在籍</th><th scope="col">区分</th><th scope="col">その後</th><th scope="col">出典</th></tr>
+          )
+        }
+      </thead>
+      <tbody>
+        {
+          main.map((r) => (
+            <tr data-teams={teamsAttr(r)} data-ikusei={r.ikusei ? "1" : "0"}>
+              <td class="date">{md(r.date)}</td>
+              {section === "move" ? (
+                <>
+                  <td>{r.label}</td>
+                  <th scope="row"><a href={person(r)}>{r.person.name}</a><Tags row={r} /></th>
+                  <td>{r.pos ?? ""}</td>
+                  <td class="team"><Team id={r.team} season={season} link={teamLinks} /></td>
+                  <td class="team">{r.toTeam ? <Team id={r.toTeam} season={season} link={teamLinks} /> : r.outcome}</td>
+                </>
+              ) : section === "staff" ? (
+                <>
+                  <td class="team"><Team id={r.team} season={season} link={teamLinks} /></td>
+                  <th scope="row"><a href={person(r)}>{r.person.name}</a><Tags row={r} /></th>
+                  <td>{r.label}</td>
+                </>
+              ) : (
+                <>
+                  <td class="team"><Team id={r.team} season={season} link={teamLinks} /></td>
+                  <th scope="row"><a href={person(r)}>{r.person.name}</a><Tags row={r} /></th>
+                  <td>{r.pos ?? ""}</td>
+                  <td class="num">{r.age ?? ""}</td>
+                  {section !== "fa" && <td class="num">{r.years ? `${r.years}年` : ""}</td>}
+                  <td>{r.label}</td>
+                  <td>{r.outcome ?? (section === "fa" ? (season >= new Date().getFullYear() ? "交渉中" : "") : "未定")}</td>
+                </>
+              )}
+              <td class="src"><Sources sources={r.sources} /></td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+  {
+    minor.length > 0 && (
+      <details class="minor">
+        <summary>同じ球団内の配置転換 {minor.length}件</summary>
+        <div class="table-wrap" role="region" aria-label={`${title}の配置転換`} tabindex="0">
+          <table class="record">
+            <caption class="sr-only">{season}年オフ 配置転換</caption>
+            <thead>
+              <tr><th scope="col">日付</th><th scope="col">球団</th><th scope="col">名前</th><th scope="col">内容</th><th scope="col">出典</th></tr>
+            </thead>
+            <tbody>
+              {minor.map((r) => (
+                <tr data-teams={teamsAttr(r)} data-ikusei="0">
+                  <td class="date">{md(r.date)}</td>
+                  <td class="team"><Team id={r.team} season={season} link={teamLinks} /></td>
+                  <th scope="row"><a href={person(r)}>{r.person.name}</a><Tags row={r} /></th>
+                  <td>{r.label}</td>
+                  <td class="src"><Sources sources={r.sources} /></td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </details>
+    )
+  }
+</section>

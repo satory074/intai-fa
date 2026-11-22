@@ -1,0 +1,25 @@
+---
+/** 球団名（色の印つき）。色だけに頼らず必ず名前を書く */
+import { shortOf } from "../lib/teams";
+interface Props {
+  id?: string;
+  season: number;
+  link?: boolean;
+}
+const { id, season, link = false } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const name = id ? shortOf(id, season) : "";
+---
+
+{
+  id &&
+    (link ? (
+      <a href={`${base}/${season}/teams/${id}/`} class={`t-${id}`}>
+        <span class="team-mark" aria-hidden="true" />{name}
+      </a>
+    ) : (
+      <span class={`t-${id}`}>
+        <span class="team-mark" aria-hidden="true" />{name}
+      </span>
+    ))
+}

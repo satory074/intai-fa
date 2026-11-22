@@ -1,0 +1,70 @@
+---
+import Layout from "../../components/Layout.astro";
+import { dataset } from "../../lib/data";
+
+const ds = dataset();
+// 誤りの報告フォーム（Google フォーム）。リポジトリ変数 PUBLIC_REPORT_FORM_URL で渡す。
+// 未設定のあいだは GitHub の Issue を案内する。
+const formUrl = import.meta.env.PUBLIC_REPORT_FORM_URL as string | undefined;
+---
+
+<Layout
+  title="このサイトについて・出典と運用方針"
+  description="プロ野球去就アーカイブの出典（NPB公示・球団発表・在籍者名簿・報道・Wikipedia）、掲載の基準、自動取得・未確認の印の意味、誤りの報告と削除の依頼の受け付け。"
+  crumbs={[{ label: "このサイトについて" }]}
+>
+  <div class="prose">
+    <h1 class="page-title">このサイトについて</h1>
+    <p>
+      プロ野球（NPB）の選手・監督・コーチの去就を、年度別・球団別・人物別に整理した非公式のアーカイブです。NPB・各球団・報道機関とは関係ありません。広告は載せていません。
+    </p>
+
+    <h2>載せているもの</h2>
+    <ul>
+      <li>引退、戦力外・自由契約（育成選手を含む）とその後、FA 宣言と結果、トレード・現役ドラフト・FA の人的補償、監督・コーチの就任・退任・配置転換。</li>
+      <li>年度は NPB の年度に合わせています。シーズン後のオフの出来事（翌年 1 月の FA 契約など）は、直前のシーズンの年度に入れています。</li>
+      <li>人物ページの「経歴」と帯は、NPB プロ野球在籍者名簿（{ds.registerAsOf}年シーズン終了時）をもとに作り直したものです。</li>
+    </ul>
+
+    <h2>出典と掲載の基準</h2>
+    <ul>
+      <li>どの行にも出典を付けています。種類は「NPB公示」「球団発表」「在籍者名簿」「報道」「Wikipedia」です。</li>
+      <li>載せるのは、球団の公式発表か NPB の公示で確定したものからです。「引退へ」のような報道段階の情報は載せません。</li>
+      <li>過去の年度は球団の発表が残っていないことが多いため、確定したあとの報道記事や Wikipedia を出典にすることがあります。その場合も事実だけを使い、記事の文章は写しません。</li>
+      <li>選手の写真、球団のロゴは使っていません。球団の色は、球団名の横の印と経歴の帯にだけ使っています。</li>
+    </ul>
+
+    <h2>印の意味</h2>
+    <ul>
+      <li><span class="tag tag-unverified">自動取得・未確認</span> 球団の発表などから自動で取り込み、まだ人が出典と照合していない行です。出典ページに名前と根拠の語句があることは機械で確かめています。照合が済むと印が消えます。</li>
+      <li><span class="tag tag-unresearched">理由未調査</span> 退団したことはわかっていても、引退か戦力外かなどの理由をまだ調べていない行です。推測では埋めません。</li>
+      <li><span class="tag tag-ikusei">育成</span> 育成選手としての出来事です。</li>
+    </ul>
+
+    <h2>データの取り方</h2>
+    <ul>
+      <li>NPB の公示ページは 1 日 1 回、変わったところだけを取り込みます（間隔を空けて取得しています）。ページをそのまま保存・転載することはしていません。</li>
+      <li>データを CSV などでまとめて配布することはしていません。</li>
+    </ul>
+
+    <h2 id="report">誤りの報告・削除の依頼</h2>
+    <p>
+      誤りの報告と、掲載の削除の依頼を受け付けています。直した内容は<a href={`${import.meta.env.BASE_URL}corrections/`}>訂正履歴</a>で公開します。削除の依頼があった場合は、すみやかに対応します。
+    </p>
+    <p>
+      {
+        formUrl ? (
+          <a href={formUrl} rel="noopener" target="_blank">報告フォームを開く</a>
+        ) : (
+          <a href="https://github.com/satory074/intai-fa/issues/new" rel="noopener" target="_blank">GitHub の Issue で報告する</a>
+        )
+      }
+      （メールアドレスの入力は任意です）
+    </p>
+
+    <h2>ライセンス表記</h2>
+    <p>
+      Wikipedia を出典にした行は、Wikipedia の記事（CC BY-SA 4.0）から事実を確かめたものです。出典のリンクから元の記事を開けます。
+    </p>
+  </div>
+</Layout>

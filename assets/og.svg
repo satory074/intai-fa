@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f2f3ee"/>
+  <rect x="48" y="48" width="1104" height="534" fill="none" stroke="#1f2633" stroke-width="3"/>
+  <line x1="48" y1="62" x2="1152" y2="62" stroke="#1f2633" stroke-width="1"/>
+  <text x="96" y="300" font-family="Hiragino Mincho ProN, serif" font-weight="800" font-size="200" fill="#1f2633">去就</text>
+  <text x="520" y="250" font-family="Hiragino Mincho ProN, serif" font-weight="700" font-size="50" fill="#1f2633">プロ野球去就アーカイブ</text>
+  <text x="522" y="315" font-family="Hiragino Sans, sans-serif" font-size="25" fill="#4e5866">引退・戦力外・FA・移籍・指導者人事を年ごとに</text>
+  <g transform="translate(96,420)">
+    <rect width="300" height="40" fill="#ED7006"/><rect x="304" width="160" height="40" fill="#005BAC"/><rect x="468" width="120" height="40" fill="#002569"/>
+    <rect x="592" width="240" height="40" fill="none" stroke="#B48A38" stroke-width="3"/>
+    <rect x="836" width="172" height="40" fill="#b3261e"/>
+  </g>
+  <line x1="96" y1="500" x2="1104" y2="500" stroke="#b9c2b8" stroke-width="2"/>
+</svg>

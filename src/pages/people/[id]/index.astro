@@ -1,0 +1,134 @@
+---
+/**
+ * 人物ページ（約 1 万人、全員を検索に載せる: Q28・Q32）。
+ * 名簿の表記（「03～15途巨人」）はそのまま載せず、帯・経歴・出来事の年表に作り直す（Q33）。
+ */
+import Layout from "../../../components/Layout.astro";
+import TeamStyles from "../../../components/TeamStyles.astro";
+import Band from "../../../components/Band.astro";
+import Team from "../../../components/Team.astro";
+import Tags from "../../../components/Tags.astro";
+import Sources from "../../../components/Sources.astro";
+import { dataset, playerYearsUpTo } from "../../../lib/data";
+import { rowsForSeason } from "../../../lib/rows";
+import { md, ymd } from "../../../lib/format";
+import type { IntaiEvent, Stint } from "../../../lib/schema";
+import { shortOf } from "../../../lib/teams";
+
+export function getStaticPaths() {
+  return [...dataset().people.keys()].map((id) => ({ params: { id } }));
+}
+
+const ds = dataset();
+const id = Astro.params.id!;
+const person = ds.people.get(id)!;
+const stints = ds.stintsByPerson.get(id) ?? [];
+const events = ds.eventsByPerson.get(id) ?? [];
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+const ROLE_LABEL: Record<Stint["role"], string> = { player: "選手", ikusei: "育成選手", coach: "コーチ", manager: "監督", acting_manager: "代理監督" };
+const playerStints = stints.filter((s) => s.role === "player" || s.role === "ikusei");
+const staffStints = stints.filter((s) => s.role === "coach" || s.role === "manager");
+const pYears = playerYearsUpTo(stints, 9999);
+const pFrom = playerStints.length ? Math.min(...playerStints.map((s) => s.from)) : null;
+const pTo = playerStints.length ? Math.max(...playerStints.map((s) => s.to)) : null;
+const sFrom = staffStints.length ? Math.min(...staffStints.map((s) => s.from)) : null;
+const sTo = staffStints.length ? Math.max(...staffStints.map((s) => s.to)) : null;
+const chain = [...new Set(playerStints.map((s) => s.short))].join("→");
+const aliases = [...new Set((person.names ?? []).map((n) => n.name).filter((n) => n.replace(/\s/g, "") !== person.name.replace(/\s/g, "")))];
+
+// 同姓同名でタイトルが重ならないよう、在籍の年と球団を添える
+const span = [pFrom ?? sFrom, Math.max(pTo ?? 0, sTo ?? 0) || null].filter(Boolean);
+const spanText = span.length === 2 ? `${span[0]}〜${span[1]}` : span.length === 1 ? `${span[0]}` : "";
+const title = `${person.name}の経歴・去就${spanText ? `（${spanText}${chain ? ` ${chain.split("→")[0]}` : ""}）` : ""}`;
+const description = `${person.name}${chain || spanText ? `（${[spanText, chain].filter(Boolean).join(" ")}）` : ""}の在籍球団の変遷${pYears ? `、プロ${pYears}年` : ""}${staffStints.length ? `、指導者歴` : ""}と、引退・戦力外・FA・移籍の記録。出典付き。`;
+
+const EVENT_LABEL: Record<IntaiEvent["type"], string> = {
+  retire: "引退", voluntary_retired: "任意引退（公示）", release: "自由契約", departure: "退団", sign: "契約",
+  ikusei_recontract: "育成で再契約", sign_outside: "NPB 外と契約", fa_declare: "FA 宣言", fa_move: "FA で移籍", fa_stay: "FA 宣言残留",
+  fa_compensation: "FA の人的補償で移籍", trade: "トレード", active_draft: "現役ドラフトで移籍", posting: "ポスティング",
+  manager_in: "監督就任", manager_out: "監督退任", coach_in: "コーチ就任", coach_out: "コーチ退任", coach_change: "配置転換",
+};
+// その年度の行で「理由未調査」かどうか（自由契約の行）
+const unresearchedOf = (e: IntaiEvent) => Boolean(e.unresearched) && !events.some((o) => o.season === e.season && (o.type === "retire" || o.type === "voluntary_retired"));
+// 経歴: 名簿の所属を古い順に（連続する同じ球団・同じ役割はまとめる）
+const career = [...stints].sort((a, b) => a.from - b.from || (a.fromMid ? 1 : 0) - (b.fromMid ? 1 : 0));
+const yearsText = (s: Stint) => `${s.from}${s.fromMid ? "（途中）" : ""}${s.to !== s.from ? `〜${s.to}${s.toMid ? "（途中）" : ""}` : s.toMid ? "（途中まで）" : ""}`;
+// 年別ページに載っている年度
+const seasonsWithRows = new Set(events.map((e) => e.season).filter((s) => rowsForSeason(s).some((r) => r.personId === id)));
+---
+
+<Layout title={title} description={description} crumbs={[{ label: "人物", href: `${base}/people/` }, { label: person.name }]} searchable>
+  <TeamStyles />
+  <div class="person-head">
+    <h1 data-pagefind-meta="title">{person.name}</h1>
+    <dl class="person-facts">
+      {aliases.length > 0 && <div><dt>別の表記・旧登録名</dt><dd>{aliases.join("、")}</dd></div>}
+      {person.birth && <div><dt>生年月日</dt><dd>{ymd(person.birth)}</dd></div>}
+      {person.throwsBats && <div><dt>投打</dt><dd>{person.throwsBats}</dd></div>}
+      {pYears > 0 && <div><dt>選手</dt><dd>{pFrom}〜{pTo}（{pYears}年）</dd></div>}
+      {staffStints.length > 0 && <div><dt>指導者</dt><dd>{sFrom}〜{sTo}</dd></div>}
+    </dl>
+  </div>
+
+  {stints.length > 0 && <Band stints={stints} />}
+
+  {
+    career.length > 0 && (
+      <section class="career" aria-labelledby="career-h">
+        <h2 id="career-h">経歴</h2>
+        <div class="table-wrap" role="region" aria-labelledby="career-h" tabindex="0">
+          <table class="record">
+            <caption class="sr-only">{person.name}の在籍球団</caption>
+            <thead><tr><th scope="col">年</th><th scope="col">球団</th><th scope="col">立場</th><th scope="col">補足</th></tr></thead>
+            <tbody>
+              {career.map((s) => (
+                <tr>
+                  <td class="date">{yearsText(s)}</td>
+                  <th scope="row" class="team"><Team id={s.franchise} season={s.from} />{s.short !== shortOf(s.franchise, s.from) ? `（${s.short}）` : ""}</th>
+                  <td>{ROLE_LABEL[s.role]}</td>
+                  <td>{s.note ?? ""}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p class="section-note">
+          出典：<a href="https://npb.jp/history/register/" rel="noopener nofollow" target="_blank">NPB プロ野球在籍者名簿</a>（{ds.registerAsOf}年シーズン終了時。公式戦期間中に1日以上の選手登録がある年を在籍として数える）
+          {person.npbId && <>　<a href={`https://npb.jp/bis/players/${person.npbId}.html`} rel="noopener nofollow" target="_blank">NPB の選手ページ（成績）</a></>}
+        </p>
+      </section>
+    )
+  }
+
+  <section class="timeline" aria-labelledby="tl-h">
+    <h2 id="tl-h">去就の記録</h2>
+    {events.length === 0 && <p class="empty">記録している去就はまだありません。</p>}
+    <ol>
+      {
+        events.map((e) => (
+          <li class={`t-${e.team ?? ""}`}>
+            <span class="when">
+              {seasonsWithRows.has(e.season) ? <a href={`${base}/${e.season}/`}>{e.season}年オフ</a> : `${e.season}年オフ`}
+              {e.date && <> {md(e.date)}</>}
+            </span>
+            <span class="what">
+              {EVENT_LABEL[e.type]}
+              {e.role && `（${e.fromRole ? `${e.fromRole} → ` : ""}${e.role}）`}
+              <Tags row={{ status: e.status, unresearched: unresearchedOf(e), ikusei: Boolean(e.ikusei) }} />
+            </span>
+            <span class="detail">
+              {e.team && <Team id={e.team} season={e.season} />}
+              {(e.toTeam || e.toOrg) && <span class="arrow">→</span>}
+              {e.toTeam && <Team id={e.toTeam} season={e.season} />}
+              {e.toOrg && e.toOrg.name}
+              {e.note && <>　{e.note}</>}
+              {e.date && <>　{ymd(e.date)}</>}
+              　<Sources sources={e.sources} />
+            </span>
+          </li>
+        ))
+      }
+    </ol>
+  </section>
+</Layout>

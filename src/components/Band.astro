@@ -1,0 +1,73 @@
+---
+/**
+ * 球団色の帯（Q19）。1 年を 2 マス（前半・後半）にして、シーズン途中の移籍（名簿の「途」）を
+ * 同じ年の中で並べる。選手時代は塗り、指導者時代は斜線、育成は淡い塗り。
+ * 帯は見た目のためのもの（aria-hidden）。同じ内容を下の「経歴」の文章でも出す。
+ */
+import type { Stint } from "../lib/schema";
+
+interface Props {
+  stints: Stint[];
+}
+const { stints } = Astro.props;
+const shown = stints.filter((s) => s.role !== "acting_manager");
+const start = Math.min(...shown.map((s) => s.from));
+const end = Math.max(...shown.map((s) => s.to));
+const years = end - start + 1;
+
+interface Run {
+  s: Stint;
+  c0: number; // 0 始まりの半年マス
+  c1: number; // 終わり（含まない）
+  track: "player" | "staff";
+}
+const runs: Run[] = shown.map((s) => ({
+  s,
+  c0: (s.from - start) * 2 + (s.fromMid ? 1 : 0),
+  c1: (s.to - start) * 2 + (s.toMid ? 1 : 2),
+  track: s.role === "player" || s.role === "ikusei" ? "player" : "staff",
+}));
+// 同じ段で重なったら次の段へ
+const lanes: { track: Run["track"]; runs: Run[] }[] = [];
+for (const track of ["player", "staff"] as const) {
+  const mine: { track: Run["track"]; runs: Run[] }[] = [];
+  for (const r of runs.filter((x) => x.track === track).sort((a, b) => a.c0 - b.c0)) {
+    const lane = mine.find((l) => l.runs.every((o) => o.c1 <= r.c0 || o.c0 >= r.c1));
+    if (lane) lane.runs.push(r);
+    else mine.push({ track, runs: [r] });
+  }
+  lanes.push(...mine);
+}
+const step = years <= 14 ? 1 : years <= 30 ? 5 : 10;
+const axis: number[] = [];
+for (let y = start; y <= end; y++) if (y === start || y % step === 0) axis.push(y);
+const yy = (y: number) => String(y % 100).padStart(2, "0");
+const label = (r: Run) => {
+  const span = r.s.to - r.s.from + 1;
+  return span >= 3 ? `${r.s.short} ${yy(r.s.from)}–${yy(r.s.to)}` : r.s.short;
+};
+---
+
+<div class="band-wrap" aria-hidden="true" data-pagefind-ignore="all">
+  <div class="band" style={`--years:${years * 2}`}>
+    {axis.map((y) => <span class="axis" style={`grid-row:1;grid-column:${(y - start) * 2 + 2} / span ${Math.min(step * 2, (end - y + 1) * 2)}`}>{y}</span>)}
+    {
+      lanes.map((lane, i) => (
+        <>
+          <span class="track-label" style={`grid-row:${i + 2}`}>
+            {lanes.findIndex((l) => l.track === lane.track) === i ? (lane.track === "player" ? "選手" : "指導者") : ""}
+          </span>
+          {lane.runs.map((r) => (
+            <span
+              class={`run t-${r.s.franchise} ${r.track === "staff" ? "staff" : ""} ${r.s.role === "ikusei" ? "ikusei" : ""}`}
+              style={`grid-row:${i + 2};grid-column:${r.c0 + 2} / ${r.c1 + 2}`}
+              title={`${r.s.short} ${r.s.from}${r.s.from !== r.s.to ? `〜${r.s.to}` : ""}`}
+            >
+              <span>{label(r)}</span>
+            </span>
+          ))}
+        </>
+      ))
+    }
+  </div>
+</div>

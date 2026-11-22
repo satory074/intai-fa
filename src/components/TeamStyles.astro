@@ -1,0 +1,10 @@
+---
+/** 球団の色を CSS クラス（.t-giants など）にする。印と帯だけが使う */
+import { franchises } from "../lib/teams";
+import { onColor } from "../lib/format";
+const light = franchises().map((f) => `.t-${f.id}{--team:${f.color};--on-team:${onColor(f.color)}}`).join("");
+const dark = franchises().map((f) => `.t-${f.id}{--team:${f.colorDark};--on-team:${onColor(f.colorDark)}}`).join("");
+const css = `${light}@media (prefers-color-scheme: dark){${dark}}`;
+---
+
+<style is:global set:html={css}></style>

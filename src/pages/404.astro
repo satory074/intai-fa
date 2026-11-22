@@ -1,0 +1,9 @@
+---
+import Layout from "../components/Layout.astro";
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+---
+
+<Layout title="ページが見つかりません" description="このアドレスのページはありません。" noindex>
+  <h1 class="page-title">ページが見つかりません</h1>
+  <p class="lede">アドレスが変わったか、まだ作っていないページです。<a href={`${base}/`}>年の一覧</a>か<a href={`${base}/people/`}>人物をさがす</a>からたどってください。</p>
+</Layout>

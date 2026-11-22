@@ -1,0 +1,57 @@
+---
+import Layout from "../../components/Layout.astro";
+import TeamStyles from "../../components/TeamStyles.astro";
+import SeasonView from "../../components/SeasonView.astro";
+import Team from "../../components/Team.astro";
+import { dataset } from "../../lib/data";
+import { coverage, rowsForSeason, SECTIONS } from "../../lib/rows";
+import { franchises } from "../../lib/teams";
+import { ymd } from "../../lib/format";
+
+export function getStaticPaths() {
+  return dataset().seasons.map((season) => ({ params: { season: String(season) } }));
+}
+
+const season = Number(Astro.params.season);
+const ds = dataset();
+const rows = rowsForSeason(season);
+const cov = coverage(rows);
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const prev = ds.seasons.find((s) => s < season);
+const next = [...ds.seasons].reverse().find((s) => s > season);
+const people = new Set(rows.map((r) => r.personId)).size;
+const counts = SECTIONS.map((s) => ({ ...s, n: rows.filter((r) => r.section === s.key).length })).filter((s) => s.n > 0);
+const teams = franchises().filter((f) => rows.some((r) => r.team === f.id || r.toTeam === f.id));
+const lastFresh = rows.map((r) => r.fresh).filter(Boolean).sort().pop();
+
+const title = `${season}年オフ 引退・戦力外・FA一覧`;
+const description = `${season}年オフ（${season}年度）のプロ野球の去就。${counts.map((c) => `${c.title}${c.n}`).join("、")}。NPB公示・球団発表・在籍者名簿を出典付きで整理。`;
+---
+
+<Layout title={title} description={description} crumbs={[{ label: `${season}年オフ` }]}>
+  <TeamStyles />
+  <div class="year-hero">
+    <h1>
+      <span class="year-num">{season}</span>
+      <span class="year-suffix">年オフ</span>
+      <span class="year-title">引退・戦力外・FA・移籍・指導者人事</span>
+    </h1>
+  </div>
+  <p class="meta-line">
+    <strong>{people}人</strong>の去就を収録。引退・戦力外・退団のうち理由まで調べたもの <strong>{cov.pct}%</strong>（{cov.researched}/{cov.total}）。
+    {lastFresh && <>最終更新 {ymd(lastFresh)}。</>}
+  </p>
+  <nav class="year-step" aria-label="前後の年">
+    <span>{next && <a href={`${base}/${next}/`}>{next}年オフへ</a>}</span>
+    <span>{prev && <a href={`${base}/${prev}/`}>{prev}年オフへ</a>}</span>
+  </nav>
+  {
+    teams.length > 0 && (
+      <p class="team-links">
+        球団別に見る：
+        {teams.map((f) => <Team id={f.id} season={season} link />)}
+      </p>
+    )
+  }
+  <SeasonView rows={rows} season={season} />
+</Layout>

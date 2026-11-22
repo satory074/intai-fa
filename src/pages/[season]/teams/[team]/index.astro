@@ -1,0 +1,58 @@
+---
+/** 球団×年度のページ。0 件の組み合わせは作らない（Q7） */
+import Layout from "../../../../components/Layout.astro";
+import TeamStyles from "../../../../components/TeamStyles.astro";
+import SeasonView from "../../../../components/SeasonView.astro";
+import { dataset } from "../../../../lib/data";
+import { rowsForSeason, SECTIONS } from "../../../../lib/rows";
+import { franchise, franchises, shortOf } from "../../../../lib/teams";
+
+export function getStaticPaths() {
+  const out: { params: { season: string; team: string } }[] = [];
+  for (const season of dataset().seasons) {
+    const rows = rowsForSeason(season);
+    // 創設前年のオフのコーチ人事のように、その年度に存在しない系譜が出ることがあるので全系譜を見る
+    for (const f of franchises()) {
+      if (rows.some((r) => r.team === f.id || r.toTeam === f.id)) out.push({ params: { season: String(season), team: f.id } });
+    }
+  }
+  return out;
+}
+
+const season = Number(Astro.params.season);
+const team = Astro.params.team!;
+const f = franchise(team);
+const name = shortOf(team, season);
+const rows = rowsForSeason(season).filter((r) => r.team === team || r.toTeam === team);
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const out = rows.filter((r) => r.team === team);
+const incoming = rows.filter((r) => r.toTeam === team && r.team !== team);
+const counts = SECTIONS.map((s) => ({ ...s, n: out.filter((r) => r.section === s.key).length })).filter((s) => s.n > 0);
+const ds = dataset();
+const prev = ds.seasons.find((s) => s < season && rowsForSeason(s).some((r) => r.team === team));
+const next = [...ds.seasons].reverse().find((s) => s > season && rowsForSeason(s).some((r) => r.team === team));
+
+const title = `${season}年オフ ${name}の引退・戦力外・FA`;
+const description = `${season}年オフの${f.full && season >= 2005 && f.eras[f.eras.length - 1].short === name ? f.full : name}の去就。${counts.map((c) => `${c.title}${c.n}`).join("、")}${incoming.length ? `、加入${incoming.length}` : ""}。出典付き。`;
+---
+
+<Layout title={title} description={description} crumbs={[{ label: `${season}年オフ`, href: `${base}/${season}/` }, { label: name }]}>
+  <TeamStyles />
+  <div class="year-hero">
+    <h1>
+      <span class="year-num">{season}</span>
+      <span class="year-suffix">年オフ</span>
+      <span class="year-title"><span class={`t-${team}`}><span class="team-mark" aria-hidden="true"></span></span>{name}の去就</span>
+    </h1>
+  </div>
+  <p class="meta-line">
+    {name}から出た人 <strong>{new Set(out.map((r) => r.personId)).size}人</strong>
+    {incoming.length > 0 && <>・トレード・FA などで加わった人 <strong>{incoming.length}人</strong></>}。
+    <a href={`${base}/${season}/`}>{season}年オフの全球団</a>
+  </p>
+  <nav class="year-step" aria-label="前後の年">
+    <span>{next && <a href={`${base}/${next}/teams/${team}/`}>{next}年オフの{shortOf(team, next)}へ</a>}</span>
+    <span>{prev && <a href={`${base}/${prev}/teams/${team}/`}>{prev}年オフの{shortOf(team, prev)}へ</a>}</span>
+  </nav>
+  <SeasonView rows={rows} season={season} teamFilter={false} teamLinks={false} />
+</Layout>

@@ -1,0 +1,12 @@
+---
+/** 行の状態の印: 自動取得・未確認（朱）、理由未調査（点線）、育成 */
+import type { Row } from "../lib/rows";
+interface Props {
+  row: Pick<Row, "status" | "unresearched" | "ikusei">;
+}
+const { row } = Astro.props;
+---
+
+{row.ikusei && <span class="tag tag-ikusei">育成</span>}
+{row.status === "auto_unverified" && <span class="tag tag-unverified" title="出典から自動で取り込み、まだ人が照合していません">自動取得・未確認</span>}
+{row.unresearched && <span class="tag tag-unresearched" title="引退か戦力外かなどの理由をまだ調べていません">理由未調査</span>}

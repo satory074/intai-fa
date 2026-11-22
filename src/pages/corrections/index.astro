@@ -1,0 +1,27 @@
+---
+import Layout from "../../components/Layout.astro";
+import { dataset } from "../../lib/data";
+import { ymd } from "../../lib/format";
+
+const ds = dataset();
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const link = (target: string) => (ds.people.has(target) ? `${base}/people/${target}/` : null);
+---
+
+<Layout title="訂正履歴" description="プロ野球去就アーカイブで直した誤りの一覧。日付・対象・内容。" crumbs={[{ label: "訂正履歴" }]}>
+  <div class="prose">
+    <h1 class="page-title">訂正履歴</h1>
+    <p>報告を受けて、または自分で見つけて直した誤りです。新しい順に並べています。</p>
+    {ds.corrections.length === 0 && <p class="empty">訂正はまだありません。</p>}
+    <ol class="search-results">
+      {
+        ds.corrections.map((c) => (
+          <li>
+            {ymd(c.date)}　{link(c.target) ? <a href={link(c.target)!}>{ds.people.get(c.target)!.name}</a> : c.target}
+            <span class="excerpt">{c.summary}</span>
+          </li>
+        ))
+      }
+    </ol>
+  </div>
+</Layout>

@@ -1,0 +1,149 @@
+---
+/**
+ * 全ページ共通の枠。SEO の不変条件（basecamp/docs/app-backlink.md）を満たす:
+ * 固有の title / description、canonical = og:url（絶対 URL・末尾 /）、og:image、
+ * JSON-LD（作者 = satory074.com の Person）、戻りリンクのバーを静的 HTML に出す。
+ */
+import "../styles/global.css";
+
+interface Crumb {
+  label: string;
+  href?: string;
+}
+interface Props {
+  title: string;
+  description: string;
+  crumbs?: Crumb[];
+  noindex?: boolean;
+  /** ページ固有の JSON-LD（WebPage の mainEntity など） */
+  jsonld?: Record<string, unknown>[];
+  /** Pagefind の索引に入れる（人物ページだけ） */
+  searchable?: boolean;
+}
+const { title, description, crumbs = [], noindex = false, jsonld = [], searchable = false } = Astro.props;
+
+const SITE_NAME = "プロ野球去就アーカイブ";
+const fullTitle = title === SITE_NAME ? title : `${title} | ${SITE_NAME}`;
+const canonical = new URL(Astro.url.pathname, Astro.site).toString();
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const href = (p: string) => `${base}${p}`;
+const ogImage = new URL(href("/og.png"), Astro.site).toString();
+const cfBeaconToken = import.meta.env.PUBLIC_CF_BEACON_TOKEN;
+const path = Astro.url.pathname.replace(base, "") || "/";
+
+const author = { "@type": "Person", "@id": "https://satory074.com/#person", name: "satory074", url: "https://satory074.com/" };
+const allCrumbs = [{ label: "ホーム", href: href("/") }, ...crumbs];
+const schema: Record<string, unknown>[] = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: fullTitle,
+    description,
+    url: canonical,
+    inLanguage: "ja",
+    isPartOf: { "@type": "WebSite", name: SITE_NAME, url: new URL(href("/"), Astro.site).toString() },
+    author,
+  },
+  ...(crumbs.length
+    ? [
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: allCrumbs.map((c, i) => ({
+            "@type": "ListItem",
+            position: i + 1,
+            name: c.label,
+            ...(c.href ? { item: new URL(c.href, Astro.site).toString() } : {}),
+          })),
+        },
+      ]
+    : []),
+  ...jsonld,
+];
+const nav = [
+  { href: "/", label: "年の一覧" },
+  { href: "/people/", label: "人物をさがす" },
+  { href: "/about/", label: "このサイトについて" },
+];
+---
+
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta name="robots" content={noindex ? "noindex,follow" : "index,follow"} />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#f2f3ee" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#161b21" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href={href("/favicon.svg")} type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" title={`${SITE_NAME} 新着`} href={href("/feed.xml")} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Shippori+Mincho+B1:wght@500;700;800&display=swap"
+    />
+    {schema.map((s) => <script type="application/ld+json" is:inline set:html={JSON.stringify(s)} />)}
+    <slot name="head" />
+    {
+      cfBeaconToken && (
+        <script
+          defer
+          is:inline
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon={JSON.stringify({ token: cfBeaconToken })}
+        />
+      )
+    }
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="site-name" href={href("/")}>{SITE_NAME}</a>
+        <nav class="site-nav" aria-label="サイト内">
+          {nav.map((n) => <a href={href(n.href)} aria-current={path === n.href ? "page" : undefined}>{n.label}</a>)}
+        </nav>
+      </div>
+    </header>
+    <main class="wrap" data-pagefind-body={searchable ? "" : undefined}>
+      {
+        crumbs.length > 0 && (
+          <nav class="crumbs" aria-label="現在地">
+            <ol>
+              {allCrumbs.map((c) => (
+                <li>{c.href ? <a href={c.href}>{c.label}</a> : <span aria-current="page">{c.label}</span>}</li>
+              ))}
+            </ol>
+          </nav>
+        )
+      }
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          NPB の公示・プロ野球在籍者名簿・各球団の発表をもとに、事実だけを整理した非公式のアーカイブです。NPB・各球団とは関係ありません。
+        </p>
+        <p>
+          <a href={href("/about/")}>出典と運用方針</a>　<a href={href("/corrections/")}>訂正履歴</a>　<a href={href("/about/#report")}>誤りを報告する</a>　<a href={href("/feed.xml")}>新着の RSS</a>
+        </p>
+      </div>
+    </footer>
+    <!-- サイト間ナビ: 画面下端に常駐する控えめな逆リンクバー（→ satory074.com/apps）。正準仕様: basecamp/docs/app-backlink.md -->
+    <nav class="app-backlink-bar" aria-label="サイト間ナビゲーション">
+      <a href="https://satory074.com/apps/" target="_blank" rel="noopener" aria-label="satory074 のほかのアプリ一覧を新しいタブで開く"
+        >satory074 のほかのアプリ <span aria-hidden="true">↗</span></a
+      >
+    </nav>
+  </body>
+</html>

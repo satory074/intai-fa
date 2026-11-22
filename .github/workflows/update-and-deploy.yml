@@ -1,0 +1,85 @@
+# NPB 公示の取り込み（AI は使わない）→ 不変条件のチェック → ビルド → GitHub Pages へ公開、を 1 本にまとめる。
+# GITHUB_TOKEN による push は他のワークフローを起動しないため、分けるとデータ更新後の再デプロイが走らない
+# （sports-ranking/.github/workflows/update-and-deploy.yml と同じ理由）。
+name: Update data and deploy
+
+on:
+  schedule:
+    - cron: "17 21 * * *" # 毎日 JST 6:17（毎時 0 分は混むので避ける）
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions: {}
+
+concurrency:
+  group: update-and-deploy
+  cancel-in-progress: false
+
+jobs:
+  update-data:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      # NPB 公示（前年度と今年度）。取得は 2.5 秒間隔
+      - run: npm run import:npb
+      # 新しく出てきた人の生年月日（1 回 100 人まで）
+      - run: npm run import:profiles -- --limit 100
+      # 下書きの出典 URL を確認（開けない URL の行は公開されない）
+      - run: npm run check:urls
+      # 不変条件を破ったデータはコミットしない
+      - run: npm run check
+      - name: Commit data if changed
+        run: |
+          git add data
+          if git diff --cached --quiet; then
+            echo "No data changes; skipping commit"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "data: NPB 公示の取り込み ($(date -u +%Y-%m-%d))"
+            git push
+          fi
+
+  build-deploy:
+    needs: [update-data]
+    # push 時は update-data がスキップされるため always() で拾う
+    if: always() && (needs.update-data.result == 'success' || needs.update-data.result == 'skipped')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main # update-data のデータコミットを含む最新を取得
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npm run check
+      - run: npm run build
+        env:
+          PUBLIC_CF_BEACON_TOKEN: ${{ vars.PUBLIC_CF_BEACON_TOKEN }}
+          PUBLIC_REPORT_FORM_URL: ${{ vars.PUBLIC_REPORT_FORM_URL }}
+      # 検索・AI クローラーに読める形か（basecamp/scripts/seo-check.mjs の写し）。破ったら公開しない
+      - run: npm run seo
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - id: deployment
+        uses: actions/deploy-pages@v4
