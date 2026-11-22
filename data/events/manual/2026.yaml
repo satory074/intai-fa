@@ -1,0 +1,14 @@
+# 2026 年度（2026 年オフ）の下書きと確認済み。書き方は .claude/skills/intai-update/SKILL.md
+- id: d-2026-retire-51755115
+  season: 2026
+  date: "2026-06-29"
+  type: retire
+  person: "51755115"
+  team: lions
+  status: auto_unverified
+  sources:
+    - url: https://www.seibulions.jp/news/detail/202600693052.html
+      kind: club
+      title: 埼玉西武ライオンズ公式「8/30(日)に栗山巧選手の引退試合を開催！」
+      quote: 今シーズン限りで現役を引退する栗山巧選手の引退試合を開催いたします。
+      fetched: "2026-11-22"

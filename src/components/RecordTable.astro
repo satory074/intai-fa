@@ -6,6 +6,7 @@
  */
 import type { Row, SectionKey } from "../lib/rows";
 import { md } from "../lib/format";
+import { dataset } from "../lib/data";
 import Team from "./Team.astro";
 import Tags from "./Tags.astro";
 import Sources from "./Sources.astro";
@@ -19,6 +20,7 @@ interface Props {
   teamLinks?: boolean;
 }
 const { rows, section, title, season, teamLinks = true } = Astro.props;
+const registerAsOf = dataset().registerAsOf;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const capId = `cap-${section}`;
 const main = rows.filter((r) => !r.minor);
@@ -31,6 +33,9 @@ const person = (r: Row) => `${base}/people/${r.personId}/`;
 
 <section class="section" id={section} data-section={section}>
   <h2 id={capId}>{title} <span class="count" data-count>{countText}</span></h2>
+  {(section === "retire" || section === "release") && season > registerAsOf && (
+    <p class="section-note">「在籍」は在籍者名簿（{registerAsOf}年シーズン終了時）までの選手としての年数で、{season}年は含みません。</p>
+  )}
   {section === "departure" && <p class="section-note">在籍者名簿で、その球団での最後の年がこの年度だった人です。引退か戦力外かなどの理由はまだ調べていません。</p>}
   {section === "release" && <p class="section-note">「保留されない選手」は 12 月の契約保留選手名簿に載らなかった選手で、戦力外・引退・退団のどれかは公示だけではわかりません。わかったものから「理由未調査」の印が消えます。</p>}
   <div class="table-wrap" role="region" aria-labelledby={capId} tabindex="0">
@@ -76,7 +81,7 @@ const person = (r: Row) => `${base}/people/${r.personId}/`;
                   <td class="num">{r.age ?? ""}</td>
                   {section !== "fa" && <td class="num">{r.years ? `${r.years}年` : ""}</td>}
                   <td>{r.label}</td>
-                  <td>{r.outcome ?? (section === "fa" ? (season >= new Date().getFullYear() ? "交渉中" : "") : "未定")}</td>
+                  <td>{r.outcome ?? (section === "fa" ? (season >= new Date().getFullYear() ? "交渉中" : "") : section === "retire" ? "" : "未定")}</td>
                 </>
               )}
               <td class="src"><Sources sources={r.sources} /></td>
