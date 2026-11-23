@@ -1,0 +1,52 @@
+# 2000 年度（2000 年オフ）の下書きと確認済み。書き方は .claude/skills/intai-update/SKILL.md
+# FA 宣言は NPB 公示（2003 年度から）に無いので、Wikipedia の移籍表から（移籍した人だけ。宣言して残留した人は入っていない）
+- id: d-2000-fa-declare-25923868   # 川崎 憲次郎
+  season: 2000
+  type: fa_declare
+  person: "25923868"
+  team: swallows
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 2000年 … 川崎憲次郎 ヤクルトスワローズ 中日ドラゴンズ 金銭"
+      fetched: "2026-11-23"
+- id: d-2000-fa-move-25923868   # 川崎 憲次郎
+  season: 2000
+  type: fa_move
+  person: "25923868"
+  team: swallows
+  toTeam: dragons
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 2000年 … 川崎憲次郎 ヤクルトスワローズ 中日ドラゴンズ 金銭"
+      fetched: "2026-11-23"
+- id: d-2000-fa-declare-01903881   # 新庄 剛志
+  season: 2000
+  type: fa_declare
+  person: "01903881"
+  team: tigers
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本国外の球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本国外の球団へ移籍した選手 … 2000年 … 新庄剛志 阪神タイガース ニューヨーク・メッツ 野手で初のFA権行使によるメジャーリーグへの移籍"
+      fetched: "2026-11-23"
+- id: d-2000-fa-move-01903881   # 新庄 剛志
+  season: 2000
+  type: fa_move
+  person: "01903881"
+  team: tigers
+  toOrg: { name: ニューヨーク・メッツ, kind: overseas }
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本国外の球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本国外の球団へ移籍した選手 … 2000年 … 新庄剛志 阪神タイガース ニューヨーク・メッツ 野手で初のFA権行使によるメジャーリーグへの移籍"
+      fetched: "2026-11-23"

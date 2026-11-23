@@ -1,0 +1,102 @@
+# 1993 年度（1993 年オフ）の下書きと確認済み。書き方は .claude/skills/intai-update/SKILL.md
+# FA 宣言は NPB 公示（2003 年度から）に無いので、Wikipedia の移籍表から（移籍した人だけ。宣言して残留した人は入っていない）
+- id: d-1993-fa-declare-51253863   # 松永 浩美
+  season: 1993
+  type: fa_declare
+  person: "51253863"
+  team: tigers
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1993年 … 松永浩美 阪神タイガース 福岡ダイエーホークス 金銭 初の権利を行使して移籍した選手"
+      fetched: "2026-11-23"
+- id: d-1993-fa-move-51253863   # 松永 浩美
+  season: 1993
+  type: fa_move
+  person: "51253863"
+  team: tigers
+  toTeam: hawks
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1993年 … 松永浩美 阪神タイガース 福岡ダイエーホークス 金銭 初の権利を行使して移籍した選手"
+      fetched: "2026-11-23"
+- id: d-1993-fa-declare-61563867   # 駒田 徳広
+  season: 1993
+  type: fa_declare
+  person: "61563867"
+  team: giants
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1993年 … 駒田徳広 読売ジャイアンツ 横浜ベイスターズ 金銭"
+      fetched: "2026-11-23"
+- id: d-1993-fa-move-61563867   # 駒田 徳広
+  season: 1993
+  type: fa_move
+  person: "61563867"
+  team: giants
+  toTeam: baystars
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1993年 … 駒田徳広 読売ジャイアンツ 横浜ベイスターズ 金銭"
+      fetched: "2026-11-23"
+- id: d-1993-fa-declare-81183848   # 落合 博満
+  season: 1993
+  type: fa_declare
+  person: "81183848"
+  team: dragons
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1993年 … 落合博満 中日ドラゴンズ 読売ジャイアンツ 金銭"
+      fetched: "2026-11-23"
+- id: d-1993-fa-move-81183848   # 落合 博満
+  season: 1993
+  type: fa_move
+  person: "81183848"
+  team: dragons
+  toTeam: giants
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1993年 … 落合博満 中日ドラゴンズ 読売ジャイアンツ 金銭"
+      fetched: "2026-11-23"
+- id: d-1993-fa-declare-81183863   # 石嶺 和彦
+  season: 1993
+  type: fa_declare
+  person: "81183863"
+  team: buffaloes
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1993年 … 石嶺和彦 オリックス・ブルーウェーブ 阪神タイガース 金銭"
+      fetched: "2026-11-23"
+- id: d-1993-fa-move-81183863   # 石嶺 和彦
+  season: 1993
+  type: fa_move
+  person: "81183863"
+  team: buffaloes
+  toTeam: tigers
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1993年 … 石嶺和彦 オリックス・ブルーウェーブ 阪神タイガース 金銭"
+      fetched: "2026-11-23"

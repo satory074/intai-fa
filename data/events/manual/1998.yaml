@@ -1,0 +1,52 @@
+# 1998 年度（1998 年オフ）の下書きと確認済み。書き方は .claude/skills/intai-update/SKILL.md
+# FA 宣言は NPB 公示（2003 年度から）に無いので、Wikipedia の移籍表から（移籍した人だけ。宣言して残留した人は入っていない）
+- id: d-1998-fa-declare-21023866   # 武田 一浩
+  season: 1998
+  type: fa_declare
+  person: "21023866"
+  team: hawks
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1998年 … 武田一浩 福岡ダイエーホークス 中日ドラゴンズ 金銭"
+      fetched: "2026-11-23"
+- id: d-1998-fa-move-21023866   # 武田 一浩
+  season: 1998
+  type: fa_move
+  person: "21023866"
+  team: hawks
+  toTeam: dragons
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1998年 … 武田一浩 福岡ダイエーホークス 中日ドラゴンズ 金銭"
+      fetched: "2026-11-23"
+- id: d-1998-fa-declare-31433868   # 木田 優夫
+  season: 1998
+  type: fa_declare
+  person: "31433868"
+  team: buffaloes
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本国外の球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本国外の球団へ移籍した選手 … 1998年 … 木田優夫 オリックス・ブルーウェーブ デトロイト・タイガース"
+      fetched: "2026-11-23"
+- id: d-1998-fa-move-31433868   # 木田 優夫
+  season: 1998
+  type: fa_move
+  person: "31433868"
+  team: buffaloes
+  toOrg: { name: デトロイト・タイガース, kind: overseas }
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本国外の球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本国外の球団へ移籍した選手 … 1998年 … 木田優夫 オリックス・ブルーウェーブ デトロイト・タイガース"
+      fetched: "2026-11-23"

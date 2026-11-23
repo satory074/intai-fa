@@ -1,0 +1,180 @@
+# 2001 年度（2001 年オフ）の下書きと確認済み。書き方は .claude/skills/intai-update/SKILL.md
+# FA 宣言は NPB 公示（2003 年度から）に無いので、Wikipedia の移籍表から（移籍した人だけ。宣言して残留した人は入っていない）
+- id: d-2001-fa-declare-63463868   # 前田 幸長
+  season: 2001
+  type: fa_declare
+  person: "63463868"
+  team: dragons
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 2001年 … 前田幸長 中日ドラゴンズ 読売ジャイアンツ 平松一宏"
+      fetched: "2026-11-23"
+- id: d-2001-fa-move-63463868   # 前田 幸長
+  season: 2001
+  type: fa_move
+  person: "63463868"
+  team: dragons
+  toTeam: giants
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 2001年 … 前田幸長 中日ドラゴンズ 読売ジャイアンツ 平松一宏"
+      fetched: "2026-11-23"
+- id: d-2001-fa-comp-91293886   # 平松 一宏
+  season: 2001
+  type: fa_compensation
+  person: "91293886"
+  team: giants
+  toTeam: dragons
+  note: 前田幸長の FA 移籍の人的補償
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 補償 … 2001年 … 前田幸長 中日ドラゴンズ 読売ジャイアンツ 平松一宏"
+      fetched: "2026-11-23"
+- id: d-2001-fa-declare-71373869   # 加藤 伸一
+  season: 2001
+  type: fa_declare
+  person: "71373869"
+  team: buffaloes
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 2001年 … 加藤伸一 オリックス・ブルーウェーブ 大阪近鉄バファローズ ユウキ"
+      fetched: "2026-11-23"
+- id: d-2001-fa-move-71373869   # 加藤 伸一
+  season: 2001
+  type: fa_move
+  person: "71373869"
+  team: buffaloes
+  toTeam: kintetsu
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 2001年 … 加藤伸一 オリックス・ブルーウェーブ 大阪近鉄バファローズ ユウキ"
+      fetched: "2026-11-23"
+- id: d-2001-fa-comp-01903886   # 田中 祐貴
+  season: 2001
+  type: fa_compensation
+  person: "01903886"
+  team: kintetsu
+  toTeam: buffaloes
+  note: 加藤伸一の FA 移籍の人的補償
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 補償 … 2001年 … 加藤伸一 オリックス・ブルーウェーブ 大阪近鉄バファローズ ユウキ"
+      fetched: "2026-11-23"
+- id: d-2001-fa-declare-85583868   # 谷繁 元信
+  season: 2001
+  type: fa_declare
+  person: "85583868"
+  team: baystars
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 2001年 … 谷繁元信 横浜ベイスターズ 中日ドラゴンズ 金銭"
+      fetched: "2026-11-23"
+- id: d-2001-fa-move-85583868   # 谷繁 元信
+  season: 2001
+  type: fa_move
+  person: "85583868"
+  team: baystars
+  toTeam: dragons
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 2001年 … 谷繁元信 横浜ベイスターズ 中日ドラゴンズ 金銭"
+      fetched: "2026-11-23"
+- id: d-2001-fa-declare-01303885   # 片岡 篤史
+  season: 2001
+  type: fa_declare
+  person: "01303885"
+  team: fighters
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 2001年 … 片岡篤史 日本ハムファイターズ 阪神タイガース 金銭"
+      fetched: "2026-11-23"
+- id: d-2001-fa-move-01303885   # 片岡 篤史
+  season: 2001
+  type: fa_move
+  person: "01303885"
+  team: fighters
+  toTeam: tigers
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 2001年 … 片岡篤史 日本ハムファイターズ 阪神タイガース 金銭"
+      fetched: "2026-11-23"
+- id: d-2001-fa-declare-31733881   # 小宮山 悟
+  season: 2001
+  type: fa_declare
+  person: "31733881"
+  team: baystars
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本国外の球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本国外の球団へ移籍した選手 … 2001年 … 小宮山悟 横浜ベイスターズ ニューヨーク・メッツ 補償発生期間中に退団となり、期間経過に至るまで所属球団なしとなった初の選手"
+      fetched: "2026-11-23"
+- id: d-2001-fa-move-31733881   # 小宮山 悟
+  season: 2001
+  type: fa_move
+  person: "31733881"
+  team: baystars
+  toOrg: { name: ニューヨーク・メッツ, kind: overseas }
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本国外の球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本国外の球団へ移籍した選手 … 2001年 … 小宮山悟 横浜ベイスターズ ニューヨーク・メッツ 補償発生期間中に退団となり、期間経過に至るまで所属球団なしとなった初の選手"
+      fetched: "2026-11-23"
+- id: d-2001-fa-declare-01903885   # 田口 壮
+  season: 2001
+  type: fa_declare
+  person: "01903885"
+  team: buffaloes
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本国外の球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本国外の球団へ移籍した選手 … 2001年 … 田口壮 オリックス・ブルーウェーブ セントルイス・カージナルス"
+      fetched: "2026-11-23"
+- id: d-2001-fa-move-01903885   # 田口 壮
+  season: 2001
+  type: fa_move
+  person: "01903885"
+  team: buffaloes
+  toOrg: { name: セントルイス・カージナルス, kind: overseas }
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本国外の球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本国外の球団へ移籍した選手 … 2001年 … 田口壮 オリックス・ブルーウェーブ セントルイス・カージナルス"
+      fetched: "2026-11-23"

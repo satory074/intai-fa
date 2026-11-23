@@ -1,0 +1,102 @@
+# 1999 年度（1999 年オフ）の下書きと確認済み。書き方は .claude/skills/intai-update/SKILL.md
+# FA 宣言は NPB 公示（2003 年度から）に無いので、Wikipedia の移籍表から（移籍した人だけ。宣言して残留した人は入っていない）
+- id: d-1999-fa-declare-51553865   # 工藤 公康
+  season: 1999
+  type: fa_declare
+  person: "51553865"
+  team: hawks
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1999年 … 工藤公康 福岡ダイエーホークス 読売ジャイアンツ 金銭 初の2度目のFA移籍"
+      fetched: "2026-11-23"
+- id: d-1999-fa-move-51553865   # 工藤 公康
+  season: 1999
+  type: fa_move
+  person: "51553865"
+  team: hawks
+  toTeam: giants
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1999年 … 工藤公康 福岡ダイエーホークス 読売ジャイアンツ 金銭 初の2度目のFA移籍"
+      fetched: "2026-11-23"
+- id: d-1999-fa-declare-31433860   # 星野 伸之
+  season: 1999
+  type: fa_declare
+  person: "31433860"
+  team: buffaloes
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1999年 … 星野伸之 オリックス・ブルーウェーブ 阪神タイガース 金銭"
+      fetched: "2026-11-23"
+- id: d-1999-fa-move-31433860   # 星野 伸之
+  season: 1999
+  type: fa_move
+  person: "31433860"
+  team: buffaloes
+  toTeam: tigers
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1999年 … 星野伸之 オリックス・ブルーウェーブ 阪神タイガース 金銭"
+      fetched: "2026-11-23"
+- id: d-1999-fa-declare-53253868   # 江藤 智
+  season: 1999
+  type: fa_declare
+  person: "53253868"
+  team: carp
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1999年 … 江藤智 広島東洋カープ 読売ジャイアンツ 金銭"
+      fetched: "2026-11-23"
+- id: d-1999-fa-move-53253868   # 江藤 智
+  season: 1999
+  type: fa_move
+  person: "53253868"
+  team: carp
+  toTeam: giants
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1999年 … 江藤智 広島東洋カープ 読売ジャイアンツ 金銭"
+      fetched: "2026-11-23"
+- id: d-1999-fa-declare-61763881   # 佐々木 主浩
+  season: 1999
+  type: fa_declare
+  person: "61763881"
+  team: baystars
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本国外の球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本国外の球団へ移籍した選手 … 1999年 … 佐々木主浩 横浜ベイスターズ シアトル・マリナーズ"
+      fetched: "2026-11-23"
+- id: d-1999-fa-move-61763881   # 佐々木 主浩
+  season: 1999
+  type: fa_move
+  person: "61763881"
+  team: baystars
+  toOrg: { name: シアトル・マリナーズ, kind: overseas }
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本国外の球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本国外の球団へ移籍した選手 … 1999年 … 佐々木主浩 横浜ベイスターズ シアトル・マリナーズ"
+      fetched: "2026-11-23"

@@ -1,0 +1,152 @@
+# 1994 年度（1994 年オフ）の下書きと確認済み。書き方は .claude/skills/intai-update/SKILL.md
+# FA 宣言は NPB 公示（2003 年度から）に無いので、Wikipedia の移籍表から（移籍した人だけ。宣言して残留した人は入っていない）
+- id: d-1994-fa-declare-51553865   # 工藤 公康
+  season: 1994
+  type: fa_declare
+  person: "51553865"
+  team: lions
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1994年 … 工藤公康 西武ライオンズ 福岡ダイエーホークス 金銭"
+      fetched: "2026-11-23"
+- id: d-1994-fa-move-51553865   # 工藤 公康
+  season: 1994
+  type: fa_move
+  person: "51553865"
+  team: lions
+  toTeam: hawks
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1994年 … 工藤公康 西武ライオンズ 福岡ダイエーホークス 金銭"
+      fetched: "2026-11-23"
+- id: d-1994-fa-declare-51553863   # 川口 和久
+  season: 1994
+  type: fa_declare
+  person: "51553863"
+  team: carp
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1994年 … 川口和久 広島東洋カープ 読売ジャイアンツ 金銭"
+      fetched: "2026-11-23"
+- id: d-1994-fa-move-51553863   # 川口 和久
+  season: 1994
+  type: fa_move
+  person: "51553863"
+  team: carp
+  toTeam: giants
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1994年 … 川口和久 広島東洋カープ 読売ジャイアンツ 金銭"
+      fetched: "2026-11-23"
+- id: d-1994-fa-declare-61063865   # 山沖 之彦
+  season: 1994
+  type: fa_declare
+  person: "61063865"
+  team: buffaloes
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1994年 … 山沖之彦 オリックス・ブルーウェーブ 阪神タイガース 金銭"
+      fetched: "2026-11-23"
+- id: d-1994-fa-move-61063865   # 山沖 之彦
+  season: 1994
+  type: fa_move
+  person: "61063865"
+  team: buffaloes
+  toTeam: tigers
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1994年 … 山沖之彦 オリックス・ブルーウェーブ 阪神タイガース 金銭"
+      fetched: "2026-11-23"
+- id: d-1994-fa-declare-71273860   # 広澤 克実
+  season: 1994
+  type: fa_declare
+  person: "71273860"
+  team: swallows
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1994年 … 広沢克己 ヤクルトスワローズ 読売ジャイアンツ 金銭"
+      fetched: "2026-11-23"
+- id: d-1994-fa-move-71273860   # 広澤 克実
+  season: 1994
+  type: fa_move
+  person: "71273860"
+  team: swallows
+  toTeam: giants
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1994年 … 広沢克己 ヤクルトスワローズ 読売ジャイアンツ 金銭"
+      fetched: "2026-11-23"
+- id: d-1994-fa-declare-41143863   # 石毛 宏典
+  season: 1994
+  type: fa_declare
+  person: "41143863"
+  team: lions
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1994年 … 石毛宏典 西武ライオンズ 福岡ダイエーホークス 金銭"
+      fetched: "2026-11-23"
+- id: d-1994-fa-move-41143863   # 石毛 宏典
+  season: 1994
+  type: fa_move
+  person: "41143863"
+  team: lions
+  toTeam: hawks
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1994年 … 石毛宏典 西武ライオンズ 福岡ダイエーホークス 金銭"
+      fetched: "2026-11-23"
+- id: d-1994-fa-declare-41343865   # 金村 義明
+  season: 1994
+  type: fa_declare
+  person: "41343865"
+  team: kintetsu
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1994年 … 金村義明 近鉄バファローズ 中日ドラゴンズ 金銭"
+      fetched: "2026-11-23"
+- id: d-1994-fa-move-41343865   # 金村 義明
+  season: 1994
+  type: fa_move
+  person: "41343865"
+  team: kintetsu
+  toTeam: dragons
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1994年 … 金村義明 近鉄バファローズ 中日ドラゴンズ 金銭"
+      fetched: "2026-11-23"

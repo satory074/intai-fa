@@ -1,0 +1,77 @@
+# 1997 年度（1997 年オフ）の下書きと確認済み。書き方は .claude/skills/intai-update/SKILL.md
+# FA 宣言は NPB 公示（2003 年度から）に無いので、Wikipedia の移籍表から（移籍した人だけ。宣言して残留した人は入っていない）
+- id: d-1997-fa-declare-91793864   # 中嶋 聡
+  season: 1997
+  type: fa_declare
+  person: "91793864"
+  team: buffaloes
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1997年 … 中嶋聡 オリックス・ブルーウェーブ 西武ライオンズ 金銭"
+      fetched: "2026-11-23"
+- id: d-1997-fa-move-91793864   # 中嶋 聡
+  season: 1997
+  type: fa_move
+  person: "91793864"
+  team: buffaloes
+  toTeam: lions
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1997年 … 中嶋聡 オリックス・ブルーウェーブ 西武ライオンズ 金銭"
+      fetched: "2026-11-23"
+- id: d-1997-fa-declare-51253864   # 山崎 慎太郎
+  season: 1997
+  type: fa_declare
+  person: "51253864"
+  team: kintetsu
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1997年 … 山崎慎太郎 近鉄バファローズ 福岡ダイエーホークス 金銭"
+      fetched: "2026-11-23"
+- id: d-1997-fa-move-51253864   # 山崎 慎太郎
+  season: 1997
+  type: fa_move
+  person: "51253864"
+  team: kintetsu
+  toTeam: hawks
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1997年 … 山崎慎太郎 近鉄バファローズ 福岡ダイエーホークス 金銭"
+      fetched: "2026-11-23"
+- id: d-1997-fa-declare-51653860   # 吉井 理人
+  season: 1997
+  type: fa_declare
+  person: "51653860"
+  team: swallows
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本国外の球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本国外の球団へ移籍した選手 … 1997年 … 吉井理人 ヤクルトスワローズ ニューヨーク・メッツ 初のFA権行使によるメジャーリーグへの移籍"
+      fetched: "2026-11-23"
+- id: d-1997-fa-move-51653860   # 吉井 理人
+  season: 1997
+  type: fa_move
+  person: "51653860"
+  team: swallows
+  toOrg: { name: ニューヨーク・メッツ, kind: overseas }
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本国外の球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本国外の球団へ移籍した選手 … 1997年 … 吉井理人 ヤクルトスワローズ ニューヨーク・メッツ 初のFA権行使によるメジャーリーグへの移籍"
+      fetched: "2026-11-23"

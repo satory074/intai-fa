@@ -1,0 +1,52 @@
+# 1996 年度（1996 年オフ）の下書きと確認済み。書き方は .claude/skills/intai-update/SKILL.md
+# FA 宣言は NPB 公示（2003 年度から）に無いので、Wikipedia の移籍表から（移籍した人だけ。宣言して残留した人は入っていない）
+- id: d-1996-fa-declare-41743863   # 田村 藤夫
+  season: 1996
+  type: fa_declare
+  person: "41743863"
+  team: marines
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1996年 … 田村藤夫 千葉ロッテマリーンズ 福岡ダイエーホークス 金銭"
+      fetched: "2026-11-23"
+- id: d-1996-fa-move-41743863   # 田村 藤夫
+  season: 1996
+  type: fa_move
+  person: "41743863"
+  team: marines
+  toTeam: hawks
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1996年 … 田村藤夫 千葉ロッテマリーンズ 福岡ダイエーホークス 金銭"
+      fetched: "2026-11-23"
+- id: d-1996-fa-declare-41343862   # 清原 和博
+  season: 1996
+  type: fa_declare
+  person: "41343862"
+  team: lions
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1996年 … 清原和博 西武ライオンズ 読売ジャイアンツ 金銭"
+      fetched: "2026-11-23"
+- id: d-1996-fa-move-41343862   # 清原 和博
+  season: 1996
+  type: fa_move
+  person: "41343862"
+  team: lions
+  toTeam: giants
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1996年 … 清原和博 西武ライオンズ 読売ジャイアンツ 金銭"
+      fetched: "2026-11-23"

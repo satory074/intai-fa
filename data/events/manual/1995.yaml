@@ -1,0 +1,66 @@
+# 1995 年度（1995 年オフ）の下書きと確認済み。書き方は .claude/skills/intai-update/SKILL.md
+# FA 宣言は NPB 公示（2003 年度から）に無いので、Wikipedia の移籍表から（移籍した人だけ。宣言して残留した人は入っていない）
+- id: d-1995-fa-declare-41543860   # 河野 博文
+  season: 1995
+  type: fa_declare
+  person: "41543860"
+  team: fighters
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1995年 … 河野博文 日本ハムファイターズ 読売ジャイアンツ 川邉忠義 初の人的補償"
+      fetched: "2026-11-23"
+- id: d-1995-fa-move-41543860   # 河野 博文
+  season: 1995
+  type: fa_move
+  person: "41543860"
+  team: fighters
+  toTeam: giants
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1995年 … 河野博文 日本ハムファイターズ 読売ジャイアンツ 川邉忠義 初の人的補償"
+      fetched: "2026-11-23"
+- id: d-1995-fa-comp-41543881   # 川邉 忠義
+  season: 1995
+  type: fa_compensation
+  person: "41543881"
+  team: giants
+  toTeam: fighters
+  note: 河野博文の FA 移籍の人的補償
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 補償 … 1995年 … 河野博文 日本ハムファイターズ 読売ジャイアンツ 川邉忠義 初の人的補償"
+      fetched: "2026-11-23"
+- id: d-1995-fa-declare-61963860   # 仲田 幸司
+  season: 1995
+  type: fa_declare
+  person: "61963860"
+  team: tigers
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1995年 … 仲田幸司 阪神タイガース 千葉ロッテマリーンズ 金銭"
+      fetched: "2026-11-23"
+- id: d-1995-fa-move-61963860   # 仲田 幸司
+  season: 1995
+  type: fa_move
+  person: "61963860"
+  team: tigers
+  toTeam: marines
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 1995年 … 仲田幸司 阪神タイガース 千葉ロッテマリーンズ 金銭"
+      fetched: "2026-11-23"

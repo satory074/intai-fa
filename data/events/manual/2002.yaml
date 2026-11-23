@@ -1,0 +1,77 @@
+# 2002 年度（2002 年オフ）の下書きと確認済み。書き方は .claude/skills/intai-update/SKILL.md
+# FA 宣言は NPB 公示（2003 年度から）に無いので、Wikipedia の移籍表から（移籍した人だけ。宣言して残留した人は入っていない）
+- id: d-2002-fa-declare-21623885   # 若田部 健一
+  season: 2002
+  type: fa_declare
+  person: "21623885"
+  team: hawks
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 2002年 … 若田部健一 福岡ダイエーホークス 横浜ベイスターズ 金銭"
+      fetched: "2026-11-23"
+- id: d-2002-fa-move-21623885   # 若田部 健一
+  season: 2002
+  type: fa_move
+  person: "21623885"
+  team: hawks
+  toTeam: baystars
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 2002年 … 若田部健一 福岡ダイエーホークス 横浜ベイスターズ 金銭"
+      fetched: "2026-11-23"
+- id: d-2002-fa-declare-41343885   # 金本 知憲
+  season: 2002
+  type: fa_declare
+  person: "41343885"
+  team: carp
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 2002年 … 金本知憲 広島東洋カープ 阪神タイガース 金銭"
+      fetched: "2026-11-23"
+- id: d-2002-fa-move-41343885   # 金本 知憲
+  season: 2002
+  type: fa_move
+  person: "41343885"
+  team: carp
+  toTeam: tigers
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本の他球団へ移籍した選手 … 2002年 … 金本知憲 広島東洋カープ 阪神タイガース 金銭"
+      fetched: "2026-11-23"
+- id: d-2002-fa-declare-51253887   # 松井 秀喜
+  season: 2002
+  type: fa_declare
+  person: "51253887"
+  team: giants
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本国外の球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本国外の球団へ移籍した選手 … 2002年 … 松井秀喜 読売ジャイアンツ ニューヨーク・ヤンキース"
+      fetched: "2026-11-23"
+- id: d-2002-fa-move-51253887   # 松井 秀喜
+  season: 2002
+  type: fa_move
+  person: "51253887"
+  team: giants
+  toOrg: { name: ニューヨーク・ヤンキース, kind: overseas }
+  status: auto_unverified
+  sources:
+    - url: https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本国外の球団へ移籍した選手
+      kind: wikipedia
+      title: Wikipedia「フリーエージェント (日本プロ野球)」
+      quote: "FA権を行使し日本国外の球団へ移籍した選手 … 2002年 … 松井秀喜 読売ジャイアンツ ニューヨーク・ヤンキース"
+      fetched: "2026-11-23"

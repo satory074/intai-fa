@@ -1,6 +1,14 @@
 {
  "https://www.seibulions.jp/news/detail/202600693052.html": {
   "status": 200,
-  "checked": "2026-11-22"
+  "checked": "2026-11-23"
+ },
+ "https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手": {
+  "status": 200,
+  "checked": "2026-11-23"
+ },
+ "https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本国外の球団へ移籍した選手": {
+  "status": 200,
+  "checked": "2026-11-23"
  }
 }
