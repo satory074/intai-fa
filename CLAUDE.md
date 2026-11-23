@@ -31,7 +31,8 @@ npm run edit                  # 確認用エディタ http://127.0.0.1:4330/（�
 - `data/people.jsonl` / `data/stints.jsonl` — 名簿由来（約 1 万人・約 1.9 万件）。`src: register` は削除依頼があれば丸ごと外せる
 - `data/people-extra.jsonl` — 名簿にない人（今年の新人・新任コーチ）。どの出来事からも参照されない人は取り込みのたびに消える
 - `data/npb-id-links.json` — 名簿でリンクの無かった人（x…）→ 公示の NPB 選手 ID。公示の取り込みが書き足す。
-  これが無いと同じ人が「名簿の人」と「公示の人」に分かれる（check の 9 で検出）
+  これが無いと同じ人が「名簿の人」と「公示の人」に分かれる（check の 9 で検出）。リンク先が 404 の人（主に支配下にならなかった育成選手）が
+  多いので、サイトで NPB 選手ページへのリンクを出すのは profiles.jsonl で生年月日が取れた人だけ（`src/lib/data.ts`）
 - `data/name-aliases.yaml` — 公示の表記で名簿の人が引けないときだけの対応表（「李 承ヨプ」→「李 承燁」など。手で足す）
 - `data/events/npb/YYYY.json` — **YYYY 年度のページから**取り込んだ出来事（2003〜。手で編集しない。中の season は別年度のこともある）
 - `data/events/manual/YYYY.yaml` — Claude Code の下書き（auto_unverified）と確認済み（verified）

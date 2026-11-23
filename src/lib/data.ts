@@ -66,17 +66,23 @@ export function dataset(): Dataset {
     const old = people.get(p.id);
     people.set(p.id, old ? { ...p, ...old, names: old.names ?? p.names } : p);
   }
-  // 名簿でリンクの無かった人に、公示からわかった NPB 選手 ID を付ける（scripts/import/npb-announcements.ts が書く）
+  const birthPath = join(dataDir, "profiles.jsonl");
+  const profiles = existsSync(birthPath)
+    ? readJsonl("profiles.jsonl", (x) => x as { id: string; birth?: string; throwsBats?: string; missing?: boolean })
+    : [];
+  // 名簿でリンクの無かった人に、公示からわかった NPB 選手 ID を付ける（scripts/import/npb-announcements.ts が書く）。
+  // 公示のリンク先が 404 の人（主に支配下にならなかった育成選手。2026/11 時点で 541 人）がいるので、
+  // 選手ページが開けて生年月日が取れた人だけに付ける（壊れたリンクを出さない）
   const linksPath = join(dataDir, "npb-id-links.json");
   if (existsSync(linksPath)) {
+    const opened = new Set(profiles.filter((x) => x.birth).map((x) => x.id));
     for (const [id, npbId] of Object.entries(JSON.parse(readFileSync(linksPath, "utf-8")) as Record<string, string>)) {
       const p = people.get(id);
-      if (p && !p.npbId) people.set(id, { ...p, npbId });
+      if (p && !p.npbId && opened.has(id)) people.set(id, { ...p, npbId });
     }
   }
-  const birthPath = join(dataDir, "profiles.jsonl");
-  if (existsSync(birthPath)) {
-    for (const prof of readJsonl("profiles.jsonl", (x) => x as { id: string; birth?: string; throwsBats?: string })) {
+  {
+    for (const prof of profiles) {
       const p = people.get(prof.id);
       if (p) people.set(p.id, { ...p, ...(prof.birth ? { birth: prof.birth } : {}), ...(prof.throwsBats ? { throwsBats: prof.throwsBats } : {}) });
     }
