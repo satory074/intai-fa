@@ -2,7 +2,8 @@
  * データの不変条件を 1 つずつ確かめる（CI のゲート）。件数を増やすテストではなく、壊れたら困ることだけ。
  *
  *   npm run check          # 不変条件 + 公開を保留している行の報告
- *   npm run check:urls     # さらに、下書き（auto_unverified / verified）の出典 URL を開いて data/url-status.json に記録
+ *   npm run check:urls     # さらに、下書き（auto_unverified / verified）の出典 URL を開き、開けるかと、抜粋（quote）が
+ *                          # ページの本文にあるかを data/url-status.json に記録（取得は同じホストに 2.5 秒以上の間隔）
  *
  * 破ったら終了コード 1（デプロイしない）:
  *   1. 人物 ID が重複しない（名簿と people-extra をまたいでも）
@@ -24,10 +25,11 @@
  */
 import { existsSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
+import { parse as parseHtml } from "node-html-parser";
 import { parse } from "yaml";
 import { eventsFileSchema, personSchema, stintSchema, type IntaiEvent, type Person, type Stint } from "../../src/lib/schema";
 import { franchises, franchisesIn } from "../../src/lib/teams";
-import { gateEvent, loadUrlStatus, type UrlStatus } from "../../src/lib/gate";
+import { gateEvent, loadUrlStatus, normText, quoteKey, quoteParts, type UrlStatus } from "../../src/lib/gate";
 import { UA, todayJst } from "../lib/fetch";
 
 const root = process.cwd();
@@ -150,22 +152,42 @@ for (let y = 2003; y <= Number(today.slice(0, 4)); y++) {
 // ---------- 出典 URL の確認（--urls） ----------
 async function checkUrls(): Promise<UrlStatus> {
   const status = loadUrlStatus();
-  const targets = [...new Set(events.filter(({ e }) => e.status === "auto_unverified" || e.status === "verified").flatMap(({ e }) => e.sources.map((s) => s.url)))];
+  const drafts = events.filter(({ e }) => e.status === "auto_unverified" || e.status === "verified").flatMap(({ e }) => e.sources);
+  // 同じページ（#以降だけ違う URL）は 1 回だけ取得する
+  const page = (url: string) => url.replace(/#.*$/, "");
+  const quotesByUrl = new Map<string, Set<string>>();
+  for (const s of drafts) {
+    if (!quotesByUrl.has(s.url)) quotesByUrl.set(s.url, new Set());
+    if (s.quote) quotesByUrl.get(s.url)!.add(s.quote);
+  }
+  const bodies = new Map<string, { code: number; text: string }>();
   const lastByHost = new Map<string, number>();
-  for (const url of targets) {
-    const host = new URL(url).hostname;
-    const wait = (lastByHost.get(host) ?? 0) + 1500 - Date.now();
-    if (wait > 0) await new Promise((r) => setTimeout(r, wait));
-    lastByHost.set(host, Date.now());
-    let code = 0;
-    try {
-      const res = await fetch(url, { method: "GET", redirect: "follow", headers: { "user-agent": UA } });
-      code = res.status;
-    } catch {
-      code = 0;
+  for (const url of quotesByUrl.keys()) {
+    if (!bodies.has(page(url))) {
+      const host = new URL(url).hostname;
+      const wait = (lastByHost.get(host) ?? 0) + 2500 - Date.now();
+      if (wait > 0) await new Promise((r) => setTimeout(r, wait));
+      lastByHost.set(host, Date.now());
+      let code = 0;
+      let text = "";
+      try {
+        const res = await fetch(url, { method: "GET", redirect: "follow", headers: { "user-agent": UA } });
+        code = res.status;
+        // 本文の文字だけを使う（タグ・スクリプトを除き、文字参照は戻す）。ページは保存しない
+        const doc = parseHtml(await res.text());
+        for (const el of doc.querySelectorAll("script, style, noscript")) el.remove();
+        text = normText(doc.text);
+      } catch {
+        code = 0;
+      }
+      bodies.set(page(url), { code, text });
     }
-    status[url] = { status: code, checked: today };
-    console.log(`  ${code} ${url}`);
+    const { code, text } = bodies.get(page(url))!;
+    const quotes: Record<string, boolean> = {};
+    for (const q of quotesByUrl.get(url)!) quotes[quoteKey(q)] = quoteParts(q).every((part) => text.includes(part));
+    status[url] = { status: code, checked: today, quotes };
+    const missing = Object.values(quotes).filter((x) => !x).length;
+    console.log(`  ${code} ${url}${missing ? `（抜粋が見つからない ${missing} 件）` : ""}`);
   }
   writeFileSync(join(data, "url-status.json"), JSON.stringify(status, null, 1) + "\n");
   return status;

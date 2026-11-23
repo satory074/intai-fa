@@ -43,7 +43,8 @@ description: プロ野球去就アーカイブ（intai-fa）の更新コマン�
 
 4. チェックとビルド
    ```bash
-   npm run check:urls   # 下書きの出典 URL を開いて data/url-status.json に記録（開けない URL の行は公開されない）
+   npm run check:urls   # 下書きの出典 URL を開き、開けるかと quote がページの本文にあるかを data/url-status.json に記録
+                        # （開けない URL・本文に quote が見つからない行は公開されない。JS で本文を出すページは見つからないことがある）
    npm run check        # 不変条件。「公開を保留している出来事」に出たものは理由を読んで直す
    npm run build && npm run seo
    ```
@@ -78,6 +79,7 @@ description: プロ野球去就アーカイブ（intai-fa）の更新コマン�
 - 抜粋に本人の名前と、区分ごとの根拠の語句がある
 - 球団名が抜粋にあるか、出典がその球団の公式サイトか NPB
 - 出典 URL が開ける（`npm run check:urls` の記録が 2xx）
+- 抜粋がそのページの本文に実際にある（同じく check:urls が確かめる。「 … 」で区切った抜粋は区切りごと）
 - 日付が未来でなく、年度の範囲内
 
 ## 確認（本人）

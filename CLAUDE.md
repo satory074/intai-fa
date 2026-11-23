@@ -17,7 +17,7 @@ npm run import:npb -- --years 2003,2004 --backfill   # 過去分の取り直し�
 npm run import:register       # 在籍者名簿（年 1 回）→ data/people.jsonl, data/stints.jsonl, data/register-meta.json
 npm run import:profiles       # 生年月日・投打（出来事に出てくる人）→ data/profiles.jsonl
 npm run todo                  # 下書きの対象（理由未調査・その後が未定・未確認）
-npm run check                 # 不変条件（破ったら exit 1）。check:urls は下書きの出典 URL も確認
+npm run check                 # 不変条件（破ったら exit 1）。check:urls は下書きの出典 URL と、抜粋がページにあるかも確認
 npm run build                 # astro build && pagefind（約 1.1 万ページ、10 秒前後）
 npm run seo                   # basecamp/scripts/seo-check.mjs の写し（--require-backlink）
 npm run edit                  # 確認用エディタ http://127.0.0.1:4330/（未確認の下書きを確認済みに）
@@ -46,7 +46,7 @@ npm run edit                  # 確認用エディタ http://127.0.0.1:4330/（�
 - 名簿から理由未調査の入退団と指導者の就任・退任を導く（`src/lib/data.ts` の deriveFromRegister）。
   公示・下書きで同じ人の同じ年度が埋まっていれば出さない。名簿の最新年（asOf）は出さない
 - 公開の条件は `src/lib/gate.ts`（ビルドと check の両方が使う）。auto_unverified は抜粋に名前・根拠の語句があり、
-  出典 URL が開けるものだけ公開。満たさない行はビルドから外れ、check に「公開を保留」として出る
+  出典 URL が開けて、抜粋がそのページの本文に実際にある（check:urls が確かめて url-status.json に記録）ものだけ公開。満たさない行はビルドから外れ、check に「公開を保留」として出る
 
 ## 落とし穴
 

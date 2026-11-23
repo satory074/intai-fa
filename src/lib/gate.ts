@@ -8,14 +8,27 @@
  *   - 出典の抜粋（quote）があり、そこに本人の名前と、分類の根拠になる語句がある
  *   - 球団名が抜粋にあるか、出典がその球団の公式サイト（または NPB）
  *   - 出典 URL が開ける（data/url-status.json の記録が 2xx。記録は npm run check:urls が作る）
+ *   - 抜粋がその出典ページに実際にある（check:urls がページの本文を読んで確かめ、quoteKey ごとに記録する。
+ *     「 … 」でつないだ抜粋（表の見出しと行など）は、区切りごとにページにあればよい）
  * 通らないものは公開しない（ビルドから外し、check の報告に出す）。
  */
+import { createHash } from "node:crypto";
 import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import type { IntaiEvent, Person } from "./schema";
 import { franchises } from "./teams";
 
-export type UrlStatus = Record<string, { status: number; checked: string }>;
+/** quotes: 抜粋（quoteKey）→ その抜粋がページの本文にあったか */
+export type UrlStatus = Record<string, { status: number; checked: string; quotes?: Record<string, boolean> }>;
+
+/** 抜粋をページ本文と照らすときの正規化（全角半角・空白の違いを無視） */
+export const normText = (s: string) => s.normalize("NFKC").replace(/\s+/g, "");
+
+/** 抜粋を「 … 」で区切った部分。どれもページにあれば、その抜粋はページにある */
+export const quoteParts = (quote: string) => quote.split(/…/).map(normText).filter(Boolean);
+
+/** url-status.json に記録するときの抜粋の鍵 */
+export const quoteKey = (quote: string) => createHash("sha1").update(normText(quote)).digest("hex").slice(0, 12);
 
 export function loadUrlStatus(): UrlStatus {
   const p = join(process.cwd(), "data", "url-status.json");
@@ -126,6 +139,11 @@ export function gateEvent(e: IntaiEvent, people: Map<string, Person>, urls: UrlS
       const st = urls[s.url];
       if (!st) reasons.push(`出典 URL が未確認（npm run check:urls）: ${s.url}`);
       else if (st.status < 200 || st.status >= 400) reasons.push(`出典 URL が開けない（HTTP ${st.status}）: ${s.url}`);
+      else if (s.quote) {
+        const found = st.quotes?.[quoteKey(s.quote)];
+        if (found === undefined) reasons.push(`抜粋を出典ページでまだ確かめていない（npm run check:urls）: ${s.url}`);
+        else if (!found) reasons.push(`抜粋が出典ページに見つからない（写し間違いか、ページが変わった）: ${s.url}`);
+      }
     }
   }
   return reasons;

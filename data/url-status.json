@@ -1,14 +1,58 @@
 {
  "https://www.seibulions.jp/news/detail/202600693052.html": {
   "status": 200,
-  "checked": "2026-11-23"
+  "checked": "2026-11-23",
+  "quotes": {
+   "a5e16b8d9c35": true
+  }
  },
  "https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手": {
   "status": 200,
-  "checked": "2026-11-23"
+  "checked": "2026-11-23",
+  "quotes": {
+   "269e72cf3608": true,
+   "4c4450022661": true,
+   "2c458c12769d": true,
+   "3d24c7c5e9cd": true,
+   "1e420c611b2f": true,
+   "13cf38fb3e1f": true,
+   "88521da49f75": true,
+   "de531101a0df": true,
+   "c4f3dcfd8e4c": true,
+   "978fcd9074c7": true,
+   "3296cb3e7eb7": true,
+   "77656708af41": true,
+   "d94b5b2566ea": true,
+   "d95552cc2604": true,
+   "4e80460add9e": true,
+   "d3e409a44b39": true,
+   "a2185ede495c": true,
+   "935dc3138ded": true,
+   "167162613b6c": true,
+   "138d2b93834a": true,
+   "d165012cd27f": true,
+   "1fc9a62f66b2": true,
+   "c5c3a0784849": true,
+   "e83f760b4f08": true,
+   "a6ace5788ef1": true,
+   "cacee7a4618a": true,
+   "af26453f5b4f": true,
+   "f747784eb66f": true,
+   "895b2c48c7c2": true,
+   "2a622545e842": true
+  }
  },
  "https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本国外の球団へ移籍した選手": {
   "status": 200,
-  "checked": "2026-11-23"
+  "checked": "2026-11-23",
+  "quotes": {
+   "5db9d1d2fe68": true,
+   "206bf036da5c": true,
+   "432595c516a0": true,
+   "139f414f836c": true,
+   "431826cadd1c": true,
+   "a59706a39398": true,
+   "41d33116291f": true
+  }
  }
 }
