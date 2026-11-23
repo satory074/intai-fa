@@ -32,6 +32,10 @@ if (existsSync(out)) for (const l of readFileSync(out, "utf-8").split("\n").filt
   done.set(p.id, p);
 }
 
+// 名簿でリンクの無かった人（x…）は、公示からわかった NPB ID で選手ページを開く（data/npb-id-links.json）
+const linksPath = join(root, "data", "npb-id-links.json");
+const links: Record<string, string> = existsSync(linksPath) ? JSON.parse(readFileSync(linksPath, "utf-8")) : {};
+
 // 対象: 出来事に出てくる人物のうち NPB ID がある人
 const wanted = new Set<string>();
 for (const sub of ["npb", "manual"]) {
@@ -40,7 +44,7 @@ for (const sub of ["npb", "manual"]) {
   for (const f of readdirSync(dir)) {
     const txt = readFileSync(join(dir, f), "utf-8");
     const list = (f.endsWith(".json") ? JSON.parse(txt) : parseYaml(txt) ?? []) as { person: string; season: number }[];
-    for (const e of list) if ((!seasons || seasons.includes(e.season)) && /^\d{8}$/.test(e.person)) wanted.add(e.person);
+    for (const e of list) if ((!seasons || seasons.includes(e.season)) && (/^\d{8}$/.test(e.person) || links[e.person])) wanted.add(e.person);
   }
 }
 const todo = [...wanted].filter((id) => !done.has(id)).slice(0, limit);
@@ -54,7 +58,7 @@ async function main() {
   console.log(`対象 ${wanted.size} 人のうち未取得 ${todo.length} 人`);
   let n = 0;
   for (const id of todo) {
-    const res = await politeFetch(`https://npb.jp/bis/players/${id}.html`);
+    const res = await politeFetch(`https://npb.jp/bis/players/${links[id] ?? id}.html`);
     if (res.status !== 200) {
       done.set(id, { id, missing: true });
     } else {

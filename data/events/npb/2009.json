@@ -1,0 +1,3240 @@
+[
+ {
+  "id": "npb-2009-fa-declare-21225113",
+  "season": 2009,
+  "type": "fa_declare",
+  "person": "21225113",
+  "team": "tigers",
+  "pos": "内野手",
+  "note": "国内FA",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-fa-declare-21725111",
+  "season": 2009,
+  "type": "fa_declare",
+  "person": "21725111",
+  "team": "giants",
+  "pos": "投手",
+  "note": "海外FA",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-fa-declare-91095111",
+  "season": 2009,
+  "type": "fa_declare",
+  "person": "91095111",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "国内FA",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-fa-declare-91193886",
+  "season": 2009,
+  "type": "fa_declare",
+  "person": "91193886",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "海外FA",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-fa-declare-91993880",
+  "season": 2009,
+  "type": "fa_declare",
+  "person": "91993880",
+  "team": "marines",
+  "pos": "捕手",
+  "note": "海外FA",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "season": 2009,
+  "person": "21725111",
+  "team": "giants",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "id": "npb-2009-fa-move-21725111",
+  "type": "fa_move",
+  "toOrg": {
+   "name": "ニューヨーク・メッツ",
+   "kind": "overseas"
+  }
+ },
+ {
+  "season": 2009,
+  "person": "91193886",
+  "team": "swallows",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "id": "npb-2009-fa-move-91193886",
+  "type": "fa_move",
+  "toOrg": {
+   "name": "ニューヨーク・メッツ",
+   "kind": "overseas"
+  }
+ },
+ {
+  "id": "npb-2009-trade-11215110-20090305",
+  "season": 2009,
+  "date": "2009-03-05",
+  "type": "trade",
+  "person": "11215110",
+  "team": "tigers",
+  "toTeam": "marines",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-trade-61565110-20090305",
+  "season": 2009,
+  "date": "2009-03-05",
+  "type": "trade",
+  "person": "61565110",
+  "team": "marines",
+  "toTeam": "tigers",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-trade-21125110-20090327",
+  "season": 2009,
+  "date": "2009-03-27",
+  "type": "trade",
+  "person": "21125110",
+  "team": "eagles",
+  "toTeam": "swallows",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-trade-31233882-20090327",
+  "season": 2009,
+  "date": "2009-03-27",
+  "type": "trade",
+  "person": "31233882",
+  "team": "swallows",
+  "toTeam": "eagles",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-dev-released-xc7a2b8fa-20090408",
+  "season": 2009,
+  "date": "2009-04-08",
+  "type": "release",
+  "person": "xc7a2b8fa",
+  "team": "marines",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-33135118-20090629",
+  "season": 2009,
+  "date": "2009-06-29",
+  "type": "release",
+  "person": "33135118",
+  "team": "carp",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-trade-01205113-20090713",
+  "season": 2009,
+  "date": "2009-07-13",
+  "type": "trade",
+  "person": "01205113",
+  "team": "tigers",
+  "toTeam": "lions",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-trade-31435113-20090713",
+  "season": 2009,
+  "date": "2009-07-13",
+  "type": "trade",
+  "person": "31435113",
+  "team": "lions",
+  "toTeam": "tigers",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-63365118-20090803",
+  "season": 2009,
+  "date": "2009-08-03",
+  "type": "release",
+  "person": "63365118",
+  "team": "fighters",
+  "pos": "内野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-retired-61765119-20091009",
+  "season": 2009,
+  "date": "2009-10-09",
+  "type": "voluntary_retired",
+  "person": "61765119",
+  "team": "marines",
+  "pos": "捕手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-03105115-20091013",
+  "season": 2009,
+  "date": "2009-10-13",
+  "type": "release",
+  "person": "03105115",
+  "team": "lions",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-73175116-20091013",
+  "season": 2009,
+  "date": "2009-10-13",
+  "type": "release",
+  "person": "73175116",
+  "team": "lions",
+  "pos": "外野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-retired-01303886-20091013",
+  "season": 2009,
+  "date": "2009-10-13",
+  "type": "voluntary_retired",
+  "person": "01303886",
+  "team": "fighters",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-retired-51455115-20091013",
+  "season": 2009,
+  "date": "2009-10-13",
+  "type": "voluntary_retired",
+  "person": "51455115",
+  "team": "tigers",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-retired-61163888-20091013",
+  "season": 2009,
+  "date": "2009-10-13",
+  "type": "voluntary_retired",
+  "person": "61163888",
+  "team": "fighters",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-retired-91593882-20091013",
+  "season": 2009,
+  "date": "2009-10-13",
+  "type": "voluntary_retired",
+  "person": "91593882",
+  "team": "lions",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-retired-91793880-20091013",
+  "season": 2009,
+  "date": "2009-10-13",
+  "type": "voluntary_retired",
+  "person": "91793880",
+  "team": "tigers",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-61465119-20091014",
+  "season": 2009,
+  "date": "2009-10-14",
+  "type": "release",
+  "person": "61465119",
+  "team": "marines",
+  "pos": "外野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-83385116-20091019",
+  "season": 2009,
+  "date": "2009-10-19",
+  "type": "release",
+  "person": "83385116",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-43345116-20091020",
+  "season": 2009,
+  "date": "2009-10-20",
+  "type": "release",
+  "person": "43345116",
+  "team": "fighters",
+  "pos": "内野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-x46f59ef2-20091020",
+  "season": 2009,
+  "date": "2009-10-20",
+  "type": "release",
+  "person": "x46f59ef2",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-retired-31335119-20091023",
+  "season": 2009,
+  "date": "2009-10-23",
+  "type": "voluntary_retired",
+  "person": "31335119",
+  "team": "carp",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-retired-91095119-20091023",
+  "season": 2009,
+  "date": "2009-10-23",
+  "type": "voluntary_retired",
+  "person": "91095119",
+  "team": "carp",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-21825118-20091026",
+  "season": 2009,
+  "date": "2009-10-26",
+  "type": "release",
+  "person": "21825118",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-43145118-20091026",
+  "season": 2009,
+  "date": "2009-10-26",
+  "type": "release",
+  "person": "43145118",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-53555112-20091026",
+  "season": 2009,
+  "date": "2009-10-26",
+  "type": "release",
+  "person": "53555112",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-61865118-20091026",
+  "season": 2009,
+  "date": "2009-10-26",
+  "type": "release",
+  "person": "61865118",
+  "team": "baystars",
+  "pos": "外野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-dev-released-11415117-20091030",
+  "season": 2009,
+  "date": "2009-10-30",
+  "type": "release",
+  "person": "11415117",
+  "team": "tigers",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-dev-released-11815114-20091030",
+  "season": 2009,
+  "date": "2009-10-30",
+  "type": "release",
+  "person": "11815114",
+  "team": "hawks",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-dev-released-43545112-20091030",
+  "season": 2009,
+  "date": "2009-10-30",
+  "type": "release",
+  "person": "43545112",
+  "team": "giants",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-dev-released-x10200004-20091030",
+  "season": 2009,
+  "date": "2009-10-30",
+  "type": "release",
+  "person": "x10200004",
+  "team": "giants",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-dev-released-x401ec0b4-20091030",
+  "season": 2009,
+  "date": "2009-10-30",
+  "type": "release",
+  "person": "x401ec0b4",
+  "team": "marines",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-dev-released-x50462910-20091030",
+  "season": 2009,
+  "date": "2009-10-30",
+  "type": "release",
+  "person": "x50462910",
+  "team": "marines",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-dev-released-x9c638e45-20091030",
+  "season": 2009,
+  "date": "2009-10-30",
+  "type": "release",
+  "person": "x9c638e45",
+  "team": "tigers",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-dev-released-xa6e97b6e-20091030",
+  "season": 2009,
+  "date": "2009-10-30",
+  "type": "release",
+  "person": "xa6e97b6e",
+  "team": "carp",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-dev-released-xbc82b195-20091030",
+  "season": 2009,
+  "date": "2009-10-30",
+  "type": "release",
+  "person": "xbc82b195",
+  "team": "tigers",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-dev-released-xdc7b6c06-20091030",
+  "season": 2009,
+  "date": "2009-10-30",
+  "type": "release",
+  "person": "xdc7b6c06",
+  "team": "giants",
+  "pos": "捕手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-dev-released-xe30af793-20091030",
+  "season": 2009,
+  "date": "2009-10-30",
+  "type": "release",
+  "person": "xe30af793",
+  "team": "marines",
+  "pos": "外野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-dev-released-xebd5a993-20091030",
+  "season": 2009,
+  "date": "2009-10-30",
+  "type": "release",
+  "person": "xebd5a993",
+  "team": "swallows",
+  "pos": "捕手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-dev-released-xfb49310f-20091030",
+  "season": 2009,
+  "date": "2009-10-30",
+  "type": "release",
+  "person": "xfb49310f",
+  "team": "marines",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-53155114-20091102",
+  "season": 2009,
+  "date": "2009-11-02",
+  "type": "release",
+  "person": "53155114",
+  "team": "dragons",
+  "pos": "外野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-retired-53253868-20091104",
+  "season": 2009,
+  "date": "2009-11-04",
+  "type": "voluntary_retired",
+  "person": "53253868",
+  "team": "lions",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-93595118-20091112",
+  "season": 2009,
+  "date": "2009-11-12",
+  "type": "release",
+  "person": "93595118",
+  "team": "lions",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-retired-31233883-20091113",
+  "season": 2009,
+  "date": "2009-11-13",
+  "type": "voluntary_retired",
+  "person": "31233883",
+  "team": "giants",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-retired-51155112-20091113",
+  "season": 2009,
+  "date": "2009-11-13",
+  "type": "voluntary_retired",
+  "person": "51155112",
+  "team": "giants",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-trade-21125119-20091116",
+  "season": 2009,
+  "date": "2009-11-16",
+  "type": "trade",
+  "person": "21125119",
+  "team": "giants",
+  "toTeam": "fighters",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-trade-21025110-20091120",
+  "season": 2009,
+  "date": "2009-11-20",
+  "type": "trade",
+  "person": "21025110",
+  "team": "baystars",
+  "toTeam": "marines",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-trade-41545111-20091120",
+  "season": 2009,
+  "date": "2009-11-20",
+  "type": "trade",
+  "person": "41545111",
+  "team": "marines",
+  "toTeam": "baystars",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-trade-71775110-20091120",
+  "season": 2009,
+  "date": "2009-11-20",
+  "type": "trade",
+  "person": "71775110",
+  "team": "baystars",
+  "toTeam": "marines",
+  "pos": "捕手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-33535116-20091126",
+  "season": 2009,
+  "date": "2009-11-26",
+  "type": "release",
+  "person": "33535116",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-81885118-20091126",
+  "season": 2009,
+  "date": "2009-11-26",
+  "type": "release",
+  "person": "81885118",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-retired-11713880-20091126",
+  "season": 2009,
+  "date": "2009-11-26",
+  "type": "voluntary_retired",
+  "person": "11713880",
+  "team": "swallows",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-retired-31035111-20091126",
+  "season": 2009,
+  "date": "2009-11-26",
+  "type": "voluntary_retired",
+  "person": "31035111",
+  "team": "swallows",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-trade-01105119-20091126",
+  "season": 2009,
+  "date": "2009-11-26",
+  "type": "trade",
+  "person": "01105119",
+  "team": "fighters",
+  "toTeam": "baystars",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-trade-01905116-20091126",
+  "season": 2009,
+  "date": "2009-11-26",
+  "type": "trade",
+  "person": "01905116",
+  "team": "baystars",
+  "toTeam": "fighters",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-trade-41545117-20091126",
+  "season": 2009,
+  "date": "2009-11-26",
+  "type": "trade",
+  "person": "41545117",
+  "team": "baystars",
+  "toTeam": "fighters",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-trade-41745113-20091126",
+  "season": 2009,
+  "date": "2009-11-26",
+  "type": "trade",
+  "person": "41745113",
+  "team": "fighters",
+  "toTeam": "baystars",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-trade-71475110-20091126",
+  "season": 2009,
+  "date": "2009-11-26",
+  "type": "trade",
+  "person": "71475110",
+  "team": "baystars",
+  "toTeam": "fighters",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-trade-91495116-20091126",
+  "season": 2009,
+  "date": "2009-11-26",
+  "type": "trade",
+  "person": "91495116",
+  "team": "fighters",
+  "toTeam": "baystars",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-41845117-20091127",
+  "season": 2009,
+  "date": "2009-11-27",
+  "type": "release",
+  "person": "41845117",
+  "team": "eagles",
+  "pos": "内野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-retired-91293882-20091127",
+  "season": 2009,
+  "date": "2009-11-27",
+  "type": "voluntary_retired",
+  "person": "91293882",
+  "team": "baystars",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "season": 2009,
+  "person": "21225113",
+  "team": "tigers",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2009-11-30",
+  "id": "npb-2009-fa-move-21225113",
+  "type": "fa_move",
+  "toTeam": "swallows"
+ },
+ {
+  "season": 2009,
+  "person": "91993880",
+  "team": "marines",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2009-11-30",
+  "id": "npb-2009-fa-move-91993880",
+  "type": "fa_move",
+  "toTeam": "baystars"
+ },
+ {
+  "id": "npb-2009-released-01003888-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "01003888",
+  "team": "buffaloes",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-01103884-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "01103884",
+  "team": "eagles",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-01405110-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "01405110",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-01405112-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "01405112",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-01503880-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "01503880",
+  "team": "swallows",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-01505112-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "01505112",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-01605112-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "01605112",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-01805112-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "01805112",
+  "team": "lions",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-01805116-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "01805116",
+  "team": "carp",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-03305117-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "03305117",
+  "team": "buffaloes",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-11015110-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "11015110",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-11415111-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "11415111",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-11415113-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "11415113",
+  "team": "lions",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-11513888-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "11513888",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-11515113-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "11515113",
+  "team": "lions",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-11713886-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "11713886",
+  "team": "lions",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-11715114-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "11715114",
+  "team": "fighters",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-11915112-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "11915112",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-13315118-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "13315118",
+  "team": "marines",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-13515114-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "13515114",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-21123866-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "21123866",
+  "team": "dragons",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-21325111-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "21325111",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-21325119-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "21325119",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-21523886-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "21523886",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-23325114-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "23325114",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-23325118-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "23325118",
+  "team": "giants",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-31233887-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "31233887",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-31433868-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "31433868",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-31435111-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "31435111",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-31535115-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "31535115",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-31733881-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "31733881",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-31735117-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "31735117",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-31835117-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "31835117",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-31933882-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "31933882",
+  "team": "baystars",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-41045110-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "41045110",
+  "team": "eagles",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-41245111-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "41245111",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-41645117-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "41645117",
+  "team": "carp",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-41745115-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "41745115",
+  "team": "fighters",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-41845116-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "41845116",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-41845118-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "41845118",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-41945110-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "41945110",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-43345118-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "43345118",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-51155113-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "51155113",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-51455113-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "51455113",
+  "team": "lions",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-51553865-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "51553865",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-51753889-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "51753889",
+  "team": "buffaloes",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-53155118-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "53155118",
+  "team": "marines",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-53355118-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "53355118",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-53555118-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "53555118",
+  "team": "carp",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-61163881-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "61163881",
+  "team": "dragons",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-61163884-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "61163884",
+  "team": "tigers",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-61965119-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "61965119",
+  "team": "dragons",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-63165116-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "63165116",
+  "team": "fighters",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-63165118-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "63165118",
+  "team": "tigers",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-71075113-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "71075113",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-71275111-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "71275111",
+  "team": "hawks",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-71375119-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "71375119",
+  "team": "dragons",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-71573889-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "71573889",
+  "team": "baystars",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-71775114-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "71775114",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-73375114-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "73375114",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-73375116-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "73375116",
+  "team": "tigers",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-81083888-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "81083888",
+  "team": "swallows",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-81085111-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "81085111",
+  "team": "tigers",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-81583864-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "81583864",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-81583866-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "81583866",
+  "team": "carp",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-81685116-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "81685116",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-81983880-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "81983880",
+  "team": "hawks",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-83185116-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "83185116",
+  "team": "dragons",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-83385113-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "83385113",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-91295112-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "91295112",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-91495111-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "91495111",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-91595119-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "91595119",
+  "team": "baystars",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-91693882-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "91693882",
+  "team": "buffaloes",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-91795113-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "91795113",
+  "team": "buffaloes",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-91895112-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "91895112",
+  "team": "eagles",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-91895115-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "91895115",
+  "team": "eagles",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-91895116-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "91895116",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-91895118-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "91895118",
+  "team": "hawks",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-93195113-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "93195113",
+  "team": "carp",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-93195118-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "93195118",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-x0ed911c3-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "x0ed911c3",
+  "team": "swallows",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-x4fefa6a7-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "x4fefa6a7",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-x94bda293-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "x94bda293",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-x995f4358-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "x995f4358",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-xc7c9ba6e-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "xc7c9ba6e",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-xd06ffe93-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "xd06ffe93",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-xd8814667-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "xd8814667",
+  "team": "hawks",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-xdc28ee29-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "xdc28ee29",
+  "team": "giants",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-xe7873e7b-20091202",
+  "season": 2009,
+  "date": "2009-12-02",
+  "type": "release",
+  "person": "xe7873e7b",
+  "team": "tigers",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-trade-71775111-20091207",
+  "season": 2009,
+  "date": "2009-12-07",
+  "type": "trade",
+  "person": "71775111",
+  "team": "buffaloes",
+  "toTeam": "giants",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-trade-71775117-20091207",
+  "season": 2009,
+  "date": "2009-12-07",
+  "type": "trade",
+  "person": "71775117",
+  "team": "giants",
+  "toTeam": "buffaloes",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "season": 2009,
+  "person": "91095111",
+  "team": "fighters",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2009-12-11",
+  "id": "npb-2009-fa-move-91095111",
+  "type": "fa_move",
+  "toTeam": "giants"
+ },
+ {
+  "id": "npb-2009-released-73175118-20091214",
+  "season": 2009,
+  "date": "2009-12-14",
+  "type": "release",
+  "person": "73175118",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "契約保留権放棄",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-trade-91295115-20091218",
+  "season": 2009,
+  "date": "2009-12-18",
+  "type": "trade",
+  "person": "91295115",
+  "team": "marines",
+  "toTeam": "baystars",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-retired-91195113-20091224",
+  "season": 2009,
+  "date": "2009-12-24",
+  "type": "voluntary_retired",
+  "person": "91195113",
+  "team": "tigers",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2009-released-03105116-20100120",
+  "season": 2009,
+  "date": "2010-01-20",
+  "type": "release",
+  "person": "03105116",
+  "team": "carp",
+  "pos": "投手",
+  "note": "契約保留権放棄",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2009/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ }
+]

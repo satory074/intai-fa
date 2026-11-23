@@ -1,0 +1,3518 @@
+[
+ {
+  "id": "npb-2007-fa-declare-01103888",
+  "season": 2007,
+  "type": "fa_declare",
+  "person": "01103888",
+  "team": "carp",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-fa-declare-21523884",
+  "season": 2007,
+  "type": "fa_declare",
+  "person": "21523884",
+  "team": "carp",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-fa-declare-31133885",
+  "season": 2007,
+  "type": "fa_declare",
+  "person": "31133885",
+  "team": "swallows",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-fa-declare-31433884",
+  "season": 2007,
+  "type": "fa_declare",
+  "person": "31433884",
+  "team": "lions",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-fa-declare-41943880",
+  "season": 2007,
+  "type": "fa_declare",
+  "person": "41943880",
+  "team": "eagles",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-fa-declare-61563888",
+  "season": 2007,
+  "type": "fa_declare",
+  "person": "61563888",
+  "team": "marines",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-fa-declare-61963888",
+  "season": 2007,
+  "type": "fa_declare",
+  "person": "61963888",
+  "team": "dragons",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-fa-declare-71273882",
+  "season": 2007,
+  "type": "fa_declare",
+  "person": "71273882",
+  "team": "marines",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-fa-declare-81283883",
+  "season": 2007,
+  "type": "fa_declare",
+  "person": "81283883",
+  "team": "tigers",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "season": 2007,
+  "person": "21523884",
+  "team": "carp",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "id": "npb-2007-fa-move-21523884",
+  "type": "fa_move",
+  "toOrg": {
+   "name": "ロサンゼルス・ドジャース",
+   "kind": "overseas"
+  }
+ },
+ {
+  "season": 2007,
+  "person": "41943880",
+  "team": "eagles",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "id": "npb-2007-fa-move-41943880",
+  "type": "fa_move",
+  "toOrg": {
+   "name": "テキサス・レンジャーズ",
+   "kind": "overseas"
+  }
+ },
+ {
+  "season": 2007,
+  "person": "61563888",
+  "team": "marines",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "id": "npb-2007-fa-move-61563888",
+  "type": "fa_move",
+  "toOrg": {
+   "name": "クリーブランド・インディアンス",
+   "kind": "overseas"
+  }
+ },
+ {
+  "season": 2007,
+  "person": "61963888",
+  "team": "dragons",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "id": "npb-2007-fa-move-61963888",
+  "type": "fa_move",
+  "toOrg": {
+   "name": "シカゴ・カブス",
+   "kind": "overseas"
+  }
+ },
+ {
+  "season": 2007,
+  "person": "71273882",
+  "team": "marines",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "id": "npb-2007-fa-move-71273882",
+  "type": "fa_move",
+  "toOrg": {
+   "name": "カンザスシティー・ロイヤルズ",
+   "kind": "overseas"
+  }
+ },
+ {
+  "id": "npb-2007-trade-41343888-20070323",
+  "season": 2007,
+  "date": "2007-03-23",
+  "type": "trade",
+  "person": "41343888",
+  "team": "tigers",
+  "toTeam": "fighters",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-trade-61565111-20070323",
+  "season": 2007,
+  "date": "2007-03-23",
+  "type": "trade",
+  "person": "61565111",
+  "team": "fighters",
+  "toTeam": "tigers",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-trade-21525113-20070403",
+  "season": 2007,
+  "date": "2007-04-03",
+  "type": "trade",
+  "person": "21525113",
+  "team": "marines",
+  "toTeam": "buffaloes",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-trade-21423886-20070521",
+  "season": 2007,
+  "date": "2007-05-21",
+  "type": "trade",
+  "person": "21423886",
+  "team": "carp",
+  "toTeam": "tigers",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-trade-61565115-20070521",
+  "season": 2007,
+  "date": "2007-05-21",
+  "type": "trade",
+  "person": "61565115",
+  "team": "tigers",
+  "toTeam": "carp",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-x185c94c4-20070614",
+  "season": 2007,
+  "date": "2007-06-14",
+  "type": "release",
+  "person": "x185c94c4",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-trade-21325119-20070628",
+  "season": 2007,
+  "date": "2007-06-28",
+  "type": "trade",
+  "person": "21325119",
+  "team": "buffaloes",
+  "toTeam": "fighters",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-trade-61563886-20070628",
+  "season": 2007,
+  "date": "2007-06-28",
+  "type": "trade",
+  "person": "61563886",
+  "team": "fighters",
+  "toTeam": "buffaloes",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-trade-71273885-20070628",
+  "season": 2007,
+  "date": "2007-06-28",
+  "type": "trade",
+  "person": "71273885",
+  "team": "buffaloes",
+  "toTeam": "fighters",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-trade-91795113-20070628",
+  "season": 2007,
+  "date": "2007-06-28",
+  "type": "trade",
+  "person": "91795113",
+  "team": "fighters",
+  "toTeam": "buffaloes",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-trade-11013882-20070629",
+  "season": 2007,
+  "date": "2007-06-29",
+  "type": "trade",
+  "person": "11013882",
+  "team": "marines",
+  "toTeam": "buffaloes",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-trade-51653860-20070629",
+  "season": 2007,
+  "date": "2007-06-29",
+  "type": "trade",
+  "person": "51653860",
+  "team": "buffaloes",
+  "toTeam": "marines",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-41645119-20070724",
+  "season": 2007,
+  "date": "2007-07-24",
+  "type": "release",
+  "person": "41645119",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-83385114-20070823",
+  "season": 2007,
+  "date": "2007-08-23",
+  "type": "release",
+  "person": "83385114",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-33535114-20070827",
+  "season": 2007,
+  "date": "2007-08-27",
+  "type": "release",
+  "person": "33535114",
+  "team": "fighters",
+  "pos": "内野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-xec78e6c1-20070831",
+  "season": 2007,
+  "date": "2007-08-31",
+  "type": "release",
+  "person": "xec78e6c1",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-63165114-20071018",
+  "season": 2007,
+  "date": "2007-10-18",
+  "type": "release",
+  "person": "63165114",
+  "team": "lions",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-73175112-20071018",
+  "season": 2007,
+  "date": "2007-10-18",
+  "type": "release",
+  "person": "73175112",
+  "team": "lions",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-retired-91093881-20071019",
+  "season": 2007,
+  "date": "2007-10-19",
+  "type": "voluntary_retired",
+  "person": "91093881",
+  "team": "hawks",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-retired-11913882-20071024",
+  "season": 2007,
+  "date": "2007-10-24",
+  "type": "voluntary_retired",
+  "person": "11913882",
+  "team": "tigers",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-trade-11013889-20071029",
+  "season": 2007,
+  "date": "2007-10-29",
+  "type": "trade",
+  "person": "11013889",
+  "team": "buffaloes",
+  "toTeam": "hawks",
+  "pos": "捕手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-retired-31133889-20071030",
+  "season": 2007,
+  "date": "2007-10-30",
+  "type": "voluntary_retired",
+  "person": "31133889",
+  "team": "lions",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-retired-31533887-20071030",
+  "season": 2007,
+  "date": "2007-10-30",
+  "type": "voluntary_retired",
+  "person": "31533887",
+  "team": "lions",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-dev-released-x19433e3b-20071031",
+  "season": 2007,
+  "date": "2007-10-31",
+  "type": "release",
+  "person": "x19433e3b",
+  "team": "carp",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-dev-released-x243362ed-20071031",
+  "season": 2007,
+  "date": "2007-10-31",
+  "type": "release",
+  "person": "x243362ed",
+  "team": "eagles",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-dev-released-x35410ec1-20071031",
+  "season": 2007,
+  "date": "2007-10-31",
+  "type": "release",
+  "person": "x35410ec1",
+  "team": "dragons",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-dev-released-x3a9616ab-20071031",
+  "season": 2007,
+  "date": "2007-10-31",
+  "type": "release",
+  "person": "x3a9616ab",
+  "team": "giants",
+  "pos": "外野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-dev-released-x3d3a09f8-20071031",
+  "season": 2007,
+  "date": "2007-10-31",
+  "type": "release",
+  "person": "x3d3a09f8",
+  "team": "dragons",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-dev-released-x5f8ee9cd-20071031",
+  "season": 2007,
+  "date": "2007-10-31",
+  "type": "release",
+  "person": "x5f8ee9cd",
+  "team": "giants",
+  "pos": "外野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-dev-released-x74730b14-20071031",
+  "season": 2007,
+  "date": "2007-10-31",
+  "type": "release",
+  "person": "x74730b14",
+  "team": "dragons",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-dev-released-x8a27717b-20071031",
+  "season": 2007,
+  "date": "2007-10-31",
+  "type": "release",
+  "person": "x8a27717b",
+  "team": "giants",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-dev-released-xdc7b6c06-20071031",
+  "season": 2007,
+  "date": "2007-10-31",
+  "type": "release",
+  "person": "xdc7b6c06",
+  "team": "giants",
+  "pos": "捕手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-dev-released-xe3da2011-20071031",
+  "season": 2007,
+  "date": "2007-10-31",
+  "type": "release",
+  "person": "xe3da2011",
+  "team": "giants",
+  "pos": "外野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-dev-released-xfe519b38-20071031",
+  "season": 2007,
+  "date": "2007-10-31",
+  "type": "release",
+  "person": "xfe519b38",
+  "team": "buffaloes",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-03305114-20071031",
+  "season": 2007,
+  "date": "2007-10-31",
+  "type": "release",
+  "person": "03305114",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-retired-81383886-20071031",
+  "season": 2007,
+  "date": "2007-10-31",
+  "type": "voluntary_retired",
+  "person": "81383886",
+  "team": "giants",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-53755114-20071106",
+  "season": 2007,
+  "date": "2007-11-06",
+  "type": "release",
+  "person": "53755114",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-71675110-20071106",
+  "season": 2007,
+  "date": "2007-11-06",
+  "type": "release",
+  "person": "71675110",
+  "team": "eagles",
+  "pos": "内野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-trade-11415117-20071109",
+  "season": 2007,
+  "date": "2007-11-09",
+  "type": "trade",
+  "person": "11415117",
+  "team": "tigers",
+  "toTeam": "fighters",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-trade-71373880-20071109",
+  "season": 2007,
+  "date": "2007-11-09",
+  "type": "trade",
+  "person": "71373880",
+  "team": "fighters",
+  "toTeam": "tigers",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-33135114-20071115",
+  "season": 2007,
+  "date": "2007-11-15",
+  "type": "release",
+  "person": "33135114",
+  "team": "buffaloes",
+  "pos": "外野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-03505112-20071116",
+  "season": 2007,
+  "date": "2007-11-16",
+  "type": "release",
+  "person": "03505112",
+  "team": "marines",
+  "pos": "外野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-43145114-20071119",
+  "season": 2007,
+  "date": "2007-11-19",
+  "type": "release",
+  "person": "43145114",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-retired-11613881-20071121",
+  "season": 2007,
+  "date": "2007-11-21",
+  "type": "voluntary_retired",
+  "person": "11613881",
+  "team": "swallows",
+  "pos": "捕手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "season": 2007,
+  "person": "31133885",
+  "team": "swallows",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2007-11-26",
+  "id": "npb-2007-fa-move-31133885",
+  "type": "fa_move",
+  "toTeam": "lions"
+ },
+ {
+  "id": "npb-2007-retired-41743862-20071126",
+  "season": 2007,
+  "date": "2007-11-26",
+  "type": "voluntary_retired",
+  "person": "41743862",
+  "team": "fighters",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-retired-01105117-20071129",
+  "season": 2007,
+  "date": "2007-11-29",
+  "type": "voluntary_retired",
+  "person": "01105117",
+  "team": "baystars",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-retired-01705113-20071129",
+  "season": 2007,
+  "date": "2007-11-29",
+  "type": "voluntary_retired",
+  "person": "01705113",
+  "team": "baystars",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-retired-31335113-20071129",
+  "season": 2007,
+  "date": "2007-11-29",
+  "type": "voluntary_retired",
+  "person": "31335113",
+  "team": "baystars",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-retired-51255117-20071129",
+  "season": 2007,
+  "date": "2007-11-29",
+  "type": "voluntary_retired",
+  "person": "51255117",
+  "team": "baystars",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-retired-51553882-20071129",
+  "season": 2007,
+  "date": "2007-11-29",
+  "type": "voluntary_retired",
+  "person": "51553882",
+  "team": "baystars",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-01203886-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "01203886",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-01305112-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "01305112",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-01503880-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "01503880",
+  "team": "giants",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-01703883-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "01703883",
+  "team": "eagles",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-01903884-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "01903884",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-01905110-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "01905110",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-03105114-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "03105114",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-11213884-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "11213884",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-11415113-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "11415113",
+  "team": "giants",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-15313868-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "15313868",
+  "team": "swallows",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-21223882-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "21223882",
+  "team": "dragons",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-21323880-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "21323880",
+  "team": "lions",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-21425110-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "21425110",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-21625110-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "21625110",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-21723881-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "21723881",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-21825117-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "21825117",
+  "team": "tigers",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-21925115-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "21925115",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-31035115-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "31035115",
+  "team": "eagles",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-31135113-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "31135113",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-31233884-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "31233884",
+  "team": "lions",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-31533880-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "31533880",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-33335114-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "33335114",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-41045115-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "41045115",
+  "team": "eagles",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-41143888-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "41143888",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-41243868-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "41243868",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-41443886-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "41443886",
+  "team": "giants",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-41445115-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "41445115",
+  "team": "swallows",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-41643883-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "41643883",
+  "team": "buffaloes",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-41645113-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "41645113",
+  "team": "lions",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-41743888-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "41743888",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-43145112-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "43145112",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-43345113-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "43345113",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-43345114-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "43345114",
+  "team": "hawks",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-43545114-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "43545114",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-51055119-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "51055119",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-51253866-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "51253866",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-51353884-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "51353884",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-51553883-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "51553883",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-51653860-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "51653860",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-51753864-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "51753864",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-51755111-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "51755111",
+  "team": "giants",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-53355114-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "53355114",
+  "team": "hawks",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-61163880-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "61163880",
+  "team": "giants",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-61365110-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "61365110",
+  "team": "dragons",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-61365117-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "61365117",
+  "team": "hawks",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-61665110-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "61665110",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-63165113-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "63165113",
+  "team": "swallows",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-63463868-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "63463868",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-63565114-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "63565114",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-71175119-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "71175119",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-71273885-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "71273885",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-71573889-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "71573889",
+  "team": "hawks",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-71773888-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "71773888",
+  "team": "lions",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-73175114-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "73175114",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-73373881-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "73373881",
+  "team": "baystars",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-73575114-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "73575114",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-81085119-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "81085119",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-81185117-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "81185117",
+  "team": "hawks",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-81383885-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "81383885",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-81385111-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "81385111",
+  "team": "carp",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-81385113-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "81385113",
+  "team": "carp",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-81583888-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "81583888",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-81585117-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "81585117",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-81783880-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "81783880",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-81985117-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "81985117",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-83185112-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "83185112",
+  "team": "lions",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-83385113-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "83385113",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-91093888-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "91093888",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-91295117-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "91295117",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-91395111-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "91395111",
+  "team": "tigers",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-91593884-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "91593884",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-91893883-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "91893883",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-91895115-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "91895115",
+  "team": "fighters",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-91993886-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "91993886",
+  "team": "baystars",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-91993888-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "91993888",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-93395114-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "93395114",
+  "team": "giants",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-x0a9ba67b-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "x0a9ba67b",
+  "team": "lions",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-x0fab044a-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "x0fab044a",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-x34605f36-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "x34605f36",
+  "team": "lions",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-x34e35288-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "x34e35288",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-x4098500f-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "x4098500f",
+  "team": "buffaloes",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-x42ac54d0-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "x42ac54d0",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-x50262480-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "x50262480",
+  "team": "lions",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-x5a2f7e42-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "x5a2f7e42",
+  "team": "dragons",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-x737654e2-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "x737654e2",
+  "team": "tigers",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-xa4e5a53a-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "xa4e5a53a",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-xafecfd1d-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "xafecfd1d",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-xb19622b0-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "xb19622b0",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-xbe2c4546-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "xbe2c4546",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-xc33088b0-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "xc33088b0",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-xd7f2d516-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "xd7f2d516",
+  "team": "marines",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-xd892dbd6-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "xd892dbd6",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-xd96f8c14-20071130",
+  "season": 2007,
+  "date": "2007-11-30",
+  "type": "release",
+  "person": "xd96f8c14",
+  "team": "hawks",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-trade-01405111-20071203",
+  "season": 2007,
+  "date": "2007-12-03",
+  "type": "trade",
+  "person": "01405111",
+  "team": "tigers",
+  "toTeam": "buffaloes",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-trade-11013884-20071203",
+  "season": 2007,
+  "date": "2007-12-03",
+  "type": "trade",
+  "person": "11013884",
+  "team": "tigers",
+  "toTeam": "buffaloes",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-trade-51155117-20071203",
+  "season": 2007,
+  "date": "2007-12-03",
+  "type": "trade",
+  "person": "51155117",
+  "team": "buffaloes",
+  "toTeam": "tigers",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-trade-61265115-20071203",
+  "season": 2007,
+  "date": "2007-12-03",
+  "type": "trade",
+  "person": "61265115",
+  "team": "buffaloes",
+  "toTeam": "tigers",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "season": 2007,
+  "person": "01103888",
+  "team": "carp",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2007-12-11",
+  "id": "npb-2007-fa-move-01103888",
+  "type": "fa_move",
+  "toTeam": "tigers"
+ },
+ {
+  "id": "npb-2007-trade-01705117-20071211",
+  "season": 2007,
+  "date": "2007-12-11",
+  "type": "trade",
+  "person": "01705117",
+  "team": "baystars",
+  "toTeam": "carp",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-trade-91393888-20071211",
+  "season": 2007,
+  "date": "2007-12-11",
+  "type": "trade",
+  "person": "91393888",
+  "team": "carp",
+  "toTeam": "baystars",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-trade-91595110-20071211",
+  "season": 2007,
+  "date": "2007-12-11",
+  "type": "trade",
+  "person": "91595110",
+  "team": "baystars",
+  "toTeam": "carp",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-trade-01003888-20071221",
+  "season": 2007,
+  "date": "2007-12-21",
+  "type": "trade",
+  "person": "01003888",
+  "team": "baystars",
+  "toTeam": "buffaloes",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-trade-41345117-20071221",
+  "season": 2007,
+  "date": "2007-12-21",
+  "type": "trade",
+  "person": "41345117",
+  "team": "buffaloes",
+  "toTeam": "baystars",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-retired-x1a09ef00-20071225",
+  "season": 2007,
+  "date": "2007-12-25",
+  "type": "voluntary_retired",
+  "person": "x1a09ef00",
+  "team": "dragons",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "season": 2007,
+  "person": "31433884",
+  "team": "lions",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2007-12-26",
+  "id": "npb-2007-fa-move-31433884",
+  "type": "fa_move",
+  "toTeam": "dragons"
+ },
+ {
+  "id": "npb-2007-facompensation-41943889-20080108",
+  "season": 2007,
+  "date": "2008-01-08",
+  "type": "fa_compensation",
+  "person": "41943889",
+  "team": "lions",
+  "toTeam": "swallows",
+  "pos": "外野手",
+  "note": "石井一久選手のFA移籍に伴う契約譲渡",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-facompensation-51155110-20080110",
+  "season": 2007,
+  "date": "2008-01-10",
+  "type": "fa_compensation",
+  "person": "51155110",
+  "team": "tigers",
+  "toTeam": "carp",
+  "pos": "外野手",
+  "note": "新井貴浩選手のFA移籍に伴う契約譲渡",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-trade-41745113-20080118",
+  "season": 2007,
+  "date": "2008-01-18",
+  "type": "trade",
+  "person": "41745113",
+  "team": "swallows",
+  "toTeam": "fighters",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-trade-51255110-20080118",
+  "season": 2007,
+  "date": "2008-01-18",
+  "type": "trade",
+  "person": "51255110",
+  "team": "fighters",
+  "toTeam": "swallows",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-trade-81083882-20080118",
+  "season": 2007,
+  "date": "2008-01-18",
+  "type": "trade",
+  "person": "81083882",
+  "team": "swallows",
+  "toTeam": "fighters",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-trade-81585112-20080118",
+  "season": 2007,
+  "date": "2008-01-18",
+  "type": "trade",
+  "person": "81585112",
+  "team": "fighters",
+  "toTeam": "swallows",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-trade-91095111-20080118",
+  "season": 2007,
+  "date": "2008-01-18",
+  "type": "trade",
+  "person": "91095111",
+  "team": "swallows",
+  "toTeam": "fighters",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-trade-91395119-20080118",
+  "season": 2007,
+  "date": "2008-01-18",
+  "type": "trade",
+  "person": "91395119",
+  "team": "fighters",
+  "toTeam": "swallows",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "season": 2007,
+  "person": "81283883",
+  "team": "tigers",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2008-01-22",
+  "id": "npb-2007-fa-stay-81283883",
+  "type": "fa_stay"
+ },
+ {
+  "id": "npb-2007-facompensation-11515113-20080122",
+  "season": 2007,
+  "date": "2008-01-22",
+  "type": "fa_compensation",
+  "person": "11515113",
+  "team": "dragons",
+  "toTeam": "lions",
+  "pos": "投手",
+  "note": "和田一浩選手のFA移籍に伴う契約譲渡",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2007-released-23525114-20080125",
+  "season": 2007,
+  "date": "2008-01-25",
+  "type": "release",
+  "person": "23525114",
+  "team": "giants",
+  "pos": "投手",
+  "note": "契約保留権放棄",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2007/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ }
+]

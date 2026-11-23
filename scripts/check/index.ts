@@ -12,6 +12,11 @@
  *   5. 所属の年が 1936〜名簿の年に収まり、from ≤ to
  *   6. 同じ年に選手として 2 球団に在籍していない（その年に一方が終わり他方が始まる移籍は除く。
  *      名簿は「80,81南海,81～83西武」のように「途」を付けずに年内の移籍を書くことがある）
+ *   7. 出来事の球団がその年度（か翌年）に存在する（公示の球団コードの読み違いを捕まえる。
+ *      2004 年オフの近鉄→楽天のように、翌年にできた球団への移籍があるので翌年まで許す）
+ *   8. data/name-aliases.yaml の人物が実在し、同じ表記が 2 回出ない
+ *   9. data/npb-id-links.json（名簿のリンク無しの人 → NPB ID）の人物が実在し、同じ NPB ID が 2 人に付かない。
+ *      その NPB ID の人が別人として people-extra にいない（同じ人が 2 人に分かれていない）
  * 警告だけ（件数の想定）:
  *   - NPB 公示のある年度（2003〜）で、自由契約の件数が 50〜450 に収まる
  * 報告だけ:
@@ -21,7 +26,7 @@ import { existsSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { parse } from "yaml";
 import { eventsFileSchema, personSchema, stintSchema, type IntaiEvent, type Person, type Stint } from "../../src/lib/schema";
-import { franchises } from "../../src/lib/teams";
+import { franchises, franchisesIn } from "../../src/lib/teams";
 import { gateEvent, loadUrlStatus, type UrlStatus } from "../../src/lib/gate";
 import { UA, todayJst } from "../lib/fetch";
 
@@ -74,6 +79,40 @@ for (const { e, file } of events) {
   if (e.date && e.date > today) errors.push(`${where}: 日付 ${e.date} が未来`);
   if (e.date && (e.date < `${e.season}-01-01` || e.date > `${e.season + 1}-12-31`)) errors.push(`${where}: 日付 ${e.date} が ${e.season} 年度の範囲外`);
   if (e.season > Number(today.slice(0, 4))) errors.push(`${where}: 年度 ${e.season} が未来`);
+}
+
+// ---------- 7. その年度に存在する球団 ----------
+const existsIn = new Map<number, Set<string>>();
+const teamsIn = (y: number) => existsIn.get(y) ?? existsIn.set(y, new Set(franchisesIn(y).map((f) => f.id))).get(y)!;
+for (const { e, file } of events) {
+  for (const t of [e.team, e.toTeam]) {
+    if (t && teamIds.has(t) && !teamsIn(e.season).has(t) && !teamsIn(e.season + 1).has(t))
+      errors.push(`${file} ${e.id}: 球団 ${t} は ${e.season} 年度に存在しない`);
+  }
+}
+
+// ---------- 8. 名前の対応表 ----------
+const aliasPath = join(data, "name-aliases.yaml");
+if (existsSync(aliasPath)) {
+  const seenAlias = new Set<string>();
+  for (const a of (parse(readFileSync(aliasPath, "utf-8")) ?? []) as { name: string; person: string }[]) {
+    if (!peopleMap.has(String(a.person))) errors.push(`name-aliases.yaml: ${a.name} の人物 ${a.person} がいない`);
+    if (seenAlias.has(a.name)) errors.push(`name-aliases.yaml: ${a.name} が 2 回出る`);
+    seenAlias.add(a.name);
+  }
+}
+
+// ---------- 9. NPB ID の対応 ----------
+const linkPath = join(data, "npb-id-links.json");
+if (existsSync(linkPath)) {
+  const links = JSON.parse(readFileSync(linkPath, "utf-8")) as Record<string, string>;
+  const byNpb = new Map<string, string>();
+  for (const [x, n] of Object.entries(links)) {
+    if (!peopleMap.has(x)) errors.push(`npb-id-links.json: 人物 ${x} がいない`);
+    if (byNpb.has(n)) errors.push(`npb-id-links.json: NPB ID ${n} が ${byNpb.get(n)} と ${x} の 2 人に付いている`);
+    byNpb.set(n, x);
+    if (peopleMap.has(n)) errors.push(`npb-id-links.json: NPB ID ${n} の人が別に ${peopleMap.get(n)!.name} としている（${x} と同じ人）`);
+  }
 }
 
 // ---------- 5・6. 所属 ----------

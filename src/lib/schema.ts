@@ -23,6 +23,8 @@ export const franchiseSchema = z.object({
   full: z.string().optional(),
   /** NPB 公示 URL の球団コード（registered_g.html の g） */
   urlCode: z.string().optional(),
+  /** 過去の公示 URL の球団コード（横浜ベイスターズの yb、オリックスの bs・bw、近鉄の bu など） */
+  oldUrlCodes: z.array(z.string()).optional(),
   color: z.string().regex(/^#[0-9A-Fa-f]{6}$/),
   colorDark: z.string().regex(/^#[0-9A-Fa-f]{6}$/),
   eras: z.array(eraSchema).min(1),

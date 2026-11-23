@@ -7,6 +7,7 @@
 # - 色は球団名の横の小さな印と経歴の帯だけに使う（背景には使わない）。現行 12 球団の色は
 #   basecamp/app/lib/npb-teams.ts・globals.css と同じ値。消滅球団は中立の色。
 # - 現行 12 球団の full / urlCode は NPB 公示の表記（例: 読売ジャイアンツ, registered_g.html の g）。
+#   oldUrlCodes は過去の公示 URL の球団コード（2003〜2015 年度ごろ: 横浜 yb、オリックス bs・bw、近鉄 bu）。
 franchises:
   - id: giants
     league: central
@@ -45,6 +46,7 @@ franchises:
     league: central
     full: 横浜DeNAベイスターズ
     urlCode: db
+    oldUrlCodes: [yb]
     color: "#0052A5"
     colorDark: "#0064C9"
     eras:
@@ -120,6 +122,7 @@ franchises:
     league: pacific
     full: オリックス・バファローズ
     urlCode: b
+    oldUrlCodes: [bs, bw]
     color: "#B48A38"
     colorDark: "#B48A38"
     eras:
@@ -150,6 +153,7 @@ franchises:
   # ---- 消滅した系譜（中立の色） ----
   - id: kintetsu
     league: pacific
+    oldUrlCodes: [bu]
     color: "#7A6F66"
     colorDark: "#A89C92"
     eras:

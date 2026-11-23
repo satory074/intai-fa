@@ -1,0 +1,5193 @@
+[
+ {
+  "id": "npb-2013-fa-declare-01305110",
+  "season": 2013,
+  "type": "fa_declare",
+  "person": "01305110",
+  "team": "lions",
+  "pos": "内野手",
+  "note": "国内FA",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-fa-declare-11515115",
+  "season": 2013,
+  "type": "fa_declare",
+  "person": "11515115",
+  "team": "carp",
+  "pos": "投手",
+  "note": "国内FA",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-fa-declare-21323884",
+  "season": 2013,
+  "type": "fa_declare",
+  "person": "21323884",
+  "team": "giants",
+  "pos": "内野手",
+  "note": "海外FA",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-fa-declare-31635110",
+  "season": 2013,
+  "type": "fa_declare",
+  "person": "31635110",
+  "team": "lions",
+  "pos": "投手",
+  "note": "国内FA",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-fa-declare-51055110",
+  "season": 2013,
+  "type": "fa_declare",
+  "person": "51055110",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "国内FA",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-fa-declare-61565110",
+  "season": 2013,
+  "type": "fa_declare",
+  "person": "61565110",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "国内FA",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-fa-declare-71275117",
+  "season": 2013,
+  "type": "fa_declare",
+  "person": "71275117",
+  "team": "fighters",
+  "pos": "捕手",
+  "note": "国内FA",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-fa-declare-71475113",
+  "season": 2013,
+  "type": "fa_declare",
+  "person": "71475113",
+  "team": "hawks",
+  "pos": "捕手",
+  "note": "国内FA",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-trade-81185114-20130312",
+  "season": 2013,
+  "date": "2013-03-12",
+  "type": "trade",
+  "person": "81185114",
+  "team": "dragons",
+  "toTeam": "eagles",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-trade-31535110-20130325",
+  "season": 2013,
+  "date": "2013-03-25",
+  "type": "trade",
+  "person": "31535110",
+  "team": "swallows",
+  "toTeam": "marines",
+  "pos": "捕手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-trade-71975119-20130325",
+  "season": 2013,
+  "date": "2013-03-25",
+  "type": "trade",
+  "person": "71975119",
+  "team": "marines",
+  "toTeam": "swallows",
+  "pos": "捕手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-03305135-20130408",
+  "season": 2013,
+  "date": "2013-04-08",
+  "type": "release",
+  "person": "03305135",
+  "team": "dragons",
+  "pos": "外野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-trade-51155114-20130501",
+  "season": 2013,
+  "date": "2013-05-01",
+  "type": "trade",
+  "person": "51155114",
+  "team": "carp",
+  "toTeam": "giants",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-trade-91595131-20130501",
+  "season": 2013,
+  "date": "2013-05-01",
+  "type": "trade",
+  "person": "91595131",
+  "team": "giants",
+  "toTeam": "carp",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-trade-61565112-20130523",
+  "season": 2013,
+  "date": "2013-05-23",
+  "type": "trade",
+  "person": "61565112",
+  "team": "tigers",
+  "toTeam": "lions",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-trade-61765111-20130523",
+  "season": 2013,
+  "date": "2013-05-23",
+  "type": "trade",
+  "person": "61765111",
+  "team": "lions",
+  "toTeam": "tigers",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-43145131-20130604",
+  "season": 2013,
+  "date": "2013-06-04",
+  "type": "release",
+  "person": "43145131",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-x1f9f9da5-20130618",
+  "season": 2013,
+  "date": "2013-06-18",
+  "type": "release",
+  "person": "x1f9f9da5",
+  "team": "eagles",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-x2f70e119-20130618",
+  "season": 2013,
+  "date": "2013-06-18",
+  "type": "release",
+  "person": "x2f70e119",
+  "team": "eagles",
+  "pos": "外野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-91895117-20130628",
+  "season": 2013,
+  "date": "2013-06-28",
+  "type": "release",
+  "person": "91895117",
+  "team": "lions",
+  "pos": "内野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-trade-31535117-20130709",
+  "season": 2013,
+  "date": "2013-07-09",
+  "type": "trade",
+  "person": "31535117",
+  "team": "lions",
+  "toTeam": "baystars",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-trade-81885114-20130709",
+  "season": 2013,
+  "date": "2013-07-09",
+  "type": "trade",
+  "person": "81885114",
+  "team": "baystars",
+  "toTeam": "lions",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-73575135-20130716",
+  "season": 2013,
+  "date": "2013-07-16",
+  "type": "release",
+  "person": "73575135",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-trade-01405111-20130726",
+  "season": 2013,
+  "date": "2013-07-26",
+  "type": "trade",
+  "person": "01405111",
+  "team": "buffaloes",
+  "toTeam": "hawks",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-trade-51555112-20130726",
+  "season": 2013,
+  "date": "2013-07-26",
+  "type": "trade",
+  "person": "51555112",
+  "team": "hawks",
+  "toTeam": "buffaloes",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-21825116-20130805",
+  "season": 2013,
+  "date": "2013-08-05",
+  "type": "release",
+  "person": "21825116",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-x306f6c36-20130805",
+  "season": 2013,
+  "date": "2013-08-05",
+  "type": "release",
+  "person": "x306f6c36",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-x3147c313-20130808",
+  "season": 2013,
+  "date": "2013-08-08",
+  "type": "release",
+  "person": "x3147c313",
+  "team": "lions",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-73175135-20130819",
+  "season": 2013,
+  "date": "2013-08-19",
+  "type": "release",
+  "person": "73175135",
+  "team": "carp",
+  "pos": "外野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-83385113-20130902",
+  "season": 2013,
+  "date": "2013-09-02",
+  "type": "release",
+  "person": "83385113",
+  "team": "lions",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-91895137-20130909",
+  "season": 2013,
+  "date": "2013-09-09",
+  "type": "release",
+  "person": "91895137",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-retired-21223886-20131010",
+  "season": 2013,
+  "date": "2013-10-10",
+  "type": "voluntary_retired",
+  "person": "21223886",
+  "team": "giants",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-11815137-20131011",
+  "season": 2013,
+  "date": "2013-10-11",
+  "type": "release",
+  "person": "11815137",
+  "team": "lions",
+  "pos": "外野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-13115135-20131011",
+  "season": 2013,
+  "date": "2013-10-11",
+  "type": "release",
+  "person": "13115135",
+  "team": "lions",
+  "pos": "内野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-63165137-20131021",
+  "season": 2013,
+  "date": "2013-10-21",
+  "type": "release",
+  "person": "63165137",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-retired-61563880-20131022",
+  "season": 2013,
+  "date": "2013-10-22",
+  "type": "voluntary_retired",
+  "person": "61563880",
+  "team": "lions",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-retired-31433885-20131023",
+  "season": 2013,
+  "date": "2013-10-23",
+  "type": "voluntary_retired",
+  "person": "31433885",
+  "team": "tigers",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-03305117-20131025",
+  "season": 2013,
+  "date": "2013-10-25",
+  "type": "release",
+  "person": "03305117",
+  "team": "buffaloes",
+  "pos": "内野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-23325137-20131025",
+  "season": 2013,
+  "date": "2013-10-25",
+  "type": "release",
+  "person": "23325137",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-73175137-20131025",
+  "season": 2013,
+  "date": "2013-10-25",
+  "type": "release",
+  "person": "73175137",
+  "team": "buffaloes",
+  "pos": "外野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-01105118-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "01105118",
+  "team": "eagles",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-11215112-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "11215112",
+  "team": "carp",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-23525133-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "23525133",
+  "team": "baystars",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-31135116-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "31135116",
+  "team": "dragons",
+  "pos": "外野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-31635133-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "31635133",
+  "team": "giants",
+  "pos": "外野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-41645116-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "41645116",
+  "team": "buffaloes",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-41745118-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "41745118",
+  "team": "hawks",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-51055133-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "51055133",
+  "team": "tigers",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-51755118-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "51755118",
+  "team": "carp",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-61065131-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "61065131",
+  "team": "tigers",
+  "pos": "捕手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-81685135-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "81685135",
+  "team": "carp",
+  "pos": "外野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-x06dcf8ae-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "x06dcf8ae",
+  "team": "giants",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-x081e30e3-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "x081e30e3",
+  "team": "tigers",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-x105e6377-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "x105e6377",
+  "team": "carp",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-x171ea389-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "x171ea389",
+  "team": "hawks",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-x2926fb88-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "x2926fb88",
+  "team": "carp",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-x2d95de74-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "x2d95de74",
+  "team": "hawks",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-x44550103-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "x44550103",
+  "team": "giants",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-x468804e3-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "x468804e3",
+  "team": "hawks",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-x57bf1379-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "x57bf1379",
+  "team": "hawks",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-x5802d5ed-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "x5802d5ed",
+  "team": "giants",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-x5ae0a4f8-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "x5ae0a4f8",
+  "team": "carp",
+  "pos": "外野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-x5b8ae0cc-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "x5b8ae0cc",
+  "team": "hawks",
+  "pos": "外野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-x680ae506-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "x680ae506",
+  "team": "lions",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-x85606343-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "x85606343",
+  "team": "dragons",
+  "pos": "外野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-x88053c18-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "x88053c18",
+  "team": "giants",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-x883ef391-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "x883ef391",
+  "team": "buffaloes",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-x8a11f9db-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "x8a11f9db",
+  "team": "buffaloes",
+  "pos": "外野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-x95c8d280-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "x95c8d280",
+  "team": "hawks",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-x9d40273f-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "x9d40273f",
+  "team": "carp",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-xbd2d2516-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "xbd2d2516",
+  "team": "baystars",
+  "pos": "捕手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-xbdd34cdb-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "xbdd34cdb",
+  "team": "carp",
+  "pos": "捕手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-xc2a9c046-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "xc2a9c046",
+  "team": "hawks",
+  "pos": "捕手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-xc6c79d27-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "xc6c79d27",
+  "team": "tigers",
+  "pos": "外野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-xc80b9362-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "xc80b9362",
+  "team": "eagles",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-xcb5f79d9-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "xcb5f79d9",
+  "team": "swallows",
+  "pos": "外野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-xd202cb4b-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "xd202cb4b",
+  "team": "carp",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-xd48a847d-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "xd48a847d",
+  "team": "baystars",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-xd5fdf8c8-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "xd5fdf8c8",
+  "team": "hawks",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-xdd11eef2-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "xdd11eef2",
+  "team": "tigers",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-xee7b6da2-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "xee7b6da2",
+  "team": "tigers",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-xf0a7faec-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "xf0a7faec",
+  "team": "baystars",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-xf3a0f5c3-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "xf3a0f5c3",
+  "team": "giants",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-xfc03c114-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "xfc03c114",
+  "team": "hawks",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-dev-released-xffe56897-20131031",
+  "season": 2013,
+  "date": "2013-10-31",
+  "type": "release",
+  "person": "xffe56897",
+  "team": "eagles",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-retired-41945118-20131101",
+  "season": 2013,
+  "date": "2013-11-01",
+  "type": "voluntary_retired",
+  "person": "41945118",
+  "team": "lions",
+  "pos": "捕手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-41645131-20131105",
+  "season": 2013,
+  "date": "2013-11-05",
+  "type": "release",
+  "person": "41645131",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-63365133-20131105",
+  "season": 2013,
+  "date": "2013-11-05",
+  "type": "release",
+  "person": "63365133",
+  "team": "fighters",
+  "pos": "内野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-93395137-20131105",
+  "season": 2013,
+  "date": "2013-11-05",
+  "type": "release",
+  "person": "93395137",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-31835137-20131106",
+  "season": 2013,
+  "date": "2013-11-06",
+  "type": "release",
+  "person": "31835137",
+  "team": "carp",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-retired-21925114-20131115",
+  "season": 2013,
+  "date": "2013-11-15",
+  "type": "voluntary_retired",
+  "person": "21925114",
+  "team": "dragons",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-retired-x613004b1-20131115",
+  "season": 2013,
+  "date": "2013-11-15",
+  "type": "voluntary_retired",
+  "person": "x613004b1",
+  "team": "dragons",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-trade-41545131-20131115",
+  "season": 2013,
+  "date": "2013-11-15",
+  "type": "trade",
+  "person": "41545131",
+  "team": "fighters",
+  "toTeam": "baystars",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-trade-61765116-20131115",
+  "season": 2013,
+  "date": "2013-11-15",
+  "type": "trade",
+  "person": "61765116",
+  "team": "baystars",
+  "toTeam": "fighters",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-trade-81185131-20131115",
+  "season": 2013,
+  "date": "2013-11-15",
+  "type": "trade",
+  "person": "81185131",
+  "team": "giants",
+  "toTeam": "fighters",
+  "pos": "捕手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-retired-01303868-20131121",
+  "season": 2013,
+  "date": "2013-11-21",
+  "type": "voluntary_retired",
+  "person": "01303868",
+  "team": "dragons",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-03505135-20131125",
+  "season": 2013,
+  "date": "2013-11-25",
+  "type": "release",
+  "person": "03505135",
+  "team": "marines",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-retired-21225113-20131126",
+  "season": 2013,
+  "date": "2013-11-26",
+  "type": "voluntary_retired",
+  "person": "21225113",
+  "team": "swallows",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-retired-51053880-20131126",
+  "season": 2013,
+  "date": "2013-11-26",
+  "type": "voluntary_retired",
+  "person": "51053880",
+  "team": "swallows",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "season": 2013,
+  "person": "21323884",
+  "team": "giants",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2013-11-28",
+  "id": "npb-2013-fa-move-21323884",
+  "type": "fa_move",
+  "toTeam": "dragons"
+ },
+ {
+  "season": 2013,
+  "person": "71475113",
+  "team": "hawks",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2013-11-29",
+  "id": "npb-2013-fa-move-71475113",
+  "type": "fa_move",
+  "toTeam": "buffaloes"
+ },
+ {
+  "id": "npb-2013-retired-41343888-20131129",
+  "season": 2013,
+  "date": "2013-11-29",
+  "type": "voluntary_retired",
+  "person": "41343888",
+  "team": "hawks",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-retired-71273882-20131129",
+  "season": 2013,
+  "date": "2013-11-29",
+  "type": "voluntary_retired",
+  "person": "71273882",
+  "team": "marines",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-retired-71373889-20131129",
+  "season": 2013,
+  "date": "2013-11-29",
+  "type": "voluntary_retired",
+  "person": "71373889",
+  "team": "marines",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-01205113-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "01205113",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-01405111-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "01405111",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-01405118-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "01405118",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-01605111-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "01605111",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-01605117-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "01605117",
+  "team": "buffaloes",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-01705119-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "01705119",
+  "team": "baystars",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-01903888-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "01903888",
+  "team": "fighters",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-03105118-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "03105118",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-03105135-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "03105135",
+  "team": "lions",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-11015115-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "11015115",
+  "team": "buffaloes",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-11215110-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "11215110",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-11215115-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "11215115",
+  "team": "buffaloes",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-11215133-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "11215133",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-11315131-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "11315131",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-11615112-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "11615112",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-11615118-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "11615118",
+  "team": "baystars",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-11715112-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "11715112",
+  "team": "eagles",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-13515118-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "13515118",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-21125114-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "21125114",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-21125119-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "21125119",
+  "team": "fighters",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-21323887-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "21323887",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-21325114-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "21325114",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-21425118-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "21425118",
+  "team": "hawks",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-21523886-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "21523886",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-21523888-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "21523888",
+  "team": "baystars",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-21525117-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "21525117",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-21625137-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "21625137",
+  "team": "dragons",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-21925131-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "21925131",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-31133885-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "31133885",
+  "team": "lions",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-31235131-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "31235131",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-31435113-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "31435113",
+  "team": "swallows",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-31633881-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "31633881",
+  "team": "carp",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-31635113-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "31635113",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-31835118-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "31835118",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-31935110-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "31935110",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-33135133-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "33135133",
+  "team": "lions",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-33135137-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "33135137",
+  "team": "carp",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-33335137-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "33335137",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-41043888-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "41043888",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-41143886-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "41143886",
+  "team": "dragons",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-41145119-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "41145119",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-41145135-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "41145135",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-41243888-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "41243888",
+  "team": "baystars",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-41545110-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "41545110",
+  "team": "marines",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-41545115-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "41545115",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-41645137-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "41645137",
+  "team": "tigers",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-41743886-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "41743886",
+  "team": "eagles",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-41745113-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "41745113",
+  "team": "lions",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-43145116-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "43145116",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-43145135-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "43145135",
+  "team": "giants",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-43545112-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "43545112",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-43545135-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "43545135",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-51155115-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "51155115",
+  "team": "tigers",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-51155116-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "51155116",
+  "team": "fighters",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-51255110-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "51255110",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-53155133-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "53155133",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-53355112-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "53355112",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-53355137-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "53355137",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-61165118-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "61165118",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-61265119-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "61265119",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-61565111-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "61565111",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-61565116-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "61565116",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-61665137-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "61665137",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-61865135-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "61865135",
+  "team": "buffaloes",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-61865137-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "61865137",
+  "team": "baystars",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-61965115-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "61965115",
+  "team": "hawks",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-63165113-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "63165113",
+  "team": "baystars",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-63365135-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "63365135",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-71075110-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "71075110",
+  "team": "hawks",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-71175113-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "71175113",
+  "team": "marines",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-71175118-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "71175118",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-71275112-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "71275112",
+  "team": "eagles",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-71475114-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "71475114",
+  "team": "tigers",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-71675113-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "71675113",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-71675131-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "71675131",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-71675137-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "71675137",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-71775111-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "71775111",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-71875114-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "71875114",
+  "team": "lions",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-71875119-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "71875119",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-73375116-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "73375116",
+  "team": "buffaloes",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-73375131-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "73375131",
+  "team": "marines",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-73375137-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "73375137",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-81085110-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "81085110",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-81085112-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "81085112",
+  "team": "baystars",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-81285110-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "81285110",
+  "team": "lions",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-81485113-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "81485113",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-81485118-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "81485118",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-81485131-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "81485131",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-81585118-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "81585118",
+  "team": "swallows",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-81685112-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "81685112",
+  "team": "dragons",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-81685117-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "81685117",
+  "team": "tigers",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-81885112-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "81885112",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-81885135-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "81885135",
+  "team": "lions",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-81985112-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "81985112",
+  "team": "giants",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-83185118-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "83185118",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-83185137-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "83185137",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-83585114-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "83585114",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-91495115-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "91495115",
+  "team": "dragons",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-91595110-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "91595110",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-91595115-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "91595115",
+  "team": "buffaloes",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-91695114-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "91695114",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-91795110-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "91795110",
+  "team": "eagles",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-91795118-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "91795118",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-91993884-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "91993884",
+  "team": "giants",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-93195135-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "93195135",
+  "team": "hawks",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-x248ec7f6-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "x248ec7f6",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-x263cdf41-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "x263cdf41",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-x2d116d7e-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "x2d116d7e",
+  "team": "hawks",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-x3088a259-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "x3088a259",
+  "team": "eagles",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-x33468a43-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "x33468a43",
+  "team": "eagles",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-x358fde7a-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "x358fde7a",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-x366e728d-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "x366e728d",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-x46137ae4-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "x46137ae4",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-x81002f98-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "x81002f98",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-x9b4cf59d-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "x9b4cf59d",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-xb1e676c4-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "xb1e676c4",
+  "team": "giants",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-xb8183a86-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "xb8183a86",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-xd125e16f-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "xd125e16f",
+  "team": "tigers",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-xdeef5fbb-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "xdeef5fbb",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-xe4336f96-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "xe4336f96",
+  "team": "dragons",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-xe5538b05-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "xe5538b05",
+  "team": "eagles",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-xe7df4231-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "xe7df4231",
+  "team": "swallows",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-xefdc11e1-20131202",
+  "season": 2013,
+  "date": "2013-12-02",
+  "type": "release",
+  "person": "xefdc11e1",
+  "team": "carp",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "season": 2013,
+  "person": "61565110",
+  "team": "tigers",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2013-12-03",
+  "id": "npb-2013-fa-move-61565110",
+  "type": "fa_move",
+  "toTeam": "baystars"
+ },
+ {
+  "id": "npb-2013-released-21825137-20131203",
+  "season": 2013,
+  "date": "2013-12-03",
+  "type": "release",
+  "person": "21825137",
+  "team": "eagles",
+  "pos": "内野手",
+  "note": "契約保留権放棄",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "season": 2013,
+  "person": "11515115",
+  "team": "carp",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2013-12-04",
+  "id": "npb-2013-fa-move-11515115",
+  "type": "fa_move",
+  "toTeam": "giants"
+ },
+ {
+  "season": 2013,
+  "person": "01305110",
+  "team": "lions",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2013-12-09",
+  "id": "npb-2013-fa-move-01305110",
+  "type": "fa_move",
+  "toTeam": "giants"
+ },
+ {
+  "season": 2013,
+  "person": "51055110",
+  "team": "dragons",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2013-12-09",
+  "id": "npb-2013-fa-move-51055110",
+  "type": "fa_move",
+  "toTeam": "hawks"
+ },
+ {
+  "season": 2013,
+  "person": "71275117",
+  "team": "fighters",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2013-12-09",
+  "id": "npb-2013-fa-move-71275117",
+  "type": "fa_move",
+  "toTeam": "hawks"
+ },
+ {
+  "season": 2013,
+  "person": "31635110",
+  "team": "lions",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2013-12-18",
+  "id": "npb-2013-fa-move-31635110",
+  "type": "fa_move",
+  "toTeam": "marines"
+ },
+ {
+  "id": "npb-2013-facompensation-21125135-20140107",
+  "season": 2013,
+  "date": "2014-01-07",
+  "type": "fa_compensation",
+  "person": "21125135",
+  "team": "giants",
+  "toTeam": "carp",
+  "pos": "投手",
+  "note": "大竹寛選手のFA移籍に伴う契約譲渡",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-facompensation-21723882-20140107",
+  "season": 2013,
+  "date": "2014-01-07",
+  "type": "fa_compensation",
+  "person": "21723882",
+  "team": "baystars",
+  "toTeam": "tigers",
+  "pos": "捕手",
+  "note": "久保康友選手のFA移籍に伴う契約譲渡、保留権譲渡",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-trade-31035113-20140107",
+  "season": 2013,
+  "date": "2014-01-07",
+  "type": "trade",
+  "person": "31035113",
+  "team": "eagles",
+  "toTeam": "buffaloes",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-trade-71775115-20140107",
+  "season": 2013,
+  "date": "2014-01-07",
+  "type": "trade",
+  "person": "71775115",
+  "team": "buffaloes",
+  "toTeam": "eagles",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-facompensation-71475112-20140108",
+  "season": 2013,
+  "date": "2014-01-08",
+  "type": "fa_compensation",
+  "person": "71475112",
+  "team": "hawks",
+  "toTeam": "fighters",
+  "pos": "投手",
+  "note": "鶴岡慎也選手のFA移籍に伴う契約譲渡",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-facompensation-13115112-20140109",
+  "season": 2013,
+  "date": "2014-01-09",
+  "type": "fa_compensation",
+  "person": "13115112",
+  "team": "giants",
+  "toTeam": "lions",
+  "pos": "内野手",
+  "note": "片岡治大選手のFA移籍に伴う契約譲渡",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-facompensation-41245114-20140109",
+  "season": 2013,
+  "date": "2014-01-09",
+  "type": "fa_compensation",
+  "person": "41245114",
+  "team": "marines",
+  "toTeam": "lions",
+  "pos": "投手",
+  "note": "涌井秀章選手のFA移籍に伴う契約譲渡",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-sign-03105135-20140123",
+  "season": 2013,
+  "date": "2014-01-23",
+  "type": "sign",
+  "person": "03105135",
+  "team": "lions",
+  "toTeam": "buffaloes",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2014/registered_bs.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-sign-31635133-20140123",
+  "season": 2013,
+  "date": "2014-01-23",
+  "type": "sign",
+  "person": "31635133",
+  "team": "giants",
+  "toTeam": "buffaloes",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2014/registered_bs.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-sign-41645116-20140123",
+  "season": 2013,
+  "date": "2014-01-23",
+  "type": "sign",
+  "person": "41645116",
+  "team": "buffaloes",
+  "toTeam": "buffaloes",
+  "note": "再契約",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2014/registered_bs.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-sign-91993884-20140123",
+  "season": 2013,
+  "date": "2014-01-23",
+  "type": "sign",
+  "person": "91993884",
+  "team": "giants",
+  "toTeam": "buffaloes",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2014/registered_bs.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-sign-93195135-20140123",
+  "season": 2013,
+  "date": "2014-01-23",
+  "type": "sign",
+  "person": "93195135",
+  "team": "hawks",
+  "toTeam": "buffaloes",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2014/registered_bs.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-sign-03105118-20140124",
+  "season": 2013,
+  "date": "2014-01-24",
+  "type": "sign",
+  "person": "03105118",
+  "team": "hawks",
+  "toTeam": "eagles",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2014/registered_e.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-sign-41243888-20140124",
+  "season": 2013,
+  "date": "2014-01-24",
+  "type": "sign",
+  "person": "41243888",
+  "team": "baystars",
+  "toTeam": "lions",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2014/registered_l.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-sign-81885135-20140124",
+  "season": 2013,
+  "date": "2014-01-24",
+  "type": "sign",
+  "person": "81885135",
+  "team": "lions",
+  "toTeam": "lions",
+  "note": "再契約",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2014/registered_l.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-sign-33135133-20140127",
+  "season": 2013,
+  "date": "2014-01-27",
+  "type": "sign",
+  "person": "33135133",
+  "team": "lions",
+  "toTeam": "hawks",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2014/registered_h.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-sign-61865135-20140127",
+  "season": 2013,
+  "date": "2014-01-27",
+  "type": "sign",
+  "person": "61865135",
+  "team": "buffaloes",
+  "toTeam": "hawks",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2014/registered_h.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-sign-71675131-20140127",
+  "season": 2013,
+  "date": "2014-01-27",
+  "type": "sign",
+  "person": "71675131",
+  "team": "fighters",
+  "toTeam": "hawks",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2014/registered_h.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-sign-83585114-20140127",
+  "season": 2013,
+  "date": "2014-01-27",
+  "type": "sign",
+  "person": "83585114",
+  "team": "tigers",
+  "toTeam": "hawks",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2014/registered_h.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-sign-31635113-20140131",
+  "season": 2013,
+  "date": "2014-01-31",
+  "type": "sign",
+  "person": "31635113",
+  "team": "marines",
+  "toTeam": "tigers",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2014/registered_t.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-sign-41143886-20140131",
+  "season": 2013,
+  "date": "2014-01-31",
+  "type": "sign",
+  "person": "41143886",
+  "team": "dragons",
+  "toTeam": "giants",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2014/registered_g.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-sign-41545110-20140131",
+  "season": 2013,
+  "date": "2014-01-31",
+  "type": "sign",
+  "person": "41545110",
+  "team": "marines",
+  "toTeam": "dragons",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2014/registered_d.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-sign-73375116-20140131",
+  "season": 2013,
+  "date": "2014-01-31",
+  "type": "sign",
+  "person": "73375116",
+  "team": "buffaloes",
+  "toTeam": "baystars",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2014/registered_db.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-sign-81685112-20140131",
+  "season": 2013,
+  "date": "2014-01-31",
+  "type": "sign",
+  "person": "81685112",
+  "team": "dragons",
+  "toTeam": "baystars",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2014/registered_db.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-released-81885137-20140204",
+  "season": 2013,
+  "date": "2014-02-04",
+  "type": "release",
+  "person": "81885137",
+  "team": "hawks",
+  "pos": "内野手",
+  "note": "契約保留権放棄",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-posting-11215114-20140205",
+  "season": 2013,
+  "date": "2014-02-05",
+  "type": "posting",
+  "person": "11215114",
+  "team": "eagles",
+  "pos": "投手",
+  "toOrg": {
+   "name": "ニューヨーク・ヤンキース",
+   "kind": "overseas"
+  },
+  "note": "ポスティングによる移籍",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2013/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手（ポスティングによる移籍）",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-sign-71275112-20140325",
+  "season": 2013,
+  "date": "2014-03-25",
+  "type": "sign",
+  "person": "71275112",
+  "team": "eagles",
+  "toTeam": "eagles",
+  "note": "再契約",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2014/registered_e.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-sign-41145135-20140411",
+  "season": 2013,
+  "date": "2014-04-11",
+  "type": "sign",
+  "person": "41145135",
+  "team": "tigers",
+  "toTeam": "tigers",
+  "note": "再契約",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2014/registered_t.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-sign-43145135-20140507",
+  "season": 2013,
+  "date": "2014-05-07",
+  "type": "sign",
+  "person": "43145135",
+  "team": "giants",
+  "toTeam": "eagles",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2014/registered_e.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-sign-91795118-20140708",
+  "season": 2013,
+  "date": "2014-07-08",
+  "type": "sign",
+  "person": "91795118",
+  "team": "fighters",
+  "toTeam": "buffaloes",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2014/registered_bs.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-sign-23525133-20140711",
+  "season": 2013,
+  "date": "2014-07-11",
+  "type": "sign",
+  "person": "23525133",
+  "team": "baystars",
+  "toTeam": "baystars",
+  "note": "再契約",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2014/registered_db.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2013-sign-31135116-20140714",
+  "season": 2013,
+  "date": "2014-07-14",
+  "type": "sign",
+  "person": "31135116",
+  "team": "dragons",
+  "toTeam": "dragons",
+  "note": "再契約",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2014/registered_d.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ }
+]

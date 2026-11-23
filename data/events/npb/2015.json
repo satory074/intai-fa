@@ -1,0 +1,5252 @@
+[
+ {
+  "id": "npb-2015-fa-declare-01305115",
+  "season": 2015,
+  "type": "fa_declare",
+  "person": "01305115",
+  "team": "marines",
+  "pos": "内野手",
+  "note": "海外FA",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-fa-declare-01705117",
+  "season": 2015,
+  "type": "fa_declare",
+  "person": "01705117",
+  "team": "carp",
+  "pos": "内野手",
+  "note": "海外FA",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-fa-declare-13115112",
+  "season": 2015,
+  "type": "fa_declare",
+  "person": "13115112",
+  "team": "lions",
+  "pos": "内野手",
+  "note": "国内FA",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-fa-declare-21925110",
+  "season": 2015,
+  "type": "fa_declare",
+  "person": "21925110",
+  "team": "swallows",
+  "pos": "内野手",
+  "note": "海外FA",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-fa-declare-51655112",
+  "season": 2015,
+  "type": "fa_declare",
+  "person": "51655112",
+  "team": "hawks",
+  "pos": "内野手",
+  "note": "海外FA",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-fa-declare-71975115",
+  "season": 2015,
+  "type": "fa_declare",
+  "person": "71975115",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "国内FA",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-13515139-20150402",
+  "season": 2015,
+  "date": "2015-04-02",
+  "type": "release",
+  "person": "13515139",
+  "team": "baystars",
+  "pos": "内野手",
+  "note": "球団による契約解除",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-trade-01705114-20150611",
+  "season": 2015,
+  "date": "2015-06-11",
+  "type": "trade",
+  "person": "01705114",
+  "team": "fighters",
+  "toTeam": "giants",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-trade-31935119-20150611",
+  "season": 2015,
+  "date": "2015-06-11",
+  "type": "trade",
+  "person": "31935119",
+  "team": "giants",
+  "toTeam": "fighters",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-trade-51655117-20150611",
+  "season": 2015,
+  "date": "2015-06-11",
+  "type": "trade",
+  "person": "51655117",
+  "team": "giants",
+  "toTeam": "fighters",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-trade-61665118-20150611",
+  "season": 2015,
+  "date": "2015-06-11",
+  "type": "trade",
+  "person": "61665118",
+  "team": "fighters",
+  "toTeam": "giants",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-retired-31635133-20150707",
+  "season": 2015,
+  "date": "2015-07-07",
+  "type": "voluntary_retired",
+  "person": "31635133",
+  "team": "buffaloes",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-xd35e1216-20150714",
+  "season": 2015,
+  "date": "2015-07-14",
+  "type": "release",
+  "person": "xd35e1216",
+  "team": "dragons",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-63365135-20150805",
+  "season": 2015,
+  "date": "2015-08-05",
+  "type": "release",
+  "person": "63365135",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-43145130-20150806",
+  "season": 2015,
+  "date": "2015-08-06",
+  "type": "release",
+  "person": "43145130",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-03505130-20150918",
+  "season": 2015,
+  "date": "2015-09-18",
+  "type": "release",
+  "person": "03505130",
+  "team": "lions",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-73575130-20151008",
+  "season": 2015,
+  "date": "2015-10-08",
+  "type": "release",
+  "person": "73575130",
+  "team": "lions",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-93395130-20151008",
+  "season": 2015,
+  "date": "2015-10-08",
+  "type": "release",
+  "person": "93395130",
+  "team": "lions",
+  "pos": "内野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-retired-51453888-20151008",
+  "season": 2015,
+  "date": "2015-10-08",
+  "type": "voluntary_retired",
+  "person": "51453888",
+  "team": "eagles",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-03105135-20151009",
+  "season": 2015,
+  "date": "2015-10-09",
+  "type": "release",
+  "person": "03105135",
+  "team": "buffaloes",
+  "pos": "内野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-retired-41645112-20151013",
+  "season": 2015,
+  "date": "2015-10-13",
+  "type": "voluntary_retired",
+  "person": "41645112",
+  "team": "eagles",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-retired-81583884-20151013",
+  "season": 2015,
+  "date": "2015-10-13",
+  "type": "voluntary_retired",
+  "person": "81583884",
+  "team": "eagles",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-retired-11515112-20151028",
+  "season": 2015,
+  "date": "2015-10-28",
+  "type": "voluntary_retired",
+  "person": "11515112",
+  "team": "eagles",
+  "pos": "捕手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-01605117-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "01605117",
+  "team": "eagles",
+  "pos": "捕手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-01905137-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "01905137",
+  "team": "tigers",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-03305130-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "03305130",
+  "team": "carp",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-21225115-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "21225115",
+  "team": "carp",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-21525135-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "21525135",
+  "team": "dragons",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-31435137-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "31435137",
+  "team": "eagles",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-31935131-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "31935131",
+  "team": "eagles",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-41945135-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "41945135",
+  "team": "hawks",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-51155117-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "51155117",
+  "team": "swallows",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-51755137-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "51755137",
+  "team": "buffaloes",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-61065131-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "61065131",
+  "team": "tigers",
+  "pos": "捕手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-71775137-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "71775137",
+  "team": "eagles",
+  "pos": "外野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-71975139-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "71975139",
+  "team": "buffaloes",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-x06dcf8ae-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "x06dcf8ae",
+  "team": "giants",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-x1c60aa5d-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "x1c60aa5d",
+  "team": "dragons",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-x287d09ed-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "x287d09ed",
+  "team": "giants",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-x3088a259-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "x3088a259",
+  "team": "hawks",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-x31f72df3-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "x31f72df3",
+  "team": "hawks",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-x3773bf3d-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "x3773bf3d",
+  "team": "hawks",
+  "pos": "外野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-x384582d2-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "x384582d2",
+  "team": "eagles",
+  "pos": "捕手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-x3cee0919-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "x3cee0919",
+  "team": "baystars",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-x3f252da8-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "x3f252da8",
+  "team": "hawks",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-x436a41a3-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "x436a41a3",
+  "team": "giants",
+  "pos": "捕手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-x57bf1379-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "x57bf1379",
+  "team": "hawks",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-x58fa771a-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "x58fa771a",
+  "team": "buffaloes",
+  "pos": "捕手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-x680ae506-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "x680ae506",
+  "team": "lions",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-x6f4d89be-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "x6f4d89be",
+  "team": "eagles",
+  "pos": "外野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-x81002f98-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "x81002f98",
+  "team": "swallows",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-x9b4cf59d-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "x9b4cf59d",
+  "team": "hawks",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-xb1e676c4-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "xb1e676c4",
+  "team": "giants",
+  "pos": "外野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-xba1a2e29-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "xba1a2e29",
+  "team": "hawks",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-xde56d949-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "xde56d949",
+  "team": "giants",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-xef032687-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "xef032687",
+  "team": "carp",
+  "pos": "外野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-xf0a7faec-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "xf0a7faec",
+  "team": "tigers",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-dev-released-xffda923f-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "release",
+  "person": "xffda923f",
+  "team": "hawks",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-retired-33135112-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "voluntary_retired",
+  "person": "33135112",
+  "team": "tigers",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-retired-51053888-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "voluntary_retired",
+  "person": "51053888",
+  "team": "tigers",
+  "pos": "捕手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-retired-81783884-20151030",
+  "season": 2015,
+  "date": "2015-10-30",
+  "type": "voluntary_retired",
+  "person": "81783884",
+  "team": "tigers",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-21825139-20151102",
+  "season": 2015,
+  "date": "2015-11-02",
+  "type": "release",
+  "person": "21825139",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-43345130-20151102",
+  "season": 2015,
+  "date": "2015-11-02",
+  "type": "release",
+  "person": "43345130",
+  "team": "fighters",
+  "pos": "外野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-73775130-20151102",
+  "season": 2015,
+  "date": "2015-11-02",
+  "type": "release",
+  "person": "73775130",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-trade-41345116-20151104",
+  "season": 2015,
+  "date": "2015-11-04",
+  "type": "trade",
+  "person": "41345116",
+  "team": "hawks",
+  "toTeam": "dragons",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-retired-01805114-20151105",
+  "season": 2015,
+  "date": "2015-11-05",
+  "type": "voluntary_retired",
+  "person": "01805114",
+  "team": "giants",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-retired-31335114-20151105",
+  "season": 2015,
+  "date": "2015-11-05",
+  "type": "voluntary_retired",
+  "person": "31335114",
+  "team": "giants",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-retired-41143886-20151105",
+  "season": 2015,
+  "date": "2015-11-05",
+  "type": "voluntary_retired",
+  "person": "41143886",
+  "team": "giants",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-retired-51953880-20151105",
+  "season": 2015,
+  "date": "2015-11-05",
+  "type": "voluntary_retired",
+  "person": "51953880",
+  "team": "lions",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-retired-51953886-20151105",
+  "season": 2015,
+  "date": "2015-11-05",
+  "type": "voluntary_retired",
+  "person": "51953886",
+  "team": "giants",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-retired-91593888-20151105",
+  "season": 2015,
+  "date": "2015-11-05",
+  "type": "voluntary_retired",
+  "person": "91593888",
+  "team": "giants",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "season": 2015,
+  "person": "21925110",
+  "team": "swallows",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2015-11-12",
+  "id": "npb-2015-fa-stay-21925110",
+  "type": "fa_stay"
+ },
+ {
+  "id": "npb-2015-retired-21225114-20151112",
+  "season": 2015,
+  "date": "2015-11-12",
+  "type": "voluntary_retired",
+  "person": "21225114",
+  "team": "eagles",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-retired-61563885-20151124",
+  "season": 2015,
+  "date": "2015-11-24",
+  "type": "voluntary_retired",
+  "person": "61563885",
+  "team": "eagles",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-retired-21823888-20151126",
+  "season": 2015,
+  "date": "2015-11-26",
+  "type": "voluntary_retired",
+  "person": "21823888",
+  "team": "swallows",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-retired-41243888-20151126",
+  "season": 2015,
+  "date": "2015-11-26",
+  "type": "voluntary_retired",
+  "person": "41243888",
+  "team": "lions",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-retired-71775117-20151127",
+  "season": 2015,
+  "date": "2015-11-27",
+  "type": "voluntary_retired",
+  "person": "71775117",
+  "team": "fighters",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-retired-91793864-20151127",
+  "season": 2015,
+  "date": "2015-11-27",
+  "type": "voluntary_retired",
+  "person": "91793864",
+  "team": "fighters",
+  "pos": "捕手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-retired-21323884-20151130",
+  "season": 2015,
+  "date": "2015-11-30",
+  "type": "voluntary_retired",
+  "person": "21323884",
+  "team": "dragons",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-retired-31433884-20151130",
+  "season": 2015,
+  "date": "2015-11-30",
+  "type": "voluntary_retired",
+  "person": "31433884",
+  "team": "dragons",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-retired-51155111-20151130",
+  "season": 2015,
+  "date": "2015-11-30",
+  "type": "voluntary_retired",
+  "person": "51155111",
+  "team": "dragons",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-01005112-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "01005112",
+  "team": "lions",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-01103886-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "01103886",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-01205131-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "01205131",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-01305116-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "01305116",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-01403862-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "01403862",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-01405131-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "01405131",
+  "team": "lions",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-01505119-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "01505119",
+  "team": "tigers",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-01505133-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "01505133",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-01805139-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "01805139",
+  "team": "marines",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-03305131-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "03305131",
+  "team": "buffaloes",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-11015137-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "11015137",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-11215119-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "11215119",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-11215131-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "11215131",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-11515135-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "11515135",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-11615118-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "11615118",
+  "team": "hawks",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-11715131-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "11715131",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-11715133-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "11715133",
+  "team": "swallows",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-11715137-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "11715137",
+  "team": "giants",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-11815118-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "11815118",
+  "team": "buffaloes",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-11915116-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "11915116",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-11915133-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "11915133",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-13315130-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "13315130",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-13715130-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "13715130",
+  "team": "carp",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-13915130-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "13915130",
+  "team": "eagles",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-21125133-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "21125133",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-21225116-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "21225116",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-21325111-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "21325111",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-21425111-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "21425111",
+  "team": "lions",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-21525113-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "21525113",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-21525118-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "21525118",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-21625116-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "21625116",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-21725111-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "21725111",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-21725117-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "21725117",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-21725139-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "21725139",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-21923888-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "21923888",
+  "team": "carp",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-21925117-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "21925117",
+  "team": "buffaloes",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-23525139-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "23525139",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-23725130-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "23725130",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-31035110-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "31035110",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-31035113-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "31035113",
+  "team": "buffaloes",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-31035133-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "31035133",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-31135118-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "31135118",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-31135137-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "31135137",
+  "team": "baystars",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-31235112-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "31235112",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-31535110-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "31535110",
+  "team": "marines",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-31535111-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "31535111",
+  "team": "carp",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-31535112-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "31535112",
+  "team": "eagles",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-33135139-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "33135139",
+  "team": "marines",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-33335130-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "33335130",
+  "team": "eagles",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-33335135-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "33335135",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-33535135-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "33535135",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-33535139-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "33535139",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-33735130-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "33735130",
+  "team": "giants",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-41245113-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "41245113",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-41245114-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "41245114",
+  "team": "lions",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-41245131-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "41245131",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-41343886-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "41343886",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-41345133-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "41345133",
+  "team": "eagles",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-41345137-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "41345137",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-41445131-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "41445131",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-41545131-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "41545131",
+  "team": "baystars",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-41545137-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "41545137",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-41743880-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "41743880",
+  "team": "baystars",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-41745112-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "41745112",
+  "team": "eagles",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-41945110-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "41945110",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-43345139-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "43345139",
+  "team": "giants",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-51155114-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "51155114",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-51353889-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "51353889",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-51355114-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "51355114",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-51355116-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "51355116",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-51355133-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "51355133",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-51455117-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "51455117",
+  "team": "marines",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-51855139-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "51855139",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-51955131-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "51955131",
+  "team": "tigers",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-53155131-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "53155131",
+  "team": "tigers",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-53155137-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "53155137",
+  "team": "dragons",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-53355139-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "53355139",
+  "team": "carp",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-53755130-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "53755130",
+  "team": "swallows",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-61063884-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "61063884",
+  "team": "hawks",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-61165110-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "61165110",
+  "team": "fighters",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-61165131-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "61165131",
+  "team": "lions",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-61265115-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "61265115",
+  "team": "buffaloes",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-61265133-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "61265133",
+  "team": "lions",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-61465118-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "61465118",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-61865135-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "61865135",
+  "team": "hawks",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-63565133-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "63565133",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-71275112-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "71275112",
+  "team": "eagles",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-71275131-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "71275131",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-71375137-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "71375137",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-71475118-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "71475118",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-71675114-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "71675114",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-71675131-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "71675131",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-71875135-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "71875135",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-71975110-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "71975110",
+  "team": "buffaloes",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-71975112-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "71975112",
+  "team": "carp",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-71975131-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "71975131",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-73375116-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "73375116",
+  "team": "baystars",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-81085110-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "81085110",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-81085133-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "81085133",
+  "team": "baystars",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-81185110-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "81185110",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-81285116-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "81285116",
+  "team": "lions",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-81285135-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "81285135",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-81785116-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "81785116",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-83185130-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "83185130",
+  "team": "carp",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-83185133-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "83185133",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-83585114-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "83585114",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-83585130-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "83585130",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-83785130-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "83785130",
+  "team": "giants",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-85583868-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "85583868",
+  "team": "dragons",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-91095118-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "91095118",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-91295114-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "91295114",
+  "team": "hawks",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-91395116-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "91395116",
+  "team": "lions",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-91395118-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "91395118",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-91795118-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "91795118",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-91993884-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "91993884",
+  "team": "buffaloes",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-91995114-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "91995114",
+  "team": "fighters",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-91995133-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "91995133",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-93195135-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "93195135",
+  "team": "eagles",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-x2ac9170a-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "x2ac9170a",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-x3d54007f-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "x3d54007f",
+  "team": "tigers",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-x3edb6b3b-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "x3edb6b3b",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-x677c0aba-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "x677c0aba",
+  "team": "baystars",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-x6ed4a783-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "x6ed4a783",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-x70b4b166-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "x70b4b166",
+  "team": "fighters",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-x874b4611-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "x874b4611",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-xa9eef4df-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "xa9eef4df",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-xaae9fd05-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "xaae9fd05",
+  "team": "carp",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-xca0b5d1d-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "xca0b5d1d",
+  "team": "buffaloes",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-xd25796ff-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "xd25796ff",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-released-xda38699c-20151202",
+  "season": 2015,
+  "date": "2015-12-02",
+  "type": "release",
+  "person": "xda38699c",
+  "team": "dragons",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "season": 2015,
+  "person": "71975115",
+  "team": "dragons",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2015-12-04",
+  "id": "npb-2015-fa-move-71975115",
+  "type": "fa_move",
+  "toTeam": "tigers"
+ },
+ {
+  "season": 2015,
+  "person": "13115112",
+  "team": "lions",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2015-12-08",
+  "id": "npb-2015-fa-move-13115112",
+  "type": "fa_move",
+  "toTeam": "giants"
+ },
+ {
+  "id": "npb-2015-released-71875131-20151208",
+  "season": 2015,
+  "date": "2015-12-08",
+  "type": "release",
+  "person": "71875131",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "契約保留権放棄",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "season": 2015,
+  "person": "01305115",
+  "team": "marines",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2015-12-10",
+  "id": "npb-2015-fa-move-01305115",
+  "type": "fa_move",
+  "toTeam": "eagles"
+ },
+ {
+  "season": 2015,
+  "person": "51655112",
+  "team": "hawks",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2015-12-24",
+  "id": "npb-2015-fa-stay-51655112",
+  "type": "fa_stay"
+ },
+ {
+  "id": "npb-2015-released-13315135-20151224",
+  "season": 2015,
+  "date": "2015-12-24",
+  "type": "release",
+  "person": "13315135",
+  "team": "swallows",
+  "pos": "外野手",
+  "note": "契約保留権放棄",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-posting-51655114-20160122",
+  "season": 2015,
+  "date": "2016-01-22",
+  "type": "posting",
+  "person": "51655114",
+  "team": "carp",
+  "pos": "投手",
+  "toOrg": {
+   "name": "ロサンゼルス・ドジャース",
+   "kind": "overseas"
+  },
+  "note": "ポスティングによる移籍",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手（ポスティングによる移籍）",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-sign-51755137-20160125",
+  "season": 2015,
+  "date": "2016-01-25",
+  "type": "sign",
+  "person": "51755137",
+  "team": "buffaloes",
+  "toTeam": "buffaloes",
+  "note": "再契約",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registered_bs.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-sign-71975110-20160125",
+  "season": 2015,
+  "date": "2016-01-25",
+  "type": "sign",
+  "person": "71975110",
+  "team": "buffaloes",
+  "toTeam": "lions",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registered_l.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-sign-21525118-20160126",
+  "season": 2015,
+  "date": "2016-01-26",
+  "type": "sign",
+  "person": "21525118",
+  "team": "hawks",
+  "toTeam": "eagles",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registered_e.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-sign-21625116-20160126",
+  "season": 2015,
+  "date": "2016-01-26",
+  "type": "sign",
+  "person": "21625116",
+  "team": "dragons",
+  "toTeam": "eagles",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registered_e.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-sign-31535110-20160126",
+  "season": 2015,
+  "date": "2016-01-26",
+  "type": "sign",
+  "person": "31535110",
+  "team": "marines",
+  "toTeam": "eagles",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registered_e.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-sign-31535111-20160126",
+  "season": 2015,
+  "date": "2016-01-26",
+  "type": "sign",
+  "person": "31535111",
+  "team": "carp",
+  "toTeam": "eagles",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registered_e.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-sign-21425111-20160127",
+  "season": 2015,
+  "date": "2016-01-27",
+  "type": "sign",
+  "person": "21425111",
+  "team": "lions",
+  "toTeam": "fighters",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registered_f.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-sign-01005112-20160128",
+  "season": 2015,
+  "date": "2016-01-28",
+  "type": "sign",
+  "person": "01005112",
+  "team": "lions",
+  "toTeam": "marines",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registered_m.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-ikuseirecontract-01905137-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "ikusei_recontract",
+  "person": "01905137",
+  "team": "tigers",
+  "toTeam": "tigers",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_t.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-ikuseirecontract-11015137-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "ikusei_recontract",
+  "person": "11015137",
+  "team": "buffaloes",
+  "toTeam": "buffaloes",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_bs.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-ikuseirecontract-11215131-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "ikusei_recontract",
+  "person": "11215131",
+  "team": "swallows",
+  "toTeam": "swallows",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_s.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-ikuseirecontract-11715131-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "ikusei_recontract",
+  "person": "11715131",
+  "team": "hawks",
+  "toTeam": "hawks",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_h.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-ikuseirecontract-11715137-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "ikusei_recontract",
+  "person": "11715137",
+  "team": "giants",
+  "toTeam": "giants",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_g.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-ikuseirecontract-21525135-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "ikusei_recontract",
+  "person": "21525135",
+  "team": "dragons",
+  "toTeam": "dragons",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_d.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-ikuseirecontract-21725139-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "ikusei_recontract",
+  "person": "21725139",
+  "team": "eagles",
+  "toTeam": "eagles",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_e.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-ikuseirecontract-31435137-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "ikusei_recontract",
+  "person": "31435137",
+  "team": "eagles",
+  "toTeam": "eagles",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_e.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-ikuseirecontract-31535112-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "ikusei_recontract",
+  "person": "31535112",
+  "team": "eagles",
+  "toTeam": "eagles",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_e.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-ikuseirecontract-31935131-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "ikusei_recontract",
+  "person": "31935131",
+  "team": "eagles",
+  "toTeam": "eagles",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_e.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-ikuseirecontract-41345133-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "ikusei_recontract",
+  "person": "41345133",
+  "team": "eagles",
+  "toTeam": "eagles",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_e.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-ikuseirecontract-61065131-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "ikusei_recontract",
+  "person": "61065131",
+  "team": "tigers",
+  "toTeam": "tigers",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_t.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-ikuseirecontract-71775137-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "ikusei_recontract",
+  "person": "71775137",
+  "team": "eagles",
+  "toTeam": "eagles",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_e.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-ikuseirecontract-71975139-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "ikusei_recontract",
+  "person": "71975139",
+  "team": "buffaloes",
+  "toTeam": "buffaloes",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_bs.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-ikuseirecontract-81785116-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "ikusei_recontract",
+  "person": "81785116",
+  "team": "swallows",
+  "toTeam": "swallows",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_s.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-ikuseirecontract-91295114-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "ikusei_recontract",
+  "person": "91295114",
+  "team": "hawks",
+  "toTeam": "hawks",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_h.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-ikuseirecontract-x06dcf8ae-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "ikusei_recontract",
+  "person": "x06dcf8ae",
+  "team": "giants",
+  "toTeam": "giants",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_g.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-ikuseirecontract-x287d09ed-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "ikusei_recontract",
+  "person": "x287d09ed",
+  "team": "giants",
+  "toTeam": "giants",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_g.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-ikuseirecontract-x3d54007f-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "ikusei_recontract",
+  "person": "x3d54007f",
+  "team": "tigers",
+  "toTeam": "tigers",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_t.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-ikuseirecontract-x3edb6b3b-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "ikusei_recontract",
+  "person": "x3edb6b3b",
+  "team": "hawks",
+  "toTeam": "hawks",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_h.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-ikuseirecontract-x436a41a3-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "ikusei_recontract",
+  "person": "x436a41a3",
+  "team": "giants",
+  "toTeam": "giants",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_g.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-ikuseirecontract-x57bf1379-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "ikusei_recontract",
+  "person": "x57bf1379",
+  "team": "hawks",
+  "toTeam": "hawks",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_h.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-ikuseirecontract-x6f4d89be-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "ikusei_recontract",
+  "person": "x6f4d89be",
+  "team": "eagles",
+  "toTeam": "eagles",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_e.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-ikuseirecontract-xb1e676c4-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "ikusei_recontract",
+  "person": "xb1e676c4",
+  "team": "giants",
+  "toTeam": "giants",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_g.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-ikuseirecontract-xba1a2e29-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "ikusei_recontract",
+  "person": "xba1a2e29",
+  "team": "hawks",
+  "toTeam": "hawks",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_h.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-ikuseirecontract-xd25796ff-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "ikusei_recontract",
+  "person": "xd25796ff",
+  "team": "giants",
+  "toTeam": "giants",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_g.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-ikuseirecontract-xde56d949-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "ikusei_recontract",
+  "person": "xde56d949",
+  "team": "giants",
+  "toTeam": "giants",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_g.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-ikuseirecontract-xf0a7faec-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "ikusei_recontract",
+  "person": "xf0a7faec",
+  "team": "tigers",
+  "toTeam": "tigers",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_t.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-sign-01805139-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "sign",
+  "person": "01805139",
+  "team": "marines",
+  "toTeam": "giants",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registered_g.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-sign-11515135-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "sign",
+  "person": "11515135",
+  "team": "swallows",
+  "toTeam": "giants",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_g.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-sign-21225115-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "sign",
+  "person": "21225115",
+  "team": "carp",
+  "toTeam": "carp",
+  "note": "再契約",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registered_c.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-sign-21725117-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "sign",
+  "person": "21725117",
+  "team": "giants",
+  "toTeam": "baystars",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registered_db.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-sign-21925117-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "sign",
+  "person": "21925117",
+  "team": "buffaloes",
+  "toTeam": "swallows",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registered_s.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-sign-41743880-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "sign",
+  "person": "41743880",
+  "team": "baystars",
+  "toTeam": "dragons",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_d.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-sign-41945135-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "sign",
+  "person": "41945135",
+  "team": "hawks",
+  "toTeam": "baystars",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registered_db.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-sign-53155137-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "sign",
+  "person": "53155137",
+  "team": "dragons",
+  "toTeam": "carp",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registered_c.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-sign-61165110-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "sign",
+  "person": "61165110",
+  "team": "fighters",
+  "toTeam": "swallows",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registered_s.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-sign-x9b4cf59d-20160129",
+  "season": 2015,
+  "date": "2016-01-29",
+  "type": "sign",
+  "person": "x9b4cf59d",
+  "team": "hawks",
+  "toTeam": "hawks",
+  "note": "再契約",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registered_h.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-sign-83585114-20160204",
+  "season": 2015,
+  "date": "2016-02-04",
+  "type": "sign",
+  "person": "83585114",
+  "team": "hawks",
+  "toTeam": "marines",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registered_m.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "season": 2015,
+  "person": "01705117",
+  "team": "carp",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2015/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2016-02-05",
+  "id": "npb-2015-fa-move-01705117",
+  "type": "fa_move",
+  "toTeam": "lions"
+ },
+ {
+  "id": "npb-2015-sign-01305116-20160216",
+  "season": 2015,
+  "date": "2016-02-16",
+  "type": "sign",
+  "person": "01305116",
+  "team": "baystars",
+  "toTeam": "buffaloes",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registereddev_bs.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-sign-01403862-20160304",
+  "season": 2015,
+  "date": "2016-03-04",
+  "type": "sign",
+  "person": "01403862",
+  "team": "dragons",
+  "toTeam": "dragons",
+  "note": "再契約",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registered_d.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-sign-13315130-20160408",
+  "season": 2015,
+  "date": "2016-04-08",
+  "type": "sign",
+  "person": "13315130",
+  "team": "carp",
+  "toTeam": "baystars",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registered_db.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2015-sign-71675131-20160720",
+  "season": 2015,
+  "date": "2016-07-20",
+  "type": "sign",
+  "person": "71675131",
+  "team": "hawks",
+  "toTeam": "lions",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2016/registered_l.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ }
+]

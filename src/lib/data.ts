@@ -66,6 +66,14 @@ export function dataset(): Dataset {
     const old = people.get(p.id);
     people.set(p.id, old ? { ...p, ...old, names: old.names ?? p.names } : p);
   }
+  // 名簿でリンクの無かった人に、公示からわかった NPB 選手 ID を付ける（scripts/import/npb-announcements.ts が書く）
+  const linksPath = join(dataDir, "npb-id-links.json");
+  if (existsSync(linksPath)) {
+    for (const [id, npbId] of Object.entries(JSON.parse(readFileSync(linksPath, "utf-8")) as Record<string, string>)) {
+      const p = people.get(id);
+      if (p && !p.npbId) people.set(id, { ...p, npbId });
+    }
+  }
   const birthPath = join(dataDir, "profiles.jsonl");
   if (existsSync(birthPath)) {
     for (const prof of readJsonl("profiles.jsonl", (x) => x as { id: string; birth?: string; throwsBats?: string })) {

@@ -87,5 +87,5 @@ export function resolveNpbTeamName(name: string): string | null {
 
 /** NPB 公示 URL の球団コード（registered_g.html の g）から系譜を引く */
 export function resolveUrlCode(code: string): string | null {
-  return franchises().find((f) => f.urlCode === code)?.id ?? null;
+  return franchises().find((f) => f.urlCode === code || f.oldUrlCodes?.includes(code))?.id ?? null;
 }

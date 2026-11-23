@@ -1,0 +1,4655 @@
+[
+ {
+  "id": "npb-2004-fa-declare-11313889",
+  "season": 2004,
+  "type": "fa_declare",
+  "person": "11313889",
+  "team": "kintetsu",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-fa-declare-15313868",
+  "season": 2004,
+  "type": "fa_declare",
+  "person": "15313868",
+  "team": "swallows",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-fa-declare-21023889",
+  "season": 2004,
+  "type": "fa_declare",
+  "person": "21023889",
+  "team": "tigers",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-fa-declare-31933882",
+  "season": 2004,
+  "type": "fa_declare",
+  "person": "31933882",
+  "team": "giants",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-fa-declare-81983883",
+  "season": 2004,
+  "type": "fa_declare",
+  "person": "81983883",
+  "team": "fighters",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-fa-declare-91193880",
+  "season": 2004,
+  "type": "fa_declare",
+  "person": "91193880",
+  "team": "swallows",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-fa-declare-91293881",
+  "season": 2004,
+  "type": "fa_declare",
+  "person": "91293881",
+  "team": "tigers",
+  "pos": "捕手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-fa-declare-91293887",
+  "season": 2004,
+  "type": "fa_declare",
+  "person": "91293887",
+  "team": "swallows",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-fa-declare-91593882",
+  "season": 2004,
+  "type": "fa_declare",
+  "person": "91593882",
+  "team": "giants",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "season": 2004,
+  "person": "21023889",
+  "team": "tigers",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "id": "npb-2004-fa-move-21023889",
+  "type": "fa_move",
+  "toOrg": {
+   "name": "オークランド・アスレチックス",
+   "kind": "overseas"
+  }
+ },
+ {
+  "id": "npb-2004-retired-x54a540a6-20040608",
+  "season": 2004,
+  "date": "2004-06-08",
+  "type": "voluntary_retired",
+  "person": "x54a540a6",
+  "team": "swallows",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-93195117-20040907",
+  "season": 2004,
+  "date": "2004-09-07",
+  "type": "release",
+  "person": "93195117",
+  "team": "buffaloes",
+  "pos": "外野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-13115117-20041001",
+  "season": 2004,
+  "date": "2004-10-01",
+  "type": "release",
+  "person": "13115117",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-51655119-20041001",
+  "season": 2004,
+  "date": "2004-10-01",
+  "type": "release",
+  "person": "51655119",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-91895119-20041001",
+  "season": 2004,
+  "date": "2004-10-01",
+  "type": "release",
+  "person": "91895119",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-93195113-20041004",
+  "season": 2004,
+  "date": "2004-10-04",
+  "type": "release",
+  "person": "93195113",
+  "team": "lions",
+  "pos": "内野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-01605119-20041005",
+  "season": 2004,
+  "date": "2004-10-05",
+  "type": "release",
+  "person": "01605119",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-retired-x599c2ef6-20041007",
+  "season": 2004,
+  "date": "2004-10-07",
+  "type": "voluntary_retired",
+  "person": "x599c2ef6",
+  "team": "lions",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-71875117-20041012",
+  "season": 2004,
+  "date": "2004-10-12",
+  "type": "release",
+  "person": "71875117",
+  "team": "fighters",
+  "pos": "外野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-11615119-20041018",
+  "season": 2004,
+  "date": "2004-10-18",
+  "type": "release",
+  "person": "11615119",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-53155115-20041018",
+  "season": 2004,
+  "date": "2004-10-18",
+  "type": "release",
+  "person": "53155115",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-73575117-20041018",
+  "season": 2004,
+  "date": "2004-10-18",
+  "type": "release",
+  "person": "73575117",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-81485119-20041018",
+  "season": 2004,
+  "date": "2004-10-18",
+  "type": "release",
+  "person": "81485119",
+  "team": "swallows",
+  "pos": "外野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-43143888-20041019",
+  "season": 2004,
+  "date": "2004-10-19",
+  "type": "release",
+  "person": "43143888",
+  "team": "giants",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-43345117-20041019",
+  "season": 2004,
+  "date": "2004-10-19",
+  "type": "release",
+  "person": "43345117",
+  "team": "giants",
+  "pos": "外野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-51855119-20041019",
+  "season": 2004,
+  "date": "2004-10-19",
+  "type": "release",
+  "person": "51855119",
+  "team": "giants",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-83385117-20041019",
+  "season": 2004,
+  "date": "2004-10-19",
+  "type": "release",
+  "person": "83385117",
+  "team": "giants",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-81885113-20041020",
+  "season": 2004,
+  "date": "2004-10-20",
+  "type": "release",
+  "person": "81885113",
+  "team": "hawks",
+  "pos": "外野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-41845119-20041026",
+  "season": 2004,
+  "date": "2004-10-26",
+  "type": "release",
+  "person": "41845119",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-53555117-20041026",
+  "season": 2004,
+  "date": "2004-10-26",
+  "type": "release",
+  "person": "53555117",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-61865119-20041026",
+  "season": 2004,
+  "date": "2004-10-26",
+  "type": "release",
+  "person": "61865119",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-71475119-20041026",
+  "season": 2004,
+  "date": "2004-10-26",
+  "type": "release",
+  "person": "71475119",
+  "team": "tigers",
+  "pos": "外野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-41843886-20041027",
+  "season": 2004,
+  "date": "2004-10-27",
+  "type": "release",
+  "person": "41843886",
+  "team": "marines",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-51753864-20041028",
+  "season": 2004,
+  "date": "2004-10-28",
+  "type": "release",
+  "person": "51753864",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-retired-61363887-20041028",
+  "season": 2004,
+  "date": "2004-10-28",
+  "type": "voluntary_retired",
+  "person": "61363887",
+  "team": "giants",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-retired-71973881-20041028",
+  "season": 2004,
+  "date": "2004-10-28",
+  "type": "voluntary_retired",
+  "person": "71973881",
+  "team": "lions",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-23325115-20041101",
+  "season": 2004,
+  "date": "2004-11-01",
+  "type": "release",
+  "person": "23325115",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "season": 2004,
+  "person": "91293881",
+  "team": "tigers",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2004-11-05",
+  "id": "npb-2004-fa-stay-91293881",
+  "type": "fa_stay"
+ },
+ {
+  "id": "npb-2004-trade-01703884-20041105",
+  "season": 2004,
+  "date": "2004-11-05",
+  "type": "trade",
+  "person": "01703884",
+  "team": "marines",
+  "toTeam": "dragons",
+  "pos": "捕手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-11415111-20041105",
+  "season": 2004,
+  "date": "2004-11-05",
+  "type": "trade",
+  "person": "11415111",
+  "team": "dragons",
+  "toTeam": "marines",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-91493885-20041105",
+  "season": 2004,
+  "date": "2004-11-05",
+  "type": "trade",
+  "person": "91493885",
+  "team": "carp",
+  "toTeam": "tigers",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-61865115-20041108",
+  "season": 2004,
+  "date": "2004-11-08",
+  "type": "release",
+  "person": "61865115",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-retired-11213864-20041108",
+  "season": 2004,
+  "date": "2004-11-08",
+  "type": "voluntary_retired",
+  "person": "11213864",
+  "team": "tigers",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-retired-xa168e749-20041109",
+  "season": 2004,
+  "date": "2004-11-09",
+  "type": "voluntary_retired",
+  "person": "xa168e749",
+  "team": "lions",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-retired-35433868-20041111",
+  "season": 2004,
+  "date": "2004-11-11",
+  "type": "voluntary_retired",
+  "person": "35433868",
+  "team": "kintetsu",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-retired-71073889-20041115",
+  "season": 2004,
+  "date": "2004-11-15",
+  "type": "voluntary_retired",
+  "person": "71073889",
+  "team": "buffaloes",
+  "pos": "捕手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-01105111-20041117",
+  "season": 2004,
+  "date": "2004-11-17",
+  "type": "trade",
+  "person": "01105111",
+  "team": "kintetsu",
+  "toTeam": "buffaloes",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-01305119-20041117",
+  "season": 2004,
+  "date": "2004-11-17",
+  "type": "trade",
+  "person": "01305119",
+  "team": "kintetsu",
+  "toTeam": "buffaloes",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-01605117-20041117",
+  "season": 2004,
+  "date": "2004-11-17",
+  "type": "trade",
+  "person": "01605117",
+  "team": "kintetsu",
+  "toTeam": "buffaloes",
+  "pos": "捕手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-11013889-20041117",
+  "season": 2004,
+  "date": "2004-11-17",
+  "type": "trade",
+  "person": "11013889",
+  "team": "kintetsu",
+  "toTeam": "buffaloes",
+  "pos": "捕手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-21023885-20041117",
+  "season": 2004,
+  "date": "2004-11-17",
+  "type": "trade",
+  "person": "21023885",
+  "team": "kintetsu",
+  "toTeam": "buffaloes",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-21925117-20041117",
+  "season": 2004,
+  "date": "2004-11-17",
+  "type": "trade",
+  "person": "21925117",
+  "team": "kintetsu",
+  "toTeam": "buffaloes",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-31035117-20041117",
+  "season": 2004,
+  "date": "2004-11-17",
+  "type": "trade",
+  "person": "31035117",
+  "team": "kintetsu",
+  "toTeam": "buffaloes",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-41145113-20041117",
+  "season": 2004,
+  "date": "2004-11-17",
+  "type": "trade",
+  "person": "41145113",
+  "team": "kintetsu",
+  "toTeam": "buffaloes",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-41245111-20041117",
+  "season": 2004,
+  "date": "2004-11-17",
+  "type": "trade",
+  "person": "41245111",
+  "team": "kintetsu",
+  "toTeam": "buffaloes",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-41345117-20041117",
+  "season": 2004,
+  "date": "2004-11-17",
+  "type": "trade",
+  "person": "41345117",
+  "team": "kintetsu",
+  "toTeam": "buffaloes",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-41643883-20041117",
+  "season": 2004,
+  "date": "2004-11-17",
+  "type": "trade",
+  "person": "41643883",
+  "team": "kintetsu",
+  "toTeam": "buffaloes",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-51155117-20041117",
+  "season": 2004,
+  "date": "2004-11-17",
+  "type": "trade",
+  "person": "51155117",
+  "team": "kintetsu",
+  "toTeam": "buffaloes",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-51353882-20041117",
+  "season": 2004,
+  "date": "2004-11-17",
+  "type": "trade",
+  "person": "51353882",
+  "team": "kintetsu",
+  "toTeam": "buffaloes",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-51453888-20041117",
+  "season": 2004,
+  "date": "2004-11-17",
+  "type": "trade",
+  "person": "51453888",
+  "team": "kintetsu",
+  "toTeam": "buffaloes",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-61465115-20041117",
+  "season": 2004,
+  "date": "2004-11-17",
+  "type": "trade",
+  "person": "61465115",
+  "team": "kintetsu",
+  "toTeam": "buffaloes",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-71475111-20041117",
+  "season": 2004,
+  "date": "2004-11-17",
+  "type": "trade",
+  "person": "71475111",
+  "team": "kintetsu",
+  "toTeam": "buffaloes",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-71575117-20041117",
+  "season": 2004,
+  "date": "2004-11-17",
+  "type": "trade",
+  "person": "71575117",
+  "team": "kintetsu",
+  "toTeam": "buffaloes",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-71575119-20041117",
+  "season": 2004,
+  "date": "2004-11-17",
+  "type": "trade",
+  "person": "71575119",
+  "team": "kintetsu",
+  "toTeam": "buffaloes",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-71775111-20041117",
+  "season": 2004,
+  "date": "2004-11-17",
+  "type": "trade",
+  "person": "71775111",
+  "team": "kintetsu",
+  "toTeam": "buffaloes",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-81383880-20041117",
+  "season": 2004,
+  "date": "2004-11-17",
+  "type": "trade",
+  "person": "81383880",
+  "team": "kintetsu",
+  "toTeam": "buffaloes",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-81485113-20041117",
+  "season": 2004,
+  "date": "2004-11-17",
+  "type": "trade",
+  "person": "81485113",
+  "team": "kintetsu",
+  "toTeam": "buffaloes",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-91793886-20041117",
+  "season": 2004,
+  "date": "2004-11-17",
+  "type": "trade",
+  "person": "91793886",
+  "team": "kintetsu",
+  "toTeam": "buffaloes",
+  "pos": "捕手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-91795115-20041117",
+  "season": 2004,
+  "date": "2004-11-17",
+  "type": "trade",
+  "person": "91795115",
+  "team": "kintetsu",
+  "toTeam": "buffaloes",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-x15a65674-20041117",
+  "season": 2004,
+  "date": "2004-11-17",
+  "type": "trade",
+  "person": "x15a65674",
+  "team": "kintetsu",
+  "toTeam": "buffaloes",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-x1bd46310-20041117",
+  "season": 2004,
+  "date": "2004-11-17",
+  "type": "trade",
+  "person": "x1bd46310",
+  "team": "kintetsu",
+  "toTeam": "buffaloes",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-x5b314aff-20041117",
+  "season": 2004,
+  "date": "2004-11-17",
+  "type": "trade",
+  "person": "x5b314aff",
+  "team": "kintetsu",
+  "toTeam": "buffaloes",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-x878e7c6e-20041117",
+  "season": 2004,
+  "date": "2004-11-17",
+  "type": "trade",
+  "person": "x878e7c6e",
+  "team": "kintetsu",
+  "toTeam": "buffaloes",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-x89a36c64-20041117",
+  "season": 2004,
+  "date": "2004-11-17",
+  "type": "trade",
+  "person": "x89a36c64",
+  "team": "kintetsu",
+  "toTeam": "buffaloes",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-retired-71373869-20041119",
+  "season": 2004,
+  "date": "2004-11-19",
+  "type": "voluntary_retired",
+  "person": "71373869",
+  "team": "kintetsu",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-retired-31133880-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "voluntary_retired",
+  "person": "31133880",
+  "team": "carp",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-retired-41843883-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "voluntary_retired",
+  "person": "41843883",
+  "team": "carp",
+  "pos": "捕手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-retired-xc1ce6c5b-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "voluntary_retired",
+  "person": "xc1ce6c5b",
+  "team": "giants",
+  "pos": "捕手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-01103884-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "01103884",
+  "team": "kintetsu",
+  "toTeam": "eagles",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-01303880-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "01303880",
+  "team": "kintetsu",
+  "toTeam": "eagles",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-01903884-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "01903884",
+  "team": "buffaloes",
+  "toTeam": "eagles",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-11313887-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "11313887",
+  "team": "buffaloes",
+  "toTeam": "eagles",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-11413888-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "11413888",
+  "team": "kintetsu",
+  "toTeam": "eagles",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-11713884-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "11713884",
+  "team": "buffaloes",
+  "toTeam": "eagles",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-11713886-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "11713886",
+  "team": "dragons",
+  "toTeam": "lions",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-21023882-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "21023882",
+  "team": "kintetsu",
+  "toTeam": "eagles",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-21125115-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "21125115",
+  "team": "kintetsu",
+  "toTeam": "eagles",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-21225117-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "21225117",
+  "team": "buffaloes",
+  "toTeam": "eagles",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-21725115-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "21725115",
+  "team": "kintetsu",
+  "toTeam": "eagles",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-21823881-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "21823881",
+  "team": "kintetsu",
+  "toTeam": "eagles",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-21923884-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "21923884",
+  "team": "lions",
+  "toTeam": "dragons",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-31035115-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "31035115",
+  "team": "buffaloes",
+  "toTeam": "eagles",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-31135115-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "31135115",
+  "team": "kintetsu",
+  "toTeam": "eagles",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-31233884-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "31233884",
+  "team": "dragons",
+  "toTeam": "lions",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-41045115-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "41045115",
+  "team": "kintetsu",
+  "toTeam": "eagles",
+  "pos": "捕手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-41743886-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "41743886",
+  "team": "kintetsu",
+  "toTeam": "eagles",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-41943880-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "41943880",
+  "team": "kintetsu",
+  "toTeam": "eagles",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-41943887-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "41943887",
+  "team": "buffaloes",
+  "toTeam": "eagles",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-43345113-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "43345113",
+  "team": "kintetsu",
+  "toTeam": "buffaloes",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-51053888-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "51053888",
+  "team": "kintetsu",
+  "toTeam": "eagles",
+  "pos": "捕手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-51155113-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "51155113",
+  "team": "kintetsu",
+  "toTeam": "eagles",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-51253866-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "51253866",
+  "team": "kintetsu",
+  "toTeam": "eagles",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-51353887-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "51353887",
+  "team": "buffaloes",
+  "toTeam": "eagles",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-51455111-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "51455111",
+  "team": "kintetsu",
+  "toTeam": "eagles",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-61265113-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "61265113",
+  "team": "kintetsu",
+  "toTeam": "eagles",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-61565119-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "61565119",
+  "team": "kintetsu",
+  "toTeam": "eagles",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-61763864-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "61763864",
+  "team": "baystars",
+  "toTeam": "eagles",
+  "pos": "捕手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-61765119-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "61765119",
+  "team": "kintetsu",
+  "toTeam": "eagles",
+  "pos": "捕手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-71573887-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "71573887",
+  "team": "kintetsu",
+  "toTeam": "eagles",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-71573889-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "71573889",
+  "team": "buffaloes",
+  "toTeam": "eagles",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-73175117-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "73175117",
+  "team": "kintetsu",
+  "toTeam": "buffaloes",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-73573868-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "73573868",
+  "team": "kintetsu",
+  "toTeam": "eagles",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-81083880-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "81083880",
+  "team": "kintetsu",
+  "toTeam": "eagles",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-81085111-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "81085111",
+  "team": "kintetsu",
+  "toTeam": "eagles",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-81183882-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "81183882",
+  "team": "lions",
+  "toTeam": "dragons",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-81985113-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "81985113",
+  "team": "kintetsu",
+  "toTeam": "eagles",
+  "pos": "捕手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-91393880-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "91393880",
+  "team": "kintetsu",
+  "toTeam": "eagles",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-91393887-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "91393887",
+  "team": "buffaloes",
+  "toTeam": "eagles",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-91493886-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "91493886",
+  "team": "kintetsu",
+  "toTeam": "eagles",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-91593887-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "91593887",
+  "team": "buffaloes",
+  "toTeam": "eagles",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-91795111-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "91795111",
+  "team": "kintetsu",
+  "toTeam": "eagles",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-91993885-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "91993885",
+  "team": "kintetsu",
+  "toTeam": "eagles",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-91993888-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "91993888",
+  "team": "buffaloes",
+  "toTeam": "eagles",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-x1a7998e4-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "x1a7998e4",
+  "team": "buffaloes",
+  "toTeam": "eagles",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-xdeb579a3-20041124",
+  "season": 2004,
+  "date": "2004-11-24",
+  "type": "trade",
+  "person": "xdeb579a3",
+  "team": "buffaloes",
+  "toTeam": "eagles",
+  "pos": "捕手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-retired-81383864-20041125",
+  "season": 2004,
+  "date": "2004-11-25",
+  "type": "voluntary_retired",
+  "person": "81383864",
+  "team": "marines",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-01703883-20041129",
+  "season": 2004,
+  "date": "2004-11-29",
+  "type": "trade",
+  "person": "01703883",
+  "team": "dragons",
+  "toTeam": "eagles",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-15213868-20041129",
+  "season": 2004,
+  "date": "2004-11-29",
+  "type": "trade",
+  "person": "15213868",
+  "team": "swallows",
+  "toTeam": "eagles",
+  "pos": "外野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-81583884-20041129",
+  "season": 2004,
+  "date": "2004-11-29",
+  "type": "trade",
+  "person": "81583884",
+  "team": "dragons",
+  "toTeam": "eagles",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-01003882-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "01003882",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-01203887-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "01203887",
+  "team": "lions",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-01303864-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "01303864",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-01303868-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "01303868",
+  "team": "buffaloes",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-01405115-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "01405115",
+  "team": "dragons",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-01405119-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "01405119",
+  "team": "kintetsu",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-01503884-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "01503884",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-01603885-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "01603885",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-01805119-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "01805119",
+  "team": "kintetsu",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-03305115-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "03305115",
+  "team": "dragons",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-11013887-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "11013887",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-11213884-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "11213884",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-11215111-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "11215111",
+  "team": "kintetsu",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-11313880-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "11313880",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-11513884-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "11513884",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-11513886-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "11513886",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-11615113-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "11615113",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-11713887-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "11713887",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-11713888-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "11713888",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-11815113-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "11815113",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-11913883-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "11913883",
+  "team": "kintetsu",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-11913884-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "11913884",
+  "team": "buffaloes",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-11913889-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "11913889",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-21223866-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "21223866",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-21423881-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "21423881",
+  "team": "lions",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-21525111-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "21525111",
+  "team": "baystars",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-21825117-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "21825117",
+  "team": "carp",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-21825119-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "21825119",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-21923880-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "21923880",
+  "team": "giants",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-21923887-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "21923887",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-25923868-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "25923868",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-31233889-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "31233889",
+  "team": "dragons",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-31333888-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "31333888",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-31433888-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "31433888",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-31533868-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "31533868",
+  "team": "dragons",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-31635119-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "31635119",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-31733889-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "31733889",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-31833888-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "31833888",
+  "team": "giants",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-31935111-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "31935111",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-33233868-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "33233868",
+  "team": "carp",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-33335111-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "33335111",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-33535117-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "33535117",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-37133868-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "37133868",
+  "team": "baystars",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-41145111-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "41145111",
+  "team": "lions",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-41445111-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "41445111",
+  "team": "tigers",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-41943868-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "41943868",
+  "team": "fighters",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-41943884-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "41943884",
+  "team": "dragons",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-51153884-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "51153884",
+  "team": "hawks",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-51153889-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "51153889",
+  "team": "giants",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-51653860-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "51653860",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-51655115-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "51655115",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-51855117-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "51855117",
+  "team": "baystars",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-51953889-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "51953889",
+  "team": "marines",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-61063885-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "61063885",
+  "team": "kintetsu",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-61165115-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "61165115",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-61263885-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "61263885",
+  "team": "marines",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-61263886-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "61263886",
+  "team": "lions",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-61363886-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "61363886",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-61563882-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "61563882",
+  "team": "kintetsu",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-61665119-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "61665119",
+  "team": "kintetsu",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-61963884-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "61963884",
+  "team": "dragons",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-71073884-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "71073884",
+  "team": "lions",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-71673883-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "71673883",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-71675119-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "71675119",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-71775113-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "71775113",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-71975111-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "71975111",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-71975113-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "71975113",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-73375117-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "73375117",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-81283885-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "81283885",
+  "team": "fighters",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-81383885-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "81383885",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-81383889-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "81383889",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-81683885-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "81683885",
+  "team": "fighters",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-81685119-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "81685119",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-81783880-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "81783880",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-91093882-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "91093882",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-91093888-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "91093888",
+  "team": "kintetsu",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-91393882-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "91393882",
+  "team": "giants",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-91595113-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "91595113",
+  "team": "tigers",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-91793885-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "91793885",
+  "team": "swallows",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-91895117-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "91895117",
+  "team": "buffaloes",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-91993882-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "91993882",
+  "team": "tigers",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-93395117-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "93395117",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-x08f267b0-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "x08f267b0",
+  "team": "kintetsu",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-x0bce9539-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "x0bce9539",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-x0ed3cf0b-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "x0ed3cf0b",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-x297814b1-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "x297814b1",
+  "team": "lions",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-x2b6446cf-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "x2b6446cf",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-x3dccb412-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "x3dccb412",
+  "team": "baystars",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-x44c8d05b-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "x44c8d05b",
+  "team": "fighters",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-x45f6a90f-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "x45f6a90f",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-x46469909-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "x46469909",
+  "team": "tigers",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-x6c0608b0-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "x6c0608b0",
+  "team": "lions",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-x79f24958-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "x79f24958",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-x7bfe241e-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "x7bfe241e",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-x7ecb0394-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "x7ecb0394",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-x9104079a-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "x9104079a",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-xa9dbec2c-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "xa9dbec2c",
+  "team": "dragons",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-xd4c2ca55-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "xd4c2ca55",
+  "team": "giants",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-xddbb3191-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "xddbb3191",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-released-xfc50ffc3-20041202",
+  "season": 2004,
+  "date": "2004-12-02",
+  "type": "release",
+  "person": "xfc50ffc3",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "season": 2004,
+  "person": "81983883",
+  "team": "fighters",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2004-12-06",
+  "id": "npb-2004-fa-stay-81983883",
+  "type": "fa_stay"
+ },
+ {
+  "season": 2004,
+  "person": "15313868",
+  "team": "swallows",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2004-12-07",
+  "id": "npb-2004-fa-stay-15313868",
+  "type": "fa_stay"
+ },
+ {
+  "season": 2004,
+  "person": "91293887",
+  "team": "swallows",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2004-12-07",
+  "id": "npb-2004-fa-stay-91293887",
+  "type": "fa_stay"
+ },
+ {
+  "season": 2004,
+  "person": "91593882",
+  "team": "giants",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2004-12-15",
+  "id": "npb-2004-fa-stay-91593882",
+  "type": "fa_stay"
+ },
+ {
+  "id": "npb-2004-trade-91793882-20041227",
+  "season": 2004,
+  "date": "2004-12-27",
+  "type": "trade",
+  "person": "91793882",
+  "team": "carp",
+  "toTeam": "eagles",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "season": 2004,
+  "person": "31933882",
+  "team": "giants",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2005-01-05",
+  "id": "npb-2004-fa-stay-31933882",
+  "type": "fa_stay"
+ },
+ {
+  "season": 2004,
+  "person": "11313889",
+  "team": "kintetsu",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2005-01-11",
+  "id": "npb-2004-fa-move-11313889",
+  "type": "fa_move",
+  "toTeam": "hawks"
+ },
+ {
+  "id": "npb-2004-trade-01305113-20050114",
+  "season": 2004,
+  "date": "2005-01-14",
+  "type": "trade",
+  "person": "01305113",
+  "team": "buffaloes",
+  "toTeam": "carp",
+  "pos": "捕手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-21323887-20050114",
+  "season": 2004,
+  "date": "2005-01-14",
+  "type": "trade",
+  "person": "21323887",
+  "team": "carp",
+  "toTeam": "buffaloes",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-51453888-20050114",
+  "season": 2004,
+  "date": "2005-01-14",
+  "type": "trade",
+  "person": "51453888",
+  "team": "buffaloes",
+  "toTeam": "carp",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-trade-01105111-20050117",
+  "season": 2004,
+  "date": "2005-01-17",
+  "type": "trade",
+  "person": "01105111",
+  "team": "buffaloes",
+  "toTeam": "eagles",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2004-retired-91395113-20050119",
+  "season": 2004,
+  "date": "2005-01-19",
+  "type": "voluntary_retired",
+  "person": "91395113",
+  "team": "giants",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "season": 2004,
+  "person": "91193880",
+  "team": "swallows",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2004/fa_filed2.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2005-02-25",
+  "id": "npb-2004-fa-move-91193880",
+  "type": "fa_move",
+  "toTeam": "fighters"
+ }
+]

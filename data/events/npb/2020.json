@@ -1,0 +1,5713 @@
+[
+ {
+  "id": "npb-2020-fa-declare-01205137",
+  "season": 2020,
+  "type": "fa_declare",
+  "person": "01205137",
+  "team": "marines",
+  "pos": "投手",
+  "note": "国内FA",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/fa_filed.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-fa-declare-11515137",
+  "season": 2020,
+  "type": "fa_declare",
+  "person": "11515137",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "国内FA",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/fa_filed.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-fa-declare-21725133",
+  "season": 2020,
+  "type": "fa_declare",
+  "person": "21725133",
+  "team": "lions",
+  "pos": "外野手",
+  "note": "国内FA",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/fa_filed.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-fa-declare-61165137",
+  "season": 2020,
+  "type": "fa_declare",
+  "person": "61165137",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "国内FA",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/fa_filed.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-fa-declare-61565114",
+  "season": 2020,
+  "type": "fa_declare",
+  "person": "61565114",
+  "team": "baystars",
+  "pos": "外野手",
+  "note": "国内FA",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/fa_filed.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-fa-declare-71275137",
+  "season": 2020,
+  "type": "fa_declare",
+  "person": "71275137",
+  "team": "lions",
+  "pos": "投手",
+  "note": "国内FA",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/fa_filed.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-fa-declare-81985133",
+  "season": 2020,
+  "type": "fa_declare",
+  "person": "81985133",
+  "team": "marines",
+  "pos": "投手",
+  "note": "海外FA",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/fa_filed.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "season": 2020,
+  "person": "81985133",
+  "team": "marines",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/fa_filed.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "id": "npb-2020-fa-move-81985133",
+  "type": "fa_move",
+  "toOrg": {
+   "name": "ボストン・レッドソックス",
+   "kind": "overseas"
+  }
+ },
+ {
+  "id": "npb-2020-staff-coachin-dragons-33133886-20200228",
+  "season": 2020,
+  "date": "2020-02-28",
+  "type": "coach_in",
+  "person": "33133886",
+  "team": "dragons",
+  "note": "コーチ登録",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/managers_d.html",
+    "kind": "npb",
+    "title": "NPB 公示 2020年度 監督・コーチ",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-trade-03105130-20200629",
+  "season": 2020,
+  "date": "2020-06-29",
+  "type": "trade",
+  "person": "03105130",
+  "team": "eagles",
+  "toTeam": "giants",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-trade-91195134-20200629",
+  "season": 2020,
+  "date": "2020-06-29",
+  "type": "trade",
+  "person": "91195134",
+  "team": "giants",
+  "toTeam": "eagles",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-13515132-20200710",
+  "season": 2020,
+  "date": "2020-07-10",
+  "type": "release",
+  "person": "13515132",
+  "team": "marines",
+  "pos": "投手",
+  "note": "球団による契約解除",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-trade-71075134-20200715",
+  "season": 2020,
+  "date": "2020-07-15",
+  "type": "trade",
+  "person": "71075134",
+  "team": "giants",
+  "toTeam": "eagles",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-trade-91095134-20200715",
+  "season": 2020,
+  "date": "2020-07-15",
+  "type": "trade",
+  "person": "91095134",
+  "team": "eagles",
+  "toTeam": "giants",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-staff-coachchange-giants-01903888-20200731",
+  "season": 2020,
+  "date": "2020-07-31",
+  "type": "coach_change",
+  "person": "01903888",
+  "team": "giants",
+  "note": "三軍監督変更",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/managers_g.html",
+    "kind": "npb",
+    "title": "NPB 公示 2020年度 監督・コーチ",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-staff-managerin-carp-21923888-20200820",
+  "season": 2020,
+  "date": "2020-08-20",
+  "type": "manager_in",
+  "person": "21923888",
+  "team": "carp",
+  "role": "監督代行",
+  "note": "二軍監督代行（8/20）",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/managers_c.html",
+    "kind": "npb",
+    "title": "NPB 公示 2020年度 監督・コーチ",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-staff-coachin-buffaloes-71775110-20200821",
+  "season": 2020,
+  "date": "2020-08-21",
+  "type": "coach_in",
+  "person": "71775110",
+  "team": "buffaloes",
+  "note": "コーチ登録（ブルペン捕手登録抹消）",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/managers_b.html",
+    "kind": "npb",
+    "title": "NPB 公示 2020年度 監督・コーチ",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-staff-managerin-buffaloes-91593887-20200821",
+  "season": 2020,
+  "date": "2020-08-21",
+  "type": "manager_in",
+  "person": "91593887",
+  "team": "buffaloes",
+  "role": "二軍監督代行",
+  "fromRole": "二軍投手コーチ",
+  "note": "二軍監督代行（8/21～）",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/managers_b.html",
+    "kind": "npb",
+    "title": "NPB 公示 2020年度 監督・コーチ",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-staff-managerin-buffaloes-91793864-20200821",
+  "season": 2020,
+  "date": "2020-08-21",
+  "type": "manager_in",
+  "person": "91793864",
+  "team": "buffaloes",
+  "role": "監督代行",
+  "fromRole": "二軍監督",
+  "note": "監督代行（8/21～）",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/managers_b.html",
+    "kind": "npb",
+    "title": "NPB 公示 2020年度 監督・コーチ",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-trade-01105137-20200828",
+  "season": 2020,
+  "date": "2020-08-28",
+  "type": "trade",
+  "person": "01105137",
+  "team": "tigers",
+  "toTeam": "buffaloes",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-trade-21725134-20200828",
+  "season": 2020,
+  "date": "2020-08-28",
+  "type": "trade",
+  "person": "21725134",
+  "team": "buffaloes",
+  "toTeam": "tigers",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-trade-21525130-20200908",
+  "season": 2020,
+  "date": "2020-09-08",
+  "type": "trade",
+  "person": "21525130",
+  "team": "marines",
+  "toTeam": "giants",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-trade-81985133-20200908",
+  "season": 2020,
+  "date": "2020-09-08",
+  "type": "trade",
+  "person": "81985133",
+  "team": "giants",
+  "toTeam": "marines",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-staff-coachchange-giants-21125113-20200916",
+  "season": 2020,
+  "date": "2020-09-16",
+  "type": "coach_change",
+  "person": "21125113",
+  "team": "giants",
+  "note": "一軍ヘッドコーチ代行（9/16～10/1）",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/managers_g.html",
+    "kind": "npb",
+    "title": "NPB 公示 2020年度 監督・コーチ",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-staff-managerin-giants-81485117-20200916",
+  "season": 2020,
+  "date": "2020-09-16",
+  "type": "manager_in",
+  "person": "81485117",
+  "team": "giants",
+  "role": "監督代行",
+  "note": "二軍監督代行（9/16～10/1）",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/managers_g.html",
+    "kind": "npb",
+    "title": "NPB 公示 2020年度 監督・コーチ",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-trade-93595151-20200921",
+  "season": 2020,
+  "date": "2020-09-21",
+  "type": "trade",
+  "person": "93595151",
+  "team": "carp",
+  "toTeam": "eagles",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-trade-31235130-20200930",
+  "season": 2020,
+  "date": "2020-09-30",
+  "type": "trade",
+  "person": "31235130",
+  "team": "giants",
+  "toTeam": "eagles",
+  "pos": "捕手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-83185151-20201012",
+  "season": 2020,
+  "date": "2020-10-12",
+  "type": "release",
+  "person": "83185151",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-staff-coachout-lions-91993889-20201104",
+  "season": 2020,
+  "date": "2020-11-04",
+  "type": "coach_out",
+  "person": "91993889",
+  "team": "lions",
+  "note": "コーチ登録抹消（2020年11月1日付）",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/managers_l.html",
+    "kind": "npb",
+    "title": "NPB 公示 2020年度 監督・コーチ",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-63765151-20201120",
+  "season": 2020,
+  "date": "2020-11-20",
+  "type": "release",
+  "person": "63765151",
+  "team": "tigers",
+  "pos": "内野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-retired-91795132-20201120",
+  "season": 2020,
+  "date": "2020-11-20",
+  "type": "voluntary_retired",
+  "person": "91795132",
+  "team": "lions",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-33335151-20201123",
+  "season": 2020,
+  "date": "2020-11-23",
+  "type": "release",
+  "person": "33335151",
+  "team": "swallows",
+  "pos": "内野手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-trade-41845114-20201127",
+  "season": 2020,
+  "date": "2020-11-27",
+  "type": "trade",
+  "person": "41845114",
+  "team": "fighters",
+  "toTeam": "lions",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-01705132-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "01705132",
+  "team": "hawks",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-11015116-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "11015116",
+  "team": "baystars",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-21925116-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "21925116",
+  "team": "marines",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-31935137-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "31935137",
+  "team": "lions",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-33335132-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "33335132",
+  "team": "eagles",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-41345134-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "41345134",
+  "team": "buffaloes",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-41445130-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "41445130",
+  "team": "dragons",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-51255134-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "51255134",
+  "team": "giants",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-51355132-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "51355132",
+  "team": "dragons",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-61865134-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "61865134",
+  "team": "dragons",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-61865136-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "61865136",
+  "team": "marines",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-71175136-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "71175136",
+  "team": "buffaloes",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-71775132-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "71775132",
+  "team": "hawks",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-71875130-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "71875130",
+  "team": "giants",
+  "pos": "外野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-91495137-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "91495137",
+  "team": "eagles",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-x097ce279-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "x097ce279",
+  "team": "tigers",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-x105d282d-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "x105d282d",
+  "team": "giants",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-x14e2dcf3-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "x14e2dcf3",
+  "team": "hawks",
+  "pos": "捕手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-x2ee894cc-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "x2ee894cc",
+  "team": "giants",
+  "pos": "捕手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-x342f3368-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "x342f3368",
+  "team": "hawks",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-x35383fd4-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "x35383fd4",
+  "team": "hawks",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-x369bc45c-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "x369bc45c",
+  "team": "marines",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-x37613078-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "x37613078",
+  "team": "hawks",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-x484513c3-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "x484513c3",
+  "team": "giants",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-x57594596-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "x57594596",
+  "team": "giants",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-x5984b94f-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "x5984b94f",
+  "team": "buffaloes",
+  "pos": "捕手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-x598915aa-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "x598915aa",
+  "team": "giants",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-x5f897a2c-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "x5f897a2c",
+  "team": "giants",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-x6754973c-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "x6754973c",
+  "team": "hawks",
+  "pos": "外野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-x765daa5d-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "x765daa5d",
+  "team": "eagles",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-x7d774888-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "x7d774888",
+  "team": "eagles",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-x8141eba4-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "x8141eba4",
+  "team": "buffaloes",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-x8c68c8f7-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "x8c68c8f7",
+  "team": "tigers",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-x98a1f0cf-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "x98a1f0cf",
+  "team": "hawks",
+  "pos": "外野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-x98a92d8f-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "x98a92d8f",
+  "team": "dragons",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-x9fbec1c2-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "x9fbec1c2",
+  "team": "carp",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-xa6abc2fc-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "xa6abc2fc",
+  "team": "buffaloes",
+  "pos": "捕手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-xaf28b761-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "xaf28b761",
+  "team": "giants",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-xb523c58f-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "xb523c58f",
+  "team": "giants",
+  "pos": "捕手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-xc636d5ef-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "xc636d5ef",
+  "team": "marines",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-xcc71084d-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "xcc71084d",
+  "team": "carp",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-xd171da69-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "xd171da69",
+  "team": "fighters",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-xd53db527-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "xd53db527",
+  "team": "giants",
+  "pos": "外野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-xd86f8e55-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "xd86f8e55",
+  "team": "eagles",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-xd8e361b0-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "xd8e361b0",
+  "team": "eagles",
+  "pos": "外野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-xdace3987-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "xdace3987",
+  "team": "giants",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-xdceb041f-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "xdceb041f",
+  "team": "swallows",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-xde30babd-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "xde30babd",
+  "team": "giants",
+  "pos": "内野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-xe50d52a6-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "xe50d52a6",
+  "team": "giants",
+  "pos": "外野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-xe799d8e4-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "xe799d8e4",
+  "team": "dragons",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-xe8da8ff0-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "xe8da8ff0",
+  "team": "giants",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-xf0762b8f-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "xf0762b8f",
+  "team": "hawks",
+  "pos": "外野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-xf33503c6-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "xf33503c6",
+  "team": "hawks",
+  "pos": "外野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-xf3d3e8b2-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "xf3d3e8b2",
+  "team": "eagles",
+  "pos": "外野手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-xf525c740-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "xf525c740",
+  "team": "giants",
+  "pos": "捕手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-dev-released-xf941d8d9-20201130",
+  "season": 2020,
+  "date": "2020-11-30",
+  "type": "release",
+  "person": "xf941d8d9",
+  "team": "giants",
+  "pos": "投手",
+  "unresearched": true,
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pndev_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 育成選手 自由契約",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-01105111-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "01105111",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-01105132-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "01105132",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-01305118-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "01305118",
+  "team": "tigers",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-01605134-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "01605134",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-01605135-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "01605135",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-01705136-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "01705136",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-01805138-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "01805138",
+  "team": "giants",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-03305151-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "03305151",
+  "team": "lions",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-03505138-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "03505138",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-03705134-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "03705134",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-03705136-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "03705136",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-11015139-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "11015139",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-11215131-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "11215131",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-11215138-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "11215138",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-11415135-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "11415135",
+  "team": "lions",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-11515118-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "11515118",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-11615135-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "11615135",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-11815114-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "11815114",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-13515130-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "13515130",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-13515138-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "13515138",
+  "team": "giants",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-13715138-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "13715138",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-13715151-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "13715151",
+  "team": "lions",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-13915151-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "13915151",
+  "team": "buffaloes",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-21125118-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "21125118",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-21125139-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "21125139",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-21225135-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "21225135",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-21325113-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "21325113",
+  "team": "hawks",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-21425112-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "21425112",
+  "team": "marines",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-21525139-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "21525139",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-21625119-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "21625119",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-21625133-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "21625133",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-21625151-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "21625151",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-21725112-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "21725112",
+  "team": "fighters",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-21725117-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "21725117",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-21725137-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "21725137",
+  "team": "buffaloes",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-21825133-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "21825133",
+  "team": "giants",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-23325136-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "23325136",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-23325138-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "23325138",
+  "team": "eagles",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-23325151-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "23325151",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-23725151-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "23725151",
+  "team": "carp",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-31035132-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "31035132",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-31035135-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "31035135",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-31435136-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "31435136",
+  "team": "buffaloes",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-31635116-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "31635116",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-31635137-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "31635137",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-31735136-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "31735136",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-31835130-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "31835130",
+  "team": "baystars",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-33535136-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "33535136",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-33535151-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "33535151",
+  "team": "dragons",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-33735136-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "33735136",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-41045131-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "41045131",
+  "team": "hawks",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-41045135-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "41045135",
+  "team": "swallows",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-41045139-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "41045139",
+  "team": "fighters",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-41145130-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "41145130",
+  "team": "dragons",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-41345131-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "41345131",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-41345139-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "41345139",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-41445132-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "41445132",
+  "team": "lions",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-41745134-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "41745134",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-41845112-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "41845112",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-43145137-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "43145137",
+  "team": "lions",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-43345136-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "43345136",
+  "team": "dragons",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-43345151-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "43345151",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-51055131-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "51055131",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-51055133-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "51055133",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-51255132-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "51255132",
+  "team": "lions",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-51355115-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "51355115",
+  "team": "carp",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-51555134-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "51555134",
+  "team": "giants",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-51655130-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "51655130",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-51755116-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "51755116",
+  "team": "carp",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-51755132-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "51755132",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-53155130-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "53155130",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-53355130-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "53355130",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-53355136-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "53355136",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-53555132-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "53555132",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-53555151-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "53555151",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-53755151-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "53755151",
+  "team": "giants",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-61065110-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "61065110",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-61065135-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "61065135",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-61165119-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "61165119",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-61265137-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "61265137",
+  "team": "lions",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-61465138-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "61465138",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-61963888-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "61963888",
+  "team": "tigers",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-63565151-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "63565151",
+  "team": "giants",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-71073888-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "71073888",
+  "team": "tigers",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-71175134-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "71175134",
+  "team": "buffaloes",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-71375114-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "71375114",
+  "team": "swallows",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-71475112-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "71475112",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-71475113-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "71475113",
+  "team": "buffaloes",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-71475115-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "71475115",
+  "team": "marines",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-71475131-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "71475131",
+  "team": "buffaloes",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-71675132-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "71675132",
+  "team": "fighters",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-71875133-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "71875133",
+  "team": "eagles",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-71875136-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "71875136",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-71975137-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "71975137",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-73375136-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "73375136",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-73975134-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "73975134",
+  "team": "eagles",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-81085139-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "81085139",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-81185112-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "81185112",
+  "team": "swallows",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-81185135-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "81185135",
+  "team": "tigers",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-81485130-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "81485130",
+  "team": "eagles",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-81685133-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "81685133",
+  "team": "lions",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-81685135-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "81685135",
+  "team": "marines",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-81785116-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "81785116",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-81785132-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "81785132",
+  "team": "buffaloes",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-81785139-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "81785139",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-81885114-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "81885114",
+  "team": "eagles",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-81985136-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "81985136",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-83185132-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "83185132",
+  "team": "fighters",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-83785151-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "83785151",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-83985134-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "83985134",
+  "team": "hawks",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-91193886-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "91193886",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-91195110-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "91195110",
+  "team": "baystars",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-91195112-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "91195112",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-91295139-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "91295139",
+  "team": "swallows",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-91395110-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "91395110",
+  "team": "tigers",
+  "pos": "捕手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-91595130-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "91595130",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-91695135-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "91695135",
+  "team": "baystars",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-91795115-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "91795115",
+  "team": "swallows",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-91795135-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "91795135",
+  "team": "buffaloes",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-93195137-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "93195137",
+  "team": "baystars",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-93395138-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "93395138",
+  "team": "fighters",
+  "pos": "内野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-93595151-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "93595151",
+  "team": "eagles",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-93795134-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "93795134",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-x05240fa9-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "x05240fa9",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-x17b7e5e6-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "x17b7e5e6",
+  "team": "hawks",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-x27ac21d6-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "x27ac21d6",
+  "team": "lions",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-x9d987cb6-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "x9d987cb6",
+  "team": "dragons",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-xb7a2432e-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "xb7a2432e",
+  "team": "buffaloes",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-xbd7eb41e-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "xbd7eb41e",
+  "team": "giants",
+  "pos": "外野手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-xbe731736-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "xbe731736",
+  "team": "marines",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-xcd535d7e-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "xcd535d7e",
+  "team": "carp",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-xd48a847d-20201202",
+  "season": 2020,
+  "date": "2020-12-02",
+  "type": "release",
+  "person": "xd48a847d",
+  "team": "baystars",
+  "pos": "投手",
+  "note": "保留されない選手",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "season": 2020,
+  "person": "21725133",
+  "team": "lions",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/fa_filed.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2020-12-08",
+  "id": "npb-2020-fa-stay-21725133",
+  "type": "fa_stay"
+ },
+ {
+  "season": 2020,
+  "person": "71275137",
+  "team": "lions",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/fa_filed.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2020-12-08",
+  "id": "npb-2020-fa-stay-71275137",
+  "type": "fa_stay"
+ },
+ {
+  "id": "npb-2020-trade-93195132-20201210",
+  "season": 2020,
+  "date": "2020-12-10",
+  "type": "trade",
+  "person": "93195132",
+  "team": "giants",
+  "toTeam": "tigers",
+  "pos": "内野手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-released-23525133-20201211",
+  "season": 2020,
+  "date": "2020-12-11",
+  "type": "release",
+  "person": "23525133",
+  "team": "marines",
+  "pos": "投手",
+  "note": "契約保留権放棄",
+  "unresearched": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "season": 2020,
+  "person": "61165137",
+  "team": "baystars",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/fa_filed.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2020-12-14",
+  "id": "npb-2020-fa-move-61165137",
+  "type": "fa_move",
+  "toTeam": "giants"
+ },
+ {
+  "season": 2020,
+  "person": "61565114",
+  "team": "baystars",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/fa_filed.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2020-12-14",
+  "id": "npb-2020-fa-move-61565114",
+  "type": "fa_move",
+  "toTeam": "giants"
+ },
+ {
+  "id": "npb-2020-facompensation-81085136-20201222",
+  "season": 2020,
+  "date": "2020-12-22",
+  "type": "fa_compensation",
+  "person": "81085136",
+  "team": "giants",
+  "toTeam": "baystars",
+  "pos": "内野手",
+  "note": "梶谷隆幸選手のFA移籍に伴う契約譲渡",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_traded.html",
+    "kind": "npb",
+    "title": "NPB 公示 トレード",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "season": 2020,
+  "person": "11515137",
+  "team": "swallows",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/fa_filed.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2020-12-25",
+  "id": "npb-2020-fa-stay-11515137",
+  "type": "fa_stay"
+ },
+ {
+  "id": "npb-2020-posting-51155130-20210112",
+  "season": 2020,
+  "date": "2021-01-12",
+  "type": "posting",
+  "person": "51155130",
+  "team": "fighters",
+  "pos": "投手",
+  "toOrg": {
+   "name": "テキサス・レンジャーズ",
+   "kind": "overseas"
+  },
+  "note": "ポスティングによる移籍",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手（ポスティングによる移籍）",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-sign-03305151-20210125",
+  "season": 2020,
+  "date": "2021-01-25",
+  "type": "sign",
+  "person": "03305151",
+  "team": "lions",
+  "toTeam": "lions",
+  "note": "再契約",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registered_l.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-sign-31635116-20210127",
+  "season": 2020,
+  "date": "2021-01-27",
+  "type": "sign",
+  "person": "31635116",
+  "team": "fighters",
+  "toTeam": "fighters",
+  "note": "再契約",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registered_f.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "season": 2020,
+  "person": "01205137",
+  "team": "marines",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2020/fa_filed.html",
+    "kind": "npb",
+    "title": "NPB 公示 フリーエージェント宣言選手（契約締結合意）",
+    "fetched": "2026-11-23"
+   }
+  ],
+  "date": "2021-01-28",
+  "id": "npb-2020-fa-stay-01205137",
+  "type": "fa_stay"
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-21925116-20210128",
+  "season": 2020,
+  "date": "2021-01-28",
+  "type": "ikusei_recontract",
+  "person": "21925116",
+  "team": "marines",
+  "toTeam": "marines",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_m.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-31435136-20210128",
+  "season": 2020,
+  "date": "2021-01-28",
+  "type": "ikusei_recontract",
+  "person": "31435136",
+  "team": "buffaloes",
+  "toTeam": "buffaloes",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_b.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-33335132-20210128",
+  "season": 2020,
+  "date": "2021-01-28",
+  "type": "ikusei_recontract",
+  "person": "33335132",
+  "team": "eagles",
+  "toTeam": "eagles",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_e.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-41345134-20210128",
+  "season": 2020,
+  "date": "2021-01-28",
+  "type": "ikusei_recontract",
+  "person": "41345134",
+  "team": "buffaloes",
+  "toTeam": "buffaloes",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_b.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-51255132-20210128",
+  "season": 2020,
+  "date": "2021-01-28",
+  "type": "ikusei_recontract",
+  "person": "51255132",
+  "team": "lions",
+  "toTeam": "lions",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_l.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-61865136-20210128",
+  "season": 2020,
+  "date": "2021-01-28",
+  "type": "ikusei_recontract",
+  "person": "61865136",
+  "team": "marines",
+  "toTeam": "marines",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_m.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-71175136-20210128",
+  "season": 2020,
+  "date": "2021-01-28",
+  "type": "ikusei_recontract",
+  "person": "71175136",
+  "team": "buffaloes",
+  "toTeam": "buffaloes",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_b.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-71675132-20210128",
+  "season": 2020,
+  "date": "2021-01-28",
+  "type": "ikusei_recontract",
+  "person": "71675132",
+  "team": "fighters",
+  "toTeam": "fighters",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_f.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-71775132-20210128",
+  "season": 2020,
+  "date": "2021-01-28",
+  "type": "ikusei_recontract",
+  "person": "71775132",
+  "team": "hawks",
+  "toTeam": "hawks",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_h.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-73375136-20210128",
+  "season": 2020,
+  "date": "2021-01-28",
+  "type": "ikusei_recontract",
+  "person": "73375136",
+  "team": "eagles",
+  "toTeam": "eagles",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_e.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-81785132-20210128",
+  "season": 2020,
+  "date": "2021-01-28",
+  "type": "ikusei_recontract",
+  "person": "81785132",
+  "team": "buffaloes",
+  "toTeam": "buffaloes",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_b.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-81985136-20210128",
+  "season": 2020,
+  "date": "2021-01-28",
+  "type": "ikusei_recontract",
+  "person": "81985136",
+  "team": "fighters",
+  "toTeam": "fighters",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_f.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-91495137-20210128",
+  "season": 2020,
+  "date": "2021-01-28",
+  "type": "ikusei_recontract",
+  "person": "91495137",
+  "team": "eagles",
+  "toTeam": "eagles",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_e.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-x17b7e5e6-20210128",
+  "season": 2020,
+  "date": "2021-01-28",
+  "type": "ikusei_recontract",
+  "person": "x17b7e5e6",
+  "team": "hawks",
+  "toTeam": "hawks",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_h.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-x5984b94f-20210128",
+  "season": 2020,
+  "date": "2021-01-28",
+  "type": "ikusei_recontract",
+  "person": "x5984b94f",
+  "team": "buffaloes",
+  "toTeam": "buffaloes",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_b.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-xa6abc2fc-20210128",
+  "season": 2020,
+  "date": "2021-01-28",
+  "type": "ikusei_recontract",
+  "person": "xa6abc2fc",
+  "team": "buffaloes",
+  "toTeam": "buffaloes",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_b.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-xbe731736-20210128",
+  "season": 2020,
+  "date": "2021-01-28",
+  "type": "ikusei_recontract",
+  "person": "xbe731736",
+  "team": "marines",
+  "toTeam": "marines",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_m.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-xd171da69-20210128",
+  "season": 2020,
+  "date": "2021-01-28",
+  "type": "ikusei_recontract",
+  "person": "xd171da69",
+  "team": "fighters",
+  "toTeam": "fighters",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_f.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-sign-21525139-20210128",
+  "season": 2020,
+  "date": "2021-01-28",
+  "type": "sign",
+  "person": "21525139",
+  "team": "hawks",
+  "toTeam": "tigers",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registered_t.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-sign-21625119-20210128",
+  "season": 2020,
+  "date": "2021-01-28",
+  "type": "sign",
+  "person": "21625119",
+  "team": "marines",
+  "toTeam": "tigers",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registered_t.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-sign-53555132-20210128",
+  "season": 2020,
+  "date": "2021-01-28",
+  "type": "sign",
+  "person": "53555132",
+  "team": "tigers",
+  "toTeam": "tigers",
+  "note": "再契約",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registered_t.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-sign-61065110-20210128",
+  "season": 2020,
+  "date": "2021-01-28",
+  "type": "sign",
+  "person": "61065110",
+  "team": "tigers",
+  "toTeam": "buffaloes",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registered_b.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-sign-61963888-20210128",
+  "season": 2020,
+  "date": "2021-01-28",
+  "type": "sign",
+  "person": "61963888",
+  "team": "tigers",
+  "toTeam": "dragons",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registered_d.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-sign-73975134-20210128",
+  "season": 2020,
+  "date": "2021-01-28",
+  "type": "sign",
+  "person": "73975134",
+  "team": "eagles",
+  "toTeam": "buffaloes",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registered_b.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-sign-91595130-20210128",
+  "season": 2020,
+  "date": "2021-01-28",
+  "type": "sign",
+  "person": "91595130",
+  "team": "swallows",
+  "toTeam": "baystars",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registered_db.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-sign-xf33503c6-20210128",
+  "season": 2020,
+  "date": "2021-01-28",
+  "type": "sign",
+  "person": "xf33503c6",
+  "team": "hawks",
+  "toTeam": "buffaloes",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_b.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-01805138-20210129",
+  "season": 2020,
+  "date": "2021-01-29",
+  "type": "ikusei_recontract",
+  "person": "01805138",
+  "team": "giants",
+  "toTeam": "giants",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_g.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-11015116-20210129",
+  "season": 2020,
+  "date": "2021-01-29",
+  "type": "ikusei_recontract",
+  "person": "11015116",
+  "team": "baystars",
+  "toTeam": "baystars",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_db.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-11215138-20210129",
+  "season": 2020,
+  "date": "2021-01-29",
+  "type": "ikusei_recontract",
+  "person": "11215138",
+  "team": "giants",
+  "toTeam": "giants",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_g.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-21225135-20210129",
+  "season": 2020,
+  "date": "2021-01-29",
+  "type": "ikusei_recontract",
+  "person": "21225135",
+  "team": "carp",
+  "toTeam": "carp",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_c.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-21625151-20210129",
+  "season": 2020,
+  "date": "2021-01-29",
+  "type": "ikusei_recontract",
+  "person": "21625151",
+  "team": "giants",
+  "toTeam": "giants",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_g.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-31035135-20210129",
+  "season": 2020,
+  "date": "2021-01-29",
+  "type": "ikusei_recontract",
+  "person": "31035135",
+  "team": "giants",
+  "toTeam": "giants",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_g.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-31735136-20210129",
+  "season": 2020,
+  "date": "2021-01-29",
+  "type": "ikusei_recontract",
+  "person": "31735136",
+  "team": "giants",
+  "toTeam": "giants",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_g.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-41745134-20210129",
+  "season": 2020,
+  "date": "2021-01-29",
+  "type": "ikusei_recontract",
+  "person": "41745134",
+  "team": "tigers",
+  "toTeam": "tigers",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_t.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-51055133-20210129",
+  "season": 2020,
+  "date": "2021-01-29",
+  "type": "ikusei_recontract",
+  "person": "51055133",
+  "team": "tigers",
+  "toTeam": "tigers",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_t.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-51255134-20210129",
+  "season": 2020,
+  "date": "2021-01-29",
+  "type": "ikusei_recontract",
+  "person": "51255134",
+  "team": "giants",
+  "toTeam": "giants",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_g.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-51355132-20210129",
+  "season": 2020,
+  "date": "2021-01-29",
+  "type": "ikusei_recontract",
+  "person": "51355132",
+  "team": "dragons",
+  "toTeam": "dragons",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_d.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-61865134-20210129",
+  "season": 2020,
+  "date": "2021-01-29",
+  "type": "ikusei_recontract",
+  "person": "61865134",
+  "team": "dragons",
+  "toTeam": "dragons",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_d.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-71875130-20210129",
+  "season": 2020,
+  "date": "2021-01-29",
+  "type": "ikusei_recontract",
+  "person": "71875130",
+  "team": "giants",
+  "toTeam": "giants",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_g.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-x05240fa9-20210129",
+  "season": 2020,
+  "date": "2021-01-29",
+  "type": "ikusei_recontract",
+  "person": "x05240fa9",
+  "team": "dragons",
+  "toTeam": "dragons",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_d.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-x097ce279-20210129",
+  "season": 2020,
+  "date": "2021-01-29",
+  "type": "ikusei_recontract",
+  "person": "x097ce279",
+  "team": "tigers",
+  "toTeam": "tigers",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_t.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-x484513c3-20210129",
+  "season": 2020,
+  "date": "2021-01-29",
+  "type": "ikusei_recontract",
+  "person": "x484513c3",
+  "team": "giants",
+  "toTeam": "giants",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_g.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-x57594596-20210129",
+  "season": 2020,
+  "date": "2021-01-29",
+  "type": "ikusei_recontract",
+  "person": "x57594596",
+  "team": "giants",
+  "toTeam": "giants",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_g.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-x8c68c8f7-20210129",
+  "season": 2020,
+  "date": "2021-01-29",
+  "type": "ikusei_recontract",
+  "person": "x8c68c8f7",
+  "team": "tigers",
+  "toTeam": "tigers",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_t.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-x9d987cb6-20210129",
+  "season": 2020,
+  "date": "2021-01-29",
+  "type": "ikusei_recontract",
+  "person": "x9d987cb6",
+  "team": "dragons",
+  "toTeam": "dragons",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_d.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-xcc71084d-20210129",
+  "season": 2020,
+  "date": "2021-01-29",
+  "type": "ikusei_recontract",
+  "person": "xcc71084d",
+  "team": "carp",
+  "toTeam": "carp",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_c.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-ikuseirecontract-xf941d8d9-20210129",
+  "season": 2020,
+  "date": "2021-01-29",
+  "type": "ikusei_recontract",
+  "person": "xf941d8d9",
+  "team": "giants",
+  "toTeam": "giants",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_g.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-sign-01705132-20210129",
+  "season": 2020,
+  "date": "2021-01-29",
+  "type": "sign",
+  "person": "01705132",
+  "team": "hawks",
+  "toTeam": "swallows",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_s.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-sign-01705136-20210129",
+  "season": 2020,
+  "date": "2021-01-29",
+  "type": "sign",
+  "person": "01705136",
+  "team": "eagles",
+  "toTeam": "swallows",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_s.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-sign-21325113-20210129",
+  "season": 2020,
+  "date": "2021-01-29",
+  "type": "sign",
+  "person": "21325113",
+  "team": "hawks",
+  "toTeam": "swallows",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registered_s.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-sign-71875133-20210129",
+  "season": 2020,
+  "date": "2021-01-29",
+  "type": "sign",
+  "person": "71875133",
+  "team": "eagles",
+  "toTeam": "dragons",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_d.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-sign-71875136-20210129",
+  "season": 2020,
+  "date": "2021-01-29",
+  "type": "sign",
+  "person": "71875136",
+  "team": "fighters",
+  "toTeam": "swallows",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registered_s.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-sign-81785139-20210129",
+  "season": 2020,
+  "date": "2021-01-29",
+  "type": "sign",
+  "person": "81785139",
+  "team": "dragons",
+  "toTeam": "tigers",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_t.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-sign-33735136-20210208",
+  "season": 2020,
+  "date": "2021-02-08",
+  "type": "sign",
+  "person": "33735136",
+  "team": "fighters",
+  "toTeam": "hawks",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registered_h.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-sign-93795134-20210212",
+  "season": 2020,
+  "date": "2021-02-12",
+  "type": "sign",
+  "person": "93795134",
+  "team": "marines",
+  "toTeam": "marines",
+  "note": "再契約",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registered_m.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-sign-13515130-20210224",
+  "season": 2020,
+  "date": "2021-02-24",
+  "type": "sign",
+  "person": "13515130",
+  "team": "hawks",
+  "toTeam": "swallows",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registered_s.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-sign-21625133-20210315",
+  "season": 2020,
+  "date": "2021-03-15",
+  "type": "sign",
+  "person": "21625133",
+  "team": "giants",
+  "toTeam": "baystars",
+  "ikusei": true,
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registereddev_db.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規育成選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-sign-03505138-20210810",
+  "season": 2020,
+  "date": "2021-08-10",
+  "type": "sign",
+  "person": "03505138",
+  "team": "dragons",
+  "toTeam": "marines",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registered_m.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ },
+ {
+  "id": "npb-2020-sign-51755116-20210831",
+  "season": 2020,
+  "date": "2021-08-31",
+  "type": "sign",
+  "person": "51755116",
+  "team": "carp",
+  "toTeam": "marines",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2021/registered_m.html",
+    "kind": "npb",
+    "title": "NPB 公示 新規支配下選手登録",
+    "fetched": "2026-11-23"
+   }
+  ]
+ }
+]

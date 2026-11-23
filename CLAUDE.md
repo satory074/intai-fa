@@ -12,7 +12,8 @@ Node は `.nvmrc`（22.23.5）。Astro 7.4.7 が Node 22.23.4 以上を要求す
 
 ```bash
 npm ci
-npm run import:npb            # NPB 公示（前年度と今年度）→ data/events/npb/YYYY.json, data/people-extra.jsonl
+npm run import:npb            # NPB 公示（前年度と今年度）→ data/events/npb/YYYY.json, data/people-extra.jsonl, data/npb-id-links.json
+npm run import:npb -- --years 2003,2004 --backfill   # 過去分の取り直し（増えた行を「新着」にしない）
 npm run import:register       # 在籍者名簿（年 1 回）→ data/people.jsonl, data/stints.jsonl, data/register-meta.json
 npm run import:profiles       # 生年月日・投打（出来事に出てくる人）→ data/profiles.jsonl
 npm run todo                  # 下書きの対象（理由未調査・その後が未定・未確認）
@@ -29,7 +30,10 @@ npm run edit                  # 確認用エディタ http://127.0.0.1:4330/（�
 - `data/teams.yaml` — 球団の系譜 21（現行 12 ＋消滅 9）。名簿の表記（short）と年で系譜を引く。現行 12 の色は basecamp と同じ値
 - `data/people.jsonl` / `data/stints.jsonl` — 名簿由来（約 1 万人・約 1.9 万件）。`src: register` は削除依頼があれば丸ごと外せる
 - `data/people-extra.jsonl` — 名簿にない人（今年の新人・新任コーチ）。どの出来事からも参照されない人は取り込みのたびに消える
-- `data/events/npb/YYYY.json` — **YYYY 年度のページから**取り込んだ出来事（手で編集しない。中の season は別年度のこともある）
+- `data/npb-id-links.json` — 名簿でリンクの無かった人（x…）→ 公示の NPB 選手 ID。公示の取り込みが書き足す。
+  これが無いと同じ人が「名簿の人」と「公示の人」に分かれる（check の 9 で検出）
+- `data/name-aliases.yaml` — 公示の表記で名簿の人が引けないときだけの対応表（「李 承ヨプ」→「李 承燁」など。手で足す）
+- `data/events/npb/YYYY.json` — **YYYY 年度のページから**取り込んだ出来事（2003〜。手で編集しない。中の season は別年度のこともある）
 - `data/events/manual/YYYY.yaml` — Claude Code の下書き（auto_unverified）と確認済み（verified）
 - `data/url-status.json` — 下書きの出典 URL の確認結果（check:urls が書く）
 - `data/corrections.yaml` — 訂正履歴
@@ -46,13 +50,26 @@ npm run edit                  # 確認用エディタ http://127.0.0.1:4330/（�
 ## 落とし穴
 
 - **年度**: NPB 年度（オフの出来事は直前シーズン）。ページ年度をそのまま season にするが、任意引退の公示は
-  1〜7 月なら前年度（長野久義: 2025/10 引退発表 → 2026/3/16 公示 → 2025 年度）
+  1〜7 月なら、名簿でその年もその球団にいればその年（シーズン途中の引退）、いなければ前年度
+  （長野久義: 2025/10 引退発表 → 2026/3/16 公示 → 2025 年度）。`retiredSeason()`
+- **2003〜2015 年度の公示の書式**（年で違う。`scripts/import/npb-announcements.ts` の各関数のコメント参照）:
+  2003〜2005 は選手リンクが無い → 名前（異体字「髙/高」「﨑/崎」・「・」「．」をそろえる）＋その年の球団で名簿から引く。
+  引けない行は取り込まずに報告するので `data/name-aliases.yaml` に足す。2003 は日付に年が無く「11/ 5」の空白もある。
+  2005 までトレードの球団欄は `trteamlong`。FA は 2015 ごろまで `fa_filed2.html`。球団別の一覧（registered_X）は 2014 から
+  で、球団コードも年で違う（teams.yaml の `oldUrlCodes`）。一覧が無い年の「その後」は名簿の翌年の所属から出す。
+  日付・球団の「〃」は上の行と同じ。2016・2017 は `</a>` の閉じ忘れがあり、取得後に補ってから読む（`repair`）
+- **自由契約の表の ※ 注記**: 「ポスティングによる移籍（ＭＬＢ／…）」の行は posting として取り込む。
+  球団欄が空の行は「任意引退選手公示抹消」（昔引退した人の手続き）なので取り込まない
+- **2004 年オフの近鉄・オリックス→オリックス・楽天**（球団合併に伴う分配）は、NPB 公示がトレードの表に載せているので
+  サイトでもトレードの区分に出る
+- **FA 宣言 1993〜2002 年度**は NPB 公示に無い（公示は 2003 年度から）。入れるなら過去分として Wikipedia などから下書き
 - **名簿の書式**: 「24.5.26」（日付付きの年）、「夏～38」（年の省略）、「（兼コ）」など 13 種の役割、［改名］［代監］、
   「）.」の誤記、リンクは行ではなく表全体を包む `<a class="unit">`。`scripts/lib/register-parse.ts` 参照
 - **名簿の年内移籍**: 「80,81南海,81～83西武」のように「途」なしで同じ年に 2 球団に出ることがある（check はこれを許す）
 - **その後（他球団と契約・育成再契約）**: 新規登録ページは「1/30 以降」しか載らない。オフの契約は翌年度の
   `registered_X.html` / `registereddev_X.html`（公示日 M/D、10〜12 月は前年）から拾う
-- **監督・コーチの公示**: 2020 年度以降だけ。氏名にリンクが無いので名前で人物を引く。オフの人事は「前年度名簿と
+- **監督・コーチの公示**: 2020 年度以降だけ。氏名にリンクが無いので名前で人物を引く（登録名が名簿と違う人は
+  name-aliases.yaml）。【背番号変更】は去就ではないので飛ばす。オフの人事は「前年度名簿と
   今年度名簿の差」なので、翌年度の名簿が出るまで（2 月ごろ）は球団発表の下書きで入れる
 - **seen**: その年度ファイルの初回取り込みでは付けない（過去分が「新着」に並ばないように）
 - **search**: Pagefind は人物ページだけを索引（`data-pagefind-body`）。帯は `data-pagefind-ignore`

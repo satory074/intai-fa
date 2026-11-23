@@ -17,6 +17,9 @@ description: プロ野球去就アーカイブ（intai-fa）の更新コマン�
    npm run import:profiles -- --seasons <今年度>   # 新しく出てきた人の生年月日（年齢の表示用）
    ```
    名簿（npm run import:register）は年 1 回、npb.jp/history/register/ の「YYYY年シーズン終了時」が更新されたときだけ。
+   取り込みの最後に「名前で名簿から引けず飛ばした選手」が出たら、名簿（在籍球団・年が合うこと）で本人を確かめて
+   `data/name-aliases.yaml` に 1 行足し、もう一度取り込む。監督・コーチの登録名が名簿と違う人も同じ
+   （people-extra に名簿の人と同じ名前の人が増えていたら、それが目印）。
 
 2. 対象を出す
    ```bash
