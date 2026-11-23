@@ -154,26 +154,53 @@ export function parseRegisterCell(cell: string): ParsedRegister {
 
   for (const ex of extras) {
     if (ex.startsWith("［改名］")) {
+      // 例（実データ）:
+      //   ～08ユウキ,09開幕～5.10田中祐貴,09.5.11～ユウキ     ← 年のない「5.10」は月日（同じ年）
+      //   37春 筒井隆雄,37秋～中野隆雄,40.9～44須田博          ← 開幕・閉幕・春・夏・秋・途も年の部分。「40.9」は年.月
+      //   ～09高橋尚成,14尚成 15髙橋尚成                        ← 区切りが空白のこともある
+      //   ～01川俣浩明、02川俣ヒロアキ                          ← 区切りが「、」のこともある
+      //   ～06.2.27宇部銀次,2.28～赤見内銀次（銀次）            ← 括弧の中は登録名
+      //   （読み方）～17かく・しゅんりん,18～クォ・ジュンリン   ← 読みの変更。名前は変わっていないので飛ばす
+      const body = ex.slice("［改名］".length).trim();
+      if (body.startsWith("（読み方）")) continue;
+      // "09" "09.5.11" "40.9"（年.月）→ 年。"5.10" "10.1"（月日）や "開幕" は年を持たない
+      const yearOf = (s: string): number | undefined => {
+        const num = s.match(/^[\d.]+/)?.[0];
+        if (!num) return undefined;
+        const p = num.split(".").filter(Boolean);
+        if (!/^\d{2}$/.test(p[0])) return undefined;
+        if (p.length === 2 && Number(p[0]) <= 12) return undefined;
+        return yy(p[0]);
+      };
       let pendingNames: { from?: number; to?: number }[] = [];
-      for (const raw of ex.slice("［改名］".length).split(",")) {
+      let lastYear: number | undefined;
+      for (const raw of body.split(/[,、]|\s+(?=\d)/)) {
         const tok = raw.trim();
-        const m = tok.match(/^([0-9～.]*)(.*)$/);
-        if (!m) continue;
-        const ys = m[1];
+        // 開幕・春・秋などは、後ろに「～」・空白・数字が続くときだけ年の部分（「10～秋親」の「秋」は名前）
+        const m = tok.match(/^((?:\d[\d.]*|(?:開幕前|開幕|閉幕|春|夏|秋|途)(?=[～\s\d]|$)|～|\s)*)(.*)$/)!;
+        const ys = m[1].replace(/\s/g, "");
         const nm = m[2].trim();
         const range: { from?: number; to?: number } = {};
         if (ys.includes("～")) {
           const [a, b] = ys.split("～");
-          if (/^\d{2}/.test(a)) range.from = yy(a.slice(0, 2));
-          if (/^\d{2}/.test(b)) range.to = yy(b.slice(0, 2));
-        } else if (/^\d{2}/.test(ys)) {
-          range.from = range.to = yy(ys.slice(0, 2));
+          // 年のない始まり（"5.14～"）は直前の年、年のない終わり（"開幕～5.10"）は始まりと同じ年
+          const from = yearOf(a) ?? (a ? lastYear : undefined);
+          const to = yearOf(b) ?? (b ? (from ?? lastYear) : undefined);
+          if (from !== undefined) range.from = from;
+          if (to !== undefined) range.to = to;
+        } else {
+          const y = yearOf(ys);
+          if (y !== undefined) range.from = range.to = y;
         }
+        lastYear = range.to ?? range.from ?? lastYear;
         if (!nm) {
           pendingNames.push(range);
           continue;
         }
-        for (const r of [...pendingNames, range]) names.push({ name: nm, ...r });
+        const paren = nm.match(/^(.+?)（(.+)）$/);
+        for (const n of paren ? [paren[1].trim(), paren[2].trim()] : [nm]) {
+          for (const r of [...pendingNames, range]) names.push({ name: n, ...r });
+        }
         pendingNames = [];
       }
     } else if (ex.startsWith("［代監］")) {
