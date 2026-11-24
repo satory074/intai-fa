@@ -18,7 +18,7 @@ const rows = rowsForSeason(season);
 const cov = coverage(rows);
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const prev = ds.seasons.find((s) => s < season);
-const next = [...ds.seasons].reverse().find((s) => s > season);
+const next = ds.seasons.findLast((s) => s > season);
 const people = new Set(rows.map((r) => r.personId)).size;
 const counts = SECTIONS.map((s) => ({ ...s, n: rows.filter((r) => r.section === s.key).length })).filter((s) => s.n > 0);
 const teams = franchises().filter((f) => rows.some((r) => r.team === f.id || r.toTeam === f.id));

@@ -90,7 +90,7 @@ async function main() {
       people.push(p);
       // 「24,25巨人（コ）」のように年ごとに書かれた連続する所属は 1 つにまとめる（同じ球団・役割・表記・補足で、途中移籍の印がないとき）
       const merged: typeof parsed.stints = [];
-      for (const s of [...parsed.stints].sort((a, b) => a.from - b.from)) {
+      for (const s of parsed.stints.toSorted((a, b) => a.from - b.from)) {
         const prev = merged.find(
           (m) => m.franchise === s.franchise && m.role === s.role && m.short === s.short && (m.note ?? "") === (s.note ?? "") &&
             m.to + 1 === s.from && !m.toMid && !s.fromMid,

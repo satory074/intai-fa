@@ -36,7 +36,7 @@ function readJsonl<T>(file: string, parseLine: (x: unknown) => T): T[] {
       try {
         return parseLine(JSON.parse(l));
       } catch (e) {
-        throw new Error(`${file}:${i + 1}: ${(e as Error).message}`);
+        throw new Error(`${file}:${i + 1}: ${(e as Error).message}`, { cause: e });
       }
     });
 }
@@ -114,7 +114,7 @@ export function dataset(): Dataset {
       try {
         manual.push(...eventsFileSchema.parse(raw));
       } catch (e) {
-        throw new Error(`events/manual/${f}: ${(e as Error).message}`);
+        throw new Error(`events/manual/${f}: ${(e as Error).message}`, { cause: e });
       }
     }
   }
@@ -162,7 +162,7 @@ export function dataset(): Dataset {
     held,
     seasons: [...eventsBySeason.keys()].sort((a, b) => b - a),
     registerAsOf: meta.asOf,
-    corrections: [...corrections].sort((a, b) => b.date.localeCompare(a.date)),
+    corrections: corrections.toSorted((a, b) => b.date.localeCompare(a.date)),
     updated,
   };
   return cache;

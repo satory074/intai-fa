@@ -52,7 +52,7 @@ const EVENT_LABEL: Record<IntaiEvent["type"], string> = {
 // その年度の行で「理由未調査」かどうか（自由契約の行）
 const unresearchedOf = (e: IntaiEvent) => Boolean(e.unresearched) && !events.some((o) => o.season === e.season && (o.type === "retire" || o.type === "voluntary_retired"));
 // 経歴: 名簿の所属を古い順に（連続する同じ球団・同じ役割はまとめる）
-const career = [...stints].sort((a, b) => a.from - b.from || (a.fromMid ? 1 : 0) - (b.fromMid ? 1 : 0));
+const career = stints.toSorted((a, b) => a.from - b.from || (a.fromMid ? 1 : 0) - (b.fromMid ? 1 : 0));
 const yearsText = (s: Stint) => `${s.from}${s.fromMid ? "（途中）" : ""}${s.to !== s.from ? `〜${s.to}${s.toMid ? "（途中）" : ""}` : s.toMid ? "（途中まで）" : ""}`;
 // 年別ページに載っている年度
 const seasonsWithRows = new Set(events.map((e) => e.season).filter((s) => rowsForSeason(s).some((r) => r.personId === id)));

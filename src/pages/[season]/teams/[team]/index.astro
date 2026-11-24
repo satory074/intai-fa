@@ -30,7 +30,7 @@ const incoming = rows.filter((r) => r.toTeam === team && r.team !== team);
 const counts = SECTIONS.map((s) => ({ ...s, n: out.filter((r) => r.section === s.key).length })).filter((s) => s.n > 0);
 const ds = dataset();
 const prev = ds.seasons.find((s) => s < season && rowsForSeason(s).some((r) => r.team === team));
-const next = [...ds.seasons].reverse().find((s) => s > season && rowsForSeason(s).some((r) => r.team === team));
+const next = ds.seasons.findLast((s) => s > season && rowsForSeason(s).some((r) => r.team === team));
 
 const title = `${season}年オフ ${name}の引退・戦力外・FA`;
 const description = `${season}年オフの${f.full && season >= 2005 && f.eras[f.eras.length - 1].short === name ? f.full : name}の去就。${counts.map((c) => `${c.title}${c.n}`).join("、")}${incoming.length ? `、加入${incoming.length}` : ""}。出典付き。`;
