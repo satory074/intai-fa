@@ -77,6 +77,9 @@ npm run edit                  # 確認用エディタ http://127.0.0.1:4330/（�
   name-aliases.yaml）。【背番号変更】は去就ではないので飛ばす。オフの人事は「前年度名簿と
   今年度名簿の差」なので、翌年度の名簿が出るまで（2 月ごろ）は球団発表の下書きで入れる
 - **seen**: その年度ファイルの初回取り込みでは付けない（過去分が「新着」に並ばないように）
+- **check:urls と GitHub Actions**: hanshintigers.jp は Actions（米国の runner）から接続できない（応答なし＝status 0）。
+  応答なしは前回の結果を残す（`scripts/check/index.ts`）ので、阪神の下書きは手元の check:urls の結果で公開される。
+  新しく足した阪神の下書きは、手元で check:urls してからコミットしないと公開されない
 - **search**: Pagefind は人物ページだけを索引（`data-pagefind-body`）。帯は `data-pagefind-ignore`
 
 ## 守ること（法務・運用の決定）

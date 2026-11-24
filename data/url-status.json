@@ -171,10 +171,10 @@
   }
  },
  "https://hanshintigers.jp/news/topics/info_11250.html": {
-  "status": 0,
+  "status": 200,
   "checked": "2026-11-24",
   "quotes": {
-   "b3b3bce54fd5": false
+   "b3b3bce54fd5": true
   }
  },
  "https://www.baystars.co.jp/news/2026/09/0929_03.php": {
@@ -368,24 +368,24 @@
   }
  },
  "https://hanshintigers.jp/news/topics/info_10404.html": {
-  "status": 0,
+  "status": 200,
   "checked": "2026-11-24",
   "quotes": {
-   "eb674dedb27f": false
+   "eb674dedb27f": true
   }
  },
  "https://hanshintigers.jp/news/topics/info_10446.html": {
-  "status": 0,
+  "status": 200,
   "checked": "2026-11-24",
   "quotes": {
-   "a03b8d8eb592": false
+   "a03b8d8eb592": true
   }
  },
  "https://m.hanshintigers.jp/column_news/detail/16372": {
-  "status": 0,
+  "status": 200,
   "checked": "2026-11-24",
   "quotes": {
-   "2ccc009de646": false
+   "2ccc009de646": true
   }
  },
  "https://dragons.jp/news/2025/25100202.php": {

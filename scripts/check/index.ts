@@ -171,7 +171,7 @@ async function checkUrls(): Promise<UrlStatus> {
       let code = 0;
       let text = "";
       try {
-        const res = await fetch(url, { method: "GET", redirect: "follow", headers: { "user-agent": UA } });
+        const res = await fetch(url, { method: "GET", redirect: "follow", headers: { "user-agent": UA }, signal: AbortSignal.timeout(30_000) });
         code = res.status;
         // 本文の文字だけを使う（タグ・スクリプトを除き、文字参照は戻す）。ページは保存しない
         const doc = parseHtml(await res.text());
@@ -183,6 +183,13 @@ async function checkUrls(): Promise<UrlStatus> {
       bodies.set(page(url), { code, text });
     }
     const { code, text } = bodies.get(page(url))!;
+    // 応答が無い（接続できない・時間切れ）のは、ページが消えた証拠ではないので前回の結果を残す。
+    // hanshintigers.jp は GitHub Actions（米国）から接続できず、毎朝の取り込みで阪神の下書きが消えていた。
+    // ページが本当に消えれば 404 などの応答が返るので、そちらは従来どおり公開されなくなる
+    if (code === 0 && status[url]) {
+      console.log(`  - ${url}（応答なし。${status[url].checked} の結果を残す）`);
+      continue;
+    }
     const quotes: Record<string, boolean> = {};
     for (const q of quotesByUrl.get(url)!) quotes[quoteKey(q)] = quoteParts(q).every((part) => text.includes(part));
     status[url] = { status: code, checked: today, quotes };
