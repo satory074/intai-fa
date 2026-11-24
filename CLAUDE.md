@@ -1,8 +1,10 @@
 # intai-fa — プロ野球去就アーカイブ
 
 NPB の選手・監督・コーチの去就（引退・戦力外/自由契約・FA・トレード・現役ドラフト・指導者人事）を、
-年度別・球団×年度・人物別に見せる静的サイト。公開先 https://satory074.github.io/intai-fa/ （GitHub Pages、未公開）。
+年度別・球団別・人物別に見せる静的サイト。公開先 https://satory074.github.io/intai-fa/ （GitHub Pages、2026-11-24 から公開中。
+main への push と毎朝 6:17 JST の定期実行で自動的に公開し直される）。
 設計の決定（grilling Q1〜Q33）は `/Users/satory074/.claude/plans/fa-grilling-serene-ocean-of-a8f9a176-474a-456b-b3ef-303369b4f695.md`。
+2026-11 の作り直し（ページ構成・見た目・WCAG 2.2 AA）は `/Users/satory074/.claude/plans/atomic-waddling-pizza-of-b271be0f-411e-44ee-b143-10a89c9d36bd.md`。
 
 ## コマンド
 
@@ -17,7 +19,7 @@ npm run import:npb -- --years 2003,2004 --backfill   # 過去分の取り直し�
 npm run import:register       # 在籍者名簿（年 1 回）→ data/people.jsonl, data/stints.jsonl, data/register-meta.json
 npm run import:profiles       # 生年月日・投打（出来事に出てくる人）→ data/profiles.jsonl
 npm run todo                  # 下書きの対象（理由未調査・その後が未定・未確認）
-npm run check                 # 不変条件（破ったら exit 1）。check:urls は下書きの出典 URL と、抜粋がページにあるかも確認
+npm run check                 # 不変条件（破ったら exit 1。10 番は文字と背景の濃さの比）。check:urls は下書きの出典 URL と、抜粋がページにあるかも確認
 npm run build                 # astro build && pagefind（約 1.1 万ページ、10 秒前後）
 npm run seo                   # basecamp/scripts/seo-check.mjs の写し（--require-backlink）
 npm run edit                  # 確認用エディタ http://127.0.0.1:4330/（未確認の下書きを確認済みに）
@@ -27,7 +29,7 @@ npm run edit                  # 確認用エディタ http://127.0.0.1:4330/（�
 
 ## データ（すべて Git 管理。Git の履歴が更新履歴）
 
-- `data/teams.yaml` — 球団の系譜 21（現行 12 ＋消滅 9）。名簿の表記（short）と年で系譜を引く。現行 12 の色は basecamp と同じ値
+- `data/teams.yaml` — 球団の系譜 20（現行 12 ＋消滅 8）。名簿の表記（short）と年で系譜を引く。現行 12 の色は basecamp と同じ値（変えない）
 - `data/people.jsonl` / `data/stints.jsonl` — 名簿由来（約 1 万人・約 1.9 万件）。`src: register` は削除依頼があれば丸ごと外せる
 - `data/people-extra.jsonl` — 名簿にない人（今年の新人・新任コーチ）。どの出来事からも参照されない人は取り込みのたびに消える
 - `data/npb-id-links.json` — 名簿でリンクの無かった人（x…）→ 公示の NPB 選手 ID。公示の取り込みが書き足す。
@@ -47,6 +49,22 @@ npm run edit                  # 確認用エディタ http://127.0.0.1:4330/（�
   公示・下書きで同じ人の同じ年度が埋まっていれば出さない。名簿の最新年（asOf）は出さない
 - 公開の条件は `src/lib/gate.ts`（ビルドと check の両方が使う）。auto_unverified は抜粋に名前・根拠の語句があり、
   出典 URL が開けて、抜粋がそのページの本文に実際にある（check:urls が確かめて url-status.json に記録）ものだけ公開。満たさない行はビルドから外れ、check に「公開を保留」として出る
+- **ページと URL**（base は /intai-fa）: `/`（今オフの動き。`currentOffSeason`: 10〜12 月はその年、1〜9 月は前年）、
+  `/{年度}/`、`/teams/`、`/teams/{球団}/`、`/teams/{球団}/{年度}/`（行がある組み合わせだけ。`teamSeasons`）、
+  `/people/{id}/`、`/people/`（検索＋五十音）、`/names/{行}/`、`/about/`、`/corrections/`、`/feed.xml`、`/teams/{球団}/feed.xml`
+- **旧 URL の転送**: 球団×年度は 2026-11 まで `/{年度}/teams/{球団}/` だった。そこには `Redirect.astro`（meta refresh・noindex・
+  canonical は移った先）を置き、サイトマップから外す（astro.config.mjs の filter）。Astro の `redirects` を使わないのは、
+  seo-check が noindex のページにも title と戻りリンクの帯を求めるため
+- **見た目**: スコアブックの紙と、球場のスコアボードの板（トップのライン表と年度の札だけ）。球団の色は球団名の横の印と経歴の帯の線にだけ使い、
+  文字の背景にはしない（広島の赤などは白でも墨でも 4.5:1 に届かない）。帯は選手＝太い線・育成＝細い線・指導者＝二重線。
+  色の名前は `global.css` の `:root` に #rrggbb で書き、暗い表示は `@media (prefers-color-scheme: dark)` だけで変える
+  （切り替えボタンは無い）。文字と背景の組の濃さの比は check の 10 番（`CONTRAST_PAIRS`）。組を足したら表にも足す
+- **表**: 置かれた幅が 40rem 未満になると（`@container`）1 行を 1 枚に組み替え、各セルの `data-label` を列名として前に出す
+  （`RecordTable.astro`）。th と data-label の列名はそろえる。画面に貼り付くのは下端の戻りリンクの帯だけ（絞り込みは貼り付けない: WCAG 2.4.11）
+- **ブラウザの方針**: Baseline Newly available の機能も使ってよいが、無いブラウザでも内容は全部読めて操作できる所にだけ使う。
+  polyfill は入れない（例: 検索ダイアログは `command="show-modal"`、無ければ click で `showModal()`。`closedby="any"` は無くても Esc で閉じる）
+- **サイトマップの lastmod**: そのページの行の fresh（seen ＝取り込んだ日、無ければ出来事の日付）の最大値（`src/lib/lastmod.ts`）。
+  年度のページの「最終更新」と同じ決め方。取れないページには付けない
 
 ## 落とし穴
 
@@ -80,7 +98,8 @@ npm run edit                  # 確認用エディタ http://127.0.0.1:4330/（�
 - **check:urls と GitHub Actions**: hanshintigers.jp は Actions（米国の runner）から接続できない（応答なし＝status 0）。
   応答なしは前回の結果を残す（`scripts/check/index.ts`）ので、阪神の下書きは手元の check:urls の結果で公開される。
   新しく足した阪神の下書きは、手元で check:urls してからコミットしないと公開されない
-- **search**: Pagefind は人物ページだけを索引（`data-pagefind-body`）。帯は `data-pagefind-ignore`
+- **search**: Pagefind は人物ページだけを索引（`data-pagefind-body`）。帯は `data-pagefind-ignore`。検索欄は `SearchBox.astro`
+  （頭のダイアログ・トップ・/people/ の 3 か所。スクリプトは 1 つ）。索引は欄に触れたとき初めて読む
 
 ## 守ること（法務・運用の決定）
 
