@@ -12,3 +12,768 @@
       title: 埼玉西武ライオンズ公式「8/30(日)に栗山巧選手の引退試合を開催！」
       quote: 今シーズン限りで現役を引退する栗山巧選手の引退試合を開催いたします。
       fetched: "2026-11-22"
+
+# 2026-11-24 球団発表から（10/30 の育成選手の自由契約公示などの理由と、その後）
+- id: d-2026-release-13315159   # 宮里 優吾
+  season: 2026
+  date: "2026-10-26"
+  type: release
+  person: "13315159"
+  team: hawks
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.softbankhawks.co.jp/news/detail/202601115721.html
+      kind: club
+      title: 福岡ソフトバンクホークス公式「来季契約について」
+      quote: "また、以下の選手に対し、来季の育成選手契約を締結しない旨を通達しました。 … 宮里 優吾 投手"
+      fetched: "2026-11-24"
+- id: d-2026-release-31735150   # 川口 冬弥
+  season: 2026
+  date: "2026-10-26"
+  type: release
+  person: "31735150"
+  team: hawks
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.softbankhawks.co.jp/news/detail/202601115721.html
+      kind: club
+      title: 福岡ソフトバンクホークス公式「来季契約について」
+      quote: "また、以下の選手に対し、来季の育成選手契約を締結しない旨を通達しました。 … 川口 冬弥 投手"
+      fetched: "2026-11-24"
+- id: d-2026-release-11415153   # 田上 奏大
+  season: 2026
+  date: "2026-10-26"
+  type: release
+  person: "11415153"
+  team: hawks
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.softbankhawks.co.jp/news/detail/202601115721.html
+      kind: club
+      title: 福岡ソフトバンクホークス公式「来季契約について」
+      quote: "また、以下の選手に対し、来季の育成選手契約を締結しない旨を通達しました。 … 田上 奏大 投手"
+      fetched: "2026-11-24"
+- id: d-2026-release-41345157   # 岡植 純平
+  season: 2026
+  date: "2026-10-26"
+  type: release
+  person: "41345157"
+  team: hawks
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.softbankhawks.co.jp/news/detail/202601115721.html
+      kind: club
+      title: 福岡ソフトバンクホークス公式「来季契約について」
+      quote: "また、以下の選手に対し、来季の育成選手契約を締結しない旨を通達しました。 … 岡植 純平 投手"
+      fetched: "2026-11-24"
+- id: d-2026-release-11915157   # 佐々木 明都
+  season: 2026
+  date: "2026-10-26"
+  type: release
+  person: "11915157"
+  team: hawks
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.softbankhawks.co.jp/news/detail/202601115721.html
+      kind: club
+      title: 福岡ソフトバンクホークス公式「来季契約について」
+      quote: "また、以下の選手に対し、来季の育成選手契約を締結しない旨を通達しました。 … 佐々木 明都 投手"
+      fetched: "2026-11-24"
+- id: d-2026-release-33135153   # 牧原 巧汰
+  season: 2026
+  date: "2026-10-26"
+  type: release
+  person: "33135153"
+  team: hawks
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.softbankhawks.co.jp/news/detail/202601115721.html
+      kind: club
+      title: 福岡ソフトバンクホークス公式「来季契約について」
+      quote: "また、以下の選手に対し、来季の育成選手契約を締結しない旨を通達しました。 … 牧原 巧汰 選手"
+      fetched: "2026-11-24"
+- id: d-2026-release-71975157   # 重松 凱人
+  season: 2026
+  date: "2026-10-26"
+  type: release
+  person: "71975157"
+  team: hawks
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.softbankhawks.co.jp/news/detail/202601115721.html
+      kind: club
+      title: 福岡ソフトバンクホークス公式「来季契約について」
+      quote: "また、以下の選手に対し、来季の育成選手契約を締結しない旨を通達しました。 … 重松 凱人 選手"
+      fetched: "2026-11-24"
+- id: d-2026-release-31935157   # 佐藤 航太
+  season: 2026
+  date: "2026-10-26"
+  type: release
+  person: "31935157"
+  team: hawks
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.softbankhawks.co.jp/news/detail/202601115721.html
+      kind: club
+      title: 福岡ソフトバンクホークス公式「来季契約について」
+      quote: "また、以下の選手に対し、来季の育成選手契約を締結しない旨を通達しました。 … 佐藤 航太 選手"
+      fetched: "2026-11-24"
+- id: d-2026-release-31635155   # 長谷川 威展
+  season: 2026
+  date: "2026-10-06"
+  type: release
+  person: "31635155"
+  team: hawks
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.softbankhawks.co.jp/news/detail/202601104937.html
+      kind: club
+      title: 福岡ソフトバンクホークス公式「来季契約について」
+      quote: "また、以下の選手に対し、来季の育成選手契約を締結しない旨を通達しました。 … 長谷川 威展 投手"
+      fetched: "2026-11-24"
+- id: d-2026-release-01905153   # 桑原 秀侍
+  season: 2026
+  date: "2026-10-06"
+  type: release
+  person: "01905153"
+  team: hawks
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.softbankhawks.co.jp/news/detail/202601104937.html
+      kind: club
+      title: 福岡ソフトバンクホークス公式「来季契約について」
+      quote: "また、以下の選手に対し、来季の育成選手契約を締結しない旨を通達しました。 … 桑原 秀侍 選手"
+      fetched: "2026-11-24"
+- id: d-2026-release-01005153   # 佐々木 健
+  season: 2026
+  date: "2026-10-26"
+  type: release
+  person: "01005153"
+  team: lions
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.seibulions.jp/news/detail/202600738925.html
+      kind: club
+      title: 埼玉西武ライオンズ公式「来季の選手契約についてのお知らせ」
+      quote: "本日、糸川亮太投手、青山美夏人投手、佐々木健投手、牧野翔矢選手、茶野篤政選手、古川雄大選手、林冠臣選手に来季の契約を結ばないことを通告いたしましたので、お知らせいたします。"
+      fetched: "2026-11-24"
+- id: d-2026-release-01905159   # シンクレア
+  season: 2026
+  date: "2026-10-01"
+  type: release
+  person: "01905159"
+  team: lions
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.seibulions.jp/news/detail/202600726484.html
+      kind: club
+      title: 埼玉西武ライオンズ公式「来季の選手契約についてのお知らせ」
+      quote: "本日、シンクレア投手、奥村光一選手に来季の契約を結ばないことを通告いたしましたので、お知らせいたします。"
+      fetched: "2026-11-24"
+- id: d-2026-release-51555159   # 奥村 光一
+  season: 2026
+  date: "2026-10-01"
+  type: release
+  person: "51555159"
+  team: lions
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.seibulions.jp/news/detail/202600726484.html
+      kind: club
+      title: 埼玉西武ライオンズ公式「来季の選手契約についてのお知らせ」
+      quote: "本日、シンクレア投手、奥村光一選手に来季の契約を結ばないことを通告いたしましたので、お知らせいたします。"
+      fetched: "2026-11-24"
+- id: d-2026-release-91595159   # 加藤 大和
+  season: 2026
+  date: "2026-10-26"
+  type: release
+  person: "91595159"
+  team: fighters
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.fighters.co.jp/news/detail/202600963221.html
+      kind: club
+      title: 北海道日本ハムファイターズ公式「来季契約について」
+      quote: "北海道日本ハムファイターズは本日10月26日(月)、千葉県鎌ケ谷市の球団施設にて、清宮虎多朗投手（26）、阪口樂選手（23）、育成選手の加藤大和投手（20）、松本遼大投手（24）の4選手に対し、来季の契約を結ばないことを通達しましたのでお知らせいたします。"
+      fetched: "2026-11-24"
+- id: d-2026-release-03105153   # 松本 遼大
+  season: 2026
+  date: "2026-10-26"
+  type: release
+  person: "03105153"
+  team: fighters
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.fighters.co.jp/news/detail/202600963221.html
+      kind: club
+      title: 北海道日本ハムファイターズ公式「来季契約について」
+      quote: "北海道日本ハムファイターズは本日10月26日(月)、千葉県鎌ケ谷市の球団施設にて、清宮虎多朗投手（26）、阪口樂選手（23）、育成選手の加藤大和投手（20）、松本遼大投手（24）の4選手に対し、来季の契約を結ばないことを通達しましたのでお知らせいたします。"
+      fetched: "2026-11-24"
+- id: d-2026-release-11815157   # 藤田 大清
+  season: 2026
+  date: "2026-10-05"
+  type: release
+  person: "11815157"
+  team: fighters
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.fighters.co.jp/news/detail/202600955032.html
+      kind: club
+      title: 北海道日本ハムファイターズ公式「来季契約について」
+      quote: "北海道日本ハムファイターズは本日10月5日(月)、千葉県鎌ケ谷市の球団施設にて、育成選手の藤田大清選手(22)、山口アタル選手(27)に対し、来季の契約を結ばないことを通達しましたのでお知らせいたします。"
+      fetched: "2026-11-24"
+- id: d-2026-release-03305157   # 山口 アタル
+  season: 2026
+  date: "2026-10-05"
+  type: release
+  person: "03305157"
+  team: fighters
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.fighters.co.jp/news/detail/202600955032.html
+      kind: club
+      title: 北海道日本ハムファイターズ公式「来季契約について」
+      quote: "北海道日本ハムファイターズは本日10月5日(月)、千葉県鎌ケ谷市の球団施設にて、育成選手の藤田大清選手(22)、山口アタル選手(27)に対し、来季の契約を結ばないことを通達しましたのでお知らせいたします。"
+      fetched: "2026-11-24"
+- id: d-2026-ikusei-01105157   # 安西 叶翔
+  season: 2026
+  date: "2026-11-18"
+  type: ikusei_recontract
+  person: "01105157"
+  team: fighters
+  status: auto_unverified
+  sources:
+    - url: https://news.fighters.co.jp/news/26/
+      kind: club
+      title: 北海道日本ハムファイターズ公式「育成選手の契約について」
+      quote: "北海道日本ハムファイターズは本日11月18日(水)、 … 安西叶翔投手 … とそれぞれ育成選手契約を締結しましたのでお知らせいたします。"
+      fetched: "2026-11-24"
+- id: d-2026-ikusei-41645153   # 根本 悠楓
+  season: 2026
+  date: "2026-11-18"
+  type: ikusei_recontract
+  person: "41645153"
+  team: fighters
+  status: auto_unverified
+  sources:
+    - url: https://news.fighters.co.jp/news/26/
+      kind: club
+      title: 北海道日本ハムファイターズ公式「育成選手の契約について」
+      quote: "北海道日本ハムファイターズは本日11月18日(水)、 … 根本悠楓投手 … とそれぞれ育成選手契約を締結しましたのでお知らせいたします。"
+      fetched: "2026-11-24"
+- id: d-2026-ikusei-81685159   # 日渡 騰輝
+  season: 2026
+  date: "2026-11-18"
+  type: ikusei_recontract
+  person: "81685159"
+  team: fighters
+  status: auto_unverified
+  sources:
+    - url: https://news.fighters.co.jp/news/26/
+      kind: club
+      title: 北海道日本ハムファイターズ公式「育成選手の契約について」
+      quote: "北海道日本ハムファイターズは本日11月18日(水)、 … 日渡騰輝選手 … とそれぞれ育成選手契約を締結しましたのでお知らせいたします。"
+      fetched: "2026-11-24"
+- id: d-2026-ikusei-71675159   # 濵田 泰希
+  season: 2026
+  date: "2026-11-18"
+  type: ikusei_recontract
+  person: "71675159"
+  team: fighters
+  status: auto_unverified
+  sources:
+    - url: https://news.fighters.co.jp/news/26/
+      kind: club
+      title: 北海道日本ハムファイターズ公式「育成選手の契約について」
+      quote: "北海道日本ハムファイターズは本日11月18日(水)、 … 濵田泰希選手 … とそれぞれ育成選手契約を締結しましたのでお知らせいたします。"
+      fetched: "2026-11-24"
+- id: d-2026-ikusei-41845159   # 星野 ひので
+  season: 2026
+  date: "2026-11-18"
+  type: ikusei_recontract
+  person: "41845159"
+  team: fighters
+  status: auto_unverified
+  sources:
+    - url: https://news.fighters.co.jp/news/26/
+      kind: club
+      title: 北海道日本ハムファイターズ公式「育成選手の契約について」
+      quote: "北海道日本ハムファイターズは本日11月18日(水)、 … 星野ひので選手 … とそれぞれ育成選手契約を締結しましたのでお知らせいたします。"
+      fetched: "2026-11-24"
+- id: d-2026-release-13115151   # 本前 郁也
+  season: 2026
+  date: "2026-10-04"
+  type: release
+  person: "13115151"
+  team: marines
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.marines.co.jp/news/detail/202600941132.html
+      kind: club
+      title: 千葉ロッテマリーンズ公式「来季契約について」
+      quote: "本日10月4日(日)、一條力真投手および育成の本前郁也投手、永島田輝斗投手、勝又琉偉選手、髙野光海選手に来季契約を行わない旨を通知しましたのでお知らせします。"
+      fetched: "2026-11-24"
+- id: d-2026-release-71475155   # 永島田 輝斗
+  season: 2026
+  date: "2026-10-04"
+  type: release
+  person: "71475155"
+  team: marines
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.marines.co.jp/news/detail/202600941132.html
+      kind: club
+      title: 千葉ロッテマリーンズ公式「来季契約について」
+      quote: "本日10月4日(日)、一條力真投手および育成の本前郁也投手、永島田輝斗投手、勝又琉偉選手、髙野光海選手に来季契約を行わない旨を通知しましたのでお知らせします。"
+      fetched: "2026-11-24"
+- id: d-2026-release-61365157   # 勝又 琉偉
+  season: 2026
+  date: "2026-10-04"
+  type: release
+  person: "61365157"
+  team: marines
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.marines.co.jp/news/detail/202600941132.html
+      kind: club
+      title: 千葉ロッテマリーンズ公式「来季契約について」
+      quote: "本日10月4日(日)、一條力真投手および育成の本前郁也投手、永島田輝斗投手、勝又琉偉選手、髙野光海選手に来季契約を行わない旨を通知しましたのでお知らせします。"
+      fetched: "2026-11-24"
+- id: d-2026-release-01705159   # 髙野 光海
+  season: 2026
+  date: "2026-10-04"
+  type: release
+  person: "01705159"
+  team: marines
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.marines.co.jp/news/detail/202600941132.html
+      kind: club
+      title: 千葉ロッテマリーンズ公式「来季契約について」
+      quote: "本日10月4日(日)、一條力真投手および育成の本前郁也投手、永島田輝斗投手、勝又琉偉選手、髙野光海選手に来季契約を行わない旨を通知しましたのでお知らせします。"
+      fetched: "2026-11-24"
+- id: d-2026-release-73175159   # 松田 啄磨
+  season: 2026
+  date: "2026-09-28"
+  type: release
+  person: "73175159"
+  team: eagles
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.rakuteneagles.jp/news/detail/202601196664.html
+      kind: club
+      title: 東北楽天ゴールデンイーグルス公式「選手契約に関して」
+      quote: "また、以下の育成選手に対し、2027シーズンの育成選手契約を行わない旨を通知いたしましたので、お知らせいたします。 … 松田 啄磨"
+      fetched: "2026-11-24"
+- id: d-2026-release-61865155   # 前田 銀治
+  season: 2026
+  date: "2026-09-28"
+  type: release
+  person: "61865155"
+  team: eagles
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.rakuteneagles.jp/news/detail/202601196664.html
+      kind: club
+      title: 東北楽天ゴールデンイーグルス公式「選手契約に関して」
+      quote: "また、以下の育成選手に対し、2027シーズンの育成選手契約を行わない旨を通知いたしましたので、お知らせいたします。 … 前田 銀治"
+      fetched: "2026-11-24"
+- id: d-2026-release-31035159   # 寿賀 弘都
+  season: 2026
+  date: "2026-10-05"
+  type: release
+  person: "31035159"
+  team: buffaloes
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.buffaloes.co.jp/news/detail/202600808628.html
+      kind: club
+      title: オリックス・バファローズ公式「来季の選手契約について」
+      quote: "また、下記4名の育成選手に対して来季の育成選手契約を結ばないことを通告しましたので、お知らせいたします。 … 041 寿賀 弘都 投手"
+      fetched: "2026-11-24"
+- id: d-2026-release-71175159   # 芦田 丈飛
+  season: 2026
+  date: "2026-10-05"
+  type: release
+  person: "71175159"
+  team: buffaloes
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.buffaloes.co.jp/news/detail/202600808628.html
+      kind: club
+      title: オリックス・バファローズ公式「来季の選手契約について」
+      quote: "また、下記4名の育成選手に対して来季の育成選手契約を結ばないことを通告しましたので、お知らせいたします。 … 044 芦田 丈飛 投手"
+      fetched: "2026-11-24"
+- id: d-2026-release-93195157   # 村上 喬一朗
+  season: 2026
+  date: "2026-10-05"
+  type: release
+  person: "93195157"
+  team: buffaloes
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.buffaloes.co.jp/news/detail/202600808628.html
+      kind: club
+      title: オリックス・バファローズ公式「来季の選手契約について」
+      quote: "また、下記4名の育成選手に対して来季の育成選手契約を結ばないことを通告しましたので、お知らせいたします。 … 034 村上 喬一朗 選手"
+      fetched: "2026-11-24"
+- id: d-2026-release-21525130   # 香月 一也
+  season: 2026
+  date: "2026-10-05"
+  type: release
+  person: "21525130"
+  team: buffaloes
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.buffaloes.co.jp/news/detail/202600808628.html
+      kind: club
+      title: オリックス・バファローズ公式「来季の選手契約について」
+      quote: "また、下記4名の育成選手に対して来季の育成選手契約を結ばないことを通告しましたので、お知らせいたします。 … 126 香月 一也 選手"
+      fetched: "2026-11-24"
+- id: d-2026-sign-93195157   # 村上 喬一朗
+  season: 2026
+  date: "2026-11-19"
+  type: sign
+  person: "93195157"
+  team: buffaloes
+  toTeam: swallows
+  ikusei: true
+  status: auto_unverified
+  sources:
+    - url: https://www.yakult-swallows.co.jp/news/detail/32742
+      kind: club
+      title: 東京ヤクルトスワローズ公式「選手の獲得について」
+      quote: "下記の３選手と来シーズンの契約を結びましたので、お知らせいたします。 … 育成選手契約 … 村上 喬一朗（むらかみ きょういちろう） … 球歴：東福岡高 - 法政大 - オリックス（2022年育成5位）"
+      fetched: "2026-11-24"
+- id: d-2026-release-41645150   # 根岸 辰昇
+  season: 2026
+  date: "2026-09-29"
+  type: release
+  person: "41645150"
+  team: swallows
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.yakult-swallows.co.jp/news/detail/32643
+      kind: club
+      title: 東京ヤクルトスワローズ公式「来季の契約について」
+      quote: "9月29日（火）、以下の6選手に対し、来季の契約を行わない旨を通告いたしましたので、お知らせいたします。 … 025 根岸 辰昇 選手"
+      fetched: "2026-11-24"
+- id: d-2026-release-51655159   # 土生 翔太
+  season: 2026
+  date: "2026-09-29"
+  type: release
+  person: "51655159"
+  team: dragons
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://dragons.jp/news/2026/26092901.php
+      kind: club
+      title: 中日ドラゴンズ公式「来季の契約について」
+      quote: "当球団は、本日(29日) 福敬登投手、三浦瑞樹投手、土生翔太投手、尾田剛樹選手、川上理偉選手、津田啓史選手、以上の6選手へ来季の契約を結ばないことを通告しました。"
+      fetched: "2026-11-24"
+- id: d-2026-release-41545159   # 川上 理偉
+  season: 2026
+  date: "2026-09-29"
+  type: release
+  person: "41545159"
+  team: dragons
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://dragons.jp/news/2026/26092901.php
+      kind: club
+      title: 中日ドラゴンズ公式「来季の契約について」
+      quote: "当球団は、本日(29日) 福敬登投手、三浦瑞樹投手、土生翔太投手、尾田剛樹選手、川上理偉選手、津田啓史選手、以上の6選手へ来季の契約を結ばないことを通告しました。"
+      fetched: "2026-11-24"
+- id: d-2026-release-81285159   # 津田 啓史
+  season: 2026
+  date: "2026-09-29"
+  type: release
+  person: "81285159"
+  team: dragons
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://dragons.jp/news/2026/26092901.php
+      kind: club
+      title: 中日ドラゴンズ公式「来季の契約について」
+      quote: "当球団は、本日(29日) 福敬登投手、三浦瑞樹投手、土生翔太投手、尾田剛樹選手、川上理偉選手、津田啓史選手、以上の6選手へ来季の契約を結ばないことを通告しました。"
+      fetched: "2026-11-24"
+- id: d-2026-sign-81285159   # 津田 啓史
+  season: 2026
+  date: "2026-11-19"
+  type: sign
+  person: "81285159"
+  team: dragons
+  toTeam: swallows
+  ikusei: true
+  status: auto_unverified
+  sources:
+    - url: https://www.yakult-swallows.co.jp/news/detail/32742
+      kind: club
+      title: 東京ヤクルトスワローズ公式「選手の獲得について」
+      quote: "下記の３選手と来シーズンの契約を結びましたので、お知らせいたします。 … 育成選手契約 … 津田 啓史（つだ けいし） … 球歴：横浜高 - 三菱重工East - 中日ドラゴンズ（2023年ドラフト2位）"
+      fetched: "2026-11-24"
+- id: d-2026-sign-81185138   # 梅津 晃大
+  season: 2026
+  date: "2026-11-19"
+  type: sign
+  person: "81185138"
+  team: dragons
+  toTeam: dragons
+  status: auto_unverified
+  sources:
+    - url: https://dragons.jp/news/2026/26111901.php
+      kind: club
+      title: 中日ドラゴンズ公式「契約更改のお知らせ」
+      quote: "本日（19日）の交渉で、根尾昂、梅津晃大、牧野憲伸、松木平優太、山浅龍之介、森山暁生、福田幸之介、有馬惠叶の8選手は契約更改しました。"
+      fetched: "2026-11-24"
+- id: d-2026-sign-93395157   # 山浅 龍之介
+  season: 2026
+  date: "2026-11-19"
+  type: sign
+  person: "93395157"
+  team: dragons
+  toTeam: dragons
+  status: auto_unverified
+  sources:
+    - url: https://dragons.jp/news/2026/26111901.php
+      kind: club
+      title: 中日ドラゴンズ公式「契約更改のお知らせ」
+      quote: "本日（19日）の交渉で、根尾昂、梅津晃大、牧野憲伸、松木平優太、山浅龍之介、森山暁生、福田幸之介、有馬惠叶の8選手は契約更改しました。"
+      fetched: "2026-11-24"
+- id: d-2026-sign-33335157   # 森山 暁生
+  season: 2026
+  date: "2026-11-19"
+  type: sign
+  person: "33335157"
+  team: dragons
+  toTeam: dragons
+  status: auto_unverified
+  sources:
+    - url: https://dragons.jp/news/2026/26111901.php
+      kind: club
+      title: 中日ドラゴンズ公式「契約更改のお知らせ」
+      quote: "本日（19日）の交渉で、根尾昂、梅津晃大、牧野憲伸、松木平優太、山浅龍之介、森山暁生、福田幸之介、有馬惠叶の8選手は契約更改しました。"
+      fetched: "2026-11-24"
+- id: d-2026-release-93195159   # 松原 快
+  season: 2026
+  date: "2026-09-29"
+  type: release
+  person: "93195159"
+  team: tigers
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://hanshintigers.jp/news/topics/info_11250.html
+      kind: club
+      title: 阪神タイガース公式「来季の選手契約について」
+      quote: "松原快選手、伊藤稜選手、アンソニー・マルティネス選手、戸井零士選手、ジーン・アルナエス選手、スタンリー・コンスエグラ選手に対して、来季の契約を結ばないことを伝えましたのでお知らせします。"
+      fetched: "2026-11-24"
+- id: d-2026-release-31335155   # 伊藤 稜
+  season: 2026
+  date: "2026-09-29"
+  type: release
+  person: "31335155"
+  team: tigers
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://hanshintigers.jp/news/topics/info_11250.html
+      kind: club
+      title: 阪神タイガース公式「来季の選手契約について」
+      quote: "松原快選手、伊藤稜選手、アンソニー・マルティネス選手、戸井零士選手、ジーン・アルナエス選手、スタンリー・コンスエグラ選手に対して、来季の契約を結ばないことを伝えましたのでお知らせします。"
+      fetched: "2026-11-24"
+- id: d-2026-release-13215159   # Ａ．マルティネス
+  season: 2026
+  date: "2026-09-29"
+  type: release
+  person: "13215159"
+  team: tigers
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://hanshintigers.jp/news/topics/info_11250.html
+      kind: club
+      title: 阪神タイガース公式「来季の選手契約について」
+      quote: "松原快選手、伊藤稜選手、アンソニー・マルティネス選手、戸井零士選手、ジーン・アルナエス選手、スタンリー・コンスエグラ選手に対して、来季の契約を結ばないことを伝えましたのでお知らせします。"
+      fetched: "2026-11-24"
+- id: d-2026-release-11215157   # 戸井 零士
+  season: 2026
+  date: "2026-09-29"
+  type: release
+  person: "11215157"
+  team: tigers
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://hanshintigers.jp/news/topics/info_11250.html
+      kind: club
+      title: 阪神タイガース公式「来季の選手契約について」
+      quote: "松原快選手、伊藤稜選手、アンソニー・マルティネス選手、戸井零士選手、ジーン・アルナエス選手、スタンリー・コンスエグラ選手に対して、来季の契約を結ばないことを伝えましたのでお知らせします。"
+      fetched: "2026-11-24"
+- id: d-2026-release-33535150   # Ｊ．アルナエス
+  season: 2026
+  date: "2026-09-29"
+  type: release
+  person: "33535150"
+  team: tigers
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://hanshintigers.jp/news/topics/info_11250.html
+      kind: club
+      title: 阪神タイガース公式「来季の選手契約について」
+      quote: "松原快選手、伊藤稜選手、アンソニー・マルティネス選手、戸井零士選手、ジーン・アルナエス選手、スタンリー・コンスエグラ選手に対して、来季の契約を結ばないことを伝えましたのでお知らせします。"
+      fetched: "2026-11-24"
+- id: d-2026-release-03505150   # Ｓ．コンスエグラ
+  season: 2026
+  date: "2026-09-29"
+  type: release
+  person: "03505150"
+  team: tigers
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://hanshintigers.jp/news/topics/info_11250.html
+      kind: club
+      title: 阪神タイガース公式「来季の選手契約について」
+      quote: "松原快選手、伊藤稜選手、アンソニー・マルティネス選手、戸井零士選手、ジーン・アルナエス選手、スタンリー・コンスエグラ選手に対して、来季の契約を結ばないことを伝えましたのでお知らせします。"
+      fetched: "2026-11-24"
+- id: d-2026-release-93195153   # 松本 隆之介
+  season: 2026
+  date: "2026-09-29"
+  type: release
+  person: "93195153"
+  team: baystars
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.baystars.co.jp/news/2026/09/0929_03.php
+      kind: club
+      title: 横浜DeNAベイスターズ公式「2027年シーズン 選手契約について」
+      quote: "横浜DeNAベイスターズは、以下の選手について、2027年シーズンの契約を結ばない旨を通知いたしましたので、お知らせいたします。 … 松本 隆之介"
+      fetched: "2026-11-24"
+- id: d-2026-release-81785159   # 近藤 大雅
+  season: 2026
+  date: "2026-09-29"
+  type: release
+  person: "81785159"
+  team: baystars
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.baystars.co.jp/news/2026/09/0929_03.php
+      kind: club
+      title: 横浜DeNAベイスターズ公式「2027年シーズン 選手契約について」
+      quote: "横浜DeNAベイスターズは、以下の選手について、2027年シーズンの契約を結ばない旨を通知いたしましたので、お知らせいたします。 … 近藤 大雅"
+      fetched: "2026-11-24"
+- id: d-2026-release-31535159   # 小笠原 蒼
+  season: 2026
+  date: "2026-09-29"
+  type: release
+  person: "31535159"
+  team: baystars
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.baystars.co.jp/news/2026/09/0929_03.php
+      kind: club
+      title: 横浜DeNAベイスターズ公式「2027年シーズン 選手契約について」
+      quote: "横浜DeNAベイスターズは、以下の選手について、2027年シーズンの契約を結ばない旨を通知いたしましたので、お知らせいたします。 … 小笠原 蒼"
+      fetched: "2026-11-24"
+- id: d-2026-release-71475136   # 西巻 賢二
+  season: 2026
+  date: "2026-09-29"
+  type: release
+  person: "71475136"
+  team: baystars
+  note: 来季契約を結ばない
+  status: auto_unverified
+  sources:
+    - url: https://www.baystars.co.jp/news/2026/09/0929_03.php
+      kind: club
+      title: 横浜DeNAベイスターズ公式「2027年シーズン 選手契約について」
+      quote: "横浜DeNAベイスターズは、以下の選手について、2027年シーズンの契約を結ばない旨を通知いたしましたので、お知らせいたします。 … 西巻 賢二"
+      fetched: "2026-11-24"
+- id: d-2026-retire-71475136   # 西巻 賢二
+  season: 2026
+  date: "2026-11-05"
+  type: retire
+  person: "71475136"
+  team: baystars
+  status: auto_unverified
+  sources:
+    - url: https://www.baystars.co.jp/news/2026/11/1105_05.php
+      kind: club
+      title: 横浜DeNAベイスターズ公式「西巻賢二選手 引退のお知らせ」
+      quote: "西巻賢二選手が現役を引退することになりましたので、お知らせいたします。"
+      fetched: "2026-11-24"
+- id: d-2026-ikusei-41945159   # 清水 麻成
+  season: 2026
+  date: "2026-11-18"
+  type: ikusei_recontract
+  person: "41945159"
+  team: baystars
+  status: auto_unverified
+  sources:
+    - url: https://www.baystars.co.jp/news/2026/11/1118_03.php
+      kind: club
+      title: 横浜DeNAベイスターズ公式「2027年シーズン 選手契約について」
+      quote: "横浜DeNAベイスターズは、清水麻成選手、森下瑠大選手、益子京右選手、東妻純平選手、上甲凌大選手と、2027年シーズンにおいて育成選手契約を結ぶこととなりましたので、お知らせいたします。"
+      fetched: "2026-11-24"
+- id: d-2026-ikusei-63165157   # 森下 瑠大
+  season: 2026
+  date: "2026-11-18"
+  type: ikusei_recontract
+  person: "63165157"
+  team: baystars
+  status: auto_unverified
+  sources:
+    - url: https://www.baystars.co.jp/news/2026/11/1118_03.php
+      kind: club
+      title: 横浜DeNAベイスターズ公式「2027年シーズン 選手契約について」
+      quote: "横浜DeNAベイスターズは、清水麻成選手、森下瑠大選手、益子京右選手、東妻純平選手、上甲凌大選手と、2027年シーズンにおいて育成選手契約を結ぶこととなりましたので、お知らせいたします。"
+      fetched: "2026-11-24"
+- id: d-2026-ikusei-01905157   # 上甲 凌大
+  season: 2026
+  date: "2026-11-18"
+  type: ikusei_recontract
+  person: "01905157"
+  team: baystars
+  status: auto_unverified
+  sources:
+    - url: https://www.baystars.co.jp/news/2026/11/1118_03.php
+      kind: club
+      title: 横浜DeNAベイスターズ公式「2027年シーズン 選手契約について」
+      quote: "横浜DeNAベイスターズは、清水麻成選手、森下瑠大選手、益子京右選手、東妻純平選手、上甲凌大選手と、2027年シーズンにおいて育成選手契約を結ぶこととなりましたので、お知らせいたします。"
+      fetched: "2026-11-24"

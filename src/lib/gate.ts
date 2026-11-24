@@ -69,7 +69,8 @@ const TEAM_WORDS: Record<string, string[]> = {
 /** 区分ごとの「分類の根拠になる語句」 */
 const EVIDENCE: Partial<Record<IntaiEvent["type"], RegExp>> = {
   retire: /引退/,
-  release: /戦力外|契約を結ばない|契約しない|自由契約|退団|契約満了/,
+  // 球団の書き方は「来季の契約を結ばない」「契約を締結しない」「契約を行わない」「契約をしない」など
+  release: /戦力外|契約を(?:結ば|締結し|行わ|し)ない|契約しない|自由契約|退団|契約満了/,
   departure: /退団|自由契約|契約満了/,
   ikusei_recontract: /育成/,
   sign: /契約|入団|獲得|加入/,
@@ -84,7 +85,7 @@ const EVIDENCE: Partial<Record<IntaiEvent["type"], RegExp>> = {
   manager_in: /監督/,
   manager_out: /監督|退任|辞任|退団/,
   coach_in: /コーチ|就任|入閣|監督/,
-  coach_out: /退団|退任|契約しない|契約を結ばない/,
+  coach_out: /退団|退任|契約しない|契約を(?:結ば|締結し|行わ|し)ない|契約満了/,
   coach_change: /コーチ|配置|担当/,
 };
 

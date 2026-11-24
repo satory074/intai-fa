@@ -56,6 +56,11 @@ const STATUS_RANK: Record<RowStatus, number> = { verified: 3, npb_official: 2, a
 const bestStatus = (evs: IntaiEvent[]): RowStatus =>
   evs.map((e) => e.status).sort((a, b) => STATUS_RANK[b] - STATUS_RANK[a])[0] ?? "register";
 
+/** その後の根拠の出来事の出典も、行の出典に並べる（育成かどうか・日付は行の出来事のまま） */
+function withOutcomeSource(evs: IntaiEvent[], out: { event?: IntaiEvent } | null): { sources?: Source[] } {
+  return out?.event ? { sources: uniqSources([...evs, out.event]) } : {};
+}
+
 function uniqSources(evs: IntaiEvent[]): Source[] {
   const seen = new Set<string>();
   const out: Source[] = [];
@@ -102,9 +107,17 @@ const MOVE_LABEL: Partial<Record<IntaiEvent["type"], string>> = {
   sign_outside: "NPB 外と契約",
 };
 
-function outcomeOf(after: IntaiEvent[], season: number): { text: string; team?: string } | null {
+type Outcome = { text: string; team?: string; event?: IntaiEvent };
+
+/** その後（他球団と契約・育成再契約・コーチ就任など）。event は根拠の出来事（出典と状態を行に足すため） */
+function outcomeOf(after: IntaiEvent[], season: number): Outcome | null {
   const e = after.find((x) => ["sign", "ikusei_recontract", "sign_outside", "coach_in", "manager_in", "retire", "voluntary_retired"].includes(x.type));
   if (!e) return null;
+  const o = outcomeText(e, season);
+  return o ? { ...o, event: e } : null;
+}
+
+function outcomeText(e: IntaiEvent, season: number): Outcome | null {
   switch (e.type) {
     case "ikusei_recontract":
       return { text: "育成で再契約" };
@@ -125,7 +138,7 @@ function outcomeOf(after: IntaiEvent[], season: number): { text: string; team?: 
 }
 
 /** 名簿から、翌年に別の球団で選手として在籍したか */
-function nextFromRegister(personId: string, team: string | undefined, season: number): { text: string; team?: string } | null {
+function nextFromRegister(personId: string, team: string | undefined, season: number): Outcome | null {
   const st = dataset().stintsByPerson.get(personId) ?? [];
   const next = st.find((s) => (s.role === "player" || s.role === "ikusei") && s.from === season + 1 && s.franchise !== team);
   if (next) return { text: `${next.short}と契約（名簿）`, team: next.franchise };
@@ -183,12 +196,14 @@ function buildRows(season: number): Row[] {
     if (retires.length) {
       const primary = retires.find((e) => e.type === "retire") ?? retires[0];
       const out = outcomeOf(later.filter((e) => ["coach_in", "manager_in"].includes(e.type)), season);
+      const others = [...retires.filter((e) => e !== primary), ...releases];
       rows.push({
-        ...base(primary, [...retires.filter((e) => e !== primary), ...releases]),
+        ...base(primary, others),
+        ...withOutcomeSource([primary, ...others], out),
         key: `retire-${pid}`,
         section: "retire",
-        // 引退と分類した根拠の出来事の状態を出す（未確認の下書きなら「自動取得・未確認」）
-        status: primary.status,
+        // 引退と分類した根拠の出来事の状態を出す（未確認の下書きなら「自動取得・未確認」）。その後が下書きならそれも
+        status: out?.event?.status === "auto_unverified" ? "auto_unverified" : primary.status,
         label: primary.type === "retire" ? "引退" : "任意引退",
         outcome: out?.text,
         outcomeTeam: out?.team,
@@ -205,10 +220,12 @@ function buildRows(season: number): Row[] {
       const notes = [...new Set(releases.map((e) => e.note).filter(Boolean))];
       rows.push({
         ...base(primary, releases.filter((e) => e !== primary)),
+        ...withOutcomeSource(releases, out),
         key: `release-${pid}`,
         section: "release",
-        // 理由（戦力外通告など）を付けた出来事が下書きなら、その状態を出す
-        status: primary.status === "npb_official" ? bestStatus(releases) : primary.status,
+        // 理由（戦力外通告など）を付けた出来事か、その後の出来事が下書きなら、その状態を出す
+        status:
+          out?.event?.status === "auto_unverified" ? "auto_unverified" : primary.status === "npb_official" ? bestStatus(releases) : primary.status,
         label: primary.status !== "npb_official" && primary.note ? primary.note : notes.join("・") || "自由契約",
         outcome: out?.text,
         outcomeTeam: out?.team,
