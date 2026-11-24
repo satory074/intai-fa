@@ -1,5 +1,8 @@
 ---
-/** 球団名（色の印つき）。色だけに頼らず必ず名前を書く */
+/**
+ * 球団名（色の印つき）。色だけに頼らず必ず名前を書く。
+ * link は球団×年度のページ（/teams/{球団}/{年度}/）へ。そのページがある組み合わせ（その年度にその球団から出た・移った行がある）でだけ付けること
+ */
 import { shortOf } from "../lib/teams";
 interface Props {
   id?: string;
@@ -14,7 +17,7 @@ const name = id ? shortOf(id, season) : "";
 {
   id &&
     (link ? (
-      <a href={`${base}/${season}/teams/${id}/`} class={`t-${id}`}>
+      <a href={`${base}/teams/${id}/${season}/`} class={`t-${id}`}>
         <span class="team-mark" aria-hidden="true" />{name}
       </a>
     ) : (

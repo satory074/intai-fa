@@ -1,10 +1,11 @@
 ---
-/** 球団の色を CSS クラス（.t-giants など）にする。印と帯だけが使う */
+/** 球団の色を CSS クラス（.t-giants など）にする。球団名の横の印と経歴の帯の線だけが使う（文字の背景には使わない） */
 import { franchises } from "../lib/teams";
-import { onColor } from "../lib/format";
-const light = franchises().map((f) => `.t-${f.id}{--team:${f.color};--on-team:${onColor(f.color)}}`).join("");
-const dark = franchises().map((f) => `.t-${f.id}{--team:${f.colorDark};--on-team:${onColor(f.colorDark)}}`).join("");
-const css = `${light}@media (prefers-color-scheme: dark){${dark}}`;
+const light = franchises().map((f) => `.t-${f.id}{--team:${f.color}}`).join("");
+const dark = franchises().map((f) => `.t-${f.id}{--team:${f.colorDark}}`).join("");
+// スコアボードの板はどちらの表示でも暗いので、板の中の印はいつも暗い表示用の色
+const onBoard = franchises().map((f) => `.board .t-${f.id}{--team:${f.colorDark}}`).join("");
+const css = `${light}@media (prefers-color-scheme: dark){${dark}}${onBoard}`;
 ---
 
 <style is:global set:html={css}></style>

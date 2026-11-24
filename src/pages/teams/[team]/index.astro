@@ -1,0 +1,70 @@
+---
+/** 球団のページ。名前の移り変わり、今オフの出入り（現行球団）、年度ごとの出入りの一覧 */
+import Layout from "../../../components/Layout.astro";
+import { franchise, franchises, shortOf } from "../../../lib/teams";
+import { currentOffSeason, teamCounts, teamSeasonRows, teamSeasons } from "../../../lib/rows";
+import { todayJst } from "../../../lib/format";
+import { displayName, erasText, isCurrent, LEAGUE_LABEL, yearsText } from "../../../lib/team-view";
+
+export function getStaticPaths() {
+  return franchises()
+    .filter((f) => teamSeasons(f.id).length > 0)
+    .map((f) => ({ params: { team: f.id } }));
+}
+
+const team = Astro.params.team!;
+const f = franchise(team);
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const name = displayName(f);
+const current = isCurrent(team);
+const seasons = teamSeasons(team);
+const list = seasons.map((s) => ({ season: s, short: shortOf(team, s), ...teamCounts(teamSeasonRows(team, s), team) }));
+const off = currentOffSeason(todayJst());
+const now = current ? list.find((x) => x.season === off) : undefined;
+
+const title = `${name}の引退・戦力外・FA・移籍（年度別）`;
+const description = `${name}（${yearsText(f)}）から出た人・加わった人を年度別に。引退・戦力外・FA・トレード・監督コーチ人事、${seasons.length}年度分。出典付き。`;
+---
+
+<Layout title={title} description={description} crumbs={[{ label: "球団", href: `${base}/teams/` }, { label: name }]}>
+  <div class={`team-head t-${team}`}>
+    <h1>{name}</h1>
+    <p>{f.league ? `${LEAGUE_LABEL[f.league]}・` : ""}{current ? `${f.eras[0].from}年から` : `${yearsText(f)}（消滅）`}</p>
+    {f.eras.length > 1 && <p>名前の移り変わり：{erasText(f)}</p>}
+  </div>
+
+  {
+    now && (
+      <p class="meta-line">
+        <a href={`${base}/teams/${team}/${off}/`}>{off}年オフ</a>：{now.short}から出た人 <strong>{now.out}人</strong>
+        {now.in > 0 && <>・加わった人 <strong>{now.in}人</strong></>}
+      </p>
+    )
+  }
+  {current && <p class="link-row"><a href={`${base}/teams/${team}/feed.xml`}>{name}の新着の RSS</a></p>}
+
+  <section aria-labelledby="seasons-h">
+    <h2 id="seasons-h" class="section-head">年度ごとの出入り</h2>
+    <div class="table-wrap" role="region" aria-labelledby="seasons-h" tabindex="0">
+      <table class="record">
+        <caption class="sr-only">{name}の年度ごとの出入り（新しい順）</caption>
+        <thead>
+          <tr><th scope="col">年度</th><th scope="col">球団名</th><th scope="col" class="num">出た人</th><th scope="col" class="num">加わった人</th><th scope="col" class="num">うち引退</th><th scope="col" class="num">うち戦力外・自由契約</th><th scope="col" class="num">うちFA</th></tr>
+        </thead>
+        <tbody>
+          {list.map((x) => (
+            <tr>
+              <th scope="row"><a href={`${base}/teams/${team}/${x.season}/`}>{x.season}年オフ</a></th>
+              <td data-label="球団名">{x.short}</td>
+              <td class="num lead" data-label="出た人">{x.out}人</td>
+              <td class="num lead" data-label="加わった人">{x.in ? `${x.in}人` : ""}</td>
+              <td class="num" data-label="うち引退">{x.bySection.retire || ""}</td>
+              <td class="num" data-label="うち戦力外・自由契約">{x.bySection.release || ""}</td>
+              <td class="num" data-label="うちFA">{x.bySection.fa || ""}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+</Layout>

@@ -4,7 +4,6 @@
  * 名簿の表記（「03～15途巨人」）はそのまま載せず、帯・経歴・出来事の年表に作り直す（Q33）。
  */
 import Layout from "../../../components/Layout.astro";
-import TeamStyles from "../../../components/TeamStyles.astro";
 import Band from "../../../components/Band.astro";
 import Team from "../../../components/Team.astro";
 import Tags from "../../../components/Tags.astro";
@@ -59,7 +58,6 @@ const seasonsWithRows = new Set(events.map((e) => e.season).filter((s) => rowsFo
 ---
 
 <Layout title={title} description={description} crumbs={[{ label: "人物", href: `${base}/people/` }, { label: person.name }]} searchable>
-  <TeamStyles />
   <div class="person-head">
     <h1 data-pagefind-meta="title">{person.name}</h1>
     <dl class="person-facts">
@@ -76,7 +74,7 @@ const seasonsWithRows = new Set(events.map((e) => e.season).filter((s) => rowsFo
   {
     career.length > 0 && (
       <section class="career" aria-labelledby="career-h">
-        <h2 id="career-h">経歴</h2>
+        <h2 id="career-h" class="section-head">経歴</h2>
         <div class="table-wrap" role="region" aria-labelledby="career-h" tabindex="0">
           <table class="record">
             <caption class="sr-only">{person.name}の在籍球団</caption>
@@ -84,10 +82,10 @@ const seasonsWithRows = new Set(events.map((e) => e.season).filter((s) => rowsFo
             <tbody>
               {career.map((s) => (
                 <tr>
-                  <td class="date">{yearsText(s)}</td>
+                  <td class="date lead" data-label="年">{yearsText(s)}</td>
                   <th scope="row" class="team"><Team id={s.franchise} season={s.from} />{s.short !== shortOf(s.franchise, s.from) ? `（${s.short}）` : ""}</th>
-                  <td>{ROLE_LABEL[s.role]}</td>
-                  <td>{s.note ?? ""}</td>
+                  <td data-label="立場">{ROLE_LABEL[s.role]}</td>
+                  <td data-label="補足">{s.note ?? ""}</td>
                 </tr>
               ))}
             </tbody>
@@ -102,7 +100,7 @@ const seasonsWithRows = new Set(events.map((e) => e.season).filter((s) => rowsFo
   }
 
   <section class="timeline" aria-labelledby="tl-h">
-    <h2 id="tl-h">去就の記録</h2>
+    <h2 id="tl-h" class="section-head">去就の記録</h2>
     {events.length === 0 && <p class="empty">記録している去就はまだありません。</p>}
     <ol>
       {

@@ -1,0 +1,17 @@
+---
+/** 年度・球団×年度のページの頭の札（スコアボードの板）。h1 を兼ねる */
+interface Props {
+  season: number;
+  title: string;
+  /** 球団×年度のページでは球団の印を添える */
+  team?: string;
+}
+const { season, title, team } = Astro.props;
+---
+
+<div class="season-head">
+  <h1 class="board">
+    <span class="board-year">{season}</span><span class="board-unit">年オフ</span>
+    <span class="board-title">{team && <span class={`t-${team}`}><span class="team-mark" aria-hidden="true"></span></span>}{title}</span>
+  </h1>
+</div>

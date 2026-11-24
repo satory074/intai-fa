@@ -1,0 +1,42 @@
+---
+/** 球団の一覧。現行 12 球団をリーグごとに、その下に消滅した系譜 */
+import Layout from "../../components/Layout.astro";
+import { franchises } from "../../lib/teams";
+import { teamSeasons } from "../../lib/rows";
+import { displayName, isCurrent, LEAGUE_LABEL, yearsText } from "../../lib/team-view";
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const all = franchises().filter((f) => teamSeasons(f.id).length > 0);
+const groups = [
+  { title: LEAGUE_LABEL.central, list: all.filter((f) => isCurrent(f.id) && f.league === "central") },
+  { title: LEAGUE_LABEL.pacific, list: all.filter((f) => isCurrent(f.id) && f.league === "pacific") },
+  { title: "消滅した球団", list: all.filter((f) => !isCurrent(f.id)) },
+];
+---
+
+<Layout
+  title="球団の一覧"
+  description="プロ野球（NPB）の現行12球団と、消滅した球団の一覧。球団ごとに、年度別の引退・戦力外・FA・移籍・監督コーチ人事を見られます。"
+  crumbs={[{ label: "球団" }]}
+>
+  <h1 class="page-title">球団</h1>
+  <p class="lede">球団を選ぶと、その球団から出た人・加わった人を年度ごとに見られます。</p>
+  {
+    groups.map((g, i) => (
+      <section aria-labelledby={`league-${i}`}>
+        <h2 id={`league-${i}`} class="section-head">{g.title}</h2>
+        <ul class="team-index">
+          {g.list.map((f) => (
+            <li class={`t-${f.id}`}>
+              <a href={`${base}/teams/${f.id}/`}>
+                <span class="team-mark" aria-hidden="true" />
+                <span class="name">{displayName(f)}</span>
+                <span class="sub">{yearsText(f)}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))
+  }
+</Layout>

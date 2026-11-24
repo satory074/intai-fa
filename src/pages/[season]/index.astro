@@ -1,6 +1,7 @@
 ---
+/** 年度のページ。区分ごとの表を並べ、区分・球団・育成で絞り込める */
 import Layout from "../../components/Layout.astro";
-import TeamStyles from "../../components/TeamStyles.astro";
+import SeasonHead from "../../components/SeasonHead.astro";
 import SeasonView from "../../components/SeasonView.astro";
 import Team from "../../components/Team.astro";
 import { dataset } from "../../lib/data";
@@ -29,25 +30,18 @@ const description = `${season}年オフ（${season}年度）のプロ野球の�
 ---
 
 <Layout title={title} description={description} crumbs={[{ label: `${season}年オフ` }]}>
-  <TeamStyles />
-  <div class="year-hero">
-    <h1>
-      <span class="year-num">{season}</span>
-      <span class="year-suffix">年オフ</span>
-      <span class="year-title">引退・戦力外・FA・移籍・指導者人事</span>
-    </h1>
-  </div>
+  <SeasonHead season={season} title="引退・戦力外・FA・移籍・指導者人事" />
   <p class="meta-line">
     <strong>{people}人</strong>の去就を収録。引退・戦力外・退団のうち理由まで調べたもの <strong>{cov.pct}%</strong>（{cov.researched}/{cov.total}）。
     {lastFresh && <>最終更新 {ymd(lastFresh)}。</>}
   </p>
-  <nav class="year-step" aria-label="前後の年">
+  <nav class="year-step" aria-label="前後の年度">
     <span>{next && <a href={`${base}/${next}/`}>{next}年オフへ</a>}</span>
     <span>{prev && <a href={`${base}/${prev}/`}>{prev}年オフへ</a>}</span>
   </nav>
   {
     teams.length > 0 && (
-      <p class="team-links">
+      <p class="link-row">
         球団別に見る：
         {teams.map((f) => <Team id={f.id} season={season} link />)}
       </p>

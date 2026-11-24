@@ -1,0 +1,47 @@
+---
+/** 球団×年度のページ。0 件の組み合わせは作らない（Q7）。行はその球団から出た行と、その球団へ移った行 */
+import Layout from "../../../../components/Layout.astro";
+import SeasonHead from "../../../../components/SeasonHead.astro";
+import SeasonView from "../../../../components/SeasonView.astro";
+import { SECTIONS, teamCounts, teamSeasonRows, teamSeasons } from "../../../../lib/rows";
+import { franchise, franchises, shortOf } from "../../../../lib/teams";
+
+export function getStaticPaths() {
+  // 創設前年のオフのコーチ人事のように、その年度に存在しない系譜が出ることがあるので全系譜を見る
+  return franchises().flatMap((f) => teamSeasons(f.id).map((season) => ({ params: { team: f.id, season: String(season) } })));
+}
+
+const season = Number(Astro.params.season);
+const team = Astro.params.team!;
+const f = franchise(team);
+const name = shortOf(team, season);
+const rows = teamSeasonRows(team, season);
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const c = teamCounts(rows, team);
+const counts = SECTIONS.map((s) => ({ ...s, n: rows.filter((r) => r.team === team && r.section === s.key).length })).filter((s) => s.n > 0);
+const seasons = teamSeasons(team);
+const prev = seasons.find((s) => s < season);
+const next = seasons.findLast((s) => s > season);
+const teamName = shortOf(team, f.eras[f.eras.length - 1].from);
+
+const title = `${season}年オフ ${name}の引退・戦力外・FA`;
+const description = `${season}年オフの${f.full && season >= 2005 && f.eras[f.eras.length - 1].short === name ? f.full : name}の去就。${counts.map((x) => `${x.title}${x.n}`).join("、")}${c.in ? `、加入${c.in}` : ""}。出典付き。`;
+---
+
+<Layout
+  title={title}
+  description={description}
+  crumbs={[{ label: "球団", href: `${base}/teams/` }, { label: teamName, href: `${base}/teams/${team}/` }, { label: `${season}年オフ` }]}
+>
+  <SeasonHead season={season} title={`${name}の去就`} team={team} />
+  <p class="meta-line">
+    {name}から出た人 <strong>{c.out}人</strong>
+    {c.in > 0 && <>・トレード・FA などで加わった人 <strong>{c.in}人</strong></>}。
+    <a href={`${base}/${season}/`}>{season}年オフの全球団</a>
+  </p>
+  <nav class="year-step" aria-label="前後の年度">
+    <span>{next && <a href={`${base}/teams/${team}/${next}/`}>{next}年オフの{shortOf(team, next)}へ</a>}</span>
+    <span>{prev && <a href={`${base}/teams/${team}/${prev}/`}>{prev}年オフの{shortOf(team, prev)}へ</a>}</span>
+  </nav>
+  <SeasonView rows={rows} season={season} teamFilter={false} teamLinks={false} />
+</Layout>

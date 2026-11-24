@@ -1,50 +1,125 @@
 ---
+/**
+ * トップ: 今オフの動き。スコアボードの板に 12 球団の出入り（ライン表）、その下に新着・区分ごとの件数・検索・年度の一覧。
+ * 「今オフ」は currentOffSeason（10〜12 月はその年、1〜9 月は前年）。
+ */
 import Layout from "../components/Layout.astro";
+import SearchBox from "../components/SearchBox.astro";
+import Tags from "../components/Tags.astro";
+import Team from "../components/Team.astro";
 import { dataset } from "../lib/data";
-import { coverage, rowsForSeason, SECTIONS } from "../lib/rows";
-import { approxPeople, ymd } from "../lib/format";
+import { currentOffSeason, recentRows, rowsForSeason, SECTIONS, teamCounts, teamSeasons } from "../lib/rows";
+import { approxPeople, md, todayJst, ymd } from "../lib/format";
+import { CURRENT_TEAM_IDS, franchise, shortOf } from "../lib/teams";
+import { LEAGUE_LABEL } from "../lib/team-view";
 
 const ds = dataset();
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
-const latest = ds.seasons[0];
-const latestRows = rowsForSeason(latest);
-const latestCounts = SECTIONS.map((s) => ({ ...s, n: latestRows.filter((r) => r.section === s.key).length })).filter((s) => s.n > 0);
-const prevSeason = ds.seasons[1];
+const today = todayJst();
+const season = currentOffSeason(today);
+const rows = rowsForSeason(season);
+const sectionCounts = SECTIONS.map((s) => ({ ...s, n: rows.filter((r) => r.section === s.key).length })).filter((s) => s.n > 0);
+const leagues = (["central", "pacific"] as const).map((lg) => ({
+  label: LEAGUE_LABEL[lg],
+  teams: CURRENT_TEAM_IDS.filter((id) => franchise(id).league === lg).map((id) => ({
+    id,
+    name: shortOf(id, season),
+    hasPage: teamSeasons(id).includes(season),
+    ...teamCounts(rows, id),
+  })),
+}));
+// 新着: 新しい 2 年度から（春の公示は前年度に入ることがある）
+const fresh = recentRows(ds.seasons.slice(0, 2).flatMap((s) => rowsForSeason(s)), today);
+const people = new Set(rows.map((r) => r.personId)).size;
 
 // 年の一覧を 10 年ごとに（新しい順）
-const decades = new Map<number, { season: number; people: number; pct: number }[]>();
+const decades = new Map<number, { season: number; people: number }[]>();
 for (const s of ds.seasons) {
-  const rows = rowsForSeason(s);
+  const rs = rowsForSeason(s);
   const d = Math.floor(s / 10) * 10;
-  decades.set(d, [...(decades.get(d) ?? []), { season: s, people: new Set(rows.map((r) => r.personId)).size, pct: coverage(rows).pct }]);
+  decades.set(d, [...(decades.get(d) ?? []), { season: s, people: new Set(rs.map((r) => r.personId)).size }]);
 }
 const title = "プロ野球去就アーカイブ";
 const description = `プロ野球（NPB）の引退・戦力外・FA・トレード・監督コーチ人事を、${ds.seasons[ds.seasons.length - 1]}年から年度別・球団別・人物別に。${approxPeople(ds.people.size)}の在籍球団の変遷つき。出典はNPB公示・球団発表・在籍者名簿。`;
+const cell = (n: number) => (n ? String(n) : "0");
 ---
 
 <Layout title={title} description={description}>
-  <h1 class="page-title">プロ野球の去就を、年ごとに。</h1>
-  <p class="lede">
-    引退・戦力外・FA・トレード・現役ドラフト・監督とコーチの人事を、年度別・球団別・人物別にまとめています。どの選手がどの球団を渡ってきたかは、人物ページの帯で見られます。どの行にも出典を付けています。
-  </p>
-
-  <section class="fresh" aria-labelledby="now-h">
-    <h2 id="now-h"><a href={`${base}/${latest}/`}>{latest}年オフ</a>の去就</h2>
-    <ul>
-      {latestCounts.map((c) => <li><a href={`${base}/${latest}/#${c.key}`}>{c.title}</a> {c.n}{c.key === "staff" ? "件" : "人"}</li>)}
-    </ul>
-    <p class="meta-line">
-      最終更新 {ymd(ds.updated)}。{prevSeason && <a href={`${base}/${prevSeason}/`}>{prevSeason}年オフ</a>}
-    </p>
+  <section class="board board-top" aria-labelledby="now-h">
+    <h1 id="now-h"><span class="board-year">{season}</span><span class="board-unit">年オフの動き</span></h1>
+    <p class="board-meta">{people}人の去就を収録・最終更新 {ymd(ds.updated)}</p>
+    <table class="line-score">
+      <caption class="sr-only">{season}年オフ 球団ごとの出入り（人数）</caption>
+      <thead>
+        <tr>
+          <th scope="col">球団</th>
+          <th scope="col" class="wide">引退</th>
+          <th scope="col" class="wide">戦力外</th>
+          <th scope="col" class="wide">FA</th>
+          <th scope="col" class="wide">移籍</th>
+          <th scope="col" class="wide">指導者</th>
+          <th scope="col">出た</th>
+          <th scope="col">加わった</th>
+        </tr>
+      </thead>
+      {
+        leagues.map((lg) => (
+          <tbody>
+            <tr class="league"><th scope="rowgroup" colspan="8">{lg.label}</th></tr>
+            {lg.teams.map((t) => (
+              <tr>
+                <th scope="row" class={`t-${t.id}`}>
+                  <a href={t.hasPage ? `${base}/teams/${t.id}/${season}/` : `${base}/teams/${t.id}/`}>
+                    <span class="team-mark" aria-hidden="true" />
+                    {t.name}
+                  </a>
+                </th>
+                <td class:list={["wide", { zero: !t.bySection.retire }]}>{cell(t.bySection.retire)}</td>
+                <td class:list={["wide", { zero: !t.bySection.release }]}>{cell(t.bySection.release)}</td>
+                <td class:list={["wide", { zero: !t.bySection.fa }]}>{cell(t.bySection.fa)}</td>
+                <td class:list={["wide", { zero: !t.bySection.move }]}>{cell(t.bySection.move)}</td>
+                <td class:list={["wide", { zero: !t.bySection.staff }]}>{cell(t.bySection.staff)}</td>
+                <td class:list={["total", { zero: !t.out }]}>{cell(t.out)}</td>
+                <td class:list={["total", { zero: !t.in }]}>{cell(t.in)}</td>
+              </tr>
+            ))}
+          </tbody>
+        ))
+      }
+    </table>
   </section>
 
-  <form class="search" action={`${base}/people/`} method="get" role="search">
-    <label for="q">名前で人物をさがす</label>
-    <input id="q" name="q" type="search" placeholder="例: 矢野 謙次" autocomplete="off" />
-  </form>
+  <ul class="counts" aria-label={`${season}年オフの区分ごとの件数`}>
+    {sectionCounts.map((c) => <li><a href={`${base}/${season}/#${c.key}`}>{c.title}</a><strong>{c.n}</strong>{c.key === "staff" ? "件" : "人"}</li>)}
+    <li><a href={`${base}/${season}/`}>{season}年オフの一覧</a></li>
+  </ul>
 
-  <section class="spines" aria-labelledby="years-h">
-    <h2 id="years-h" class="sr-only">年の一覧</h2>
+  <section class="fresh" aria-labelledby="fresh-h">
+    <h2 id="fresh-h">最近の更新（7日以内）</h2>
+    {fresh.length === 0 && <p class="empty">この 7 日に載った去就はありません。<a href={`${base}/${season}/`}>{season}年オフの一覧</a>から見られます。</p>}
+    <ul>
+      {
+        fresh.map((r) => (
+          <li>
+            <span class="date">{md(r.date ?? r.fresh)}</span>
+            <Team id={r.team} season={r.season} />
+            {" "}
+            <a href={`${base}/people/${r.personId}/`}>{r.person.name}</a>
+            {" "}
+            {r.section === "fa" ? `${r.label}${r.outcome ? `・${r.outcome}` : ""}` : r.label}
+            {r.outcome && r.section !== "fa" && <span class="arrow">→</span>}
+            {r.section !== "fa" && r.outcome}
+            <Tags row={r} />
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <SearchBox id="q-top" />
+
+  <section class="spines" id="seasons" aria-labelledby="years-h">
+    <h2 id="years-h" class="section-head">年度の一覧</h2>
     {
       [...decades.entries()].map(([d, list]) => (
         <div class="decade">
@@ -52,7 +127,7 @@ const description = `プロ野球（NPB）の引退・戦力外・FA・トレー
           <ol>
             {list.map((y) => (
               <li>
-                <a class={`spine ${y.season === latest ? "current" : ""}`} href={`${base}/${y.season}/`} aria-label={`${y.season}年オフ ${y.people}人`}>
+                <a class={`spine ${y.season === season ? "current" : ""}`} href={`${base}/${y.season}/`} aria-label={`${y.season}年オフ ${y.people}人`}>
                   <span class="y">{y.season}</span>
                   <span class="n">{y.people}人</span>
                 </a>

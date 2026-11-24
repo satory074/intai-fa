@@ -10,6 +10,7 @@
  *   - 名簿から導いた退団（理由未調査）は「退団（理由未調査）」に
  */
 import { ageAt, dataset, playerYearsUpTo } from "./data";
+import { daysBetween } from "./format";
 import type { IntaiEvent, Person, Source } from "./schema";
 import { franchises, shortOf } from "./teams";
 
@@ -328,8 +329,50 @@ function buildRows(season: number): Row[] {
   );
 }
 
-export function rowsForTeamSeason(team: string, season: number): Row[] {
-  return rowsForSeason(season).filter((r) => r.team === team || r.toTeam === team || r.outcomeTeam === team);
+/** 球団×年度のページの行: その球団から出た行と、その球団へ移った行（その後の契約先 outcomeTeam は含めない） */
+export function teamSeasonRows(team: string, season: number): Row[] {
+  return rowsForSeason(season).filter((r) => r.team === team || r.toTeam === team);
+}
+
+/** 球団×年度のページがある年度（新しい順）。行が 0 件の組み合わせはページを作らない（Q7） */
+const teamSeasonsCache = new Map<string, number[]>();
+export function teamSeasons(team: string): number[] {
+  let hit = teamSeasonsCache.get(team);
+  if (!hit) {
+    hit = dataset().seasons.filter((s) => teamSeasonRows(team, s).length > 0);
+    teamSeasonsCache.set(team, hit);
+  }
+  return hit;
+}
+
+/** 球団の出入りの件数。out・in は人数（同じ人の行が 2 つあっても 1 人）、bySection はその球団から出た行の数 */
+export function teamCounts(rows: Row[], team: string): { out: number; in: number; bySection: Record<SectionKey, number> } {
+  const outRows = rows.filter((r) => r.team === team);
+  const bySection = Object.fromEntries(SECTIONS.map((s) => [s.key, outRows.filter((r) => r.section === s.key && !r.minor).length])) as Record<SectionKey, number>;
+  return {
+    out: new Set(outRows.map((r) => r.personId)).size,
+    in: new Set(rows.filter((r) => r.toTeam === team && r.team !== team).map((r) => r.personId)).size,
+    bySection,
+  };
+}
+
+/**
+ * トップで「今オフ」として見せる年度。10〜12 月はその年、1〜9 月は前年（NPB 年度: オフの出来事は直前のシーズン）。
+ * その年度の出来事がまだ無ければ、出来事のある最新の年度。
+ */
+export function currentOffSeason(today: string): number {
+  const [y, m] = today.split("-").map(Number);
+  const s = m >= 10 ? y : y - 1;
+  const seasons = dataset().seasons;
+  return seasons.includes(s) ? s : seasons.find((x) => x < s) ?? seasons[0];
+}
+
+/** 最近の更新: today までの days 日以内に載った行（理由未調査の退団を除く）を新しい順に */
+export function recentRows(rows: Row[], today: string, days = 7, limit = 40): Row[] {
+  return rows
+    .filter((r) => r.fresh && r.section !== "departure" && daysBetween(r.fresh, today) >= 0 && daysBetween(r.fresh, today) <= days)
+    .sort((a, b) => (b.fresh ?? "").localeCompare(a.fresh ?? ""))
+    .slice(0, limit);
 }
 
 /** 収録状況: 引退・戦力外・退団の行のうち、理由まで調べてある割合 */

@@ -37,12 +37,3 @@ export function todayJst(): string {
 export function daysBetween(a: string, b: string): number {
   return Math.round((Date.parse(b) - Date.parse(a)) / 86_400_000);
 }
-
-/** 背景色の上に置く文字色（WCAG の相対輝度で白か墨か） */
-export function onColor(hex: string): string {
-  const c = [1, 3, 5].map((i) => parseInt(hex.slice(i, i + 2), 16) / 255).map((v) => (v <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4));
-  const L = 0.2126 * c[0] + 0.7152 * c[1] + 0.0722 * c[2];
-  const contrastWhite = 1.05 / (L + 0.05);
-  const contrastInk = (L + 0.05) / (0.0255 + 0.05); // #1f2633 ≈ L 0.0255
-  return contrastWhite >= contrastInk ? "#ffffff" : "#1f2633";
-}

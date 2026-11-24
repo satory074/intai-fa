@@ -1,8 +1,10 @@
 ---
 /**
  * 球団色の帯（Q19）。1 年を 2 マス（前半・後半）にして、シーズン途中の移籍（名簿の「途」）を
- * 同じ年の中で並べる。選手時代は塗り、指導者時代は斜線、育成は淡い塗り。
- * 帯は見た目のためのもの（aria-hidden）。同じ内容を下の「経歴」の文章でも出す。
+ * 同じ年の中で並べる。球団の色は上辺の線だけに使い、球団名の文字はいつも紙の上に置く
+ * （球団色の上に小さな文字を置くと、広島の赤などで WCAG の 4.5:1 に届かない）。
+ * 線で立場を分ける: 選手は太い線、育成は細い線、指導者は二重線（色だけに頼らない。破線は短い期間で見分けにくい）。
+ * 帯は見た目のためのもの（aria-hidden）。同じ内容を下の「経歴」の表でも出す。
  */
 import type { Stint } from "../lib/schema";
 
@@ -42,6 +44,11 @@ const step = years <= 14 ? 1 : years <= 30 ? 5 : 10;
 const axis: number[] = [];
 for (let y = start; y <= end; y++) if (y === start || y % step === 0) axis.push(y);
 const yy = (y: number) => String(y % 100).padStart(2, "0");
+const has = {
+  player: shown.some((s) => s.role === "player"),
+  ikusei: shown.some((s) => s.role === "ikusei"),
+  staff: runs.some((r) => r.track === "staff"),
+};
 const label = (r: Run) => {
   const span = r.s.to - r.s.from + 1;
   return span >= 3 ? `${r.s.short} ${yy(r.s.from)}–${yy(r.s.to)}` : r.s.short;
@@ -70,4 +77,9 @@ const label = (r: Run) => {
       ))
     }
   </div>
+  <ul class="band-key">
+    {has.player && <li>選手</li>}
+    {has.ikusei && <li class="k-ikusei">育成選手</li>}
+    {has.staff && <li class="k-staff">監督・コーチ</li>}
+  </ul>
 </div>

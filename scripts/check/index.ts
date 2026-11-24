@@ -18,6 +18,8 @@
  *   8. data/name-aliases.yaml の人物が実在し、同じ表記が 2 回出ない
  *   9. data/npb-id-links.json（名簿のリンク無しの人 → NPB ID）の人物が実在し、同じ NPB ID が 2 人に付かない。
  *      その NPB ID の人が別人として people-extra にいない（同じ人が 2 人に分かれていない）
+ *  10. 文字と背景の濃さの比が WCAG 2.2 AA を満たす（global.css の色の名前を、明るい表示・暗い表示の両方で。
+ *      文字 4.5:1、入力欄の枠やフォーカスの輪 3:1。組は下の CONTRAST_PAIRS）
  * 警告だけ（件数の想定）:
  *   - NPB 公示のある年度（2003〜）で、自由契約の件数が 50〜450 に収まる
  * 報告だけ:
@@ -30,6 +32,7 @@ import { parse } from "yaml";
 import { eventsFileSchema, personSchema, stintSchema, type IntaiEvent, type Person, type Stint } from "../../src/lib/schema";
 import { franchises, franchisesIn } from "../../src/lib/teams";
 import { gateEvent, loadUrlStatus, normText, quoteKey, quoteParts, type UrlStatus } from "../../src/lib/gate";
+import { contrastRatio } from "../../src/lib/contrast";
 import { UA, todayJst } from "../lib/fetch";
 
 const root = process.cwd();
@@ -139,6 +142,49 @@ for (const [pid, m] of playerYears) {
     if (fs.size > 1 && !boundary) {
       overlaps++;
       if (overlaps <= 10) errors.push(`同じ年に 2 球団: ${pid} ${y}（${[...fs].join(", ")}）`);
+    }
+  }
+}
+
+// ---------- 10. 文字と背景の濃さの比（WCAG 2.2 AA） ----------
+// global.css の :root（明るい表示）と @media (prefers-color-scheme: dark) の :root（暗い表示）の色を読み、
+// 実際に重ねて使う組だけを確かめる。文字は 4.5:1、部品の境目（入力欄の枠・フォーカスの輪）は 3:1。
+// 球団の色は球団名の横の印と経歴の帯の線にだけ使い、文字の背景にはしない（印の横には必ず球団名を書く）ので、ここでは比べない。
+// 板（--board）の縁も押せる部品ではないので比べない。
+const CONTRAST_PAIRS: [fg: string, bg: string, min: number, what: string][] = [
+  ["ink", "paper", 4.5, "本文"],
+  ["ink", "paper-2", 4.5, "本文（行の強調・カード）"],
+  ["ink-soft", "paper", 4.5, "薄い文字"],
+  ["ink-soft", "paper-2", 4.5, "薄い文字（行の強調）"],
+  ["ink-soft", "muted-wash", 4.5, "「理由未調査」の印"],
+  ["link", "paper", 4.5, "リンク"],
+  ["link", "paper-2", 4.5, "リンク（行の強調）"],
+  ["red", "red-wash", 4.5, "「自動取得・未確認」の印"],
+  ["paper", "ink", 4.5, "検索ボタン・スキップリンク"],
+  ["board-ink", "board", 4.5, "板の文字"],
+  ["board-soft", "board", 4.5, "板の薄い文字"],
+  ["line", "paper", 3, "入力欄・選択欄の枠"],
+  ["line", "paper-2", 3, "入力欄の枠（行の強調の上）"],
+  ["link", "paper", 3, "フォーカスの輪"],
+  ["board-ink", "board", 3, "板の上のフォーカスの輪"],
+];
+{
+  const css = readFileSync(join(root, "src", "styles", "global.css"), "utf-8").replace(/\/\*[\s\S]*?\*\//g, "");
+  const tokens = (block: string) => new Map([...block.matchAll(/--([\w-]+)\s*:\s*(#[0-9a-fA-F]{6})\s*;/g)].map((m) => [m[1], m[2]]));
+  const light = tokens(/(?:^|\})\s*:root\s*\{([^}]*)\}/.exec(css)?.[1] ?? "");
+  const darkBlock = /@media\s*\(prefers-color-scheme:\s*dark\)\s*\{\s*:root\s*\{([^}]*)\}/.exec(css)?.[1];
+  if (!darkBlock) errors.push("濃さの比: global.css に @media (prefers-color-scheme: dark) { :root { … } } が見つからない");
+  const dark = new Map([...light, ...tokens(darkBlock ?? "")]);
+  for (const [theme, t] of [["明るい表示", light], ["暗い表示", dark]] as const) {
+    for (const [fg, bg, min, what] of CONTRAST_PAIRS) {
+      const a = t.get(fg);
+      const b = t.get(bg);
+      if (!a || !b) {
+        errors.push(`濃さの比: ${theme}の --${!a ? fg : bg} が global.css に #rrggbb で書かれていない`);
+        continue;
+      }
+      const r = contrastRatio(a, b);
+      if (r < min) errors.push(`濃さの比: ${theme}の${what}（--${fg} ${a} / --${bg} ${b}）が ${r.toFixed(2)}:1（${min}:1 以上が要る）`);
     }
   }
 }

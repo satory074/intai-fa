@@ -1,6 +1,7 @@
 ---
-/** 人物をさがす: Pagefind（人物ページだけを索引）＋五十音の索引 */
+/** 人物をさがす: 名前の検索（SearchBox、?q= を読む）＋五十音の索引（JS が無くてもすべての人物ページへたどれる） */
 import Layout from "../../components/Layout.astro";
+import SearchBox from "../../components/SearchBox.astro";
 import { dataset } from "../../lib/data";
 import { KANA_ROWS } from "../../lib/kana";
 import { approxPeople } from "../../lib/format";
@@ -17,57 +18,13 @@ for (const p of ds.people.values()) if (p.kanaRow) counts.set(p.kanaRow, (counts
   crumbs={[{ label: "人物" }]}
 >
   <h1 class="page-title">人物をさがす</h1>
-  <div class="search">
-    <label for="q">名前（漢字・かな・旧登録名・ローマ字）</label>
-    <input id="q" type="search" placeholder="例: 矢野 謙次" autocomplete="off" data-search />
-    <ul class="search-results" data-results aria-live="polite"></ul>
-    <noscript><p class="empty">検索には JavaScript が必要です。下の五十音の索引からもさがせます。</p></noscript>
-  </div>
+  <SearchBox id="q" readQuery />
+  <noscript><p class="empty">名前の検索には JavaScript が必要です。下の五十音の索引からもさがせます。</p></noscript>
 
-  <section class="section" aria-labelledby="kana-h">
-    <h2 id="kana-h">五十音の索引</h2>
-    <p class="team-links">
+  <section aria-labelledby="kana-h">
+    <h2 id="kana-h" class="section-head">五十音の索引</h2>
+    <p class="link-row">
       {KANA_ROWS.map((k) => counts.get(k.label) ? <a href={`${base}/names/${k.key}/`}>{k.label}（{counts.get(k.label)}）</a> : null)}
     </p>
   </section>
-
-  <script is:inline define:vars={{ base }}>
-    (async () => {
-      const input = document.querySelector("[data-search]");
-      const list = document.querySelector("[data-results]");
-      if (!input || !list) return;
-      let pagefind;
-      try {
-        pagefind = await import(`${base}/pagefind/pagefind.js`);
-        await pagefind.options({ excerptLength: 18 });
-      } catch {
-        list.innerHTML = "<li>検索の索引を読み込めませんでした。五十音の索引をお使いください。</li>";
-        return;
-      }
-      const params = new URLSearchParams(location.search);
-      let seq = 0;
-      const run = async () => {
-        const q = input.value.trim();
-        const my = ++seq;
-        if (!q) { list.replaceChildren(); return; }
-        const res = await pagefind.search(q);
-        const items = await Promise.all(res.results.slice(0, 20).map((r) => r.data()));
-        if (my !== seq) return;
-        list.replaceChildren(...items.map((d) => {
-          const li = document.createElement("li");
-          const a = document.createElement("a");
-          a.href = d.url;
-          a.textContent = d.meta.title ?? d.url;
-          const ex = document.createElement("span");
-          ex.className = "excerpt";
-          ex.textContent = d.excerpt.replace(/<[^>]+>/g, "");
-          li.append(a, ex);
-          return li;
-        }));
-        if (!items.length) list.innerHTML = "<li>見つかりませんでした。表記を変えるか、五十音の索引をお使いください。</li>";
-      };
-      input.addEventListener("input", run);
-      if (params.get("q")) { input.value = params.get("q"); run(); }
-    })();
-  </script>
 </Layout>

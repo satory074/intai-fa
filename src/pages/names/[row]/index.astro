@@ -29,7 +29,7 @@ const list = [...ds.people.values()]
   crumbs={[{ label: "人物", href: `${base}/people/` }, { label: `「${label}」` }]}
 >
   <h1 class="page-title">「{label}」で始まる人物（{list.length}人）</h1>
-  <p class="team-links">{KANA_ROWS.map((k) => <a href={`${base}/names/${k.key}/`} aria-current={k.label === label ? "page" : undefined}>{k.label}</a>)}</p>
+  <p class="link-row">{KANA_ROWS.map((k) => <a href={`${base}/names/${k.key}/`} aria-current={k.label === label ? "page" : undefined}>{k.label}</a>)}</p>
   <div class="table-wrap" role="region" aria-label={`「${label}」の人物`} tabindex="0">
     <table class="record">
       <caption class="sr-only">「{label}」で始まる人物（在籍の始まった年の順）</caption>
@@ -38,8 +38,8 @@ const list = [...ds.people.values()]
         {list.map(({ p, from, to, teams }) => (
           <tr>
             <th scope="row"><a href={`${base}/people/${p.id}/`}>{p.name}</a></th>
-            <td class="date">{from ? `${from}${to && to !== from ? `〜${to}` : ""}` : ""}</td>
-            <td>{teams.join("、")}</td>
+            <td class="date" data-label="在籍">{from ? `${from}${to && to !== from ? `〜${to}` : ""}` : ""}</td>
+            <td data-label="球団（選手として）">{teams.join("、")}</td>
           </tr>
         ))}
       </tbody>

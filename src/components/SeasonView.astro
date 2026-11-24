@@ -1,10 +1,11 @@
 ---
 /**
- * 年別ページと球団×年ページの本体: 新着（直近 7 日）→ 区分ごとの表。
+ * 年別ページと球団×年ページの本体: 絞り込み → 新着（直近 7 日）→ 区分ごとの表。
  * 絞り込み（区分・球団・育成）はページ全体に効く。JS が無くても全行が見える。
+ * 絞り込みは画面に貼り付けない（貼り付くと、Tab で進んだ先がその下に隠れる: WCAG 2.4.11）。
  */
-import { SECTIONS, type Row } from "../lib/rows";
-import { daysBetween, md, todayJst } from "../lib/format";
+import { recentRows, SECTIONS, type Row } from "../lib/rows";
+import { md, todayJst } from "../lib/format";
 import { franchises, shortOf } from "../lib/teams";
 import RecordTable from "./RecordTable.astro";
 import Tags from "./Tags.astro";
@@ -18,11 +19,7 @@ interface Props {
 }
 const { rows, season, teamFilter = true, teamLinks = true } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
-const today = todayJst();
-const fresh = rows
-  .filter((r) => r.fresh && daysBetween(r.fresh, today) <= 7 && daysBetween(r.fresh, today) >= 0 && r.section !== "departure")
-  .sort((a, b) => (b.fresh ?? "").localeCompare(a.fresh ?? ""))
-  .slice(0, 40);
+const fresh = recentRows(rows, todayJst());
 const present = SECTIONS.filter((s) => rows.some((r) => r.section === s.key));
 const teams = franchises().filter((f) => rows.some((r) => r.team === f.id || r.toTeam === f.id));
 ---
@@ -45,7 +42,7 @@ const teams = franchises().filter((f) => rows.some((r) => r.team === f.id || r.t
     )
   }
   <label><input type="checkbox" name="ikusei" checked /> 育成選手を含む</label>
-  <output data-shown aria-live="polite">{rows.length}件</output>
+  <output data-shown aria-live="polite">{rows.length}件を表示</output>
 </form>
 
 {
@@ -106,7 +103,7 @@ const teams = franchises().filter((f) => rows.some((r) => r.team === f.id || r.t
         );
       });
       const out = form.querySelector("[data-shown]");
-      if (out) out.textContent = `${shown}件`;
+      if (out) out.textContent = `${shown}件を表示`;
     };
     form.addEventListener("change", apply);
     form.addEventListener("submit", (e) => e.preventDefault());

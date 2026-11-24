@@ -1,0 +1,131 @@
+---
+/**
+ * 名前の検索（Pagefind。人物ページだけを索引）。頭の検索ダイアログと /people/ のページの両方で使う。
+ * JS が無いときは form が /people/?q= へ送るだけ（/people/ には noscript の案内がある）。
+ * 入力が止まって 150ms 後に検索し、件数だけを role=status で読み上げる。Enter で 1 件目の人物へ移る。
+ */
+interface Props {
+  id: string;
+  /** ?q= を読んで最初から検索する（/people/ のページだけ） */
+  readQuery?: boolean;
+  autofocus?: boolean;
+}
+const { id, readQuery = false, autofocus = false } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+---
+
+<search class="searchbox" data-searchbox data-base={base} data-read-query={readQuery ? "" : undefined}>
+  <form action={`${base}/people/`} method="get" data-search-form>
+    <label for={id}>名前でさがす</label>
+    <div class="search-row">
+      <input id={id} name="q" type="search" placeholder="例: 矢野 謙次" autocomplete="off" enterkeyhint="search" aria-describedby={`${id}-hint`} autofocus={autofocus} data-search-input />
+      <button type="submit">さがす</button>
+    </div>
+    <p id={`${id}-hint`} class="sr-only">漢字・かな・旧登録名・ローマ字で入力できます。Enter で最初の候補の人物ページを開きます。</p>
+  </form>
+  <p class="search-status" role="status" data-search-status></p>
+  <ul class="search-results" data-search-results></ul>
+</search>
+
+<script>
+  type PagefindResult = { url: string; meta: { title?: string }; excerpt: string };
+  type Pagefind = {
+    options: (o: Record<string, unknown>) => Promise<void>;
+    search: (q: string) => Promise<{ results: { data: () => Promise<PagefindResult> }[] }>;
+  };
+  let loading: Promise<Pagefind> | null = null;
+  const loadPagefind = (base: string) => {
+    loading ??= (async () => {
+      const pf: Pagefind = await import(/* @vite-ignore */ `${base}/pagefind/pagefind.js`);
+      await pf.options({ excerptLength: 18 });
+      return pf;
+    })();
+    return loading;
+  };
+
+  for (const box of document.querySelectorAll<HTMLElement>("[data-searchbox]")) {
+    const base = box.dataset.base ?? "";
+    const form = box.querySelector<HTMLFormElement>("[data-search-form]")!;
+    const input = box.querySelector<HTMLInputElement>("[data-search-input]")!;
+    const status = box.querySelector<HTMLElement>("[data-search-status]")!;
+    const list = box.querySelector<HTMLUListElement>("[data-search-results]")!;
+    let seq = 0;
+    let timer: ReturnType<typeof setTimeout> | undefined;
+    let first: string | null = null;
+
+    const item = (d: PagefindResult) => {
+      const li = document.createElement("li");
+      const a = document.createElement("a");
+      a.href = d.url;
+      a.textContent = d.meta.title ?? d.url;
+      const ex = document.createElement("span");
+      ex.className = "excerpt";
+      // excerpt は <mark> を含む HTML。文字だけを使う（HTML としては入れない）
+      ex.textContent = new DOMParser().parseFromString(d.excerpt, "text/html").body.textContent ?? "";
+      li.append(a, ex);
+      return li;
+    };
+
+    const run = async () => {
+      const q = input.value.trim();
+      const my = ++seq;
+      if (!q) {
+        first = null;
+        list.replaceChildren();
+        status.textContent = "";
+        return;
+      }
+      let pf: Pagefind;
+      try {
+        pf = await loadPagefind(base);
+      } catch {
+        status.textContent = "検索の索引を読み込めませんでした。人物のページの五十音の索引からさがせます。";
+        return;
+      }
+      const res = await pf.search(q);
+      const items = await Promise.all(res.results.slice(0, 20).map((r) => r.data()));
+      if (my !== seq) return;
+      first = items[0]?.url ?? null;
+      list.replaceChildren(...items.map(item));
+      status.textContent = items.length
+        ? `${res.results.length > 20 ? `${res.results.length}人のうち上位20人` : `${items.length}人`}が見つかりました。`
+        : "見つかりませんでした。表記を変えるか、五十音の索引をお使いください。";
+    };
+
+    input.addEventListener("input", () => {
+      clearTimeout(timer);
+      timer = setTimeout(run, 150);
+    });
+    input.addEventListener("focus", () => void loadPagefind(base).catch(() => {}), { once: true });
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      clearTimeout(timer);
+      await run();
+      if (first) location.assign(first);
+    });
+    if (box.dataset.readQuery !== undefined) {
+      const q = new URLSearchParams(location.search).get("q");
+      if (q) {
+        input.value = q;
+        void run();
+      }
+    }
+  }
+
+  // 頭の「検索」: JS があればダイアログを開くボタンに替える（無ければ /people/ へのリンクのまま）。
+  // 開くのは宣言的な command="show-modal"。使えないブラウザ（Invoker Commands は 2025-12 に Baseline）では
+  // click で showModal() する。polyfill は入れない（CLAUDE.md のブラウザの方針）
+  const dialog = document.querySelector<HTMLDialogElement>("[data-search-dialog]");
+  const opener = document.querySelector<HTMLAnchorElement>("[data-search-open]");
+  if (dialog && opener && typeof dialog.showModal === "function") {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = opener.className;
+    button.append(...opener.childNodes);
+    button.setAttribute("aria-haspopup", "dialog");
+    button.setAttribute("commandfor", dialog.id);
+    button.setAttribute("command", "show-modal");
+    opener.replaceWith(button);
+    if (!("commandForElement" in HTMLButtonElement.prototype)) button.addEventListener("click", () => dialog.showModal());
+  }
+</script>

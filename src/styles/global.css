@@ -1,30 +1,35 @@
 /*
- * プロ野球去就アーカイブ — 年鑑・記録欄の組版
+ * プロ野球去就アーカイブ — スコアブックの紙と、球場のスコアボード
  *
- * 紙: スコアブックの用紙（わずかに青緑がかった白）。罫: 記録用紙の緑灰。
- * 墨: 紺黒のインク。藍: リンク。朱（校正の赤）: 「自動取得・未確認」の印にだけ使う。
- * 見出しは明朝（Shippori Mincho B1）、表と本文は UD ゴシック（BIZ UDPGothic、数字が読みやすい）。
- * 一番目立たせるのは年別ページ冒頭の大きな年の数字だけ。ほかは静かな罫線の表。
+ * 紙: スコアブックの用紙（わずかに緑がかった白）。罫: 記録用紙の緑灰。墨: 紺黒。藍: リンク。
+ * 朱（校正の赤）: 「自動取得・未確認」の印にだけ使う。
+ * 板: 手書きのスコアボードの深緑に、白い数字と明朝の球団名。目立たせるのはこの板だけ
+ *     （トップの「今オフの動き」と、年度・球団×年度のページの頭の年度の札）。ほかは静かな罫線の表。
+ * 球団の色は、球団名の横の小さな印と経歴の帯の線にだけ使う。文字の背景には使わない。
+ *
+ * 色の名前は :root に #rrggbb で書き、暗い表示の値は下の @media だけで変える。
+ * 文字と背景の組の濃さの比は npm run check の 10 番が確かめる（scripts/check/index.ts の CONTRAST_PAIRS）。
  */
 :root {
-  --paper: #f2f3ee;
-  --paper-2: #e7eae2;
-  --surface: #f2f3ee;
+  --paper: #f3f4ef;
+  --paper-2: #e8ebe3;
   --ink: #1f2633;
   --ink-soft: #4e5866;
-  --rule: #b9c2b8;
-  --rule-strong: #1f2633;
+  --rule: #c3cbc1;
+  --line: #6b7568;
   --link: #1f4e8c;
   --red: #b3261e;
   --red-wash: #f6e3df;
   --muted-wash: #e3e5df;
-  --accent: var(--link);
-  --border: var(--rule);
-  --muted: var(--ink-soft);
+  --board: #1d3a2d;
+  --board-line: #3f5f4f;
+  --board-ink: #f3efe1;
+  --board-soft: #b8cbbd;
 
   --mincho: "Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", serif;
   --gothic: "BIZ UDPGothic", "Hiragino Sans", "Yu Gothic", system-ui, sans-serif;
 
+  --step--2: 0.75rem;
   --step--1: 0.8125rem;
   --step-0: 0.9375rem;
   --step-1: 1.125rem;
@@ -32,37 +37,30 @@
   --step-3: 2.125rem;
   --gutter: 16px;
   --measure: 72rem;
+  --bar: calc(44px + env(safe-area-inset-bottom));
   color-scheme: light dark;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --paper: #161b21;
-    --paper-2: #1f252d;
-    --surface: #161b21;
+  :root {
+    --paper: #151a20;
+    --paper-2: #1e242c;
     --ink: #e4e2d9;
     --ink-soft: #a7aeb8;
-    --rule: #3a4350;
-    --rule-strong: #c9c7bd;
+    --rule: #343d49;
+    --line: #7d8794;
     --link: #8fb5ef;
     --red: #ff8a7a;
     --red-wash: #3a2220;
     --muted-wash: #262c34;
+    --board: #1a3528;
+    --board-line: #3a5a4a;
+    --board-ink: #f3efe1;
+    --board-soft: #a9bfb1;
   }
 }
-:root[data-theme="dark"] {
-  --paper: #161b21;
-  --paper-2: #1f252d;
-  --surface: #161b21;
-  --ink: #e4e2d9;
-  --ink-soft: #a7aeb8;
-  --rule: #3a4350;
-  --rule-strong: #c9c7bd;
-  --link: #8fb5ef;
-  --red: #ff8a7a;
-  --red-wash: #3a2220;
-  --muted-wash: #262c34;
-}
+
+/* ---------- 土台 ---------- */
 
 *,
 *::before,
@@ -71,8 +69,10 @@
 }
 
 html {
-  scroll-padding-bottom: calc(48px + env(safe-area-inset-bottom));
+  /* 画面下の帯に、フォーカスした要素が隠れないように（2.4.11） */
+  scroll-padding-bottom: calc(var(--bar) + 8px);
   -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
@@ -82,8 +82,12 @@ body {
   font-family: var(--gothic);
   font-size: var(--step-0);
   line-height: 1.7;
-  font-feature-settings: "palt" 0;
-  padding-bottom: calc(48px + env(safe-area-inset-bottom));
+  padding-bottom: var(--bar);
+  overflow-wrap: break-word;
+}
+
+[hidden] {
+  display: none !important;
 }
 
 a {
@@ -99,6 +103,23 @@ a:hover {
   outline-offset: 2px;
 }
 
+h1,
+h2,
+h3 {
+  font-family: var(--mincho);
+  font-weight: 700;
+  line-height: 1.35;
+  margin: 0;
+  text-wrap: balance;
+}
+
+button,
+input,
+select {
+  font: inherit;
+  color: inherit;
+}
+
 .wrap {
   max-width: var(--measure);
   margin: 0 auto;
@@ -112,33 +133,47 @@ a:hover {
   padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
   white-space: nowrap;
   border: 0;
 }
 
-/* ---------- 見出し・ヘッダー ---------- */
-
-h1,
-h2,
-h3 {
-  font-family: var(--mincho);
-  font-weight: 700;
-  line-height: 1.35;
-  margin: 0;
+.skip-link {
+  position: absolute;
+  inset-inline-start: var(--gutter);
+  inset-block-start: 0;
+  transform: translateY(-120%);
+  z-index: 50;
+  padding: 0.5rem 0.9rem;
+  background: var(--ink);
+  color: var(--paper);
+  font-size: var(--step--1);
+}
+.skip-link:focus-visible {
+  transform: none;
+  outline-color: var(--ink);
 }
 
+main {
+  display: block;
+  padding-bottom: 3rem;
+}
+main:focus {
+  outline: none;
+}
+
+/* ---------- ヘッダー ---------- */
+
 .site-header {
-  border-bottom: 3px double var(--rule-strong);
+  border-bottom: 3px double var(--ink);
 }
 .site-header .wrap {
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
   gap: 0.25rem 1.5rem;
-  padding-top: 0.9rem;
-  padding-bottom: 0.6rem;
+  padding-block: 0.75rem 0.5rem;
 }
 .site-name {
   font-family: var(--mincho);
@@ -147,27 +182,54 @@ h3 {
   color: var(--ink);
   text-decoration: none;
   letter-spacing: 0.04em;
+  padding-block: 0.25rem;
 }
-.site-nav {
+.site-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.25rem 1.1rem;
-  font-size: var(--step--1);
+  align-items: center;
+  gap: 0 0.25rem;
 }
-.site-nav a {
+.site-nav a,
+.search-open {
+  display: inline-flex;
+  align-items: center;
+  min-block-size: 36px;
+  padding-inline: 0.6rem;
   color: var(--ink-soft);
   text-decoration: none;
+  font-size: var(--step--1);
 }
 .site-nav a:hover,
-.site-nav a[aria-current="page"] {
+.site-nav a[aria-current] {
   color: var(--ink);
   text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+.search-open {
+  gap: 0.4em;
+  color: var(--ink);
+  border: 1px solid var(--line);
+  background: var(--paper);
+  margin-inline-start: 0.35rem;
+  cursor: pointer;
+}
+.search-open:hover {
+  background: var(--paper-2);
+}
+.search-open svg {
+  width: 1em;
+  height: 1em;
 }
 
+/* パンくず（区切りは「／」。今のページは文字だけ） */
 .crumbs {
   font-size: var(--step--1);
   color: var(--ink-soft);
-  margin: 0.75rem 0 0;
+  margin: 0.6rem 0 0;
 }
 .crumbs ol {
   list-style: none;
@@ -175,70 +237,167 @@ h3 {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.1rem 0.4rem;
+  align-items: center;
 }
 .crumbs li + li::before {
   content: "／";
-  margin-right: 0.4rem;
-  color: var(--rule);
+  margin-inline: 0.3rem;
+  color: var(--ink-soft);
+}
+.crumbs a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-block-size: 24px;
+  min-inline-size: 24px;
 }
 
-main {
-  display: block;
-  padding-bottom: 3rem;
-}
+/* ---------- スコアボード（このサイトで目立たせる唯一の場所） ---------- */
 
-/* ---------- 年別ページの冒頭（一番目立たせる場所） ---------- */
-
-.year-hero {
-  margin: 1.5rem 0 1rem;
-  display: grid;
-  grid-template-columns: auto 1fr;
-  align-items: end;
-  column-gap: 1rem;
-  border-bottom: 1px solid var(--rule-strong);
-  padding-bottom: 0.75rem;
+.board {
+  background: var(--board);
+  color: var(--board-ink);
+  border: 3px solid var(--board-line);
+  box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--board-ink) 12%, transparent);
 }
-.year-hero h1 {
-  display: contents;
+.board a {
+  color: var(--board-ink);
 }
-.year-num {
+.board :focus-visible {
+  outline-color: var(--board-ink);
+}
+.board-year {
   font-family: var(--mincho);
   font-weight: 800;
-  font-size: clamp(4.5rem, 17vw, 9.5rem);
-  line-height: 0.82;
-  letter-spacing: -0.02em;
-  font-variant-numeric: lining-nums;
-  grid-row: span 2;
+  font-variant-numeric: lining-nums tabular-nums;
+  letter-spacing: 0.02em;
+  line-height: 1;
 }
-.year-suffix {
-  font-size: clamp(1.25rem, 3.6vw, 2rem);
+.board-unit {
+  font-family: var(--mincho);
   font-weight: 800;
-  align-self: end;
-}
-.year-title {
-  font-size: clamp(0.95rem, 2.4vw, 1.25rem);
-  font-weight: 500;
-  color: var(--ink-soft);
-  align-self: start;
-}
-.year-step {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  font-size: var(--step--1);
-  margin-top: 0.4rem;
 }
 
-.meta-line {
-  color: var(--ink-soft);
-  font-size: var(--step--1);
-  margin: 0.5rem 0 0;
+/* 年度・球団×年度のページの頭の札 */
+.season-head {
+  margin: 1.25rem 0 0.75rem;
 }
-.meta-line strong {
-  color: var(--ink);
+.season-head h1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.2rem 0.9rem;
+  padding: 0.7rem 1rem 0.8rem;
+}
+.season-head .board-year {
+  font-size: clamp(3rem, 12vw, 5.5rem);
+}
+.season-head .board-unit {
+  font-size: clamp(1.25rem, 4vw, 1.875rem);
+  margin-inline-start: -0.5rem;
+}
+.season-head .board-title {
+  flex-basis: 100%;
+  font-size: clamp(1rem, 2.6vw, 1.25rem);
+  color: var(--board-soft);
   font-weight: 700;
 }
+.season-head .team-mark {
+  width: 0.8em;
+  height: 0.8em;
+}
+
+/* トップ: 今オフの動き（ライン表） */
+.board-top {
+  margin: 1.25rem 0 0;
+  padding: 0.9rem 1rem 1rem;
+  container-type: inline-size;
+}
+.board-top h1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 0.5rem;
+}
+.board-top .board-year {
+  font-size: clamp(3.25rem, 14vw, 6rem);
+}
+.board-top .board-unit {
+  font-size: clamp(1.25rem, 4.2vw, 2rem);
+}
+.board-meta {
+  margin: 0.35rem 0 0.75rem;
+  color: var(--board-soft);
+  font-size: var(--step--1);
+}
+.line-score {
+  width: 100%;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+.line-score caption {
+  text-align: start;
+}
+.line-score th,
+.line-score td {
+  padding: 0.3rem 0.45rem;
+  border-bottom: 1px solid var(--board-line);
+}
+.line-score thead th {
+  font-weight: 400;
+  font-size: var(--step--2);
+  color: var(--board-soft);
+  text-align: center;
+  white-space: nowrap;
+}
+.line-score thead th:first-child {
+  text-align: start;
+}
+.line-score tbody th {
+  text-align: start;
+  font-family: var(--mincho);
+  font-weight: 700;
+  font-size: var(--step-1);
+  white-space: nowrap;
+}
+.line-score tbody th a {
+  display: inline-flex;
+  align-items: center;
+  min-block-size: 32px;
+  text-decoration: none;
+}
+.line-score tbody th a:hover {
+  text-decoration: underline;
+}
+.line-score .league th {
+  font-family: var(--gothic);
+  font-weight: 400;
+  font-size: var(--step--2);
+  color: var(--board-soft);
+  padding-top: 0.7rem;
+  border-bottom-color: var(--board-ink);
+}
+.line-score td {
+  text-align: center;
+  font-family: var(--mincho);
+  font-weight: 800;
+  font-size: var(--step-1);
+  border-inline-start: 1px solid var(--board-line);
+}
+.line-score td.total {
+  font-size: var(--step-2);
+}
+.line-score td.zero {
+  color: var(--board-soft);
+  font-weight: 700;
+}
+@container (width < 34rem) {
+  .line-score .wide {
+    display: none;
+  }
+}
+
+/* ---------- 文字の段 ---------- */
 
 .page-title {
   font-size: var(--step-3);
@@ -248,52 +407,91 @@ main {
   max-width: 40em;
   margin: 0.25rem 0 1rem;
 }
+.meta-line {
+  color: var(--ink-soft);
+  font-size: var(--step--1);
+  margin: 0.5rem 0 0;
+}
+.meta-line strong {
+  color: var(--ink);
+}
+.year-step {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+  font-size: var(--step--1);
+  margin-top: 0.4rem;
+}
+/* 文中ではない単独のリンクは、文字の基本の大きさの設定にかかわらず 24px 以上の高さにする（WCAG 2.5.8） */
+.year-step a,
+.link-row a,
+.counts a,
+.site-footer li a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-block-size: 24px;
+  min-inline-size: 24px;
+}
+.link-row {
+  font-size: var(--step--1);
+  margin: 0.75rem 0 0;
+  color: var(--ink-soft);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.1rem 0.9rem;
+}
+.link-row a {
+  white-space: nowrap;
+}
+.section-head {
+  font-size: var(--step-2);
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid var(--ink);
+  margin-top: 2rem;
+}
+.empty {
+  color: var(--ink-soft);
+  font-size: var(--step--1);
+  padding: 0.75rem 0;
+}
 
-/* ---------- 絞り込み ---------- */
+/* ---------- 絞り込み（貼り付けない。2.4.11） ---------- */
 
 .filters {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem 1.25rem;
   align-items: center;
-  padding: 0.6rem 0;
-  border-bottom: 1px solid var(--rule);
+  padding: 0.7rem 0;
+  margin-top: 1rem;
+  border-block: 1px solid var(--rule);
   font-size: var(--step--1);
-  position: sticky;
-  top: 0;
-  background: var(--paper);
-  z-index: 10;
 }
 .filters label {
   display: inline-flex;
-  gap: 0.4rem;
+  gap: 0.45rem;
   align-items: center;
+  min-block-size: 32px;
 }
 .filters select {
-  font: inherit;
   color: var(--ink);
   background: var(--paper);
-  border: 1px solid var(--rule);
+  border: 1px solid var(--line);
   padding: 0.2rem 0.4rem;
-  min-height: 32px;
+  min-block-size: 32px;
 }
 .filters input[type="checkbox"] {
-  width: 1.05rem;
-  height: 1.05rem;
+  inline-size: 20px;
+  block-size: 20px;
+  margin: 0;
   accent-color: var(--ink);
 }
 .filters output {
   color: var(--ink-soft);
-  margin-left: auto;
-}
-.team-links {
-  font-size: var(--step--1);
-  margin: 0.75rem 0 0;
-  color: var(--ink-soft);
-}
-.team-links a {
-  margin-right: 0.75rem;
-  white-space: nowrap;
+  margin-inline-start: auto;
 }
 
 /* ---------- 区分ごとの表 ---------- */
@@ -304,10 +502,11 @@ main {
 .section > h2 {
   font-size: var(--step-2);
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
-  gap: 0.75rem;
+  gap: 0 0.75rem;
   padding-bottom: 0.3rem;
-  border-bottom: 2px solid var(--rule-strong);
+  border-bottom: 2px solid var(--ink);
 }
 .section > h2 .count {
   font-family: var(--gothic);
@@ -319,11 +518,13 @@ main {
   font-size: var(--step--1);
   color: var(--ink-soft);
   margin: 0.4rem 0 0;
+  max-width: 48em;
 }
 
 .table-wrap {
   overflow-x: auto;
   margin-top: 0.25rem;
+  container-type: inline-size;
 }
 table.record {
   width: 100%;
@@ -331,12 +532,9 @@ table.record {
   font-size: var(--step--1);
   font-variant-numeric: tabular-nums;
 }
-table.record caption {
-  text-align: left;
-}
 table.record th,
 table.record td {
-  text-align: left;
+  text-align: start;
   vertical-align: top;
   padding: 0.42rem 0.6rem 0.42rem 0;
   border-bottom: 1px solid var(--rule);
@@ -344,7 +542,7 @@ table.record td {
 table.record thead th {
   font-weight: 400;
   color: var(--ink-soft);
-  border-bottom: 1px solid var(--rule-strong);
+  border-bottom: 1px solid var(--ink);
   white-space: nowrap;
   padding-top: 0.6rem;
 }
@@ -352,26 +550,88 @@ table.record tbody th {
   font-weight: 700;
   white-space: nowrap;
 }
-table.record td.num {
-  text-align: right;
-  padding-right: 0.9rem;
+table.record td.num,
+table.record th.num {
+  text-align: end;
+  padding-inline-end: 0.9rem;
   white-space: nowrap;
 }
 table.record td.date,
 table.record td.team {
   white-space: nowrap;
 }
+table.record a {
+  display: inline-block;
+  min-block-size: 24px;
+  min-inline-size: 24px;
+}
 table.record .src a {
   color: var(--ink-soft);
-  font-size: 0.75rem;
-  margin-right: 0.5rem;
+  font-size: var(--step--2);
+  margin-inline-end: 0.5rem;
   white-space: nowrap;
-}
-table.record tr[hidden] {
-  display: none;
+  line-height: 24px;
 }
 table.record tbody tr:hover {
   background: var(--paper-2);
+}
+
+/* 幅が足りないときは 1 行を 1 枚に組み替える。列名は各セルの data-label を前に出す */
+@container (width < 40rem) {
+  table.record,
+  table.record tbody,
+  table.record tr,
+  table.record th,
+  table.record td {
+    display: block;
+  }
+  table.record thead {
+    display: none;
+  }
+  table.record tbody tr {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.1rem 1rem;
+    padding: 0.65rem 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  table.record tbody tr:hover {
+    background: none;
+  }
+  table.record tbody th,
+  table.record td {
+    border: 0;
+    padding: 0;
+    white-space: normal;
+  }
+  table.record tbody th {
+    order: -3;
+    flex-basis: 100%;
+    font-size: var(--step-0);
+  }
+  table.record td.lead {
+    order: -2;
+    font-size: var(--step-0);
+    font-weight: 700;
+  }
+  table.record td.num {
+    text-align: start;
+    padding: 0;
+  }
+  table.record td:empty {
+    display: none;
+  }
+  table.record td[data-label]::before {
+    content: attr(data-label);
+    color: var(--ink-soft);
+    font-size: var(--step--2);
+    font-weight: 400;
+    margin-inline-end: 0.4em;
+  }
+  table.record td.src {
+    flex-basis: 100%;
+  }
 }
 
 details.minor {
@@ -379,15 +639,10 @@ details.minor {
 }
 details.minor summary {
   cursor: pointer;
+  min-block-size: 32px;
   font-size: var(--step--1);
   color: var(--ink-soft);
   padding: 0.3rem 0;
-}
-
-.empty {
-  color: var(--ink-soft);
-  font-size: var(--step--1);
-  padding: 0.75rem 0;
 }
 
 /* 球団の印（色だけに頼らず、必ず名前と並べる） */
@@ -395,10 +650,13 @@ details.minor summary {
   display: inline-block;
   width: 0.62em;
   height: 0.62em;
-  margin-right: 0.35em;
+  margin-inline-end: 0.35em;
   vertical-align: 0.05em;
   background: var(--team);
-  border: 1px solid color-mix(in srgb, var(--ink) 25%, transparent);
+  border: 1px solid color-mix(in oklab, var(--ink) 25%, transparent);
+}
+.board .team-mark {
+  border-color: color-mix(in oklab, var(--board-ink) 45%, transparent);
 }
 .arrow {
   color: var(--ink-soft);
@@ -413,7 +671,7 @@ details.minor summary {
   font-weight: 700;
   line-height: 1.5;
   padding: 0 0.35em;
-  margin-left: 0.4em;
+  margin-inline-start: 0.4em;
   border: 1px solid currentColor;
   vertical-align: 0.1em;
   white-space: nowrap;
@@ -429,32 +687,28 @@ details.minor summary {
 }
 .tag-ikusei {
   color: var(--ink-soft);
-  border-color: var(--rule);
   font-weight: 400;
 }
 
 /* ---------- 新着 ---------- */
 
 .fresh {
-  margin-top: 1.25rem;
-  border: 1px solid var(--rule);
-  padding: 0.6rem 0.9rem 0.4rem;
+  margin-top: 1.5rem;
 }
 .fresh h2 {
   font-size: var(--step-1);
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--ink);
 }
 .fresh ul {
   list-style: none;
   padding: 0;
-  margin: 0.3rem 0 0;
+  margin: 0;
   font-size: var(--step--1);
 }
 .fresh li {
-  padding: 0.25rem 0;
-  border-top: 1px solid var(--rule);
-}
-.fresh li:first-child {
-  border-top: 0;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid var(--rule);
 }
 .fresh .date {
   display: inline-block;
@@ -462,11 +716,33 @@ details.minor summary {
   color: var(--ink-soft);
   font-variant-numeric: tabular-nums;
 }
+.fresh li a {
+  display: inline-block;
+  min-block-size: 24px;
+}
+
+/* トップの区分ごとの件数 */
+.counts {
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 1.25rem;
+  font-size: var(--step--1);
+}
+.counts strong {
+  font-size: var(--step-1);
+  font-family: var(--mincho);
+  font-weight: 800;
+  margin-inline-start: 0.25em;
+}
 
 /* ---------- 年の一覧（背表紙） ---------- */
 
 .spines {
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 .decade {
   display: grid;
@@ -494,10 +770,10 @@ details.minor summary {
   align-items: center;
   justify-content: space-between;
   width: 3.1rem;
-  min-height: 4.6rem;
+  min-height: 4.4rem;
   padding: 0.35rem 0.2rem;
-  border: 1px solid var(--rule-strong);
-  border-top-width: 4px;
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--ink);
   text-decoration: none;
   color: var(--ink);
   background: var(--paper);
@@ -510,20 +786,77 @@ details.minor summary {
   font-weight: 800;
   font-size: 1.05rem;
   line-height: 1;
+  white-space: nowrap;
 }
 .spine .n {
   font-size: 0.6875rem;
   color: var(--ink-soft);
 }
 .spine.current {
-  border-top-color: var(--red);
+  border-top-color: var(--board);
+  background: var(--board);
+  color: var(--board-ink);
+}
+.spine.current .n {
+  color: var(--board-soft);
+}
+
+/* ---------- 球団の一覧・球団のページ ---------- */
+
+.team-index {
+  list-style: none;
+  margin: 0.5rem 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));
+  gap: 0 1.5rem;
+}
+.team-index li {
+  border-bottom: 1px solid var(--rule);
+}
+.team-index a {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.55rem 0;
+  min-block-size: 44px;
+  text-decoration: none;
+  color: var(--ink);
+}
+.team-index a:hover .name {
+  text-decoration: underline;
+}
+.team-index .name {
+  font-family: var(--mincho);
+  font-weight: 700;
+  font-size: var(--step-1);
+}
+.team-index .sub {
+  color: var(--ink-soft);
+  font-size: var(--step--1);
+}
+.team-head {
+  margin: 1.25rem 0 0.5rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--ink);
+  border-inline-start: 8px solid var(--team);
+  padding-inline-start: 0.75rem;
+}
+.team-head h1 {
+  font-size: clamp(1.75rem, 6vw, 2.75rem);
+  font-weight: 800;
+}
+.team-head p {
+  margin: 0.2rem 0 0;
+  color: var(--ink-soft);
+  font-size: var(--step--1);
 }
 
 /* ---------- 人物ページ ---------- */
 
 .person-head {
   margin: 1.5rem 0 0.5rem;
-  border-bottom: 1px solid var(--rule-strong);
+  border-bottom: 1px solid var(--ink);
   padding-bottom: 0.75rem;
 }
 .person-head h1 {
@@ -548,6 +881,8 @@ details.minor summary {
   color: var(--ink);
 }
 
+/* 経歴の帯: 球団の色は上辺の線だけ。選手は太い線、育成は細い線、指導者は二重線（短い期間でも見分けられるよう、
+   破線ではなく太さと本数で分ける）。文字はいつも紙の上 */
 .band-wrap {
   margin-top: 1.5rem;
   overflow-x: auto;
@@ -557,60 +892,66 @@ details.minor summary {
   display: grid;
   /* --years は半年マスの数（1 年 = 2 マス） */
   grid-template-columns: 4.2rem repeat(var(--years), minmax(0.75rem, 1fr));
-  row-gap: 4px;
+  row-gap: 6px;
   min-width: calc(4.2rem + var(--years) * 0.75rem);
-  font-size: 0.75rem;
+  font-size: var(--step--2);
 }
 .band .track-label {
   grid-column: 1;
   color: var(--ink-soft);
-  align-self: center;
-  font-size: 0.75rem;
+  align-self: end;
 }
 .band .axis {
   color: var(--ink-soft);
   font-variant-numeric: tabular-nums;
-  border-left: 1px solid var(--rule);
-  padding-left: 2px;
+  border-inline-start: 1px solid var(--rule);
+  padding-inline-start: 2px;
   font-size: 0.6875rem;
   line-height: 1.6;
 }
 .run {
   min-height: 2.1rem;
   display: flex;
-  align-items: center;
-  padding: 0 0.35rem;
+  align-items: flex-end;
+  padding: 0 0.3rem 0.1rem;
   overflow: hidden;
   white-space: nowrap;
-  border-left: 2px solid var(--paper);
-  background: var(--team);
-  color: var(--on-team);
+  border-top: 7px solid var(--team);
+  margin-inline-start: 2px;
+  color: var(--ink);
   font-weight: 700;
 }
-.run.staff {
-  background: repeating-linear-gradient(135deg, var(--team) 0 3px, transparent 3px 7px);
-  color: var(--ink);
-  outline: 1px solid var(--team);
-  outline-offset: -1px;
-}
-.run.staff span {
-  background: var(--paper);
-  padding: 0 0.25em;
-}
 .run.ikusei {
-  background: color-mix(in srgb, var(--team) 55%, var(--paper));
-  color: var(--ink);
+  border-top-width: 3px;
+  padding-top: 4px;
 }
-
-.career {
-  margin-top: 1rem;
+.run.staff {
+  border-top: 8px double var(--team);
+  font-weight: 400;
 }
-.career h2,
-.timeline h2 {
-  font-size: var(--step-2);
-  padding-bottom: 0.3rem;
-  border-bottom: 2px solid var(--rule-strong);
-  margin-top: 2rem;
+.band-key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.1rem 1.1rem;
+  margin: 0.35rem 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.6875rem;
+  color: var(--ink-soft);
+}
+.band-key li::before {
+  content: "";
+  display: inline-block;
+  width: 1.6rem;
+  vertical-align: middle;
+  margin-inline-end: 0.35rem;
+  border-top: 7px solid var(--ink-soft);
+}
+.band-key .k-ikusei::before {
+  border-top-width: 3px;
+}
+.band-key .k-staff::before {
+  border-top: 8px double var(--ink-soft);
 }
 
 .timeline ol {
@@ -638,8 +979,11 @@ details.minor summary {
   font-size: var(--step--1);
   color: var(--ink-soft);
 }
-.timeline .detail a {
-  margin-right: 0.6rem;
+.timeline .detail a,
+.timeline .when a {
+  display: inline-block;
+  min-block-size: 24px;
+  margin-inline-end: 0.6rem;
 }
 
 /* ---------- 文章ページ ---------- */
@@ -651,7 +995,7 @@ details.minor summary {
   font-size: var(--step-2);
   margin: 2rem 0 0.5rem;
   padding-bottom: 0.25rem;
-  border-bottom: 1px solid var(--rule-strong);
+  border-bottom: 1px solid var(--ink);
 }
 .prose p,
 .prose li {
@@ -660,45 +1004,109 @@ details.minor summary {
 
 /* ---------- 検索 ---------- */
 
-.search {
-  margin: 1.5rem 0 0;
+.searchbox {
+  display: block;
+  margin: 1.25rem 0 0;
+  max-width: 36rem;
 }
-.search label {
+.searchbox label {
   display: block;
   font-family: var(--mincho);
   font-weight: 700;
   font-size: var(--step-1);
   margin-bottom: 0.3rem;
 }
-.search input {
-  font: inherit;
-  width: 100%;
-  max-width: 28rem;
-  padding: 0.5rem 0.6rem;
-  border: 1px solid var(--rule-strong);
+.search-row {
+  display: flex;
+  gap: 0.4rem;
+}
+.search-row input {
+  flex: 1;
+  min-inline-size: 0;
+  min-block-size: 44px;
+  padding: 0.45rem 0.6rem;
+  border: 1px solid var(--line);
   background: var(--paper);
   color: var(--ink);
+}
+.search-row button {
+  min-block-size: 44px;
+  padding-inline: 1rem;
+  border: 1px solid var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+  cursor: pointer;
+}
+.search-status {
+  margin: 0.5rem 0 0;
+  font-size: var(--step--1);
+  color: var(--ink-soft);
+}
+.search-status:empty {
+  display: none;
 }
 .search-results {
   list-style: none;
   padding: 0;
-  margin: 0.5rem 0 0;
-  max-width: 40rem;
+  margin: 0.25rem 0 0;
 }
 .search-results li {
   border-bottom: 1px solid var(--rule);
   padding: 0.4rem 0;
   font-size: var(--step--1);
 }
+.search-results a {
+  display: inline-block;
+  min-block-size: 24px;
+  font-weight: 700;
+  font-size: var(--step-0);
+}
 .search-results .excerpt {
   color: var(--ink-soft);
   display: block;
 }
 
-/* ---------- フッター・戻りリンクのバー ---------- */
+.search-dialog {
+  inline-size: min(40rem, calc(100vw - 2 * var(--gutter)));
+  max-block-size: min(40rem, calc(100dvh - 4rem));
+  margin-block-start: 8vh;
+  padding: 1rem 1.1rem 1.25rem;
+  border: 3px double var(--ink);
+  background: var(--paper);
+  color: var(--ink);
+}
+.search-dialog:modal {
+  overscroll-behavior: contain;
+}
+.search-dialog::backdrop {
+  overflow: hidden;
+  overscroll-behavior: contain;
+  background: color-mix(in oklab, var(--board) 55%, transparent);
+}
+.search-dialog-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.search-dialog-head h1 {
+  font-size: var(--step-2);
+}
+.search-dialog-head button {
+  min-block-size: 36px;
+  padding-inline: 0.8rem;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  cursor: pointer;
+}
+.search-dialog .searchbox {
+  margin-top: 0.75rem;
+}
+
+/* ---------- フッター・戻りリンクの帯 ---------- */
 
 .site-footer {
-  border-top: 3px double var(--rule-strong);
+  border-top: 3px double var(--ink);
   margin-top: 2rem;
   padding: 1rem 0 1.5rem;
   font-size: var(--step--1);
@@ -707,8 +1115,16 @@ details.minor summary {
 .site-footer p {
   margin: 0.25rem 0;
 }
+.site-footer ul {
+  list-style: none;
+  margin: 0.5rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1.25rem;
+}
 
-/* サイト間ナビ: 画面下端に常駐する控えめな逆リンクバー（→ satory074.com/apps）。
+/* サイト間ナビ: 画面下端に常駐する控えめな逆リンクの帯（→ satory074.com/apps）。
    正準仕様: basecamp/docs/app-backlink.md。本文を隠さない（body 側に高さ分の padding を予約） */
 .app-backlink-bar {
   position: fixed;
@@ -719,27 +1135,28 @@ details.minor summary {
   align-items: center;
   justify-content: center;
   min-height: 36px;
-  padding: 6px 12px;
-  padding-bottom: calc(6px + env(safe-area-inset-bottom));
-  background: color-mix(in srgb, var(--surface) 90%, transparent);
+  padding: 4px 12px;
+  padding-bottom: calc(4px + env(safe-area-inset-bottom));
+  background: color-mix(in oklab, var(--paper) 92%, transparent);
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
-  border-top: 1px solid var(--border);
+  border-top: 1px solid var(--rule);
   font-size: 12px;
 }
 .app-backlink-bar a {
   display: inline-flex;
   align-items: center;
   gap: 0.3em;
-  padding: 8px 14px;
-  margin: -8px 0;
-  color: var(--muted);
+  min-block-size: 32px;
+  padding: 0 14px;
+  color: var(--ink-soft);
   text-decoration: none;
-  transition: color 0.12s ease;
 }
 .app-backlink-bar a:hover {
-  color: var(--accent);
+  color: var(--link);
 }
+
+/* ---------- 狭い画面 ---------- */
 
 @media (max-width: 640px) {
   .timeline li {
@@ -749,7 +1166,7 @@ details.minor summary {
     grid-column: 1;
   }
   .filters output {
-    margin-left: 0;
+    margin-inline-start: 0;
     width: 100%;
   }
   .decade {
@@ -760,5 +1177,15 @@ details.minor summary {
 @media (prefers-reduced-motion: reduce) {
   * {
     transition: none !important;
+  }
+}
+
+/* 強制カラー（Windows のハイコントラスト）: 板は背景が消えるので枠で囲む */
+@media (forced-colors: active) {
+  .board {
+    border-color: CanvasText;
+  }
+  .run {
+    border-top-color: CanvasText;
   }
 }
