@@ -19,6 +19,12 @@ export function ymd(date: string | undefined): string {
 /** 年度の見出し。オフの出来事を含むので「◯年オフ」 */
 export const seasonLabel = (s: number) => `${s}年オフ`;
 
+/** 人数のおおよそ: 10080 → "約1万人"、12600 → "約1.3万人"、9400 → "約9千人"（「約10千人」にしない） */
+export function approxPeople(n: number): string {
+  if (n >= 10000) return `約${(Math.round(n / 1000) / 10).toString()}万人`;
+  return `約${Math.round(n / 1000)}千人`;
+}
+
 export function sourceLabel(s: Source): string {
   return SOURCE_LABEL[s.kind] ?? s.kind;
 }

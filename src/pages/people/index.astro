@@ -3,6 +3,7 @@
 import Layout from "../../components/Layout.astro";
 import { dataset } from "../../lib/data";
 import { KANA_ROWS } from "../../lib/kana";
+import { approxPeople } from "../../lib/format";
 
 const ds = dataset();
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
@@ -12,7 +13,7 @@ for (const p of ds.people.values()) if (p.kanaRow) counts.set(p.kanaRow, (counts
 
 <Layout
   title="人物をさがす"
-  description={`プロ野球の選手・監督・コーチ約${Math.round(ds.people.size / 1000)}千人から、名前で人物をさがす。五十音の索引もあります。`}
+  description={`プロ野球の選手・監督・コーチ${approxPeople(ds.people.size)}から、名前で人物をさがす。五十音の索引もあります。`}
   crumbs={[{ label: "人物" }]}
 >
   <h1 class="page-title">人物をさがす</h1>

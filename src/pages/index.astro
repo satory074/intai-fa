@@ -2,7 +2,7 @@
 import Layout from "../components/Layout.astro";
 import { dataset } from "../lib/data";
 import { coverage, rowsForSeason, SECTIONS } from "../lib/rows";
-import { ymd } from "../lib/format";
+import { approxPeople, ymd } from "../lib/format";
 
 const ds = dataset();
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
@@ -19,7 +19,7 @@ for (const s of ds.seasons) {
   decades.set(d, [...(decades.get(d) ?? []), { season: s, people: new Set(rows.map((r) => r.personId)).size, pct: coverage(rows).pct }]);
 }
 const title = "プロ野球去就アーカイブ";
-const description = `プロ野球（NPB）の引退・戦力外・FA・トレード・監督コーチ人事を、${ds.seasons[ds.seasons.length - 1]}年から年度別・球団別・人物別に。約${Math.round(ds.people.size / 1000)}千人の在籍球団の変遷つき。出典はNPB公示・球団発表・在籍者名簿。`;
+const description = `プロ野球（NPB）の引退・戦力外・FA・トレード・監督コーチ人事を、${ds.seasons[ds.seasons.length - 1]}年から年度別・球団別・人物別に。${approxPeople(ds.people.size)}の在籍球団の変遷つき。出典はNPB公示・球団発表・在籍者名簿。`;
 ---
 
 <Layout title={title} description={description}>
