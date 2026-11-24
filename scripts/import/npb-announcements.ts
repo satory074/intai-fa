@@ -781,15 +781,20 @@ async function main() {
     // 再取り込みはこのファイルだけを作り直す（ほかの年度のページから来た出来事は消さない）
     const p = join(dir, `${year}.json`);
     const old: IntaiEvent[] = existsSync(p) ? JSON.parse(readFileSync(p, "utf-8")) : [];
-    // 「いつ取り込んだか」(seen) は前回の値を引き継ぐ。新着の並びに使う
-    const seen = new Map(old.map((e) => [e.id, e.seen]));
+    // 「いつ取り込んだか」(seen) は前回の値を引き継ぐ。新着の並びに使う。
+    // 前回すでにあった行は、seen が無くても（過去分として取り込んだ行）新着にしない
+    const oldById = new Map(old.map((e) => [e.id, e]));
     // 初めてこの年度を取り込むとき（過去分の一括取り込み）は「新着」にしない。2 回目以降に増えた行だけ seen=今日
     // --backfill: 取り込み方を直したあとの取り直し。増えた行は昔の出来事なので「新着」にしない
     const initial = !existsSync(p) || process.argv.includes("--backfill");
+    // 取得日（fetched）と seen を除いた中身。前回と同じなら取得日も前回のまま（毎日の差分を、変わった行だけにする）
+    const body = (e: IntaiEvent) => JSON.stringify({ ...e, seen: undefined, sources: e.sources.map(({ fetched: _f, ...s }) => s) });
     const list = events.map((e) => {
-      const s = seen.get(e.id) ?? (initial ? undefined : today);
+      const prev = oldById.get(e.id);
+      const s = prev ? prev.seen : initial ? undefined : today;
       const { seen: _drop, ...rest } = e;
-      return s ? { ...rest, seen: s } : rest;
+      const kept = prev && body(prev) === body(rest) ? { ...rest, sources: prev.sources } : rest;
+      return s ? { ...kept, seen: s } : kept;
     });
     list.sort((a, b) => a.season - b.season || (a.date ?? "").localeCompare(b.date ?? "") || a.id.localeCompare(b.id));
     writeFileSync(p, JSON.stringify(list, null, 1) + "\n");
