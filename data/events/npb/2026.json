@@ -9104,5 +9104,45 @@
     "fetched": "2026-11-23"
    }
   ]
+ },
+ {
+  "id": "npb-2026-released-23925152-20261126",
+  "season": 2026,
+  "date": "2026-11-26",
+  "type": "release",
+  "person": "23925152",
+  "team": "lions",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2026/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-26"
+   }
+  ],
+  "seen": "2026-11-26"
+ },
+ {
+  "id": "npb-2026-released-73975150-20261126",
+  "season": 2026,
+  "date": "2026-11-26",
+  "type": "release",
+  "person": "73975150",
+  "team": "lions",
+  "pos": "投手",
+  "note": "ウエイバー不請求",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2026/pn_released.html",
+    "kind": "npb",
+    "title": "NPB 公示 自由契約選手",
+    "fetched": "2026-11-26"
+   }
+  ],
+  "seen": "2026-11-26"
  }
 ]
