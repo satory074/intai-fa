@@ -1,14 +1,14 @@
 {
  "https://www.seibulions.jp/news/detail/202600693052.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "a5e16b8d9c35": true
   }
  },
  "https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本の他球団へ移籍した選手": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "269e72cf3608": true,
    "4c4450022661": true,
@@ -44,7 +44,7 @@
  },
  "https://ja.wikipedia.org/wiki/フリーエージェント_(日本プロ野球)#FA権を行使し日本国外の球団へ移籍した選手": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "5db9d1d2fe68": true,
    "206bf036da5c": true,
@@ -57,7 +57,7 @@
  },
  "https://www.softbankhawks.co.jp/news/detail/202601115721.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "aa804ec4b318": true,
    "2a1c3e8bcca9": true,
@@ -71,7 +71,7 @@
  },
  "https://www.softbankhawks.co.jp/news/detail/202601104937.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "d10fcef7088c": true,
    "4ff9e96ffb9a": true
@@ -79,35 +79,35 @@
  },
  "https://www.seibulions.jp/news/detail/202600738925.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "d54f53b7c11e": true
   }
  },
  "https://www.seibulions.jp/news/detail/202600726484.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "ec620bb47e4a": true
   }
  },
  "https://www.fighters.co.jp/news/detail/202600963221.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "f8aa31221423": true
   }
  },
  "https://www.fighters.co.jp/news/detail/202600955032.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "4ccbdb57823a": true
   }
  },
  "https://news.fighters.co.jp/news/26/": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "80dc87369e62": true,
    "e27defbd6c30": true,
@@ -118,14 +118,14 @@
  },
  "https://www.marines.co.jp/news/detail/202600941132.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "287441463a25": true
   }
  },
  "https://www.rakuteneagles.jp/news/detail/202601196664.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "964e92b345a2": true,
    "d8e771f0d7c3": true
@@ -133,7 +133,7 @@
  },
  "https://www.buffaloes.co.jp/news/detail/202600808628.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "421d5a3a5c30": true,
    "f6d3ee44b755": true,
@@ -143,7 +143,7 @@
  },
  "https://www.yakult-swallows.co.jp/news/detail/32742": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "6212f4b22fca": true,
    "a3f9f9f3c15e": true
@@ -151,21 +151,21 @@
  },
  "https://www.yakult-swallows.co.jp/news/detail/32643": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "98754bf03ba5": true
   }
  },
  "https://dragons.jp/news/2026/26092901.php": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "117860384ba5": true
   }
  },
  "https://dragons.jp/news/2026/26111901.php": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "38433761aca1": true
   }
@@ -179,7 +179,7 @@
  },
  "https://www.baystars.co.jp/news/2026/09/0929_03.php": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "6d82bc22124c": true,
    "8daed22154dc": true,
@@ -189,21 +189,21 @@
  },
  "https://www.baystars.co.jp/news/2026/11/1105_05.php": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "e486e4986201": true
   }
  },
  "https://www.baystars.co.jp/news/2026/11/1118_03.php": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "3d5e12faca23": true
   }
  },
  "https://www.softbankhawks.co.jp/news/detail/202500875480.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "a7e49073588a": true,
    "219c0ccba114": true,
@@ -217,7 +217,7 @@
  },
  "https://www.softbankhawks.co.jp/news/detail/202500888550.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "9b2c455cfb6f": true,
    "6a6db6791dd1": true,
@@ -226,91 +226,91 @@
  },
  "https://www.softbankhawks.co.jp/news/detail/202500872152.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "f32990337aa7": true
   }
  },
  "https://www.softbankhawks.co.jp/news/detail/202500871834.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "67a5d06b5db4": true
   }
  },
  "https://www.seibulions.jp/news/detail/202500620122.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "5d7928a22993": true
   }
  },
  "https://www.seibulions.jp/news/detail/202500612910.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "f84337f47be1": true
   }
  },
  "https://www.fighters.co.jp/news/detail/202500792338.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "c179e3b6ad23": true
   }
  },
  "https://www.fighters.co.jp/news/detail/202500789593.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "704cf7090349": true
   }
  },
  "https://www.fighters.co.jp/news/detail/202500802513.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "43b3479b0918": true
   }
  },
  "https://www.marines.co.jp/news/detail/202500737200.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "794cdc7b7298": true
   }
  },
  "https://www.marines.co.jp/news/detail/202500737313.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "92e2f8159bd4": true
   }
  },
  "https://www.marines.co.jp/news/detail/202500737433.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "8a1dca1bb7e1": true
   }
  },
  "https://www.marines.co.jp/news/detail/202500737428.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "2055ebdbbe78": true
   }
  },
  "https://www.marines.co.jp/news/detail/202500737934.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "64e36dca4d05": true
   }
  },
  "https://www.rakuteneagles.jp/news/detail/202500939115.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "86f69a5353c5": true,
    "b68465d38506": true,
@@ -322,7 +322,7 @@
  },
  "https://www.rakuteneagles.jp/news/detail/202500960652.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "a2f8a5aa5f08": true,
    "df577aaec081": true
@@ -330,21 +330,21 @@
  },
  "https://www.rakuteneagles.jp/news/detail/202500924509.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "424b9f291d81": true
   }
  },
  "https://www.rakuteneagles.jp/news/detail/202500918647.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "991aa91d8cde": true
   }
  },
  "https://www.buffaloes.co.jp/news/detail/202500653222.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "b74998527d99": true,
    "1ad666f4f845": true,
@@ -353,7 +353,7 @@
  },
  "https://www.buffaloes.co.jp/news/detail/202500648486.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "848540471cb2": true,
    "545ee5b55076": true,
@@ -362,7 +362,7 @@
  },
  "https://www.buffaloes.co.jp/news/detail/202500650383.html": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "112e2454c2a8": true
   }
@@ -390,7 +390,7 @@
  },
  "https://dragons.jp/news/2025/25100202.php": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "e6014eb04aee": true,
    "89c60e117a2e": true,
@@ -401,35 +401,35 @@
  },
  "https://dragons.jp/news/2025/25100901.php": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "7f9e76f527e8": true
   }
  },
  "https://www.dragons.jp/news/2025/25102801.php": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "74f3d3203192": true
   }
  },
  "https://dragons.jp/news/2025/25090701.php": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "3d20816eeb05": true
   }
  },
  "https://dragons.jp/news/2025/25090501.php": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "6e7b89cce0bf": true
   }
  },
  "https://www.baystars.co.jp/news/2025/09/0930_06.php": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "6f133a8e8f33": true,
    "7811dfae39c3": true,
@@ -442,21 +442,21 @@
  },
  "https://www.baystars.co.jp/news/2025/12/1202_01.php": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "0b3fa1327d11": true
   }
  },
  "https://www.baystars.co.jp/news/2025/09/0920_03.php": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "d59dcfe7cd05": true
   }
  },
  "https://www.yakult-swallows.co.jp/news/detail/31601": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "798fab6a8daf": true,
    "9459c1b1a13b": true,
@@ -468,14 +468,14 @@
  },
  "https://www.yakult-swallows.co.jp/news/detail/31614": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "b56112c2fc95": true
   }
  },
  "https://www.yakult-swallows.co.jp/news/detail/31661": {
   "status": 200,
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "quotes": {
    "72202cb2c48a": true
   }
