@@ -9144,5 +9144,43 @@
    }
   ],
   "seen": "2026-11-26"
+ },
+ {
+  "id": "npb-2026-retired-51355139-20261127",
+  "season": 2026,
+  "date": "2026-11-27",
+  "type": "voluntary_retired",
+  "person": "51355139",
+  "team": "tigers",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2026/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-28"
+   }
+  ],
+  "seen": "2026-11-28"
+ },
+ {
+  "id": "npb-2026-retired-71275118-20261127",
+  "season": 2026,
+  "date": "2026-11-27",
+  "type": "voluntary_retired",
+  "person": "71275118",
+  "team": "tigers",
+  "pos": "投手",
+  "status": "npb_official",
+  "sources": [
+   {
+    "url": "https://npb.jp/announcement/2026/pn_retired.html",
+    "kind": "npb",
+    "title": "NPB 公示 任意引退選手",
+    "fetched": "2026-11-28"
+   }
+  ],
+  "seen": "2026-11-28"
  }
 ]
